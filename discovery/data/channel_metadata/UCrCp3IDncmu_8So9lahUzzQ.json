@@ -1,0 +1,84 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "rSZ5Zw8BMHVRdiDB9lZlA0uHmlw",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "PI1wScC5A64cGO7vCo1tGUxR3kE",
+      "id": "UCrCp3IDncmu_8So9lahUzzQ",
+      "snippet": {
+        "title": "DCSBOE",
+        "description": "",
+        "customUrl": "@dcsboe",
+        "publishedAt": "2015-10-09T16:52:09Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKY95nuvT4GEy3E5PrbC0hcgSk9dAyixd_Sq6w9RLg=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKY95nuvT4GEy3E5PrbC0hcgSk9dAyixd_Sq6w9RLg=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKY95nuvT4GEy3E5PrbC0hcgSk9dAyixd_Sq6w9RLg=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "DCSBOE",
+          "description": ""
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUrCp3IDncmu_8So9lahUzzQ"
+        }
+      },
+      "statistics": {
+        "viewCount": "34033",
+        "subscriberCount": "273",
+        "hiddenSubscriberCount": false,
+        "videoCount": "393"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/098wr",
+          "/m/05qt0"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Society",
+          "https://en.wikipedia.org/wiki/Politics"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "DCSBOE",
+          "keywords": "education",
+          "unsubscribedTrailer": "qhPcjv_2sF0",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.googleusercontent.com/r9sik2bGsT5B-7W11K_HQEY-xnkGtDN8_Cv6Dvao3xko_-L4zWTtPg70XNGElOvMMzwbHiRwOB0"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:15.215631"
+}

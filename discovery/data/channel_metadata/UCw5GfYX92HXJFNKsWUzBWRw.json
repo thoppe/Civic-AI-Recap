@@ -1,0 +1,86 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "w-Ie8xoqDj027B_PQe8NHw0MaTA",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "q_4NIWdFJFWZMcfOBOtvaA7jkaE",
+      "id": "UCw5GfYX92HXJFNKsWUzBWRw",
+      "snippet": {
+        "title": "Iowa Department of Education",
+        "description": "This is the channel for the Iowa Department of Education. Here you will find videos relating to current issues in education, professional development, and department news and information.",
+        "customUrl": "@iowadepartmentofeducation",
+        "publishedAt": "2009-03-30T12:46:32Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKag8HDxzsGFKaFDXb0okckdreNHAX9t9NoAz-wG=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKag8HDxzsGFKaFDXb0okckdreNHAX9t9NoAz-wG=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKag8HDxzsGFKaFDXb0okckdreNHAX9t9NoAz-wG=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Iowa Department of Education",
+          "description": "This is the channel for the Iowa Department of Education. Here you will find videos relating to current issues in education, professional development, and department news and information."
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUw5GfYX92HXJFNKsWUzBWRw"
+        }
+      },
+      "statistics": {
+        "viewCount": "170717",
+        "subscriberCount": "1620",
+        "hiddenSubscriberCount": false,
+        "videoCount": "148"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/098wr",
+          "/m/05qt0",
+          "/m/01k8wb"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Society",
+          "https://en.wikipedia.org/wiki/Politics",
+          "https://en.wikipedia.org/wiki/Knowledge"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Iowa Department of Education",
+          "description": "This is the channel for the Iowa Department of Education. Here you will find videos relating to current issues in education, professional development, and department news and information.",
+          "keywords": "Iowa Education schools teachers students administrators core curriculum kids kindergarten nutrition",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.googleusercontent.com/ITMEZxwRhPJvGJUwdN8PqKI5pdAZoZr4a_FtNM4_I279GqOuCERGwxGVB9YqAC7oDaDsPiy_"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:15.416360"
+}

@@ -1,0 +1,82 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "aoagXM8V33iZiCHMDmNcfSf8Zv4",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "P_UrPXN3fcmg00KH2Y0Al6DAC-I",
+      "id": "UCCdA8AqOW05ttQ57PiaPXsg",
+      "snippet": {
+        "title": "Nebraska Department of Education",
+        "description": "This is the YouTube channel for the Nebraska Department of Education.  This channel is primarily used to get content to those who need video resources that we create here in the department.\n\nComments and posts including, but not limited to, the following will be blocked or removed.\n\nGraphic, obscene, offensive, or abusive content including hate speech directed at race, color, gender, sexual orientation, national origin, ethnicity, age, religion, or disability.\nAttempts to defame any individual, group, business or organization.\nSolicitations or advertisements, including promotion or endorsement of services and products.\nAttempts to defraud any financial, commercial or non-governmental agency.\nComments that suggest or encourage illegal activity.\nInaccurate or misleading content.\n\nNDE reserves the right to block or remove posts that are not in keeping with the purpose and scope of the Department\u2019s social media efforts, and whenever necessary in order to maintain the integrity of NDE.",
+        "customUrl": "@nebraskadepartmentofeducation",
+        "publishedAt": "2014-11-05T21:16:26Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKb89mS2YE5d03mn1QbuYMlM4fDaO5nAQKh9UR-8=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKb89mS2YE5d03mn1QbuYMlM4fDaO5nAQKh9UR-8=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKb89mS2YE5d03mn1QbuYMlM4fDaO5nAQKh9UR-8=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Nebraska Department of Education",
+          "description": "This is the YouTube channel for the Nebraska Department of Education.  This channel is primarily used to get content to those who need video resources that we create here in the department.\n\nComments and posts including, but not limited to, the following will be blocked or removed.\n\nGraphic, obscene, offensive, or abusive content including hate speech directed at race, color, gender, sexual orientation, national origin, ethnicity, age, religion, or disability.\nAttempts to defame any individual, group, business or organization.\nSolicitations or advertisements, including promotion or endorsement of services and products.\nAttempts to defraud any financial, commercial or non-governmental agency.\nComments that suggest or encourage illegal activity.\nInaccurate or misleading content.\n\nNDE reserves the right to block or remove posts that are not in keeping with the purpose and scope of the Department\u2019s social media efforts, and whenever necessary in order to maintain the integrity of NDE."
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUCdA8AqOW05ttQ57PiaPXsg"
+        }
+      },
+      "statistics": {
+        "viewCount": "40497",
+        "subscriberCount": "516",
+        "hiddenSubscriberCount": false,
+        "videoCount": "308"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/05qt0",
+          "/m/098wr"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Politics",
+          "https://en.wikipedia.org/wiki/Society"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Nebraska Department of Education",
+          "description": "This is the YouTube channel for the Nebraska Department of Education.  This channel is primarily used to get content to those who need video resources that we create here in the department.\n\nComments and posts including, but not limited to, the following will be blocked or removed.\n\nGraphic, obscene, offensive, or abusive content including hate speech directed at race, color, gender, sexual orientation, national origin, ethnicity, age, religion, or disability.\nAttempts to defame any individual, group, business or organization.\nSolicitations or advertisements, including promotion or endorsement of services and products.\nAttempts to defraud any financial, commercial or non-governmental agency.\nComments that suggest or encourage illegal activity.\nInaccurate or misleading content.\n\nNDE reserves the right to block or remove posts that are not in keeping with the purpose and scope of the Department\u2019s social media efforts, and whenever necessary in order to maintain the integrity of NDE.",
+          "keywords": "Education"
+        },
+        "image": {
+          "bannerExternalUrl": "https://lh3.googleusercontent.com/GZ9lTWHO6XZrhC8M5a4l5O-4oGViyfhCHWTkg6hcaSt4uTi-MFSIeqUtF6ep-BbMXXYpVn1kfh4"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:15.603122"
+}

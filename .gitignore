@@ -1,0 +1,14 @@
+# Large files
+data/audio
+
+# Temp files
+cache/
+
+*~
+\#*
+
+# Other transcripts
+data/transcript/*.json
+data/transcript/*.srt
+data/transcript/*.tsv
+

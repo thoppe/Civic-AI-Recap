@@ -1,0 +1,60 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "AWstDfTWdl8wVPormgYkIf2kCQ0",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "k7mZTydNifZqXMD0deyGZxG97dc",
+      "id": "NhqjaxSxqqU",
+      "snippet": {
+        "publishedAt": "2023-08-11T13:55:03Z",
+        "channelId": "UCwxtHtJ-P0x9VAQmvInTIww",
+        "title": "August 2023 State Board Meeting",
+        "description": "August 2023 State Board Meeting",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NhqjaxSxqqU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NhqjaxSxqqU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NhqjaxSxqqU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "South Carolina Department of Education",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "August 2023 State Board Meeting",
+          "description": "August 2023 State Board Meeting"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT35M48S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "85",
+        "likeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

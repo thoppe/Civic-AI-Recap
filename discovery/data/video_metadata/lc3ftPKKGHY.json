@@ -1,0 +1,75 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "xPJnFAdD0dMa8wpxGs44OP0gGYA",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "qYvvmmyyIxaBvQQDET7SGVGWKiQ",
+      "id": "lc3ftPKKGHY",
+      "snippet": {
+        "publishedAt": "2023-10-11T18:46:32Z",
+        "channelId": "UCJyUU818kvqsNRGkmAyqr5w",
+        "title": "Kansas State Board of Education Meeting | October 11th, 2023",
+        "description": "Kansas State Board of Education Meeting | October 11th, 2023",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lc3ftPKKGHY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lc3ftPKKGHY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lc3ftPKKGHY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/lc3ftPKKGHY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/lc3ftPKKGHY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KSDE Livemedia",
+        "tags": [
+          "Education",
+          "Kansas State Department of Education",
+          "KSDE"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Kansas State Board of Education Meeting | October 11th, 2023",
+          "description": "Kansas State Board of Education Meeting | October 11th, 2023"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT4H28M56S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1109",
+        "favoriteCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "K7v9smpeDdhCbklljhDer6fmkk4",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "J2iKC8TrARKOf8HNf2xdVlVMOkc",
+      "id": "UCDFpjoQaopgFSVAcZqEWsPw",
+      "snippet": {
+        "title": "aldeptofed",
+        "description": "This is the YouTube channel for the Alabama State Department of Education (ALSDE). ALSDE is the state agency for K-12 education, with over 740,000 students enrolled in local schools. The department is comprised of teachers, administrators and staff at 136 local school districts and employees in support roles at the state level.",
+        "customUrl": "@aldeptofed",
+        "publishedAt": "2011-05-17T20:48:59Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKYRDDAf316j7hHOJxYYJnD-g1cPyYeE6o1zHxvM=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKYRDDAf316j7hHOJxYYJnD-g1cPyYeE6o1zHxvM=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKYRDDAf316j7hHOJxYYJnD-g1cPyYeE6o1zHxvM=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "aldeptofed",
+          "description": "This is the YouTube channel for the Alabama State Department of Education (ALSDE). ALSDE is the state agency for K-12 education, with over 740,000 students enrolled in local schools. The department is comprised of teachers, administrators and staff at 136 local school districts and employees in support roles at the state level."
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUDFpjoQaopgFSVAcZqEWsPw"
+        }
+      },
+      "statistics": {
+        "viewCount": "81069",
+        "subscriberCount": "1270",
+        "hiddenSubscriberCount": false,
+        "videoCount": "180"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/01k8wb",
+          "/m/098wr"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Knowledge",
+          "https://en.wikipedia.org/wiki/Society"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified"
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "aldeptofed",
+          "description": "This is the YouTube channel for the Alabama State Department of Education (ALSDE). ALSDE is the state agency for K-12 education, with over 740,000 students enrolled in local schools. The department is comprised of teachers, administrators and staff at 136 local school districts and employees in support roles at the state level.",
+          "keywords": "Alabama Education State Department",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://lh3.googleusercontent.com/-DXstoVJOBcnvJvSTj9ZWgWGlSbme1Lw7urddky8YW6dWRZv1r_eK2LXEsm-DlsnE7GbzevS"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:14.939949"
+}

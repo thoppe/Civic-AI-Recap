@@ -1,0 +1,1190 @@
+Welcome, everyone, to our master class in data storytelling.
+We're very excited with the panel that will be presented and presenting in a few minutes.
+I will moderate the panel.
+My name is Haya Al Nasser and I work for the communications directorate at the Census Bureau,
+but I'm also the editor of America Counts, Stories Behind the Numbers, which is one of
+the more recent and successful product launches at the Census Bureau that deals with data
+storytelling all the way.
+So it was one of our more creative efforts of the past few years.
+So just to give you a little bit of background, I am a former journalist.
+I spent almost 20 years as the lead census and demographics reporter at USA Today and
+worked for Al Jazeera America after that.
+Once I left journalism and joined the Census Bureau, my mission was clear.
+It was to basically apply my journalistic experience to helping the Census Bureau communicate
+its data products in a more relatable way and to a broader audience.
+So in the fall of 2017, we launched a new content platform called America Counts.
+And I'm going to share my screen so I can show you the website and let me know if you
+can see it.
+It looks, can you see it?
+I assume you can see it.
+So here's the landing page.
+Not yet.
+Not yet.
+Not yet?
+Not yet.
+Please try again.
+Okay.
+You cannot share, it tells me.
+Why would that be?
+Let me see if this is going to work.
+Somebody can make you a co-host and then you can share.
+There we go.
+Now we can see.
+We can see it now.
+Now you're muted.
+Muted, Haya.
+Now it's, it's very strange.
+It won't let me unmute.
+So now let's hope it's still, now it's, is it going to be sharing?
+Yes, it's still sharing.
+Okay.
+So this is our website.
+So as you can see, we're, I've applied the news site model to the America Counts page.
+The top story is the most recent story we've published.
+And then at the bottom, you'll see in chronological descending order, all the other stories.
+So I just want to point out that when you look at all this content, well, we publish
+about two to three stories a week on average.
+When you look at all this, all of these stories began as probably a data file or an Excel
+spreadsheet, but we are telling stories through all the various components.
+The image tells a story, the headline tells a story, the teaser text tells a story.
+I'll open one of the pages just to give you an idea of some of the other components that
+we think are key in data storytelling.
+So here you have, we add the subhead, which again is another piece of the story.
+Please note that we are very conscious of keeping the writing clear and direct, short
+paragraphs.
+As you all know, most folks who read things online tend to be scrollers and scanners.
+If you have all this in one great text, they'll skip a lot of stuff in between.
+We also know that more and more people are reading things on their smartphones.
+If you put these two paragraphs together, it would probably fill up the screen, which
+makes it pretty unreadable.
+Other components are pullout, text, maps, section breaks, which are really important
+in organizing the story and making it more accessible to the readers, graphics, and so
+on.
+Again, I'm going to tell you really quickly, show you another data storytelling tool that
+we've used.
+Let's see if this loads.
+Okay.
+This is a story that we ran last spring, which was extremely popular.
+The story basically highlights interactive data visualization, which I will show you
+in a second.
+So again, strong headlines that tell the story, subhead that tells a story, all of this.
+The bullet points, all this.
+And then this takes you to the actual interactive data visualization, which was extremely popular.
+This allows you to compare teachers' pay with all other occupation.
+As you can see, you can drop the menu and pick any other occupation and compare what
+teachers are getting paid by educational level.
+And the interactive continues with more very appealing visuals.
+So I just wanted to give you a quick intro to some of the work that we are doing at the
+Census Bureau in the area of data storytelling.
+And I'm happy to report that it has been quite successful.
+We are nearing 12 million page visits since we launched in the fall of 2017.
+And we're growing at a faster rate than we added just 4 million of those visits, I believe
+just in the past year.
+So I'll just close with that and I'll make sure I put a link and my contact info in the
+chat.
+But let me go ahead and introduce our next speaker.
+And I assume I'm no longer sharing, right?
+So good.
+I can still see your screen.
+Some people don't see the screen, so perhaps change the view of your window when you click
+on the right-hand side, it says gallery side-by-side speaker.
+So for those that can't see, perhaps try to toggle your options.
+And now you're going to be seeing effective ways to use data.
+Okay.
+Then it's fine.
+Okay.
+Then we're good.
+So I'm going to go ahead and introduce our first speaker.
+Brent Dykes is the founder and chief data storyteller at Analytics Hero LLC.
+He's also the author of Effective Data Storytelling, How to Drive Change with Data, Narrative, and
+Visuals.
+Brent has nearly two decades of enterprise analytics experience at Omniture, Adobe, Domo,
+and Blast Analytics.
+His passion for data storytelling comes from consulting with many industry leaders, including
+Ikea, Nike, Microsoft, Sony, and Comcast.
+He's a regular Forbes contributor and has written more than 45 articles on different
+data-related topics.
+He's a popular speaker at conferences such as Strata, Web Summit, Shop.org, Ad Tech,
+PopCon, Rise, Crunch, and Adobe Summit, and of course today, the Top Summit.
+So Brent, take it away.
+Thank you, Hannah.
+I'm excited here to talk about effective ways to use data stories or data powerful data
+stories.
+So one of the things we may question whether we need more data, right?
+I think we're all have a lot of data that we're using today and in sharing that with
+other people, it can be overwhelming.
+But what everybody's really thirsty for, what they're really seeking are insights.
+And this is something that we really need to focus on.
+And I believe that if we look at an insight, it really needs to be at the core of every
+good data story or powerful data story.
+We need an insight, not just more data or more observations, but actually insights.
+Now when I was writing my book, I had some of my book reviewers when they're reading
+draft copies of my book, effective data storytelling, they mentioned, oh, well, you're using the
+word insight a lot, but you haven't really defined what it is.
+And so I was like, oh, yeah, sure.
+That's a great idea. I'll add that to the first chapter.
+And then when I went in and tried to decide, well, what is an insight, I realized that
+maybe I used that that term really loosely and didn't really have a good idea of what
+it really meant. And so I turned to the dictionaries, started looking at the dictionary,
+seeing what they kind of represented.
+And it didn't really resonate with me until somebody pointed me to this definition by
+Gary Klein, who's a psychologist and author.
+And he said that an insight is an unexpected shift in the way we understand things.
+Now, this is really important because I think what happens a lot of the time is we have
+an observation in the data, we find something interesting, maybe an interesting trend or
+anomaly or something like that, and we call that an insight.
+But really, that's not an insight.
+So let me give you an example here.
+So maybe we're looking at some data here and we see high speed Internet access grew by
+23 percent in our state last year.
+And that that may be surprising or unexpected, but really, that's just what it doesn't
+really get into the why. What what drove that?
+And so if we dig in a little bit further, we might discover something interesting,
+something that shifts our understanding.
+In this case, the 80 percent of this increase came from a local government initiative to
+expand access for low income families.
+And so with that insight, we have something now that we can do something with.
+Now, when we analyze the data, we go through it, we find something interesting, we find
+an insight and the numbers are so clear to us, they're so compelling.
+And we say that the numbers speak for themselves.
+And so we share that out with other people.
+And what happens, though, is that the numbers don't speak for themselves.
+What happens is they really do need a data storyteller.
+They need a narrator, need somebody to really explain what those insights mean
+and help people to understand them.
+So when I look at data storytelling, there are really three key elements that I focus
+on, probably no surprise, because probably before this presentation would have said,
+oh, yeah, data, narrative and visuals.
+But I think the power of data storytelling really comes in when we look at the
+intersections of these bubbles.
+Now, the first thing is I could do some analysis, I could find an insight and I could
+share a spreadsheet with you.
+And you could look at that same spreadsheet and say, I don't understand what you're
+sharing with me, Brian, I don't see any insight here.
+Or maybe you see a different insight or maybe you misinterpret the insight that I'm
+sharing. And so we we don't do that.
+What we do is we combine the narrative with the data to help make sure that the
+information is clear, that it's concrete and that we're explaining the numbers to the
+audience so they can really understand it and come away with the same insight that we
+get. Another thing we do is we use visuals because sometimes if we look at that table
+of data, there's a good chance that we're not going to see the anomalies, we're not
+going to see the patterns or trends in the numbers.
+And it's only when the numbers are visualized that we can actually enlighten the
+audience to these key findings that we have in our data.
+And the last intersection here that I want to focus on is between the visuals and the
+narrative. Now, one of the things we do as human beings is we love to hear stories,
+they engage us at a very deep level and especially the visual storytelling.
+We may have been up binge watching our favorite show on Netflix or Amazon Prime.
+So the interesting thing is when we bring the right data, we combine it with the right
+narrative and the right visuals, all of a sudden we have something that's very powerful,
+that can change the way people view the world, can change how they behave and what
+actions they take. So this is very powerful.
+Now, the interesting thing that you might be surprised to hear from a data guy is that
+stories beat statistics.
+You know, this is this is very interesting.
+I like this quote by Robert McKee, who he trains a lot of the script writers in
+Hollywood. And he said that storytelling is one of the most powerful ways to put ideas
+in the world today. And the same goes for insights.
+Now, let's look at the differences between stories and statistics.
+There's two ways that stories beat statistics.
+And these both come from a great book written by Chip and Dan Heath, if you're familiar
+with it, Made to Stick. It's on communication.
+And in that book, Chip Heath, who is a professor at Stanford University, shares how
+stories are more memorable. And he shares an example of an activity that he does with
+an undergrad class of communication students, where he gives them a bunch of data on a
+particular topic and asks them to incorporate the data or statistics into their
+presentations. And they create these short presentations.
+On average, the students are using about two and a half statistics in these
+presentations. And the other interesting side note is one in ten of these students
+will actually include an anecdote, a short anecdote in their presentations.
+So they go through this exercise, they divide up into groups, they present to each
+other, they rate each other and give feedback.
+And they think the activity is over.
+But about 10 minutes later, the professor comes back to them and says, OK, how many
+of these statistics do you actually remember?
+And the interesting thing that only about five percent of them could remember any
+statistics, but 63 percent of them could remember the stories.
+And so our human brains, when we try to make sense of the world around us, we're
+trying to put things into stories or trying to make sense of this world.
+And so stories make our information more memorable.
+The next thing is, is that stories are more persuasive.
+And so the example in the book that they share is a study from Carnegie Mellon
+University where students were asked to take a technology survey.
+And at the end of that survey, they were given five one dollar bills.
+And then they were asked if they'd like to donate some of that money to a local
+charity. And this charity was Save the Children.
+And so they gave them two brochures on this charity and one version of this
+brochure talked about all of the suffering of children in Africa and how,
+you know, due to illness or war or famine and shared lots of data and statistics
+on the number of children that are being impacted.
+So that was one version. The other version didn't include any data.
+It basically just talked about the story of Rukia, a seven year old girl from
+Bali and talked about the suffering of her family and what they went through.
+And when they looked at the average donations for both versions, they found
+that the story version generated a much higher average donation than the
+statistics did. So for these two reasons, it's really important that we take our
+data and let's work it weave it into stories.
+I like to say that we hear statistics, but we feel stories.
+And so when neuroscientists look at our brains, we hear facts being shared with
+us. There's a couple of regions of our brain that light up and they're strictly
+associated with processing language.
+However, when somebody hears a story or sharing a story and they they look at the
+brain, they see other regions of the brain light up.
+And that's because they're not only are they experienced or hearing what the
+people are saying, they're also experiencing it as well.
+So it's a much more deeper connection when you're telling a story as opposed to
+just sharing facts.
+Another thing that's interesting about sharing facts is that how we receive them,
+right? When we have information that's shared with us that maybe conflicts with
+our worldview, we're going to go into defensive mode.
+Our shields are going to come up and we're going to come much more critical and
+skeptical of this information.
+However, when we are approached with a story, all of a sudden, our shields come
+down. We drop that analytical guard.
+We're not likely not as likely to nitpick on the details.
+We want to see where the story goes.
+And so this opens an opportunity for us to convey our information in a way that's
+going to resonate with people.
+I like to look at it this way.
+We have all this evidence that we have.
+We have the data, which really speaks to the logical side.
+But a lot of the time, decisions are being made by emotion.
+And the story is what enables us to connect with that emotion that that goes into a
+lot of decision making.
+So today, I want to give you three quick tips on how to turn your information into
+powerful data stories.
+The first one, and I think this is important, is that we need to match the narrative to
+the audience, right?
+So here's the same story.
+This is the story of Robin Hood told multiple different ways.
+And if I were holding a birthday party for six year olds, I probably couldn't use the
+four on the right without getting in trouble with the parents.
+The one on the left, maybe the kids would get bored.
+And so really, I need to focus on that Disney one.
+Now, if it was a different audience, maybe maybe it's 16 year olds or 30 year olds, I'm
+going to choose a different one.
+And so it's really important that when we look at our data story, we need to determine
+who the right audience is for our story, or we mean to look at, you know, adjusting our
+data story to the audience that we're sharing it with.
+The second tip is how do we apply?
+Can we apply a narrative structure to our findings?
+So when I was researching for my book, I found I was looking at different models and I came
+across Gustav Freytag, who was a German playwright, who he studied, like Shakespearean
+plays and Greek tragedies.
+And he defined, he identified that they all had a story arc.
+And I've taken that story arc and I've applied it to data storytelling.
+We can take the same approach, just like a story that sets the scene for the for the
+characters and the story that they're about to tell.
+We can do the same thing with our data storytelling.
+You want to establish what are the expected trends that we typically see, you know, giving
+background on what is this data that we're looking at.
+And then we have a hook.
+And the hook is really where there's something that that's unusual and observation.
+Something's changed.
+Maybe a metric went up sharply or down significantly, and that caught our attention and
+that would capture the the attention of the audience as well.
+And then from there, we dig into, well, why did that occur?
+What's going on?
+What caused that?
+And so we have rising insights that start to build up to our aha moment, which is our
+main insight that we're sharing, our major finding, our central insight that we want
+the audience to remember.
+Now, we're not done at that point because we want the audience to do something.
+And that's where, you know, we're recommending either a solution or we're recommending
+And that's where, you know, we're recommending either a solution or we're showing different
+options and discussing the next steps.
+And through this process, the audience is learning more about this topic and hopefully
+they're putting they're being put into a position to act on it and make decisions.
+Now, how do we do this?
+I'll give you an example here from a real world example.
+And this was based on a retailer that had its analytics team, and they were looking
+at their customer data, the transactions.
+And so the the analytics team was expecting to see something like this, you know, a normal
+standard distribution of their orders by size.
+And what they found was this.
+There was this second peak that surprised them.
+They weren't expecting that.
+That was unexpected.
+And again, that's not an insight by itself until they dig into it to find out what was
+causing the second peak.
+When they did, they discovered that there was a segment of customers that were coming
+into their physical stores from outside the country.
+This retailer only had a presence in the United States and didn't have any stores outside
+of the United States.
+And international buyers were coming into their physical stores, making large bulk
+purchases and taking it back to their home countries to sell in their own stores.
+And then from there, they were able to make recommendations about maybe how they expand
+into these countries, how maybe they partner with some of these resellers.
+And what you're seeing here is the taking those findings of an analysis and turning
+it into a data story that can be shared, that's persuasive and memorable and engaging.
+The next tip that we have is obviously we have a lot of data and we want to use the
+visuals to amplify our messages.
+So in this case here, we're looking at COVID testing 2021, 2020 for various regions.
+And this chart is good.
+I mean, it's definitely sharing the data.
+You know, obviously we can look at it and see the insights.
+Now, the question is, maybe there's a better chart out there.
+Often what I recommend is iterating until you find a chart that really amplifies your
+message.
+In this case, maybe we want to go with a different chart.
+This is a slope graph chart.
+And in this case here, the angle of the slopes indicate, you know, if something growing or
+has increased significantly, you're going to see a sharper slope there than maybe the
+ones that are just wasn't much change.
+You know, you're not going to see as sharp an angle, pretty flat or decreasing.
+And so in this case here, maybe this chart is more effective than the one on the left.
+Another thing we can do is we can use color to really bring out our key points, right?
+So in this case here, we want to focus the audience's attention on region B, where we
+had this massive increase in COVID tests that grew 18% far and above any other region.
+And then finally, another thing that we can do is we can take that generic descriptive
+title and we can turn it into something where we have an explanatory headline or title
+that's really going to draw the attention of the audience to the key point that we're
+trying to make about region B.
+And so that ends my, I want to conclude my presentation with this quote from Stephen
+Few, you know, that the numbers have an important story to tell and they rely on you to
+give them a clear and convincing voice.
+And if you'd like to learn more about my philosophies on data storytelling, please check
+out my book, Effective Data Storytelling.
+Thank you, Brent.
+That was fantastic.
+Really appreciate it.
+I'm going to introduce our next speaker, who's a former colleague of mine, by the
+way.
+Lam Thuy Vo is a journalist who marries data analysis with underground reporting to
+examine how systems and policies affect individuals.
+She's currently a Soros Justice Fellow and AI Accountability Fellow for the Pulitzer
+Center and a data journalist and residence at the Craig Newmark Graduate School of
+Journalism.
+She has worked with Documented, ProPublica, The Guardian, The New York Times, and ESPN
+as an independent reporter.
+Previously, she was a journalist at BuzzFeed News, The Wall Street Journal, Al Jazeera
+America, and NPR's Planet Money.
+Lam?
+Hi, everyone.
+My name is Lam, and I'm very excited to see who is in the house.
+I've been seeing some of the bios I've been reading.
+I love how many folks I hear from Puerto Rico.
+I think there are a lot of stories that you can do in Puerto Rico using Census data, but
+I am particularly excited to nerd out about data when it comes to the Census Bureau
+because I use it so much.
+And one of the things I will start doing is I have already put into the Slack site, into
+the chat, the links to my slides.
+So what I'm going to do now is I'm going to share my, I think, desktop, which you will
+see is catastrophically overly, I have too many links and everything, but if there's
+one thing that you will take away from today, I would like for you to take a screenshot
+right now, yes, of my desktop, but you'll also see the link here.
+All you need to get in touch with me, to look at the things that are on these slides, are
+on that link, right?
+So go for that.
+You can also find me on Twitter and you'll find that afterwards as well.
+So I am so excited to talk about Census data today because I am a nerd.
+I love the American Community Survey and other surveys that the Census Bureau puts out.
+This is me in, I think, 2018 filling out an American Community Survey with so much pride.
+This is why I'm here.
+I cannot tell you that I even texted my partner as soon as I was told to speak to me.
+I even texted my partner as soon as I was told to speak to the Census Bureau, for the
+Census Bureau, and I can attest to you that this data is extremely important.
+So to give you a quick understanding of who I am, maybe it helps you to understand the
+context through which I'm talking to you about today.
+I used to be a videographer for the Wall Street Journal.
+I was a data vis and video person for NPR.
+I was an interactive editor for Al Jazeera America.
+In all of those jobs as a journalist with multiple media, Census data at some point
+played a role in how I viewed the stories I was doing.
+Then I became a BuzzFeed reporter.
+The story we're going to talk about today is from BuzzFeed where I looked into basically
+any kinds of stories that were du jour at that point in time, identifying news trends
+and then figuring out ways to tell those stories in multiple platforms and using different
+types of data.
+And now I'm a data journalist in residence at CUNY where I teach these things.
+I've been teaching data journalism for a good decade.
+So if you have any questions in that small corner, you can see my email address.
+I tell my students I come with a lifetime guarantee, which is probably bad for my social
+life, but most people don't seem to email me, so you have that.
+And you can also find me on Twitter under the handle Alam Tuivo.
+So with all of that out of the way, I want to talk to you about a sample story today.
+And I want to walk you through how you can use census data in a way that might not seem
+as intuitive.
+In my capacity as a reporter, I used to be a general assignment reporter, but in my capacity
+as a reporter, I at that point in time was doing a lot of social media data listening.
+And what I found in 2018, we're going to walk through a story today that addresses the
+idea of that was formulated when people started looking into viral incidences around
+white folks in a neighborhood calling the cops and black and brown folks for doing
+seemingly very normal things.
+If anyone of you remembers in 2018, there were several incidents that went viral,
+including one about Barbecue Becky, a woman who called the cops on her black neighbors
+who were having a barbecue at the park saying that they weren't using a permit to do so.
+There was a woman called Permit Patty.
+If you remember them, this person was calling the cops on a, I think it was a Latino child
+who was selling water without a permit.
+And these incidents kept on going viral at that point in time.
+And one of the things that my editor and I wanted to do at that point in time in 2018
+was to better understand the hypothesis that all of these folks were formulating
+by making these stories go viral.
+So with this said, the hypothesis, it seemed to be looking at the conversation around
+these topics, looking at this particular, the particular stories around it was that
+white folks who move into gentrifying neighborhoods might be calling the cops on their black
+and brown neighbors more often, which leads to over-policing.
+And this was an interesting story to tackle.
+It was A, very controversial.
+It was B, also something that was kind of hard to prove.
+And so one of the things that we wanted to do, my editor and I, was to come up with better
+ideas of understanding how we can tackle this statistically so that we can go from having
+anecdotal viral conversations about a topic to one that is more informed by hypothesis
+building, data analysis, and then figuring out whether this was actually something that
+was, that we could prove statistically to some degree.
+And one of the reasons why I'm fascinated by this is that it taps into a power dynamic
+that is very much something that we have observed ever since then in many gentrifying
+neighborhoods where sometimes more affluent new residents seem to have a disproportionate
+amount of power over long-term residents who in the end get displaced from their neighborhoods.
+So with this said, one of the things that we wanted to do was to find a trend for this
+hypothesis.
+What's interesting is that what we needed to figure out was to find two to three different
+measurements based on that hypothesis, right?
+If the hypothesis is, as I remind you, if more white folks move into, who are more affluent
+move into gentrifying neighborhoods, there will be more calls to the cops, which may
+lead to over-policing.
+And one of the things that we needed to measure with that was gentrification, demographic
+changes, and then also calls to the police.
+And the three data sources that we used for that were 311 calls.
+So 311 calls are the types of quality of life complaints that go to a city's hotline.
+And then from that hotline, the city can connect you to different people.
+This data is open.
+This data is out there.
+I think at that point in time, we were looking at 17 million rows of data, and we were able
+to work with analyses that other folks had done before to better understand what of this
+data set would constitute calling the cops on your neighbors.
+The second thing that we needed to do was to find a trend for this hypothesis.
+And this is where ACS, or American Community Survey, data came in really strong.
+We used census data to look into census tracts all over New York City that went from being
+some of the poorest, so in the bottom 40th percentile, if that makes any sense to you,
+to one of the more affluent census tracts as compared to the region.
+We also looked at census tracts that went from being the poorest, so in the bottom 40th
+as compared to the region.
+We also looked at that from a stance of median home value and median income, as well as
+understanding whether there may be more folks, and this was an analysis done by Columbia
+and then later by another magazine, if there may have also been an increase of people who
+were 25 and older and had a bachelor's degree.
+All of those tests, so to speak, were academic tests that someone did to figure out
+whether a census tract, which is a small geographic location, the smallest sort of like
+one of the smallest divisions of a geographic area had gentrified, had gone from not so
+affluent to more affluent.
+That was one analysis we did.
+We looked into whether it was correlated to the calls to cops about noise and about other
+things that you found bothersome about your neighbors.
+And then we also looked into demographic changes.
+Now, this is a very convoluted and very boring way of saying the hypothesis that many people
+on the Internet were formulating seemed to statistically check out.
+This graphic shows you that.
+And for that, we were able to use ACS data to do a larger statistical study to see whether
+there is a correlation between gentrification and calling the cops on your neighbors.
+And what we also saw, thanks to the census data, was that in the neighborhoods where
+there was a gentrified, where there was a higher rate per capita of calling the cops,
+we also saw demographic changes.
+This is a sort of convoluted chart that kind of makes that point of showing that in gentrifying
+neighborhoods where the calls were higher per capita to cops about noise complaints
+and other complaints about your neighbors, there were also major demographic changes.
+You could see that there were demographic changes in terms of more white folks moving
+in and fewer Black folks living in that neighborhood as a percentage of the entire neighborhood.
+So I've now explained to you how we went from looking at viral incidents to doing
+statistical analyses with the ACS to them being like, oh, the hypothesis that all of
+these folks on the Internet were kind of like speaking about, that seems to check out.
+And trust me, I've done enough to try and disprove my hypothesis, to try and disprove
+this hypothesis.
+This is a very controversial subject, so I wanted to make sure that it was extra right.
+And we were able to prove that.
+And what you can see is also that in a visual sense, one of the ways in which we showed
+this map is the tracks that are outlined, our census tracks that gentrified.
+The error up meant that the white population as a percentage of that neighborhood went
+up.
+And the darker the shade of each census track, the higher the calls per capita were to complain
+about noise, to complain about, quote unquote, illegal usage of an apartment.
+So this very clearly shows certain trends.
+But I can tell you all these things and I can make you feel like this is really important.
+But one of the things that's really important as well is to kind of bring that data and
+bring these findings down to a more visceral understanding of the subject.
+And so what we did for that story as well was to look into one block.
+What are interesting outliers, or not outliers, what are extreme versions or good emblematic
+examples of how this may manifest itself?
+And we found one block in Harlem, which was predominantly Dominican, where there were
+3,000 noise complaints over the course of three years.
+And as you can see here in this little data visualization, you can see that one address
+had 1,118 noise complaints lobbed against it between 2015 and 2017.
+And this kind of brings it down to a block level.
+Imagine living in a block and there were 3,000 noise complaints.
+One of those days had 100 noise complaints.
+What does this say about the ways in which we handle conflict in those areas?
+And so I was able to go from showing the trend, understanding sort of like whether
+figuring out a way of looking into that hypothesis of discrimination that might be
+happening in gentrifying neighborhoods, to finding a hot spot.
+And the main part that it comes down to as well to make you understand the story better,
+because I can tell you all the statistics around it, is we wanted to find a person.
+And we found this young man.
+He's 105 years old.
+He's 105 years old.
+He used to live on that very street.
+And he did tell us, and I think we interviewed about 40 people to get to that point.
+He did tell us that he, after 30, I think it was four decades of living in that block,
+once the noise complaints kept on going up, he had to stop living the way he used to live
+his life, playing dominoes outside and I guess having chit chat outside on the streets.
+So one of the things that we needed to do was to go from the larger findings of the
+data down to what that feels like on the ground to real human beings.
+And with that said, I think once we had explored that, we also wanted to find a better
+understanding of the why behind the data.
+And I think that is one of the main parts that sometimes is more difficult to get to.
+And that takes a lot more research with experts who have either worked with populations
+there, experts who live on that block, people who are experts in their lived experience,
+as well as experts who work on an academic level on that.
+And we were able to find the why behind that data by talking to several folks.
+So this is a quote from a person who studies gentrification.
+He mentioned that when you live in a neighborhood where you feel comfortable knocking
+on your neighbor's door, then you would do that.
+So what he means by that is that a lot of people felt very uncomfortable
+due to racial issues, due to being new and having longer established folks.
+Whatever the reason was, they didn't feel comfortable talking to their neighbors
+about the noise complaints, about the noise outside.
+And so instead mediated the conflict through a third party.
+Right.
+That was one of the whys.
+And then we also spoke to several people who did call the cops on that block on their
+neighbors.
+And one of them said there's this tendency among new residents of people of not
+addressing problems directly.
+He said he had called 311 a few times to deal with his downstairs neighbor who was
+playing loud rap music.
+He also said he didn't feel safe approaching his neighbor to ask for the music to be
+turned down.
+He said this used to be a bad neighborhood, even though this stands in stark contrast
+with crime rates in that neighborhood as well.
+And so I think one of the things that's hopefully clear through this story is that
+some of the things that you might be seeing, the hypothesis that you might be
+building around something can be really answered through very clear analyses, almost
+like a scientific way of using census data to tell those kinds of stories.
+Thank you, Lam.
+That was a wonderful presentation.
+Really appreciate it.
+Thank you again.
+And please, before we go to the next speaker, let me remind everyone if you have any
+questions, you can drop them in the chat and we'll try to get to them at the end of
+the presentations.
+So let's go to our third speaker, who is Shannon Arvizu, who is a sociologist and
+senior advisor in the Office of the Chief Data Officer at the Department of
+Commerce.
+She combines her expertise in organizational change management, social science
+and systems thinking to support evidence-based policymaking efforts.
+In her role within the Department of Commerce, she leads efforts to improve the
+use of data for federal programs aimed at increasing equitable outcomes and
+opportunities for communities across the country.
+She also leads two equitable data communities of practice, one for data
+practitioners within the DOC and one for practitioners within a larger federal
+landscape aimed at building capacity for more rigorous government program
+design.
+In addition, Dr. Arvizu is the founder of Epic Teams, a leading consultancy in the
+field of agile organizational performance.
+Shannon?
+All right.
+Thank you so much.
+And thank you, Lam, for that very inspiring example of data journalism in
+action.
+So, I want to share with you today the power of data storytelling to solve
+public problems better.
+And I hope that after this presentation, you are all inspired to be equitable
+data practitioners.
+And I want to first start with a personal story of how pandemic data led to my
+tour of duty in public service.
+So, with that, I will share my next slide.
+I'm a sociologist, and I've always been very passionate and interested about how
+social change occurs.
+How do our institutions evolve to better meet the needs of the common good?
+And we know that all social change happens through organizations.
+Organizations are the medium through which ideas and resources and data turn
+into products and services and policies.
+And I spent the last 10 years working inside mission-driven organizations to
+help them do that transformational work.
+And in particular, I helped them develop systems to do three things better.
+How to build the right things in the right way and at the right speed for the
+people that they serve.
+And I built a pretty successful practice, worked my way up to Fortune 500
+companies, helped them surpass their revenue goals and help some tech
+companies achieve billion-dollar exits.
+And then the pandemic hit.
+And all of a sudden, we were all inside during lockdown looking at
+dashboards every day.
+And I found it super fascinating as a sociologist to see that Americans
+across the country were governing their daily lives by data, looking at
+hospitalization rates and infection rates and death rates.
+And it really got me thinking, wow, okay, where is all the other data about
+where all other parts of our society are doing?
+And it was really interesting to also look at the intersection between COVID
+data and sociodemographic data.
+And we saw, for example, that there were pretty wide disparities when it
+came to health outcomes.
+We know that Black and Latino and Asian communities were disproportionately
+impacted, mostly because they were more likely to be living in homes where
+there was a higher density and were more likely to live in jobs that were
+not remote.
+We also know that there were wide disparities in economic impacts.
+Here's a line of folks in line for a food bank in Brooklyn.
+And we know that those that were in low-paying jobs, again, were
+disproportionately impacted by the pandemic.
+And low-paying jobs account for 30% of all American jobs.
+And we know that Black and Latino women in particular are more likely to be
+in those lower-paying jobs.
+And lower-paying jobs accounted for 56% of all jobs that were lost during
+that time.
+We also saw that there were disparities in terms of educational outcomes.
+We know that those in predominantly Black and Indigenous communities
+already experienced disparities when it came to access to books and high
+student-to-teacher ratio.
+And they were also less likely to have access to computers and the internet,
+which had a greater impact than just on their educational outcomes.
+It also affected a lot of other outcomes.
+I have this quote here from the Harvard Graduate School Education
+Dean Bridget Long.
+And she says, you think about schools and academics, but a child's school
+is social and emotional support.
+It's safety.
+It's a food system.
+It's health care.
+It's all of those things that those students missed out on during that
+time.
+And unfortunately, we also saw disparities when it came to access to
+basic necessities like clean, running water in your home.
+We know that those in Navajo country, for example, about 30% didn't have
+access to clean, running water in their homes.
+And that also proved to be a challenge in a time when frequent hand
+washing was a way to stay healthy.
+So all of those disparities existed before the pandemic.
+And this pandemic data really brought to light the differences that
+Americans experience based on where they live and where they come from.
+And those have real impacts for the type of life that you lead and also
+how long of a life that you lead.
+And so this became my passion during the pandemic.
+I became really interested in understanding how might our government
+institutions better deliver the right things in the right way and at the
+right speed for the communities who need it most.
+And when I say government, I want to introduce a definition of citizens
+working together to solve shared problems.
+And this to me really is the definition of being an American.
+And when I had the opportunity to be of service to our chief data officer
+team at the Department of Commerce, I jumped at it because I thought
+there's no better way for me to use my talents and skills to be able to
+help contribute to furthering of this mission.
+And what I've uncovered in my time so far is that there are millions of
+civil servants that are working to fulfill this core purpose of our
+government, which is to equip every American with a fair shot to build
+their best life possible for themselves and for their families.
+And our government has made some historic investments in the last couple
+years to address those disparities, including the American Rescue Plan,
+which provided things like stimulus checks and emergency rental assistance
+and support to schools in order to strengthen the safety net when it was
+most weak.
+We also know that there was a second historic investment called the
+Infrastructure Bill, which made investments in things like improved
+water quality for those in Navajo country, for example, and bringing
+broadband to rural communities so they can access education and
+employment opportunities.
+So with all of this, we ask ourselves, how do we know whether we are
+actually moving the needle to address those disparities?
+And there's a movement underway in the federal government, which I'll call
+the Equitable Data Movement, and this is a movement spearheaded by
+White House Chief Data Scientist Denise Ross and others that really
+builds on the work of the Evidence Act, which was passed in 2019 nearly
+unanimously by those in Congress, to build an evidence-based policy
+culture.
+And so to drill a little bit deeper into this notion of equitable data,
+we have this definition, which is data which enables rigorous
+assessment of the extent to which government programs and policies
+yield consistently fair, just, and impartial treatment of all
+individuals.
+And the reason why this is so important is because we need to focus
+on opportunities for targeted actions to result in improved outcomes
+for underserved communities.
+And I want to share with you an example.
+Since I'm using the term equity, oftentimes people are curious about
+what's the difference between equality and equity.
+And so if you take a rental assistance program, from an equality
+perspective, every county receives an equal amount of rental assistance
+funds, whereas from an equity perspective, counties with renter
+households that have higher rates of cost burden receive proportionally
+more funds than other counties.
+And so the focus really is on what are called underserved communities
+and how do we identify those underserved communities?
+Well, the first step is we need to disaggregate the data.
+So what does that mean?
+That means that we look at their data by demographic information.
+So we're looking at differences between income, race, gender,
+language spoken.
+We disaggregate it by geography and other relevant variables that
+are relevant variables for your program efforts.
+And I want to share an example of how equitable data practices
+look like in action.
+So I'm going to use the Digital Equity Act as an example.
+So as part of the infrastructure bill, about $2.75 billion is
+administered through our National Telecom and Information
+Administration to communities that could benefit from digital skills
+training, improved online accessibility, and really empowering
+rural communities in particular to be able to measure and address
+their own broadband needs.
+So you may ask yourself, OK, where are those communities?
+What type of population would benefit most from this?
+So we know from research that these are the types of communities
+that are less likely to have access to the Internet.
+Folks that are making less than 150% of the poverty line.
+Older folks, those who have been incarcerated, veterans, disabled,
+those that face a language barrier, racial or ethnic minorities,
+and those that tend to be in rural communities.
+So then you may ask yourself, but where are they located?
+So Census and NTIA collaborated to create the Digital Equity Act
+population viewer.
+And you can start to see here, at least on a state-by-state basis,
+where are the states that have the most amount per capita of those
+types of folks that are in those covered populations?
+And when you dive a little bit deeper into this, say, for example,
+in New Mexico, you can start to see the breakdown by that
+disaggregation.
+And you can also see here their usage as it comes to the Internet
+and PC, also from ACS.
+So ACS, I've been getting a tip or hats off in this session today.
+And so, again, this is an example of how equitable data practitioners
+start to better design programs so that way we are meeting the needs
+of those who need it most.
+And so I throw out this term, equitable data practitioner.
+And we are in the business of illuminating opportunities
+for targeted actions.
+And as an equitable data practitioner, we are civic data entrepreneurs.
+So we're inspiring new ways of thinking about data and analysis
+in program design and delivery.
+We are also change agents.
+So we might not always have access to all the data we'd like to have,
+but we look for the low-hanging fruit.
+We see what we can do now.
+We see coalitions of the willing.
+Who's excited to do this work?
+And then once we find really interesting, powerful ways to do
+this work, we seek to institutionalize them.
+So that way this just becomes how we do things.
+And lastly, we are continuous learners.
+So we're all learning together how to build the next-gen
+government data infrastructure.
+And it's really important that we look internally
+across the federal landscape.
+We look to state and local governments and nonprofits.
+We look for the people who are benefiting from programs
+and really engaging them in this continuous feedback loop.
+So that is my call to you all.
+Now that you have an idea of what equitable data practitioners do
+and the stories that we can tell when we do our work well,
+I invite you all to see yourselves as part of this movement.
+And if you'd like to continue the conversation,
+you can find me on LinkedIn.
+So thank you very much, everyone.
+And I pass the talking stick back to you.
+Thank you, Shannon.
+That was wonderful.
+I really appreciate this.
+So we're going to move to our last but not least speaker
+who is Philip Deng.
+He is co-founder and CEO of Grantable,
+a world-class grant writing assistant for everyone
+powered by AI.
+Philip has been working at the nonprofit sector
+for more than 15 years on three continents
+and in three languages.
+He loves to cook and gather with friends.
+He lives in Richmond, Virginia with his partner Anita
+and their two pups, Harper and Suki.
+I love the personal touch, Philip.
+Take it away.
+Thank you so much, Aya.
+And thank you, everybody, for having me at this summit.
+It really is an honor that I feel like I've skipped
+a few steps to arrive at.
+But I'm grateful to be here.
+And I don't have a presentation deck,
+so I'm just going to try to speak and kind of bring my thoughts
+together along with what the other presenters
+have shared today.
+Where I want to begin to set the stage is just to
+call back to the bio that was just read about me.
+I probably have the least amount of in-depth experience
+with data and numbers of anybody on this panel.
+My background is almost 15 years in the nonprofit sector
+as a practitioner on the ground in different countries
+working in different languages.
+And my focus from that has been in grants.
+And so I think I was asked to join today's panel to talk
+about how data can be effective in storytelling
+in a grants context.
+And I think what are consistent themes with what everybody
+else has shared today is that stories are very powerful.
+There are problems that need to be solved.
+And so we're asking ourselves today,
+how can we measure the world around us to help us tell
+these stories to solve problems?
+And so I think grants are very much a synthesis of that effort.
+For those of you that maybe don't know the statistics,
+about $800 billion worth of funding is distributed
+as grants every year.
+My company's estimated probably about 30 million
+grant proposals are written.
+By all kinds of different organizations, agencies,
+and even businesses as well.
+We saw that during COVID for sure and people applying
+for their different relief funds.
+So that's sort of the context that I've been working in.
+And one of the observations that I've made,
+particularly in my role now transitioning from the
+nonprofit sector into a tech startup role,
+particularly one working with AI,
+is that I believe the nature of data is changing
+and so will storytelling with it.
+As an example, probably many of you have heard of
+or played around with chat GPT.
+And for those of you who maybe haven't delved deeply into how
+that chat bot is generating these wild and sometimes
+very amazing skillful outputs,
+it has been trained on a massive amount of data,
+mostly text data from the internet and with enormous
+amounts of computing power and complex algorithms.
+It is teasing patterns out of that data and using probability
+to generate these text outputs.
+So I saw a parallel with today's theme and today's discussion
+and I thought one of the things I could do for those gathered
+here today is to kind of point out what I see happening
+at scale here, which again is data is changing and the way
+we can tell stories with it is as well.
+So chat GPT is data and from it we are now coaxing out
+patterns which are literally telling us stories.
+If you go to this chat bot and you say,
+hey, tell me a bedtime story, it will.
+And it is doing that literally from massive amounts of data
+which human engineers have trained to find patterns
+and bring out of the data and it is now writing bedtime
+stories if that is what you ask it to do.
+So I just think one of the things that is very interesting
+for I think the people gathered today is to stretch our
+imaginations a little bit and think about what might
+storytelling with numbers mean in the future, in the next few
+months, in the next few years?
+How are we going to take these themes of equity, these themes
+of measuring impact and figuring out how to make
+evidence-based decisions?
+What else can we do if we lay a lens of this new paradigm
+of tech-enabled data analysis to help us in that effort?
+So that was one thing I really wanted to call out today
+and ask people to think about and try.
+And in that effort I will just say a lot of people I have
+encouraged to do that, try it out and the first reaction
+is a pretty heady mix of excitement and anxiety.
+A lot of people are creeped out quite frankly by what these
+things are capable of doing and what I'm not doing is
+telling people to calm down or don't worry about it.
+I'm actually telling everyone to listen to that emotion,
+to that instinct that is saying, hey, this is different,
+this is strange, this is unsettling, and to allow that
+to heighten our senses and to say, okay, I'm now sitting up,
+I'm paying attention, what is this thing and how do we all
+collectively get our arms around it and use it?
+So that's just one thing I wanted to mention that I think
+is relevant in the moment as pertains to data.
+And then to bring it back to grants, for those of you who
+may be working on grants for different agencies or
+organizations, some things I wanted to call out from my own
+experience as a grant writer and recipient, I echo what
+Brent said at the beginning to sort of begin with your
+audience and to shape your narrative based on who are you
+trying to tell a story to, who are you trying to move with
+your narrative, and from there I think it usually becomes
+clear what kind of data to use.
+I also think based on your audience, you kind of have to
+pick the Zoom that you're going to put on the numbers or the
+quantitative material that you're using.
+So if your funder, for example, is working on national level
+initiatives, then you're probably going to want numbers
+that convey the scale of work that is going to have a
+national impact versus a local foundation.
+This is, again, just in my purview, you would want
+numbers that maybe actually highlight a clinic or a food
+bank in the neighborhood where the funder lives and have
+numbers that clarify that that's the level of focus that
+you're trying to achieve.
+So I think the scope is really important, as is choosing when
+to use numbers and when to use words.
+I think that's how I came into this conversation, but maybe
+after hearing several of my co-panelists, I think it's kind
+of how do you use both together in a really compelling way.
+So I think the examples I came in with are when there's a
+story of individual impact, you probably don't want to boil
+that down to a single number or a few statistics.
+But if you wanted to show change, if you wanted to show
+how a program is growing and how prior grant funding has
+impacted the ability to scale the benefits and impact, then
+I think numbers are really powerful.
+One of the last things I wanted to bring attention to is
+unfortunately I would say when is measuring something or
+measuring it in the wrong way?
+When can data be harmful?
+I don't think I heard that brought up, and I think it's a
+very real outcome that unfortunately organizations can
+find themselves in at times.
+So what I've seen personally is organizations that are asked
+to measure outcomes and program activities in a way that is
+so detailed and burdensome that they either can't do it or
+they're actually coming up with numbers that really, they
+can't really stand behind.
+In the worst cases, maybe made up, and in the best cases,
+they're kind of fuzzy.
+So I think that can be a real problem and I think something
+that the field is starting to address.
+I think also, I saw a comment earlier, if things get done
+when we focus on them or whatever we measure tends to
+get done.
+I think that is usually meant as a positive, but in another
+sense, sometimes if we measure something, everybody really
+starts to try to make that metric rise or that metric fall,
+whatever that metric starts to become this overwhelming force,
+this guiding star, and I just think it's always important for
+everybody to take a step back and look at what we're doing
+because sometimes the pursuit of a single metric or a single
+number can really be misleading for certain groups.
+If you're just pursuing, say, profit, for example, I think
+we're all looking at that and what the effects are on our
+society.
+That's obviously a very well-measured number in our
+culture, but it doesn't quite capture all of the
+externalities that sometimes pursuing just profits can
+create for the society.
+So I think that's an example that without singling anyone
+out, I wanted to just throw that out there.
+It can cause people to bend the truth.
+It can cause people to draw the wrong conclusions.
+So I think what I always advocate when I speak with
+grantors and grantees that I coach, what can we do in terms
+of data integrity and continuity?
+So what I mean by that is what can we measure confidently,
+accurately, and within our capacity and for the long term
+so that we can see trends?
+I think I see a lot of people sprint to try to win a grant
+and they will devote lots of resources to game a number.
+If we want lots of volunteers, if we have to show that we
+have great participation numbers, then the entire
+organization starts to shift all of its resources to
+hosting events that are just big rather than effective.
+So I think that's probably an example that a lot of folks
+can relate to.
+So hopefully some of that stuff brings at least some
+questions to mind and I think I'm happy here to stand
+alongside my more data expert co-panelists and if there's
+anything about grant seeking and maybe particularly what's
+happening with AI and technology.
+I'm looking forward to some questions as well.
+So hopefully I'm on time.
+You are, Phil.
+That was wonderful and we're not creeped out.
+So thank you.
+Thank you for talking about something that I think
+everyone is wondering about and testing and I know many
+folks in the media industry are wondering if they'll have
+jobs in the next couple months as a result of this.
+So I'm going to start the question period.
+I'll start off with one question that was in the chat
+from Kimi and it's for Philip.
+Kimi says, I wonder if only the stories and data that are
+being searched for will be identified by data gathering
+and analysis.
+What about the stories that are not identified?
+Could you elaborate a little more?
+I think there's a very, very interesting question that
+I'd love to.
+Okay.
+So it's like a poll, right?
+When poll takers go out, they have an assigned set of
+questions and they're asking those questions, right?
+And they get responses to them, right?
+But sometimes the story, the items that are most
+interesting to that community or most challenging to that
+community don't correspond to the questions that are asked,
+right?
+So this is the same, you know, this could be similar, right?
+So the people who are saying, you know, how do we evaluate
+this data, right?
+You know, maybe that data relates to a phenomenon that
+hasn't emerged as being quantifiable or important yet.
+Like the previous speaker, one of the previous speakers, she
+said that an old man, 105-year-old man, he can't, like,
+he can't live the same way he used to live.
+He can't just be out in the community playing checkers and
+what have you.
+Like, the quality of his life has basically eroded because
+of gentrification, right?
+But this is not an expected outcome.
+It's not something that someone who's not a community member
+would think probably to look for.
+So are we going to capture that data or not capture that data?
+Okay.
+Thank you for clarifying that.
+I think my first reaction there is that what I believe is
+increasingly possible is that we can take, let's take your
+example of survey data and all those data points that are
+coming in.
+What I believe is increasingly possible is to apply more and
+more computing power to data sets and what that power is
+doing is looking for very, very complex patterns to emerge.
+So I think what the frontier is and the work for us is I think
+we're going to see connections that are both very, very
+insightful, to use sort of what Brent brought up at first, and
+I think we're going to see one of those connections that are
+really challenging and reveal aspects of our society that are
+extremely uncomfortable, maybe extremely controversial that
+people are going to really have a lot of intense debate over.
+So I think that maybe what you're saying, what are the other
+things that are just beyond the questions that we're literally
+asking people, I think more of that is going to be illuminated
+by the basic computational advancements that companies are
+making, and I think the role for all of us will be to prepare
+for sort of, if you imagine literally light kind of filling
+more of a darkness, we have to prepare as people to take on
+what we see and what is revealed.
+Thank you.
+We appreciate that.
+Thank you, Phillip.
+I'm trying to keep track of some of the questions or statements.
+It's mostly statements in the chat.
+If anybody has a question, you can just speak up and ask any of
+the panelists.
+If nobody is speaking up, I see one question in the chat.
+What do you do when officials want to apply one indicator
+specific methodology to all related data requests because it
+is easiest?
+That sounds like a workplace issue, but I don't know if
+Shannon or anyone else wants to address that.
+I just wanted to clarify the conversation.
+I feel like, hi, my name is Leah Icon.
+I work at the Administration for Children's Services at New
+York City, and I handle the child stat data analytics.
+One thing that I find in terms of kind of, I created a unit
+that kind of wanted to expand the data conversation to the
+frontline staff as well as all the databases and the data
+literacy behind all of these performance indicators and
+metrics.
+Sometimes it's hard to get people to really stop and use
+the data.
+Sometimes they be their minds a little bit to say, hey, these
+are the questions asked of an indicator, and this is what the
+answers are.
+But over here for a city council report or something else,
+there's a different question asked, but the words sound the
+same.
+And so I'm wondering because I really, really appreciated
+Shannon's presentation today and speaking pretty much the same
+kind of explain to my team of people how and why we do this is
+to get out there, get the conversation from the community,
+bring it back, and then kind of apply also the metric standards
+to say, here's the basic ways we need to build a metric or an
+indicator, but here's the questions that can be asked of it.
+Here's the data behind it and full transparency.
+But then there's another issue with, and I feel like it's not
+just government.
+It's a little bit bigger than this.
+People not able to stop and think for just a second, like we
+can ask different questions of indicators and let us quickly
+storytell you the differences, right?
+Like we try to bring in these like little stories or anecdotes
+so that people will start to learn the difference between a
+performance indicator asked of a frontline staff to speak to
+versus what we might report at a citywide level.
+And so I'm wondering if you have any guidance around how to stop
+and slow people down that aren't really, that are too busy for
+everything else, but you also need them to take notice that
+these things are different.
+Yeah, I'll share that I feel your pain.
+I had a conversation today that had a very similar tone.
+And the one thing that we know is that oftentimes these
+indicators are a simplification of reality and that it really
+needs to be contextualized.
+And we're talking in the context of jobs, 50 jobs in an urban
+region is not the same as 50 jobs in a tribal reservation.
+And so context matters to situate these stats.
+And so just balancing the case studies with the indicators and
+coupling them together, we found to be helpful moving forward.
+But I'll pass the talking stick back.
+And I see what you're struggling with for sure.
+I hope that answered your question.
+I see a question in the chat for Lam.
+Where would you go to build a story about how federal dollars
+are spent by agency for a specific geographic area like
+Puerto Rico?
+Oh, okay.
+Puerto Rico is probably different.
+There are databases that look into contracts.
+I think there's a lot of relationships between government
+agencies and private contractors and what that expenditure looks
+like.
+If you ping me afterwards, I can find you the exact source that
+we used for something similar.
+I do not know whether that specific database I have in mind
+also looks to Puerto Rico, but I can look into that.
+And because I'm also part of the investigative reporters and
+editors network, I can ask a few folks who are working there to
+stay in touch.
+And then the other thing that you might want to think about is
+the way in which I teach data is oftentimes the data sets that
+are being given out to the public are not always everything
+that an agency has.
+And so this might be a longer term kind of project or a longer
+term endeavor, but a lot of the times thinking about the forms
+that people fill out or the databases that governments use
+and then figuring out a way of filing Freedom of Information Act
+requests or public records requests might be a way for you
+to play around with finding data sets around the subject you
+care about.
+And the last but not least, as a practitioner of data collection
+and I'm a coder, I do a lot of Python scraping, there are also
+ways to investigate these types of subjects with data sets that
+are adjacent to that, whether it's through public databases
+that like private databases like Property Shark or something
+like that, for example, or databases that you kind of build
+yourself.
+I call them DIY data sets, do it yourself data sets by cobbling
+together information that lives on the Internet and then putting
+that into a spreadsheet and then analyzing it for that.
+That might be an interesting way for you to look into that.
+That's great, Lam.
+It looks like we've come to the end of our session.
+So anybody who has questions, I think you can reach out
+directly to all of our panelists.
+Their contact information is in the chat and I believe that this
+will be made available to everyone.
+So again, thank you.
+Round of applause to everyone who spoke today was fascinating.
+Thank you again.
+Thank you.
+And before we wrap up real quick, I just want to mention a
+quick comment.
+I heard something I was kind of I stepped away for a second
+around contracts in Puerto Rico and data.
+I'm going to drop two links in the chat that you might be
+interested in.
+This organization that is doing great work and working with
+Open Contracting Partnership, which is an offshoot of the
+World Bank.
+And you heard from one of those speakers earlier in Top Summit.
+So check those two links out.
+It's contracts in law and it's great being more than 58
+government websites in Puerto Rico and then basically mapping
+out every contract, every RFP, NOFO and procurement transaction
+to open corporates data and business register data in
+Puerto Rico.
+So check that out.
+It's on the chat.
+Thank you so much for tuning in.
+Thank you, guys.
+Thank you.
+Bye, everyone.
+Thank you for moderating, show speakers, Brent, Lam, Phillip
+and Shannon.
+It was a pleasure to have you guys.
+I learned so much.
+Thank you all for participating in Top Summit 2023.
+Thank you.

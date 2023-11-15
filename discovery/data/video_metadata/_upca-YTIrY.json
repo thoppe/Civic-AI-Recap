@@ -1,0 +1,75 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "4YAGJR6uS5QMnfjSlLvsVLoZ8NA",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "erqsazlZcBnf4lTsgvS9Vuks-UU",
+      "id": "_upca-YTIrY",
+      "snippet": {
+        "publishedAt": "2023-10-26T18:39:55Z",
+        "channelId": "UCK-pgcVtCKeb644cOZZZYSg",
+        "title": "Vermont State Board of Education",
+        "description": "The Vermont State Board of Education has supervision over, and management of, the Agency of Education and the public school system, except as otherwise provided by law.\n\nCall to Order 00:03\nRoll Call 00:17\nAmendments to the Agenda 01:03\nBoard Announcements 01:13\nPublic to be Heard 06:54\nMetting Minutes 08:07\nStudent Report 09:17\nSecretary Search Committee Update 14:25\nAct 173 Update 00:24:36\nRules Series 2000 Committee Update 01:03:36\nFuture Meeting Planning 01:14:42\nRules Series 2200 Committee Update 01:23:47\nAOE Update on Independent School 01:27:35",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_upca-YTIrY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_upca-YTIrY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_upca-YTIrY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_upca-YTIrY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_upca-YTIrY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Media Factory",
+        "tags": [
+          "Media Factory"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "Vermont State Board of Education",
+          "description": "The Vermont State Board of Education has supervision over, and management of, the Agency of Education and the public school system, except as otherwise provided by law.\n\nCall to Order 00:03\nRoll Call 00:17\nAmendments to the Agenda 01:03\nBoard Announcements 01:13\nPublic to be Heard 06:54\nMetting Minutes 08:07\nStudent Report 09:17\nSecretary Search Committee Update 14:25\nAct 173 Update 00:24:36\nRules Series 2000 Committee Update 01:03:36\nFuture Meeting Planning 01:14:42\nRules Series 2200 Committee Update 01:23:47\nAOE Update on Independent School 01:27:35"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT1H35M20S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "25",
+        "likeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

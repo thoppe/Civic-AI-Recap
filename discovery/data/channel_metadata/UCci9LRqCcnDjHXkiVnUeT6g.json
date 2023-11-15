@@ -1,0 +1,82 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "OZzrRGyM7p_MasO3NnB1wg00MMg",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "5ex3JQIXL7eIviB3Ea4_m-59NHM",
+      "id": "UCci9LRqCcnDjHXkiVnUeT6g",
+      "snippet": {
+        "title": "Oregon State Board of Education",
+        "description": "The Oregon State Board of Education works to ensure that every Oregon public school student has equal access to high quality educational services that promote lifelong learning and prepare students for their next steps following high school graduation including college, work, and citizenship.",
+        "customUrl": "@oregonstateboardofeducation",
+        "publishedAt": "2015-11-19T18:38:45Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKaOTks3Mm8VJFODc89ftq6V6vpWMVhh9OLiQ48W=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKaOTks3Mm8VJFODc89ftq6V6vpWMVhh9OLiQ48W=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKaOTks3Mm8VJFODc89ftq6V6vpWMVhh9OLiQ48W=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Oregon State Board of Education",
+          "description": "The Oregon State Board of Education works to ensure that every Oregon public school student has equal access to high quality educational services that promote lifelong learning and prepare students for their next steps following high school graduation including college, work, and citizenship."
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUci9LRqCcnDjHXkiVnUeT6g"
+        }
+      },
+      "statistics": {
+        "viewCount": "1098",
+        "subscriberCount": "38",
+        "hiddenSubscriberCount": false,
+        "videoCount": "47"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/098wr",
+          "/m/05qt0"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Society",
+          "https://en.wikipedia.org/wiki/Politics"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified"
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Oregon State Board of Education",
+          "description": "The Oregon State Board of Education works to ensure that every Oregon public school student has equal access to high quality educational services that promote lifelong learning and prepare students for their next steps following high school graduation including college, work, and citizenship.",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://lh3.googleusercontent.com/s5l7x8bNM0zGHHALNmTjR75fXBP_nNSVcjUFtPebuyWcWYi2fOD7C-aa_k47G1to7p0xhvYphg"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:15.861283"
+}

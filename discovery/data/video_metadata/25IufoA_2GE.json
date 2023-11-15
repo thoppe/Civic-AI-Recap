@@ -1,0 +1,69 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "9XlAZsK5SQMwDp_boZ7dSsSYaLA",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "kAAKygx1JjlldyPwBhWs1fhbv6c",
+      "id": "25IufoA_2GE",
+      "snippet": {
+        "publishedAt": "2023-10-06T20:44:08Z",
+        "channelId": "UCCdA8AqOW05ttQ57PiaPXsg",
+        "title": "October 2023 State Board of Education Meeting",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/25IufoA_2GE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/25IufoA_2GE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/25IufoA_2GE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/25IufoA_2GE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/25IufoA_2GE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Nebraska Department of Education",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "October 2023 State Board of Education Meeting",
+          "description": ""
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT5H22M3S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "139",
+        "favoriteCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "nazDgwfNoSNX-RIlSHPjqJ_H_ZM",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "iUI7zA0Tooc4XcVVIl06e_jqTSc",
+      "id": "DpgyDeismQc",
+      "snippet": {
+        "publishedAt": "2023-11-09T07:15:48Z",
+        "channelId": "UCqTyoZuEUNtDXdw8nOgAgQQ",
+        "title": "State Board of Education Meeting - 11/8/2023",
+        "description": "Livestream of the CT State Board of Education meeting.\n\nFor more information, visit https://portal.ct.gov/SDE/Board/State-Board-of-Education/Meeting-Agendas",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DpgyDeismQc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DpgyDeismQc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DpgyDeismQc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/DpgyDeismQc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/DpgyDeismQc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "CT State Department of Education",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en-US",
+        "localized": {
+          "title": "State Board of Education Meeting - 11/8/2023",
+          "description": "Livestream of the CT State Board of Education meeting.\n\nFor more information, visit https://portal.ct.gov/SDE/Board/State-Board-of-Education/Meeting-Agendas"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT12M31S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "23",
+        "likeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "ILE3sdPKsSG4QLd9D30cXWOuS_g",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "v4Fp5vAqS3i9W-tDSGUp9237uSc",
+      "id": "UCEru6fqOoi-AQeLYnrZnoAw",
+      "snippet": {
+        "title": "Anchorage School District",
+        "description": "",
+        "customUrl": "@asdschools",
+        "publishedAt": "2010-11-01T20:52:18Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/Kk7wNUv6BsOZG-xt8ZTYnV9GVxUaVoRUvhABJIvWr3bN_G_z7tBXEzYHOxL0YRCqtw4boyo4qpI=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/Kk7wNUv6BsOZG-xt8ZTYnV9GVxUaVoRUvhABJIvWr3bN_G_z7tBXEzYHOxL0YRCqtw4boyo4qpI=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/Kk7wNUv6BsOZG-xt8ZTYnV9GVxUaVoRUvhABJIvWr3bN_G_z7tBXEzYHOxL0YRCqtw4boyo4qpI=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Anchorage School District",
+          "description": ""
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUEru6fqOoi-AQeLYnrZnoAw"
+        }
+      },
+      "statistics": {
+        "viewCount": "9830400",
+        "subscriberCount": "15700",
+        "hiddenSubscriberCount": false,
+        "videoCount": "831"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/01k8wb",
+          "/m/098wr"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Knowledge",
+          "https://en.wikipedia.org/wiki/Society"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Anchorage School District",
+          "keywords": "anchorage school district public asdtv asd-tv",
+          "unsubscribedTrailer": "7K-XSHwwSDk",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://lh3.googleusercontent.com/Uu2zFex3te8NLuOxefimuVp-9qfrnxRtslHXDCr7C_g4o1JtEBZnNFpMZnqHfpPOJpdbgbstQwM"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:14.978246"
+}

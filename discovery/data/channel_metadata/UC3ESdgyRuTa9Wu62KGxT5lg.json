@@ -1,0 +1,79 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "NmAGQxTk4Vwi77rbXgSQCk1dDls",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "1hSXhuiUk8lCjwKZdioOJQPE0Tc",
+      "id": "UC3ESdgyRuTa9Wu62KGxT5lg",
+      "snippet": {
+        "title": "Pennsylvania Department of Education",
+        "description": "",
+        "customUrl": "@padeptofed",
+        "publishedAt": "2012-09-20T13:22:27Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKa-ffcp_watnSp7Nv-Hor7qRiXImL-6sxtT0E8=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKa-ffcp_watnSp7Nv-Hor7qRiXImL-6sxtT0E8=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKa-ffcp_watnSp7Nv-Hor7qRiXImL-6sxtT0E8=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Pennsylvania Department of Education",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UU3ESdgyRuTa9Wu62KGxT5lg"
+        }
+      },
+      "statistics": {
+        "viewCount": "354616",
+        "subscriberCount": "2140",
+        "hiddenSubscriberCount": false,
+        "videoCount": "262"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/01k8wb"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Knowledge"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Pennsylvania Department of Education",
+          "unsubscribedTrailer": "QCYnJo0-_JY"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.googleusercontent.com/xf3cgIGs_JGM8UiKA7xpxBqJB7SqVnEn5w-iFhM3UlKkaAD5GVWqvDCrvWqERFjpcZ_-unPLHHA"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:16.050229"
+}

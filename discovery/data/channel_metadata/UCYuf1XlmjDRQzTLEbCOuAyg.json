@@ -1,0 +1,84 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "ogdQ6wb5julKxtAgyJRoStz2WwA",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "dki8Mkgz50VinSdvTUd1opzukiw",
+      "id": "UCYuf1XlmjDRQzTLEbCOuAyg",
+      "snippet": {
+        "title": "Kentucky Department Of Education",
+        "description": "This channel is to provide archived recordings for The Kentucky Department of Education. ",
+        "customUrl": "@kdearchived-recordings",
+        "publishedAt": "2019-07-15T15:19:26Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/8f168-THBOzCHXTeW5uLVrwHtnyup9xcOaBXeAQm8jx3ZobEO51Ol_Fu1rEUpW5lEptmNq0y3A=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/8f168-THBOzCHXTeW5uLVrwHtnyup9xcOaBXeAQm8jx3ZobEO51Ol_Fu1rEUpW5lEptmNq0y3A=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/8f168-THBOzCHXTeW5uLVrwHtnyup9xcOaBXeAQm8jx3ZobEO51Ol_Fu1rEUpW5lEptmNq0y3A=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Kentucky Department Of Education",
+          "description": "This channel is to provide archived recordings for The Kentucky Department of Education. "
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUYuf1XlmjDRQzTLEbCOuAyg"
+        }
+      },
+      "statistics": {
+        "viewCount": "433958",
+        "subscriberCount": "1110",
+        "hiddenSubscriberCount": false,
+        "videoCount": "1545"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/098wr",
+          "/m/01k8wb"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Society",
+          "https://en.wikipedia.org/wiki/Knowledge"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Kentucky Department Of Education",
+          "description": "This channel is to provide archived recordings for The Kentucky Department of Education. ",
+          "keywords": "#KyEd #TeamKDE #TeamKentucky",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.googleusercontent.com/lLGiPLGmL_A33G7COz-1qixaj6DZ5D5KrcfX0D9xQ0JwPKevf3yPwbG4NaxZqTKFyYhE6f6G"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:15.492648"
+}

@@ -1,0 +1,79 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "kQFb1e0mlzbq4TGNS1Cn7sYYCh8",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "HTswlgPytpTm0pzT23vGpk8q6g4",
+      "id": "UC1blomqz3LvxKtMa6x7xX7A",
+      "snippet": {
+        "title": "Louisiana Board of Regents",
+        "description": "The Board of Regents, a state agency created by the 1974 Louisiana State Constitution, coordinates all public higher education in Louisiana.",
+        "customUrl": "@la_regents",
+        "publishedAt": "2017-01-23T20:21:18Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/JQk-5vKxolHUemYAJXNKJteFk283IurSeUe6sFu-GDmub_hqvJJrF_kqX2C_rCurs3OPRokzWRY=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/JQk-5vKxolHUemYAJXNKJteFk283IurSeUe6sFu-GDmub_hqvJJrF_kqX2C_rCurs3OPRokzWRY=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/JQk-5vKxolHUemYAJXNKJteFk283IurSeUe6sFu-GDmub_hqvJJrF_kqX2C_rCurs3OPRokzWRY=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Louisiana Board of Regents",
+          "description": "The Board of Regents, a state agency created by the 1974 Louisiana State Constitution, coordinates all public higher education in Louisiana."
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UU1blomqz3LvxKtMa6x7xX7A"
+        }
+      },
+      "statistics": {
+        "viewCount": "38248",
+        "subscriberCount": "267",
+        "hiddenSubscriberCount": false,
+        "videoCount": "201"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/098wr"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Society"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": true
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Louisiana Board of Regents",
+          "description": "The Board of Regents, a state agency created by the 1974 Louisiana State Constitution, coordinates all public higher education in Louisiana."
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.googleusercontent.com/JHdNUo1MZCEiiLIT3iVYanI_0qP0v0KBdaUeroV6usLCqmTYJ8A4m0cnjgV7x8S8pJKXIAp9"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:15.528456"
+}

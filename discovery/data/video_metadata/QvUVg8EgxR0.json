@@ -1,0 +1,71 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "1kCnNgT3ZqEYPj8B4SrDfs0mrN4",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "jx5w8LDzIPQ6R1Vv0TXVcqJkM6U",
+      "id": "QvUVg8EgxR0",
+      "snippet": {
+        "publishedAt": "2023-11-10T08:44:03Z",
+        "channelId": "UCDFpjoQaopgFSVAcZqEWsPw",
+        "title": "BOE Work Session 11-09-23",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QvUVg8EgxR0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QvUVg8EgxR0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QvUVg8EgxR0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/QvUVg8EgxR0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/QvUVg8EgxR0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "aldeptofed",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "BOE Work Session 11-09-23",
+          "description": ""
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT3H10M26S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "197",
+        "likeCount": "3",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

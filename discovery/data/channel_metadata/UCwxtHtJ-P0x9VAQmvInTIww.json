@@ -1,0 +1,84 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "ok-KCuJbzXoJcSP0_wUnvXMACIo",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "gD-fAJAZJDfHRdTyUSAg4m08qno",
+      "id": "UCwxtHtJ-P0x9VAQmvInTIww",
+      "snippet": {
+        "title": "South Carolina Department of Education",
+        "description": "The South Carolina Department of Education is the state education agency of South Carolina. It is headquartered in Columbia at the Rutledge Building. The agency is overseen by an elected Superintendent of Education, currently Ellen Weaver.",
+        "customUrl": "@southcarolinadepted",
+        "publishedAt": "2011-02-01T18:01:29Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKbg9bpMtcI8IptNlF1EmrCozKuo5d4MvZjuoXUAlg=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKbg9bpMtcI8IptNlF1EmrCozKuo5d4MvZjuoXUAlg=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKbg9bpMtcI8IptNlF1EmrCozKuo5d4MvZjuoXUAlg=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "South Carolina Department of Education",
+          "description": "The South Carolina Department of Education is the state education agency of South Carolina. It is headquartered in Columbia at the Rutledge Building. The agency is overseen by an elected Superintendent of Education, currently Ellen Weaver."
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUwxtHtJ-P0x9VAQmvInTIww"
+        }
+      },
+      "statistics": {
+        "viewCount": "959247",
+        "subscriberCount": "1670",
+        "hiddenSubscriberCount": false,
+        "videoCount": "776"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/01k8wb",
+          "/m/098wr"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Knowledge",
+          "https://en.wikipedia.org/wiki/Society"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "South Carolina Department of Education",
+          "description": "The South Carolina Department of Education is the state education agency of South Carolina. It is headquartered in Columbia at the Rutledge Building. The agency is overseen by an elected Superintendent of Education, currently Ellen Weaver.",
+          "keywords": "\"south carolina\" education students teachers \"professional development\"",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.googleusercontent.com/MLdYntDriqhQCu_TPdHOphjEcHsZ2EbvPtp4rLWLhoCKKLWej8DDbdQRYnTfrvYV7Dbw9W8J"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:16.114216"
+}

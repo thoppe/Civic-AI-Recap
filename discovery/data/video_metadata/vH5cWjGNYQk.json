@@ -1,0 +1,62 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "PJVAtsBpHoE-C3-kExHpLhVQXXM",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "uAWCXrzLbqnOk446JSx8s4YKpWM",
+      "id": "vH5cWjGNYQk",
+      "snippet": {
+        "publishedAt": "2023-10-24T18:00:31Z",
+        "channelId": "UCrCp3IDncmu_8So9lahUzzQ",
+        "title": "SBOE Public Meeting October 18, 2023",
+        "description": "For all SBOE meeting materials, please visit https://bit.ly/SBOEMeetingInfo",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vH5cWjGNYQk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vH5cWjGNYQk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vH5cWjGNYQk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DCSBOE",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "SBOE Public Meeting October 18, 2023",
+          "description": "For all SBOE meeting materials, please visit https://bit.ly/SBOEMeetingInfo"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT2H56M38S",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "43",
+        "likeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "tZiG2g7edobt7h8_ENQN-WO_uwo",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "BCeZiCGZUwaR0Ccp6aD6dSnJJms",
+      "id": "UC7j4VGGyNzPa6g6a-zVTHnA",
+      "snippet": {
+        "title": "Idaho State Board of Education",
+        "description": "The Idaho State Board of Education makes policy for K-20 public education in Idaho, to create opportunity for lifelong attainment of high-quality education, research, and innovation.\n\nThis channel is managed by the Office of the State Board of Education (OSBE) which provides critical executive, strategic, tactical, and administrative support to the Board in its policy-making authority.",
+        "customUrl": "@idahostateboardofeducation5956",
+        "publishedAt": "2016-07-14T20:43:50Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKaFvcgw2E5HFX4eWkNxP5aqASXXGcDwKbeMPl5Q=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKaFvcgw2E5HFX4eWkNxP5aqASXXGcDwKbeMPl5Q=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKaFvcgw2E5HFX4eWkNxP5aqASXXGcDwKbeMPl5Q=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Idaho State Board of Education",
+          "description": "The Idaho State Board of Education makes policy for K-20 public education in Idaho, to create opportunity for lifelong attainment of high-quality education, research, and innovation.\n\nThis channel is managed by the Office of the State Board of Education (OSBE) which provides critical executive, strategic, tactical, and administrative support to the Board in its policy-making authority."
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UU7j4VGGyNzPa6g6a-zVTHnA"
+        }
+      },
+      "statistics": {
+        "viewCount": "11448",
+        "subscriberCount": "331",
+        "hiddenSubscriberCount": false,
+        "videoCount": "65"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/01k8wb",
+          "/m/098wr"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Knowledge",
+          "https://en.wikipedia.org/wiki/Society"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified"
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Idaho State Board of Education",
+          "description": "The Idaho State Board of Education makes policy for K-20 public education in Idaho, to create opportunity for lifelong attainment of high-quality education, research, and innovation.\n\nThis channel is managed by the Office of the State Board of Education (OSBE) which provides critical executive, strategic, tactical, and administrative support to the Board in its policy-making authority.",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://lh3.googleusercontent.com/zBMShfl92IMP2zfs-22a2O1Ybk4VPHNLS0ob2kiIrbFM6itTsEAue0BSAWXeLIe4RO8VYtgu"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:15.329369"
+}

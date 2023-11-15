@@ -1,0 +1,88 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "Orl1eu8oiboh4e-CBprP843ODqY",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "9PI1EcG98zpCWE405xn3rXJ7QeE",
+      "id": "UCK-pgcVtCKeb644cOZZZYSg",
+      "snippet": {
+        "title": "Media Factory",
+        "description": "We're a community of media makers who work in tv, film, radio, and more. At the MEDIA FACTORY, we provide the tools, training, space and access to distribution that give you the power to share your story.\n\nThe MEDIA FACTORY is home to the community, education and government access and WBTV-LP 99.3 FM. Located in the South End Arts District of Burlington, Vermont.\n\nMore at https://mediafactory.org",
+        "customUrl": "@btvmediafactory",
+        "publishedAt": "2012-01-24T15:59:04Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKYO05jX3z51C8-sfStfmxbYkdgVv0L6afvBNUZK=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKYO05jX3z51C8-sfStfmxbYkdgVv0L6afvBNUZK=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKYO05jX3z51C8-sfStfmxbYkdgVv0L6afvBNUZK=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "Media Factory",
+          "description": "We're a community of media makers who work in tv, film, radio, and more. At the MEDIA FACTORY, we provide the tools, training, space and access to distribution that give you the power to share your story.\n\nThe MEDIA FACTORY is home to the community, education and government access and WBTV-LP 99.3 FM. Located in the South End Arts District of Burlington, Vermont.\n\nMore at https://mediafactory.org"
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUK-pgcVtCKeb644cOZZZYSg"
+        }
+      },
+      "statistics": {
+        "viewCount": "1431424",
+        "subscriberCount": "4490",
+        "hiddenSubscriberCount": false,
+        "videoCount": "1497"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/098wr",
+          "/m/01k8wb",
+          "/m/019_rr"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Society",
+          "https://en.wikipedia.org/wiki/Knowledge",
+          "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "Media Factory",
+          "description": "We're a community of media makers who work in tv, film, radio, and more. At the MEDIA FACTORY, we provide the tools, training, space and access to distribution that give you the power to share your story.\n\nThe MEDIA FACTORY is home to the community, education and government access and WBTV-LP 99.3 FM. Located in the South End Arts District of Burlington, Vermont.\n\nMore at https://mediafactory.org",
+          "keywords": "Vermont Education media \"Media Factory\" RETN VCAM Access",
+          "trackingAnalyticsAccountId": "UA-1852155-6",
+          "unsubscribedTrailer": "1PWl_wtBmcY",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.googleusercontent.com/3_NGH8bT1YvfNzfPEQxTJAY-xkom5R9sJROy5OcTzgb403KxnsCAEdqLmBpRxmWWyN_H4C5x5Q"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:16.197292"
+}

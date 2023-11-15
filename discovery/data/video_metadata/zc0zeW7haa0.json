@@ -1,0 +1,78 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "YEmoEN4EvJCInj9-eei1hEPpiyk",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "HDqTDScHE_J5VKXa1JVX6P185f4",
+      "id": "zc0zeW7haa0",
+      "snippet": {
+        "publishedAt": "2020-09-10T17:33:44Z",
+        "channelId": "UC3ESdgyRuTa9Wu62KGxT5lg",
+        "title": "PA State Board of Education Meeting September 9, 2020",
+        "description": "A recording of the Pennsylvania State Board of Education meeting held September 9, 2020 via Zoom.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zc0zeW7haa0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zc0zeW7haa0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zc0zeW7haa0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zc0zeW7haa0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zc0zeW7haa0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Pennsylvania Department of Education",
+        "tags": [
+          "Pennsylvania",
+          "Department of Education",
+          "PDE",
+          "Education"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "PA State Board of Education Meeting September 9, 2020",
+          "description": "A recording of the Pennsylvania State Board of Education meeting held September 9, 2020 via Zoom."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT2H24M",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "163",
+        "likeCount": "0",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

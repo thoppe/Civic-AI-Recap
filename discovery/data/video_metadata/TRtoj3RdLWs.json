@@ -1,0 +1,78 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "-eYT_H-VU6Zc2a5zk-txiiJbmYA",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "xP1xqWyS5AFc4QKiWJnTBlU7VUA",
+      "id": "TRtoj3RdLWs",
+      "snippet": {
+        "publishedAt": "2023-07-19T19:16:29Z",
+        "channelId": "UC4syLEAddnSs33Z_WucEeUA",
+        "title": "State Board of Education Meeting July 12, 2023",
+        "description": "The State Board of Education meeting was held at 1430 N Street, Sacramento, California 95814.\n\nThe California State Board of Education (SBE) is the K-12 policy-making body for academic standards, curriculum, instructional materials, assessments and accountability. The SBE has 11 members, all of whom are appointed by the Governor and serve four-year, staggered terms, with the exception of the student member, who serves a one-year term. The State Superintendent of Public Instruction, who heads the California Department of Education (CDE), serves as the SBE's executive officer and secretary.\n\nVideo Chapters:\n\n00:00:00 - Call to order / Announcements\n\n00:04:34 - Item 01, STATE BOARD PROJECTS AND PRIORITIES. Report of the State superintendent Tony Thurmond\n\n00:21:23 - Report of the Board president Linda Darling-Hammond\n\n00:26:28 - Item 02, Update on the Implementation of the Integrated Local, State, and Federal Accountability and Continuous Improvement System: Addendum to the Continuing Work and Revisions Under Consideration for the 2023 Dashboard Related to the Chronic Absenteeism Indicator.\n\n01:57:55 - Item 03, The California Assessment of Student Performance and Progress and the English Language Proficiency Assessments for California: Update on Program Activities.\n\n03:09:16 - Items 04-10 on consent\n\n03:10:45 - Item 01 continued, Recognize Student Board Member Naomi Porter\n\n03:20:19 - Item 11, Adoption of the 2023 Mathematics Framework for California Public Schools, Kindergarten Through Grade Twelve.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TRtoj3RdLWs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TRtoj3RdLWs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TRtoj3RdLWs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/TRtoj3RdLWs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "California Department of Education",
+        "tags": [
+          "California Department of Education",
+          "CDE",
+          "State Board of Education",
+          "SBE",
+          "K-12",
+          "academic standards",
+          "curriculum",
+          "instructional materials",
+          "assessments",
+          "accountability"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "State Board of Education Meeting July 12, 2023",
+          "description": "The State Board of Education meeting was held at 1430 N Street, Sacramento, California 95814.\n\nThe California State Board of Education (SBE) is the K-12 policy-making body for academic standards, curriculum, instructional materials, assessments and accountability. The SBE has 11 members, all of whom are appointed by the Governor and serve four-year, staggered terms, with the exception of the student member, who serves a one-year term. The State Superintendent of Public Instruction, who heads the California Department of Education (CDE), serves as the SBE's executive officer and secretary.\n\nVideo Chapters:\n\n00:00:00 - Call to order / Announcements\n\n00:04:34 - Item 01, STATE BOARD PROJECTS AND PRIORITIES. Report of the State superintendent Tony Thurmond\n\n00:21:23 - Report of the Board president Linda Darling-Hammond\n\n00:26:28 - Item 02, Update on the Implementation of the Integrated Local, State, and Federal Accountability and Continuous Improvement System: Addendum to the Continuing Work and Revisions Under Consideration for the 2023 Dashboard Related to the Chronic Absenteeism Indicator.\n\n01:57:55 - Item 03, The California Assessment of Student Performance and Progress and the English Language Proficiency Assessments for California: Update on Program Activities.\n\n03:09:16 - Items 04-10 on consent\n\n03:10:45 - Item 01 continued, Recognize Student Board Member Naomi Porter\n\n03:20:19 - Item 11, Adoption of the 2023 Mathematics Framework for California Public Schools, Kindergarten Through Grade Twelve."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT7H32M52S",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "367",
+        "likeCount": "0",
+        "favoriteCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

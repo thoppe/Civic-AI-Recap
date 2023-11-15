@@ -1,0 +1,790 @@
+ready. Good afternoon. Welcome to Preventive Medicine Grand Rounds for November 3, 2021.
+I'm Antonio Neri from the Division of Scientific Education and Professional Development. The
+Preventive Medicine Grand Rounds is sponsored by the CDC Preventive Medicine Residency and Fellowship,
+as well as the Health Resources and Services Administration Bureau of Health Workforce.
+The PMRF at CDC provides 12- and 24-month full-time longitudinal service learning
+opportunities with senior public and population health leaders for physicians, veterinarians,
+and nurses who have completed the CDC Epidemic Intelligence Service Program or have equivalent
+public health experience. We use Zoom, as you can see, for the audio and presentation,
+and the question and answer box to pose questions. Note that you can pose questions
+via the question box at any point during the lecture, and those speakers will answer them
+at their discretion. Note that your name may be associated with the question you pose. If
+you do not wish your name to be associated with the question, then please check the
+submit anonymously box on your question. Continuing education credits are available
+for the live course for up to one month after the presentation date, and for the recorded version,
+up to two years from the date of presentation through the CDC Training and Continuing Education
+Online Portal. The course code to access these ground rounds is all-capital letters, C-D-C-P-M-R-F.
+Again, all capitals, C-D-C-P-M-R-F. If you have questions, please contact myself, Antonio Neri,
+or email the program at prevmed.cdc.gov. Please remember that the views presented by the speaker
+are theirs alone and do not represent CDC, the Department of Health and Human Services,
+or the U.S. Government. Before we start our grand rounds, we'll take our usual moment of silence
+for our friends, family, and colleagues who have suffered from COVID or even passed away.
+Okay. Today's grand rounds will be entitled, Introduction to Tribal Public Health Infrastructure
+and CDC by Captain Karen Heard, who is with the Centers for Disease Control Center for State,
+Local, Tribal, and Territorial Support. Captain Heard, the floor is yours. Take it away.
+Good afternoon, and thank you for allowing me the time to share with you this presentation about
+tribal public health infrastructure and CDC. So, as was shared, I am Captain Karen Heard,
+and I'm a citizen of the Choctaw Nation of Oklahoma, and I'm coming to you today from
+the Choctaw Reservation in Oklahoma. Next slide, please.
+The learning objectives for today's presentation include develop more awareness and knowledge of
+the diversity of American Indian Alaskan Native populations, identify historical laws that greatly
+impact American Indian Alaskan Native populations, understand how AIAN populations are unique to
+public health, develop awareness of partners that contribute to AIAN public health, understand how
+CDC supports tribal public health infrastructure, and learn about CDC Office of Tribal Affairs and
+Strategic Alliances and their collaborations and work with American Indian Alaskan Native populations.
+Next slide, please.
+So, as an introduction for my office, the Office of Tribal Affairs and Strategic Alliances,
+or OTASA, we reside within CDC's Center for State, Tribal, Local, and Territorial Support,
+or CSTLTS. CSTLTS works to improve community health outcomes by strengthening state,
+tribal, local, and territorial health agencies. Next slide, please.
+This organizational chart highlights CSTLTS leadership. In the middle of the chart,
+you see our Director, Dr. Jose Montero, and the Acting Deputy Director, Dr. Andrea Young.
+You also see the OTASA office that I direct depicted on the left. Next slide, please.
+OTASA's mission is to affirm the government-to-government relationship
+between CDC and American Indian and Alaskan Native tribal nations by advancing connections,
+providing expertise, and increasing resources to improve tribal communities' public health.
+Next slide, please.
+OTASA works closely with American Indian and Alaskan Native communities to coordinate activities,
+provide expertise, technical assistance, and resources. As CDC's principal point of contact
+for American Indian and Alaskan Native tribal nations and tribal-serving organizations,
+OTASA works to connect tribal nations, tribal-serving organizations, and other stakeholders
+to CDC and the Agency for Toxic Substances Disease Registry, or ATSDR, programs. We ensure that
+American Indian and Alaskan Native communities receive public health services that keep them
+safe and healthy, and we provide and facilitate funding for building and improving cross-cutting
+tribal public health infrastructure. Next slide, please.
+Before we discuss public health infrastructure, it's important to first note the vast diversity
+of American Indian and Alaskan Native communities. There are currently 574 federally recognized
+tribal nations across the United States. Each tribal nation is unique in their history,
+cultural practices, and traditions. Moreover, tribal nations range in capacity of public health
+workforce as well as the tribal public health departments and population size of the tribal
+nations themselves. Tribal nations can range in size from some California rancherias of less than
+one acre to the Navajo Nation at more than 17 million acres. Tribal sovereignty refers to the
+rights of American Indian and Alaskan Natives to govern themselves. Each tribal nation also differs
+in their own laws and policies. As sovereign nations, the federal government has a government
+to government relationship with each tribal nation to uphold. Next slide, please.
+When understanding public health infrastructure for American Indian and Alaskan Native populations,
+it is important to first understand a few key historical federal Indian laws that greatly
+impact tribal nations and American Indian Alaskan Native populations. Next slide, please.
+We will start with the Federal Indian Removal Act of 1830. This federal policy authorized President
+Jackson the right to make land exchanges by forcibly removing the five tribes Cherokee,
+Muskogee Creek, Chickasaw, Mai Tribe, Choctaw, and Seminole from their ancestral lands against
+their will. Over the next several decades, more than 40 tribes were removed to Indian country,
+an area that now comprises the state of Oklahoma. President Jackson rationalized the removal program
+as a benevolent effort that gave American Indians one last chance to assimilate and
+give up their culture. And President Andrews Jackson addressed to Congress, he told lawmakers,
+surrounded by our settlements, these Indians have neither the intelligence, the industry,
+the moral habits, nor the desire of improvement, which are essential to any favorable change in
+their condition. Established in the midst of another and superior race and without appreciating
+the causes of their inferiority or seeking to control them, they must necessarily yield to the
+force of circumstances and ere long disappear. The Treaty of Dancing Rabbit Creek, which was
+proclaimed on February 24, 1831, between the Choctaw and the United States, is the treaty
+that brought my family to Oklahoma, where I live today. About 17,000 Choctaws started the journey
+from Mississippi to Oklahoma, and it's estimated that nearly a third died along the way from
+starvation, exposure, and disease. Today, though, we claim over 200,000 Choctaw Nation citizens.
+I wanted to just take a chance and share briefly a personal experience that I have related to the
+removal route and the journey. So in June of 2012, I had the honor of participating with a small group
+from the University of Washington's Indigenous Wellness Research Institute and the Choctaw Nation
+of Oklahoma, re-walking the historical Trail of Tears. The project was named Jopali, and in the
+Choctaw language, Jopali means to walk slowly and softly. The goal of the walk as a pilot project
+was to connect culturally with the space to discuss and pledge to the health of future Choctaw
+generations. We began and ended the day with cultural teachings and really reflected on our
+diet and exercise. Prior to this walk, I had gained some weight and wasn't in great shape, so I was
+getting kind of in touch with my physical health, and it also presented an opportunity for
+participants to make meaningful health changes, and I was able to do that. So I was able to
+make meaningful health changes in our own lives. So the removal route is about 500 miles, and so
+as we planned for the walk, we had to do a lot of research around the history of the trails,
+and that meant that we learned some about our own family's path to Oklahoma.
+And I just wanted to share an experience that I had personally during this time. There was a
+part in the path that's close to present-day Washington State Park, and that's a recreated
+kind of historical site in Arkansas of a town that was there previously, and my family had come
+through this area, and for those of you that aren't familiar with Arkansas, there's several
+areas that can become very boggy and hard to get through, and my family had come up on this site
+and had to wade through water that was kind of up to our shoulders, and a lot of people became
+sickened during this time, and even some of the little ones died across this, and so when they
+came out of this area, there was a little town, and this town would not allow them to stay,
+and so they had to keep walking in a town close to present-day Washington State Park,
+allowed them to stay, and fed them, and gave them comfort. And when we re-walked the walk
+at this time, I became pretty overwhelmed putting my feet in the soil kind of of my ancestors,
+and we were all very tired and worn down at this park at this point in time, and some archaeologists
+that were staying at Washington State Park when we walked through invited us to stay the night
+fed us a meal and gave us comfort during this time, and it really brought home to me
+the meaning of this trail and the sacrifice that our ancestors made for us to keep our tribal
+sovereignty and make a new home in Oklahoma. So I just wanted to share that because I think
+these stories kind of bring them that, make these experiences more real and bring deeper
+understanding. Let's go ahead and go to the next slide please.
+So in 1851, the U.S. Congress passes the Indian Appropriations Act, creating the reservation
+system to move western tribes onto reservations. The men who created the reservation system believe
+that American Indians could be confined to one particular geographical place reserved for them,
+they could become civilized and assimilated into American life and transformed into good Christian
+farmers. The reservations were established to make sure the remaining tribes converted to
+Christianity and became Americanized. Within reservation borders, American Indians were not
+allowed to leave except by permission. Those who left were arrested and severely punished.
+The federal policies were enforced by Indian agents which suppressed tribal culture and
+traditional activities. Treaties were the primary method for creating reservations,
+but Congress suspended formal treaty development in 1871. Therefore, executive orders, congressional
+acts, or any legal combination recognized by the federal government were used to establish
+federal reservations. Go ahead and go to the next slide please.
+The General Allotment Act of 1887 is also known as the Dawes Act of 1887. This policy had a
+disastrous effect on many tribes. This federal policy was designed to detribalize the American
+Indian by destroying the idea of communal land ownership on the reservations. The provisions of
+the General Allotment Act include the allotments were held in trust by the U.S. government for 25
+years. Eligible American Indians had four years to select their land, but afterwards the selection
+would be made for them by the Secretary of the Interior. U.S. citizenship would be confirmed
+upon American Indians who abandoned their tribes and adopted the habit of civilized life.
+Lastly, all land not allotted were averted to the control of the federal government and can be sold.
+Consequently, land owned by American Indians decreased from 138 million acres in 1887
+to only 48 million acres in 1934. This act also established the Dawes Roll, which my tribe,
+the Choctaw Nation, still uses for descendancy and tribal membership. My great-great-grandmother,
+Matilda Harrell, and her son, my great-grandfather, James Harrell, were the original enrollees for my
+family. Go ahead and go to the next slide, please. The Indian Reorganization Act of 1934,
+also known as the Wheeler-Howard Act, was signed by President Roosevelt on June 18,
+1934. This law allows tribes to establish formal governments within limited powers
+and allows the formation of corporations to manage tribal resources. So the Indian Reorganization
+Act offered federal subsidies to tribes that adopted constitutions like that of the United
+States and replaced their government with city council-style governments. Also, American Indians
+were given the right to establish a credit system and it granted certain rights of home
+rule to American Indians. It provided some vocational education. Also, employment of
+American Indian in the Bureau of Indian Affairs was also increased. This act served to give
+American Indians a chance at a new deal, quotation marks that ran parallel to many other programs.
+Go ahead and go to the next slide, please. In 1953, Congress passes a resolution beginning
+federal policy of termination. The image above shows a relocation brochure distributed to
+American Indians in the 1950s. A companion policy of relocation moves Indians off reservations and
+into urban areas. Through these policies, the BIA planned to move thousands of American Indian
+people to cities and urban jobs. The goal really was to absorb American Indians into mainstream society.
+Go ahead and go to the next slide, please.
+So from some of the key federal Indian laws that we've just discussed,
+I would like to now transition in to discuss social determinants of health and how American
+Indian Alaskan Native populations might uniquely experience social determinants of health.
+Go to the next slide, please.
+Historical trauma is the intergenerational collective experience of complex trauma
+that was inflicted on a group of people who share a specific group identity or affiliations
+such as nationality, religious affiliation, or ethnicity. As discussed earlier, the forced removal
+from Native lands because of government policy is one example of historical trauma. Another example
+experienced widely across American Indian Alaskan Native population is government policies sending
+children to boarding schools, which prohibited speaking Native languages or practicing their
+individual spirituality. These policies have caused tremendous impact across multiple generations,
+such as loss of Native languages, cultural practices, and loss of Native foods as a result
+of loss of land. On November 26, 2019, the President signed Executive Order 13898, forming the
+Task Force on Missing and Murdered American Indian Alaskan Natives, also recognized as Operation Lady
+Justice. The OLAJ Task Force aims to enhance the criminal justice system and address the legitimate
+concerns of American Indian Alaskan Native communities regarding missing and murdered people,
+specifically missing and murdered Indigenous women and girls. So this task force is a multi-agency
+effort that will allow top federal officials to engage, coordinate, and work with tribal governments
+on developing strategies to address the crisis by looking at means to collect and manage data
+across jurisdictions, establish protocols for new and unsolved cases, establishing multi-jurisdictional
+cold case teams, improving response to investigative challenges, and providing clarity on roles,
+authorities, and jurisdiction. For CDC, Laura Coller and Dr. Delight Satter represent CDC
+on this OLAJ Task Force. Additionally, as we look at social determinants of health,
+we see that multi-generational housing is an important consideration when developing
+strategies for public health programs. Many American and Alaskan Native populations reside
+within multiple generations with youth and elders in the same home. So this has really come to light
+when we look at addressing quarantining related to COVID-19 and specific strategies to
+protect the elders in the home. Access is another important consideration for Native populations.
+Access to food and health care can be difficult due to geographical location alone for some.
+In wintertime, especially, some roads can be inaccessible or at times of flooding.
+Also, specifically for health care access, the rurality of American and Alaskan Native
+communities can cause a provider shortage. Additionally, compared to white residents,
+rural AIAN populations were disproportionately concentrated in rural counties that are above
+the median for a proportion of their population that lacks health insurance. Additionally,
+food insecurity is strongly correlated with malnutrition and underweight as well as obesity
+and type 2 diabetes. Sometimes access to vegetables and fruit intake can decline significantly as food
+insecurity increases, which can contribute to excess cancer and cardiovascular risk.
+Go ahead and go to the next slide, please.
+So the American Indian and Alaskan Native people have long experienced lower health status when
+compared with other Americans. Lower life expectancy and the disproportionate disease
+burden exist perhaps because of inadequate education, disproportionate poverty, discrimination
+in the delivery of health services and cultural differences. These are broad quality of life
+issues rooted in economic adversity and poor social conditions. American Indians and Alaskan
+Natives born today have a life expectancy that is 5.5 years less than the U.S. all races population.
+The specific reasons for health disparities are complex and represent much more than who American
+Indian and Alaskan Natives are. They also represent where people live and the services available and
+accessible to them. Factors such as having a regular source of care, language and communication
+barriers, lack of diversity in the health care workforce, high rates of poverty, lack of insurance
+coverage, discrimination and large distances from health care services have all added to
+the disparities. Go ahead and go to the next slide, please.
+It is important to note that although the trauma history that I've shared is a part of the story,
+it is just that, a part of the story. Our history is also a history of vast cultural knowledge,
+wisdom, ceremony and practices, resilience and survival. Additionally, some tribal nations are
+defining their own social determinants of health, and they are also defining their own
+social determinants of health, including factors such as cultural identity, family,
+participation in cultural activities, access to Native lands and natural resources.
+With this in mind, it is important to consider specific cultural strategies
+to address public health prevention for American Indian and Alaskan Native populations
+as a result of the previously mentioned unique social determinants of health and health
+disparities. I want to highlight tribal practices for wellness in Indian country,
+which will be discussed in more detail later in the presentation as a key example that supports
+tribal practices as a path to prevention and wellness promotion in American Indian and Alaskan
+Native communities. A TIPWIC is a four-year cooperative agreement of American Indian and
+Alaskan Native tribes and Alaska Native villages or tribally designated organizations that work
+with tribes. There's 15 urban Indian organizations receiving a total of approximately 5 million per
+year. So the mission of TIPWIC is to encourage and support tribal practices that build resiliency
+and connections to community, family and culture. Seven strategies are employed toward this mission.
+Connect cultural teachings to health and wellness, support seasonal cultural practices that support
+health and wellness, implement social and cultural activities that promote community wellness,
+establish and maintain collaborations that strengthen well-being, support intergenerational
+learning for well-being and resilience, promote traditional healthy foods and promote traditional
+and contemporary physical activities. It's important to note in addressing public health
+for American Indian and Alaskan Native population, it's important to build flexibility into the
+cooperative agreement or program to allow American Indian and Alaskan Native populations
+to bring cultural and traditional adaptations that work individually for their community.
+Flexibility per tribal nation is important as not one tribal nation is the same and their
+experiences are all different and their traditions and cultural are all unique to them. Next slide,
+please. So shifting to looking at public health infrastructure and important partners in Indian
+country. So public health infrastructure provides communities, states and the nation with the
+capacity to prevent disease, promote health and prepare for and respond to acute threats
+and challenges to health. Infrastructure is the foundation for planning, delivering, evaluating
+and improving public health and enables the public health system to function including a workforce
+training and public health core competencies, information and data systems for rapidly
+assessing and communicating information and the ability to respond to public health needs
+in culturally responsive and relevant ways. Some tribes look at public health more like community
+health where it's an extension to health care services. So in this section we will go into more
+detail of tribal public health infrastructure and how CDC works with tribal nations and their
+public health infrastructure. This section will also discuss tribal partners in more detail.
+Next slide, please. So I wanted to just share briefly the differences between Title I and
+Title V, also known as 638. So when we look at Title I, Tribally Contracted Facilities,
+they are run by federally recognized tribes or organizations with the IHS to plan, conduct and
+administer one or more individual programs, functions, services or activities or portions
+thereof that IHS would otherwise provide for Indians because of their status as American
+Indian and Alaska Natives. For Title V, Tribally Compacted Facilities, they're run by federally
+recognized tribes or tribal organizations with the IHS to assume full funding and control over
+programs, services, functions or activities or portions thereof that IHS would otherwise provide.
+So my tribe, the Choctaw Nation of Oklahoma is a 638. So they have elected to run the full array
+of services for the Choctaw Nation. Go ahead and go to the next slide, please.
+So both Title V and Title I for tribal administration or programs formerly administered
+by IHS, the major difference is a matter of oversight. So under Title V, a tribe may redesign
+or consolidate programs, services, functions or activities, also known as PSFAs because we in the
+government love our acronyms and reallocate or redirect funding without IHS approval in accordance
+with the Indian Self-Determination Education Act. In contrast, IHS must approve any substantial
+changes to a Title I contract. The programs aren't not exclusive because tribes can choose
+which PSFAs or portions to assume. A tribe may combine Title V, Title I and direct services to
+best meet the needs of its communities and Tribal 638 programs are eligible for federally
+qualified health center grants at FQHC. Go ahead and go to the next slide, please.
+So urban Indians not only share the same health problems as the general American Indian and Alaska
+Native population, but their problems may be exacerbated in terms of mental and physical
+hardships because of the lack of family and traditional cultural environments.
+It is important to understand the different partners that contribute to urban Indian health
+as approximately 70% of American Indians and Alaska Natives live in urban areas.
+Go ahead and go to the next slide, please.
+Urban Indian Health Centers. So these are designated federally qualified health centers
+that provide comprehensive primary care and related services to American Indians and Alaska
+Natives. The facilities are owned or leased by urban Indian organizations and receive grant and
+contract funding through Title V of the Indian Health Care Improvement Act. This is a picture
+of the Missoula Urban Indian Health Center in Missoula, Montana. Go ahead and go to the next
+slide, please. The IHS provides contracts and grants to 41 urban centered nonprofit
+urban Indian organizations providing healthcare services at 59 locations throughout the United
+States. The 41 programs engage in a variety of culturally appropriate activities to increase
+access to health services for urban Indians. The National Council of Urban Indian Health,
+or NACUI, is a national nonprofit devoted to the support and development of quality, accessible,
+and culturally competent health services for American Indians and Alaska Natives living
+in urban settings. Next slide, please. So before we move on to Indian health boards and tribal
+epicenters, we have a question in the box. Does OTASTA have resources on which tribes are Title
+I versus Title V? Similarly, are these resources on which tribes use BIA police officers compared
+to tribal police departments? So this is a complicated question when you are looking at
+BIA and police officers and how tribal police departments function. So I would need a little
+bit more time to unpack that one, but we do have some resources that we could point you to as far
+as Title I versus Title V. And I will share an email at the end of the presentation if you want
+to reach out to us. I would be so happy to talk with you about that offline. So let's go to the
+Indian health boards and tribal epicenters. So these partners work with tribal nations and urban
+Indian health organizations to support and fill in gaps in health care programs and essential
+public health services. Go ahead and go to the next slide, please.
+Area Indian health boards are nonprofit tribal advisory organizations run and organized by
+participating tribes. Most focused on four areas as they pertain to the health of American Indian
+Alaska Native people. Health promotion and disease prevention, legislative and policy analysis,
+training and technical assistance, and surveillance and research.
+You see on the slide that there's 12 regional tribally designated organizations run and
+organized by participating tribal nations. So we have the Alaska Native health board for the
+Alaska area. And these also are connected to the 12 areas for Indian health service.
+As you may or may not be aware, HHS has 10 regions, but Indian health service has 12
+areas. So we have the Alaska Native health board, the Albuquerque area Indian health board,
+the Great Lakes area tribal health board, Rocky Mountain tribal leaders council,
+California rural Indian health board, Great Plains tribal chairman's health board,
+Northwest Portland area health board, inner tribal council of Arizona, the Southern Plains
+tribal health board, the Navajo Nation Department of Health, and the United South and Eastern tribes.
+And this picture depicts the Indian health board of Minneapolis. Go ahead and go to the next slide,
+please. Additionally, the national Indian health board or NIHB is a nonprofit organization that
+represents tribal governments, both those that operate their own health care delivery systems
+through contracting and compacting and those receiving health care directly from IHS. The
+area health board serve as member organizations of the national Indian health board and the
+communication link between the NIHB and tribes. Member organizations advise in the development
+of positions on health policy, planning, and program design. They gather information and
+review public opinion and proposals. In areas without an area health board,
+the NIHB representative communicates policy information and concerns to the tribes in that
+area. Go ahead and go to the next slide, please. Additionally, tribal epidemiology center or TECS
+are Indian health service division funded organizations who serve American Indian
+Alaska Native tribal and urban communities by managing public health information systems,
+investigating diseases of concern, managing disease prevention and control programs,
+and responding to public health emergencies and coordinating these activities with other
+public health authorities. Each TEC is unique in terms of the types and range of activities
+conducted and services offered. There are 12 TECs in total with different missions and activities
+per their area. Go ahead and go to the next slide, please.
+So in this next subsection, we'll provide details on federal agencies and how they partner with
+tribal nations, including a few highlights of projects supporting public health infrastructure
+in Indian country. Most federal work with American Indian Alaska Native tribal nations and urban
+American AIA and individuals flows from two federal departments, Department of the Interior
+and Department of Health and Human Services. Go ahead and go to the next slide, please.
+Key federal partners working with tribal nations include the Department of Interior. The BIA is
+the oldest agency of the U.S. Department of Interior. The BIA carries out its core mission
+to serve the federally recognized tribes through four offices, the Office of Indian Services.
+That office operates BIA's general assistance, disaster relief, Indian child welfare, tribal
+government, Indian self-determination, and reservation roads programs. When I first started
+my career, I'm a licensed clinical social worker by training. I started out at a small clinic in
+Wewoka, Oklahoma, and I worked closely with this office related to general assistance and Indian
+child welfare. The Office of Justice Services directly operates or funds law enforcement,
+tribal courts, detention facilities, or on federal Indian lands. The Office of Trust Services works
+with tribes and individual American Indian and Alaska Natives in the management of their trust
+land assets and resources. And finally, the Office of Field Operations oversees 12 regional offices
+and 83 agencies which carry out the mission at the Bureau at the tribal level. We also have the
+Bureau of Indian Education. It provides education services from early childhood through life in
+accordance with the tribe's needs for cultural and economic well-being. Within the Department of
+Health and Human Services, the public health service agencies include Indian Health Service,
+and IHS is responsible for providing federal health care services to American Indians and
+Alaska Natives. IHS, as I shared before, has 12 area offices and 170 IHS and tribally managed
+service units. The Food and Drug Administration ensures that food is safe and pure and wholesome.
+The Health Resources and Services Administration provides health care to people who are geographically
+isolated economically, medically vulnerable. The National Institutes of Health supports
+biomedical and behavioral research. And the Substance Use Mental Health Services Administration
+improves access and reduces barriers to high quality effective programs and services
+for individuals who may suffer or are at risk of addictive and mental health disorders. And of
+course, the Centers for Disease Control and Prevention. Go to the next slide, please.
+So I wanted to shift gears just a little bit and share with you
+the Tribal Behavioral Health Agenda. So an example, this is an example really of how
+agencies are collaborating with tribes. So the Substance Abuse and Mental Health Services
+Administration or SAMHSA and Indian Health Service worked with the National Indian Health Board
+to gather input from tribal leaders and other relevant partners to develop the National Tribal
+Behavioral Health Agenda. So the TBHA, it's not a strategic plan. It's rather a guiding blueprint
+that will assist in strengthening policies and programs, aligning disparate resources and
+facilitating collaboration. It identifies existing strategic plans and efforts that can serve
+as initial pathways for action. And as a single unifying tool, which engaged partners, it can
+gather utilizing common language and priorities. And I know several tribal citizens that worked
+on this Tribal Behavioral Health Agenda and it was really a labor of love for them.
+It addresses five foundational elements, historical and intergenerational trauma,
+national awareness and visibility, social ecological approaches, prevention and recovery
+supports, and behavioral health services and systems improvement. It really works to provide
+a clear national statement about the extent of behavioral health related problems and their
+impact on the well-being of tribal communities. It identifies the foundational elements that I
+shared. It also provides actions that tribal, federal, state, and local governments in the
+private sector should consider based on evidence and practice-based strategies.
+It elevates priorities for actions that could or are likely to contribute to meaningful progress
+and tackling persistent behavioral health problems for Native youth families and communities.
+And it guides the development of strategies that over time more cohesively address factors that
+contribute to improved emotional health. And there's a link here to the Tribal Behavioral
+Health Agenda if you have an interest in reading it more fully. Next slide, please.
+So, I have a question that says, might you be aware or know the status of the Office of Minority
+Health's initiative to create a Center for Indigenous Innovation and Health Equity Center?
+Yes, I am aware of this. I attended a listening session last week about the creation of the Center
+on the Office of Minority Health website. There should be slides from that listening
+session that can give you more information if you have interest. I know they are also
+recruiting elected tribal leaders to serve on their newly formed Tribal Advisory Committee.
+So, they are asking for help to publicize that as well. And reference the recording of this webinar,
+I am not sure. I know it's being recorded and we can address that at the end of the session.
+So, as we shift gears, the CDC has several projects related to tribal public health
+infrastructure. I wanted to talk about these projects now that I've explained and discussed
+historical factors and components of health in tribal communities. I'm going to highlight
+a few of these projects supporting public health infrastructure. Please understand that
+in this limited time, this is not an exhaustive list of projects as supporting tribal public
+health infrastructure. Just trying to give a few highlights. Go ahead and go to the next slide,
+please. Direct funding of American Indian and Alaska Native tribes and organizations.
+Direct funding allows tribal nations to compete with agencies of similar infrastructure. States
+get direct funding for many public health issues and tribal nations must rely on states to pass
+funding down through them. Moreover, funding that is specific for tribal nations but also
+allow more flexibility to account for cultural and traditional best practices. CDC ATSDR currently
+has multiple direct funding opportunities to tribal nations and tribally designated
+organizations that help support public health efforts and support capacity building in Indian
+country. Listed on this slide are some examples of funding to tribes and tribal organizations.
+I'll talk a bit more about each of these funding mechanisms throughout this section. Go ahead and
+go to the next slide, please. I mentioned the tribal epicenters a little bit earlier in the
+presentation. The tribal epidemiology center public health infrastructure or tech fee is a CDC
+cooperative agreement that complements Indian health service funding to increase the tech's
+public health capacity and infrastructure. The purpose of tech fee is to reduce programmatic
+silos within the techs and expand their ability to perform the seven core functions by building
+data infrastructure, increasing staff capacity and establishing partnerships. CDC supports the
+12 techs and one network coordinating center. The network coordinating center coordinates the
+evaluation of this initiative and provides project organization, logistics and communications across
+the techs. Tech fee is a five-year cooperative agreement and the techs receive a total of
+approximately 8.5 million per year. Although each of the techs projects are unique, they are all
+engaging in the following three key strategies to contribute to overall health for American,
+Indian and Alaska Native people nationwide. Strengthening public health capacity and
+infrastructure, implementing activities to improve effectiveness of health promotion
+and disease prevention, engaging in sustainable activities after the funding cycle ends.
+The program intends to reduce chronic diseases and risk factors, reduce disparities in health
+outcomes and improve overall health by building public health capacity and infrastructure in
+Indian country for disease surveillance, epidemiology, prevention and control of disease,
+injury or disability. And you see on this slide where all of the techs are located and
+they are within the 12 Indian health service areas. Go ahead and go to the next slide, please.
+Tribal practices for wellness in Indian country is a four-year cooperative agreement.
+American, Indian, Alaska tribes and Alaska Native villages are tribally designated organizations
+that work with tribes and 15 urban Indian organizations receive a total of approximately
+$5 million per year. TIPWIC encourages and supports tribal practices that build resiliency
+and connections to community, family and culture. Over time, these can reduce risk factors for
+chronic disease and promote wellness among American, Indian and Alaska Natives.
+The CDC funds 36 tribes and urban Indian health centers through TIPWIC. The TIPWIC strategies
+fall into the following three general areas. Health promotion, increased traditional physical
+activity, traditional foods and overall healthy living practices. Cultural practices, increased
+knowledge and sharing of tribal history and cultural practices. Social and emotional wellbeing,
+an increased sense of belonging to tribe, sense of connection to culture and intergenerational
+interactions are having a positive impact on wellbeing. And this slide represents the states
+where the recipients are located. And as you see, we have recipients at several places on
+the map. Go ahead and go to the next slide, please. I now like to talk about good health
+and wellness in Indian country. Good health and wellness in Indian country continues to
+support healthy behaviors for American, Indian, Alaska Natives and emphasizes strategies to reduce
+risk factors in Native communities to attain long-term goals by supporting a coordinated
+and holistic approach to healthy living and chronic disease prevention. Work also is going
+toward reinforcing the work already underway in Indian country to make healthy choices easier for
+American Indians and Alaska Natives. Continuing to support culturally appropriate effective public
+health approaches and working with more tribes and extending the program's reach and impact through
+tribal organizations, including urban Indian organizations. Long-term goals include reducing
+type 2 diabetes, reducing commercial tobacco use, reducing high blood pressure and high blood
+cholesterol, increasing the intake of healthy foods and physical activity, and also increasing
+breastfeeding. Go ahead and go to the next slide, please. Now I'd like to share a little bit about
+the Tribal Public Health Capacity Building and Quality Improvement Umbrella Cooperative Grant,
+also known as OT18-1803. This program's purpose is to provide resources for American Indian and
+Alaska Native tribal nations and regional American Indian Alaska Native tribally designated
+organizations to optimize the quality and performance of the tribal public health system,
+including infrastructure, workforce data, and information systems, programs and services,
+resources and communication, and also partnerships. Work in these areas will increase the capacity of
+Indian country to identify, respond to, and mitigate public health threats and decrease
+burden of disease among American Indian and Alaska Natives. This cooperative agreement
+is in its fourth year of funding. OT18-1803 strategic areas and proposed activities work
+toward addressing eight of the ten essential public health services. Tribal public health system
+infrastructure encompassing developing policies, workforce assuring a competent workforce,
+tribal public health partnership encompassing mobilizing community partnerships,
+tribal public health programs and services linking to care and investigations, tribal public health
+resources and communication encompasses informing, educating, and empowering, and tribal data and
+information systems evaluating and monitoring health. Go ahead and go to the next slide please.
+And on this slide you see our OT18-1803 recipients. This cooperative agreement awards 25 federally
+recognized American Indian and Alaska Native tribal nations and regionally tribal designated
+organizations. So 14 tribal nations and 11 regional tribal organizations. Go ahead and go to the next
+slide please. And here is a map showing the recipients. Wisconsin, Oklahoma, and Washington
+states have the most representation. Go ahead and go to the next slide please.
+So this slide just shares the funding strategies under OT18-1803. Funding strategy one and funding
+strategy two. This cooperative agreement is an umbrella cooperative agreement allowing CDC CIOs
+to provide additional project plans to support public health infrastructure through the second
+funding strategy. The funding strategy is the base funding providing 22,000 to each recipient
+for public health infrastructure under the six strategies mentioned previously.
+Recipients receiving the base funding are then eligible for funding strategy two projects
+allowing for less competition for direct funding. Funding strategy two was created to maximize CDC
+programs priorities and health system needs in Indian country. The funding provides recipients
+opportunities for substantial topic specific funding. There are currently six CIOs that have
+projects funded under strategy two. Go ahead and go to the next slide please.
+So I'd like to share with you now some project examples of OT18-03. The Forest County Potawatomi
+community have an agreement for expanding tribal members access to health and wellness resources,
+increasing engagement in community events and supporting the involvement of tribal members
+and prioritizing and addressing the community's public health needs.
+FCPC was able to improve their data and knowledge of their community health by conducting needs
+assessments while also improving the recipient's outreach to their community. FCPC has enrolled
+tribal members and their family affiliates in the managed well health system and has been better
+able to understand the health and concerns of the community through biometric screenings and health
+assessments as part of their enrollment. I'm going to pause here and plug in my headphones,
+stand by. My headphones said they have had too much talking so thank you for that. So the Rocky
+Mountain Tribal Leaders Council is supporting a public health workforce expansion in Indian
+Country project modeled after CDC's public health associate program. They partnered with
+seven tribal colleges where students are selected and complete quick impact projects centered around
+behavioral health. This initiative to improve the public health workforce for American Indian
+and Alaska Natives also successfully developed another position within the recipient's organization
+to initiate partnership development amongst colleges. This position has been able to be
+sustainable by the recipient for a long-term partnership involvement. And lastly, the public
+health accreditation standards. This has multiple recipients. Multiple 1803 recipients are addressing
+public health accreditation standards. Standards include development and implementation of
+communication plans, community health assessments, strategic planning, community health improvement
+plans, and continuity of operation plans as well as data improvement among others. So Chickasaw
+Nation has been able to complete the big three. The community health assessment and also the
+community health improvement plan and strategic plan and is preparing to officially apply for
+PHAB accreditation. Cherokee Nation is working towards re-accreditation and the Gila River
+Eastern Band of Cherokee Indians, Choctaw Nation, Ho-Chunk Nation, Lummi Nation,
+Wabanaki Health and Wellness, and White Earthland of Chippewa Indians are all progressing in PHAB
+standards. Go ahead and go to the next slide please. There we go. So through the 1803
+cooperative agreement, CDC provides almost 60 million dollars through supplements to an
+existing CDC cooperative agreement, tribal public health capacity building and quality improvement.
+This includes about 39 million dollars to 12 regional tribal organizations to serve 10
+HHS regions and four tribal nations serving populations of 40,000 or more to prevent,
+prepare for, and respond to COVID-19 and 12 million dollars to 11 regional American Indian
+and Alaska Native tribally designated organizations to build public health capacity during the COVID-19
+response and recovery. The OT 1803 cooperative agreement acted as an already existing funding
+mechanism to rapidly provide COVID-19 supplemental funding to regional organizations in response to
+the pandemic. The CDC ATSDR tribal advisor committee that will be discussed in more detail
+later has requested continued funding and expansion of recipients for this cooperative agreement.
+A new umbrella NOFO is expected in 2023. Go ahead and go to the next slide please.
+The Supporting Tribal Public Health Capacity in Coronavirus Preparedness and Response Grant or OT
+20 2004. In addition to the already existing funding mechanism OT 1803, CDC developed a new grant
+to provide COVID-19 funding direct to tribal nations and organizations. This is a non-competitive
+grant that provides funding to 346 tribal recipients. This includes 290 tribal nations,
+25 tribal consortia, and 31 tribal organizations which reach more than 490 tribes
+and more than 39 million individuals according to grantee self-report. Go ahead and go to the next
+slide please. Additionally, the Strengthening Public Health Systems and Services through
+National Partnerships to Improve and Protect the Nation's Health Cooperative Agreement or OT
+18 1802. The purpose of this initiative is to strengthen the nation's public health
+infrastructure, ensure a confident current and connected public health system, and improve the
+delivery of 10 essential public health services through capacity building assistance. The program
+strategies include strengthening the capacities of public health systems infrastructure, leadership,
+and workforce, data and information systems, communication and information technology,
+partnerships, law and policies, and programs and services. Partners will deliver capacity
+building assistance through technical assistance, training, information, sharing, technology
+transfer, materials development, or funding that enables organizations to serve customers better
+and operate in a comprehensive, responsive, and effective manner. Organizations working on
+tribal-related projects who received awards through this cooperative agreement include,
+but are not limited to, the National Council of Urban Indian Health NACUI, the National Indian
+Health Board, NIHB, and the National Network of Public Health Institutes. Next slide please.
+I want to shift just a minute and talk about working with tribal nations training.
+This training was created by NIHB with funding and support from the Center for Disease Control
+and Prevention, CDC. The Working with Tribes training course is part of NIHB's aim to increase
+familiarity with tribes throughout all levels of government, elevate tribal health care and
+public health needs, and improve non-tribal government employees' familiarity and comfort
+with working with tribes. The training module was created using input from area Indian health boards
+and other tribal partners, CDC staff, and other federal staff and non-tribal stakeholders.
+The training underwent two rounds of pilot testing and review prior to the public release.
+It may also be useful for other professionals such as those who are working with tribal leaders or
+conducting consultation activities. Additionally, the first module of the course provides general
+information on the impacts of colonization and historical trauma on tribal nations.
+That may be more widely useful for those who want to learn more about the experience of
+this nation's indigenous peoples. You can access this training if you have interest on the NIHB's
+website. Go ahead and go to the next slide please.
+Racial misclassification of American Indian and Alaska Native people in dangerous lives.
+It marginalizes American Indian and Alaska Native people and leaves the organizations that serve
+them without sufficient data to make decisions or fund the services they provide. This report
+examines the problem of racial misclassification on death certificates with a particular focus on
+the role of funeral directors in urban communities. For over a year, the National Council of Urban
+Indian Health investigated possible factors that might create racial misclassification and looked
+for solutions to prevent these factors. This document is intended as a broad and introductory
+guide for a variety of stakeholders that can help prevent this problem, including funeral directors,
+businesses, and industry associations, statisticians, and public health experts,
+and policy stakeholders. The report consists of five parts, a review of the vital record
+systems, racial misclassification of deaths, and relevant literature on this topic, a description
+of the survey, listening sessions, and interviews conducted by NACUI to learn about funeral director
+policies, practices, and experiences, results from these activities, and then a discussion
+summarizing what NACUI has learned, and a list of recommendations geared at the prevention of racial
+misclassifications on death certificates before it occurs. Go ahead and go to the next slide, please.
+The Public Health and Indian Country Capacity Scan, or FICS, the National Indian Health Board
+in partnership with the Centers for Disease Control and Prevention released the 2019 Public
+Health and Indian Country Capacity Scan that provides a comprehensive picture of tribal public
+health infrastructure and activities, specifically immunization, screening, and prevention education
+activities that are widely occurring in Indian Country. This report describes the current state
+of public health services from a national perspective throughout tribal communities.
+The 2019 FICS report serves as a valuable tool for Indian Country to identify needs and strengths
+in tribal public health, to measure progress over time, to allocate staff and resources where they
+are most needed, and provide data for decision making relative to infrastructure programs and
+resources for the system overall. And you find a link on this side to this FICS report if you have
+interest. Okay, go ahead and go to the next slide, please. Let me look at some of these questions.
+So I had a question that talks about how are policies being socialized with Native American
+communities? Seems there is no knowledge of primary health care. Also, how can I help as an ally?
+So my experience is that there has been really a swell of interest in American Indian and Alaska
+Native communities and education about primary health care. But a lot of the focus is on primary
+health care rather than public health as a whole. And the question said that there was a treaty camp
+in Minnesota. I would be very interested to hear more about that. There's a question related to
+the five million fixed amount or increase with inflation budget. I'm not really sure which
+cooperative agreement or grant that's referring to. Could you describe some of the reasons for
+spotty uptake? So it is difficult for many tribal nations to be able to have the infrastructure,
+to be able to apply for cooperative agreements and grants, and then be able to run them. Also,
+some of the funding can be a small amount with these particular grants. But it gets
+a tribal nation kind of into play in looking at public health and building that infrastructure.
+So I think we have to look at ways to support that and then supplemental funding that can
+add on to the work that's being done to develop the public health infrastructure for that tribal
+nation. The next question is, we know there has been understandable concerns about biomonitoring
+within tribes and Native communities in the past. Was this project more successful? If so,
+do you think that was a result of being tribally led? Yes. I think any cooperative agreement or
+grant that starts where a tribe is and really focuses on that tribe's needs and supports that
+and has flexibility to be tailored to specific tribal needs is always going to be more successful.
+As far as to confirm public health services, are tribal public health requirements a success?
+Yes, there are requirements by states. I'm sorry, and I apologize. You can't see what I'm reading.
+It says to confirm public health services are in agreement with CDC. Are tribal public health
+required to submit specific test results as with STIs and with TB? There are some state requirements
+that states work with tribes in order to be able to access that information.
+Let's see, and where can we find more about the Racial Misclassification Project?
+If you email me, I'm at rqj0 at cdc.gov. I will get you those links. So let's see. In our remaining
+time, I'd like to go a little bit into CDC's Tribal Advisory Committee and Tribal Consultation.
+Go ahead and go to the next slide. Regarding government-to-government relations,
+the CDC ATSDR Tribal Advisory Committee is a key component upholding this relationship.
+The Tribal Advisory Committee advises CDC ATSDR on policy issues and broad strategies that may
+significantly affect American Indian and Alaska Native communities. The TAC assists CDC ATSDR
+in fulfilling its mission to remote health and quality of life by preventing and controlling
+disease injury and disability through established and ongoing relationships and consultation
+sessions. Maintaining the CDC ATSDR TAC is one of OTAS' roles. The TAC is a committee made up of
+elected tribal leaders or their authorized representative. The TAC provides advice and
+recommendations to CDC ATSDR in accordance with Executive Order 13175. They meet formally twice
+a year through formal public health meetings to discuss American Indian and Alaska Native priorities
+and provide feedback on important issues affecting Indian Country. TAC roles include identifying
+evolving issues and barriers, proposing clarifications, recommendations, and solutions,
+serving as a forum for tribal nations, and identifying priorities and providing advice.
+Go ahead and go to the next slide, please. CDC ATSDR's Tribal Advisory Committee is composed
+of elected tribal leaders or their designated authorized representative. So its composition
+includes one delegate from each IHS region, and as we showed before, there's 12 of those,
+and four delegates from tribes at large. The Office of Tribal Affairs and Strategic
+Alliances, my office, administers the TAC, including implementing and coordinating the
+biannual TAC meetings. Historically, those TAC meetings have been one meeting in Atlanta and
+one meeting somewhere in Indian Country. The designated federal official is Dr. Jose Montero,
+who I shared before as the Director for Seastelts. TAC functions and serves as scientific and
+programmatic resource. He, CDC ATSDR managers and staff, as determined by the designated federal
+official, serve as resources for the TAC as well. Go ahead and go to the next slide, please.
+CDC ATSDR's Tribal Consultation Policy requires that CDC and ATSDR programs consult with tribal
+governments when developing programs, policies, and activities that will affect American Indian
+and Alaska Native populations. The goals of this consultation are to assist in eliminating
+the health disparities faced by American Indian and Alaska Native tribes, ensuring health equity
+for all American Indian and Alaska Native people and communities is attained, maximizing access to
+critical health and human services and public health services to enhance the social, physical,
+and economic status of American Indian and Alaska Native tribes. Tribal consultation current status.
+So we have been hard at work to honor the presidential memorandum that was issued on January
+26, 2021, directing us to take a look at our tribal consultation policy and have consultation
+on this policy to see how we might improve it to better meet the needs of the tribal nations that
+we serve. So we recently held this tribal consultation on August 5th. We are on track
+to provide a formal response and a summary report to the testimonies provided by November 11th.
+Go ahead and go to the next slide, please.
+So as stated earlier, the CDC ATSDR TAC is made up of tribal leaders from each of the different
+IHS areas. While the TAC members can be used as subject matter experts to provide guidance
+on perspectives from each of their respective areas, they are really only able to represent
+their specific tribal nation. One tribe cannot speak for another and therefore the TAC really
+can't act as a substitute for consultation. One tribal leader commented in a recent consultation
+session that the CDC ATSDR should begin engaging the TAC early in the policy and regulatory making
+process so any proposed policies can be tribally informed from the start. Consultation is necessary
+once an action such as policy, funding development, program services has been identified that
+significantly impacts American Indian and Alaska Native populations or even one tribal nation.
+It can occur across all federally recognized tribal nations or just one tribe. Who is in
+attendance is dependent on who the policy or issue impacts. It's also important to understand
+the difference between consultation and listening sessions. Consultation should occur when a formal
+decision needs to be made on an activity that has a large impact on tribal nations while a listening
+session is to obtain informal guidance during very early stages of a project. Listening sections can
+also be used to get guidance on an activity or program that has lower level implications for
+tribal nations. Go ahead and go to the next slide please. So moving forward. Next slide.
+To summarize the different items we have discussed throughout this presentation,
+some important considerations should include direct and continuous funding sources for
+tribal nations to plan for resources ahead of time and have sustainable resources to build
+infrastructure and capacity. Improve data access and quality of data to prioritize resources.
+Flexible programs and funding opportunities to account for cultural and traditional practices
+that might be more effective in addressing public health prevention for American Indian
+and Alaska Native communities and respect for cultural practices and community ways of knowing.
+When working with tribal nations and tribal partners, it is important to include tribal
+leaders at the beginning of planning together input on what might be most needed with regards
+to that area of public health prevention. Continuously communicating throughout the
+development of a project will ensure improved buy-in as well as more effective strategies to
+address that population's needs. Lastly, it is important not to make assumptions.
+Always listen and when in doubt, ask questions. I want to end this point with a story that I
+experienced really early in my career related to making assumptions. I was working with a very
+respected tribal researcher and she shared a story with me about a tribal nation that had reached out
+for assistance with trying to turn around the tide on pediatric obesity within their tribe.
+The research team went to this tribal nation with some preconceptions about why this was happening,
+about what would be needed, and about how to move forward. They started out in the community
+sharing these preconceived conceptions and they felt like they weren't getting very far.
+And then one day they were at a community center and there was some discussion and some elders
+shared that this particular tribe had experienced earlier in their tribal history a very significant
+famine and many people died, especially babies and smaller children. And the babies and smaller
+children that had survived had been the heavier kids and this had translated into a value for
+heavier children and I perceived that it was their cultural way for children to
+be that healthy equals heavier or a heavier weight.
+As this was discussed and realized, they realized that this value had not been part of their
+original instructions that had been adaptive to what had happened to them. If these researchers
+had not talked to the elders of the community, they would have never realized this and they would
+have never been able to incorporate this knowledge into their interventions. And surely this issue
+was multifactorial, that this was a huge part in the piece of the puzzle that they needed to be
+able to work with this tribe to be able to have effective interventions. So I encourage you as
+you work with tribal partners to always have an open listening ear, to have that respect
+and have that desire to not make assumptions and answer those questions.
+So go ahead and go to the next slide please.
+These are some ways that you can connect with OTASA and Sea Stilts. The
+at the tribal page, the cdc.gov backslash tribal has a lot of the documents that I have referenced
+here. You can find our TAC charter, you can find our current CDC tribal consultation policy,
+you can learn more about our tribal resources. Additionally, if you want to reach out to me
+directly, I'll put my email in the chat box and with that I just go to the last slide please.
+I just want to thank you very sincerely. I've been honored to be able to spend this time with
+you today and I am so thankful for the work that all of you are doing and OTASA stands ready to
+support as you work with tribal nations in any way.
+Thank you so much Captain here. I really, really appreciate it. There are a couple of questions in
+the Q&A box that have added up but I'd be interested to see, there's one person
+that put in a link to the racial misclassification report and there's, I don't know if that's the
+but I wanted to get your okay before it approves.
+And I have a couple questions if you want to answer the Q&A box. Go ahead.
+So as there's a question, given the unique conditions of Native Hawaiian communities,
+is there a mechanism TAC for supporting Native Hawaiian communities in Hawaii?
+Noticeably, Hawaii State is linked out in a TAC map. So Native Hawaiians have a different
+relationship with the United States government than the 574 federally recognized tribes.
+So the TAC supports that government to government relationship that we have with the 574
+federally recognized tribes. I do know that CDC does do some work with Native Hawaiian communities
+and works to support those communities as well but they do not have formal TAC representation
+because of that unique government to government relationships for federally recognized tribes.
+I have, I'm wondering whether there are general resources available for CDC employees to support
+culturally appropriate engagement with tribal partners? Yes. So if you have interest in
+learning more, I would encourage you to go to the NIHB website and take the training that I
+discussed earlier. I can also, I'm so bad at multitasking. I used to be a police dispatcher
+way, way back in my career and I could do it all but I can't do it now. So maybe we can get
+somebody to drop that in the link, the NIHB website. I would also encourage you to visit
+the CDC tribal page. There's a lot of resources there. Additionally, you can always reach out to
+OTASA if you have any particular needs and we would be happy to help locate that. Let's see,
+next I have given the data modernization initiatives at CDC. Is there a plan to do
+a tribal consultation for that alignment of surveillance data across centers at CDC?
+For example, there are often different mechanisms for tribes to share data. So we do have a data
+modernization work group that is addressing tribal data as well. I think as these plans
+kind of come together, we have suggested for some listening sessions and tribal consultation
+when these plans kind of align. So yes, stand by for that because I believe that those are going
+to be next steps coming with that. Let's see. The other question was about the data modernization
+initiative that I shared, how are tribal issues being addressed. If you had an opportunity in
+August to listen in to our tribal advisory committee, we had one section that was dedicated
+to data modernization issues so that we could hear from the tech about what their experiences
+were. A lot came to light about data related to COVID-19 and how tribes were able to access
+information and respond. And so the stars are aligning in ways I believe that we are going
+to have some movement forward related to DMI. Also, just as an aside, everyone from CDC is
+welcome to be in a listening mode on our TAC meetings. Our next TAC is going to be February
+2nd and 3rd. If you visit the tribal website that I referenced earlier, you can see registration
+so that you can. And those meetings are very, very informative about a variety of issues.
+In August, we talked about public health infrastructure. We talked about social
+determinants of health. We talked about DMI and opioids. I know I'm missing something, but
+the TAC meetings are now being focused to be less CDC presentation and more hearing from the tribal
+leaders. And so I think that has made them a little bit richer as well. Let's see.
+Are there programs that provide funding to hire tribal members to work on public health issues
+within their own communities? So we have the key health, the public health associates program.
+We have really strived to identify more tribal host sites and to encourage recruitment of
+American Indian Alaskan Native PHAPs. Additionally, the AmeriCorps public health program has just
+launched, which tribes are eligible for as well. I would encourage you, if you're working with
+tribal nations, to make them aware of these resources because with these AmeriCorps funds,
+they could potentially hire tribal members or American Indian Alaskan Natives to work on these
+public health issues in their communities. Let's see. So I believe that that is the end of the
+questions. Do you see any that I'm missing? Oh, okay. I want to give a shout out. I see
+not a question, but I just wanted to say that I used to work with Dr. Katie Scheltz, and she
+wanted me to let you know that she says hello. So Katie Scheltz was one of the inaugural members
+on our Yachtley Walk in 2012 with Indigenous Wellness Research, and she's a Choctaw by way
+of Alaska and one of my very good friends. So please tell Dr. Scheltz I said hello. So good
+to hear from her. I think that's the end of the questions. Are there any other questions? I think
+we have five minutes. Am I reading that right? You're correct. Well, thank you so much for that.
+I mean, such a broad-sweeping overview of American Indian Alaskan Native issues in the country
+and as well as the past, present, and future. I very much appreciate your work, and I thought
+it was especially touching the personal stories you had and how that really made it relatable to
+the activities that occur today and the different things that are going on. I was wondering if you
+could talk briefly, and just probably one final question, a little bit about jurisdictions in
+Indian country and how those interact, and particularly from the public health realm as
+far as county health departments, IHS, BIA, all those folks. And if you can talk briefly about
+that, that's a complex topic, but I think it's a topic our learners don't understand as much.
+Right, and it's a very complicated topic, and it varies from state to state, tribe to tribe,
+county to county. Some tribal nations have established pretty good working relationships
+with their county health departments or their state health departments. Others definitely do
+not. We hear from tribes that monies that flow through state health departments that are intended
+to serve American Indian Alaskan Natives sometimes do not end up there or in the way that the tribal
+nations would request them to. We've also heard, especially with the COVID-19 vaccines,
+so tribes had the choice to get their vaccines through Indian Health Service or to go through
+the states for vaccine. Many tribes felt that they should be able to work directly government
+to government with that, or that they should have the choice maybe to do both, and so that added to
+some complexity. Also, additionally, it's difficult because, as I shared, the majority
+of American Indian Alaskan Natives live in urban centers, and so they might be served by a county
+health department. They might be served by an urban Indian organization. So how does that all
+work together? Additionally, as we look at data as well, although many of the sites ask if you're
+American Indian or Alaskan Native, I don't believe any sites are asking, are you Choctaw?
+Are you Cherokee? So then how do tribal nations identify within their data their tribal members
+and what services they're getting and how? I had an experience in my own public health department,
+so I get some of my services through Choctaw Nation. I get some of my services through
+the county health department, and when I went for my flu shot, they didn't ask if I was American
+Indian or Alaskan Native. They automatically just looked at me and made an assumption
+and checked why. So I just say, whoa, whoa, wait a minute, you know, check this because I want to be
+represented, right? And so that goes to that misclassification as well. Additionally, so as
+I think public health infrastructure for tribes is, for most tribes, is just very much at the
+beginning, right? Because, you know, county, states have been inventing for a long time for
+public health infrastructure, but there hasn't really been a dedicated funding source for these
+activities for Indian country. And so as they become more robust, like Cherokee Nation, and
+they say state of Oklahoma, we're able to take on these activities for our citizens, then what does
+that mean for funds that come to the state of Oklahoma, and how does that also, I think that
+kind of can be very complicated as well. Plus, if you have a tribe that, say, has 50,000 tribal
+members, then it might be kind of in your best interest to stand that up and have that and be
+able, but if you have a rancheria that, say, has less than 100, you know, are you going to be able
+to take on all those essential services? So I think the picture can be very different for
+many, many reasons, and so that's, I think, why, you know, there's still so much work to be left,
+left to be done, you know, for, as we stand up, public health infrastructure.
+Certainly. Well, thank you, Captain Heard. We're at the top of the hour. We very much appreciate
+your time and your efforts in this area. If you're listening, we're going to, for our audience,
+we're going to be back on December 1st. We'll be tentatively talking about big data and large
+data analysis. That's open to anybody. It's a publicly available Grand Rounds.
+This is Captain Heard, and we can very much appreciate looking forward to your work in this area.
+Thank you. Thank you. And again,

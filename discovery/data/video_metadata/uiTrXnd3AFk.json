@@ -1,0 +1,70 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "mYIlqyZ-fDyKOjRIokze6W0GA00",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "try7X3g6DReaZjBp3CdwLTFD3XE",
+      "id": "uiTrXnd3AFk",
+      "snippet": {
+        "publishedAt": "2023-10-16T15:11:13Z",
+        "channelId": "UCO_a5SM0kwrHZPrzXBa_ZKQ",
+        "title": "State Board of Education, October 13, 2023",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uiTrXnd3AFk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uiTrXnd3AFk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uiTrXnd3AFk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/uiTrXnd3AFk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/uiTrXnd3AFk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Arkansas Department of Education",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "State Board of Education, October 13, 2023",
+          "description": ""
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT4H22M47S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "170",
+        "likeCount": "0",
+        "favoriteCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

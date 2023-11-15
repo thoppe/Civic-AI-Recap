@@ -1,0 +1,88 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "NHAG758ERhSQdna1SUV_mBuASZE",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "_kuJuM9eBnNuUjl_m5kUZ3KMIoI",
+      "id": "UCfM5r2bVAWlto1YByxd7wCg",
+      "snippet": {
+        "title": "NC Department of Public Instruction Public Meetings",
+        "description": "This channel provides audio-only coverage of public meetings related to the business of the State Board of Education and the NC Department of Public Instruction. \n\nThis forum is open and family-friendly. You participate at your own risk. Please do not provide personally identifiable information about yourself or any other individual. Comments may be removed if they are deemed inappropriate, threatening, obscene, defamatory, or commercial in nature.\n \nAll posts to and from this site are subject to the North Carolina Public Records Law, which may result in monitoring and disclosure to third parties, including law enforcement.  The posts to and from this site do not necessarily reflect the official views, opinions, or positions of the North Carolina Department of Public Instruction or the North Carolina State Board of Education.\n \nPlease share your thoughts and ideas. We\u2019ll review comments according to our comment policy: http://www.ncpublicschools.org/legalnotices/.",
+        "customUrl": "@ncdepartmentofpublicinstru3243",
+        "publishedAt": "2018-03-14T17:48:42Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/Y5eUGG5CvC1v_bSkk-WsLS9hx9V2dlJo9ZGitRD-iEpqNNe0COPI9_Urws29KzWZqj8k-51E5Q=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/Y5eUGG5CvC1v_bSkk-WsLS9hx9V2dlJo9ZGitRD-iEpqNNe0COPI9_Urws29KzWZqj8k-51E5Q=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/Y5eUGG5CvC1v_bSkk-WsLS9hx9V2dlJo9ZGitRD-iEpqNNe0COPI9_Urws29KzWZqj8k-51E5Q=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "NC Department of Public Instruction Public Meetings",
+          "description": "This channel provides audio-only coverage of public meetings related to the business of the State Board of Education and the NC Department of Public Instruction. \n\nThis forum is open and family-friendly. You participate at your own risk. Please do not provide personally identifiable information about yourself or any other individual. Comments may be removed if they are deemed inappropriate, threatening, obscene, defamatory, or commercial in nature.\n \nAll posts to and from this site are subject to the North Carolina Public Records Law, which may result in monitoring and disclosure to third parties, including law enforcement.  The posts to and from this site do not necessarily reflect the official views, opinions, or positions of the North Carolina Department of Public Instruction or the North Carolina State Board of Education.\n \nPlease share your thoughts and ideas. We\u2019ll review comments according to our comment policy: http://www.ncpublicschools.org/legalnotices/."
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUfM5r2bVAWlto1YByxd7wCg"
+        }
+      },
+      "statistics": {
+        "viewCount": "241372",
+        "subscriberCount": "4690",
+        "hiddenSubscriberCount": false,
+        "videoCount": "758"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/07c1v",
+          "/m/019_rr",
+          "/m/098wr",
+          "/m/05qt0"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Technology",
+          "https://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+          "https://en.wikipedia.org/wiki/Society",
+          "https://en.wikipedia.org/wiki/Politics"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "NC Department of Public Instruction Public Meetings",
+          "description": "This channel provides audio-only coverage of public meetings related to the business of the State Board of Education and the NC Department of Public Instruction. \n\nThis forum is open and family-friendly. You participate at your own risk. Please do not provide personally identifiable information about yourself or any other individual. Comments may be removed if they are deemed inappropriate, threatening, obscene, defamatory, or commercial in nature.\n \nAll posts to and from this site are subject to the North Carolina Public Records Law, which may result in monitoring and disclosure to third parties, including law enforcement.  The posts to and from this site do not necessarily reflect the official views, opinions, or positions of the North Carolina Department of Public Instruction or the North Carolina State Board of Education.\n \nPlease share your thoughts and ideas. We\u2019ll review comments according to our comment policy: http://www.ncpublicschools.org/legalnotices/.",
+          "keywords": "NCDPI North Carolina Department of Public Instruction NC Schools State Board Education",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://lh3.googleusercontent.com/pEEPB7t49ExESCt7o1CJs7IXLaGb2gMG08dAo1BBWbA8haKCYCoKgCTcclHbRlyiHRa5iixr6A"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:15.765972"
+}

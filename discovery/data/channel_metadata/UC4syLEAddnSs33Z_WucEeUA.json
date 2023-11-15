@@ -1,0 +1,83 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "fDR9aHBfv8xgB0KTK986h6XG00U",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "RaMOhg_DnEkPog-xteAolglmsoE",
+      "id": "UC4syLEAddnSs33Z_WucEeUA",
+      "snippet": {
+        "title": "California Department of Education",
+        "description": "The California Department of Education (CDE) administers this CAEducation YouTube channel. The mission of the California Department of Education is to ensure that California will provide a world-class education for all students, from early childhood to adulthood. The Department of Education serves California by innovating and collaborating with educators, schools, parents, and community partners. Together, as a team, we prepare students to live, work, and thrive in a highly connected world.",
+        "customUrl": "@caeducation",
+        "publishedAt": "2012-02-27T23:59:10Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKZfEIwkcuFGRyilIOmnlxbeHecv6KzdhLpPsjzL=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKZfEIwkcuFGRyilIOmnlxbeHecv6KzdhLpPsjzL=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKZfEIwkcuFGRyilIOmnlxbeHecv6KzdhLpPsjzL=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "California Department of Education",
+          "description": "The California Department of Education (CDE) administers this CAEducation YouTube channel. The mission of the California Department of Education is to ensure that California will provide a world-class education for all students, from early childhood to adulthood. The Department of Education serves California by innovating and collaborating with educators, schools, parents, and community partners. Together, as a team, we prepare students to live, work, and thrive in a highly connected world."
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UU4syLEAddnSs33Z_WucEeUA"
+        }
+      },
+      "statistics": {
+        "viewCount": "937125",
+        "subscriberCount": "5580",
+        "hiddenSubscriberCount": false,
+        "videoCount": "879"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/01k8wb",
+          "/m/098wr"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Knowledge",
+          "https://en.wikipedia.org/wiki/Society"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "California Department of Education",
+          "description": "The California Department of Education (CDE) administers this CAEducation YouTube channel. The mission of the California Department of Education is to ensure that California will provide a world-class education for all students, from early childhood to adulthood. The Department of Education serves California by innovating and collaborating with educators, schools, parents, and community partners. Together, as a team, we prepare students to live, work, and thrive in a highly connected world.",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://lh3.googleusercontent.com/oJiktjcvXLbxHAowm2UsNHoJ7mCc2RCnVAbQBhxHlX3lilstYDIZfs8ONUNTVB7F3fn1ng8oIuQ"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:15.105275"
+}

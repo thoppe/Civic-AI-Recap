@@ -1,0 +1,3572 @@
+WEBVTT
+
+00:00.000 --> 00:06.280
+Welcome, everyone, to our master class in data storytelling.
+
+00:06.280 --> 00:12.880
+We're very excited with the panel that will be presented and presenting in a few minutes.
+
+00:12.880 --> 00:14.720
+I will moderate the panel.
+
+00:14.720 --> 00:23.100
+My name is Haya Al Nasser and I work for the communications directorate at the Census Bureau,
+
+00:23.100 --> 00:28.960
+but I'm also the editor of America Counts, Stories Behind the Numbers, which is one of
+
+00:28.960 --> 00:37.920
+the more recent and successful product launches at the Census Bureau that deals with data
+
+00:37.920 --> 00:40.040
+storytelling all the way.
+
+00:40.040 --> 00:45.540
+So it was one of our more creative efforts of the past few years.
+
+00:45.540 --> 00:49.640
+So just to give you a little bit of background, I am a former journalist.
+
+00:49.640 --> 00:57.080
+I spent almost 20 years as the lead census and demographics reporter at USA Today and
+
+00:57.120 --> 00:59.760
+worked for Al Jazeera America after that.
+
+00:59.760 --> 01:04.580
+Once I left journalism and joined the Census Bureau, my mission was clear.
+
+01:04.580 --> 01:11.520
+It was to basically apply my journalistic experience to helping the Census Bureau communicate
+
+01:11.520 --> 01:18.200
+its data products in a more relatable way and to a broader audience.
+
+01:18.200 --> 01:25.000
+So in the fall of 2017, we launched a new content platform called America Counts.
+
+01:25.000 --> 01:32.840
+And I'm going to share my screen so I can show you the website and let me know if you
+
+01:32.840 --> 01:33.840
+can see it.
+
+01:33.840 --> 01:38.840
+It looks, can you see it?
+
+01:38.840 --> 01:40.160
+I assume you can see it.
+
+01:40.160 --> 01:42.160
+So here's the landing page.
+
+01:42.160 --> 01:43.160
+Not yet.
+
+01:43.160 --> 01:44.160
+Not yet.
+
+01:44.160 --> 01:45.160
+Not yet?
+
+01:45.160 --> 01:46.160
+Not yet.
+
+01:46.160 --> 01:49.160
+Please try again.
+
+01:49.160 --> 01:52.600
+Okay.
+
+01:52.600 --> 01:57.760
+You cannot share, it tells me.
+
+01:57.760 --> 01:58.760
+Why would that be?
+
+01:58.760 --> 02:01.760
+Let me see if this is going to work.
+
+02:01.760 --> 02:06.760
+Somebody can make you a co-host and then you can share.
+
+02:06.760 --> 02:07.760
+There we go.
+
+02:07.760 --> 02:08.760
+Now we can see.
+
+02:08.760 --> 02:13.320
+We can see it now.
+
+02:13.320 --> 02:19.200
+Now you're muted.
+
+02:19.200 --> 02:29.520
+Muted, Haya.
+
+02:29.520 --> 02:31.960
+Now it's, it's very strange.
+
+02:31.960 --> 02:33.360
+It won't let me unmute.
+
+02:33.360 --> 02:37.600
+So now let's hope it's still, now it's, is it going to be sharing?
+
+02:37.600 --> 02:39.280
+Yes, it's still sharing.
+
+02:39.280 --> 02:40.280
+Okay.
+
+02:40.280 --> 02:41.280
+So this is our website.
+
+02:41.280 --> 02:50.840
+So as you can see, we're, I've applied the news site model to the America Counts page.
+
+02:50.840 --> 02:54.840
+The top story is the most recent story we've published.
+
+02:54.840 --> 03:01.540
+And then at the bottom, you'll see in chronological descending order, all the other stories.
+
+03:01.540 --> 03:05.520
+So I just want to point out that when you look at all this content, well, we publish
+
+03:05.520 --> 03:08.660
+about two to three stories a week on average.
+
+03:08.660 --> 03:14.040
+When you look at all this, all of these stories began as probably a data file or an Excel
+
+03:14.040 --> 03:20.660
+spreadsheet, but we are telling stories through all the various components.
+
+03:20.660 --> 03:26.300
+The image tells a story, the headline tells a story, the teaser text tells a story.
+
+03:26.300 --> 03:32.540
+I'll open one of the pages just to give you an idea of some of the other components that
+
+03:32.540 --> 03:35.700
+we think are key in data storytelling.
+
+03:35.700 --> 03:41.420
+So here you have, we add the subhead, which again is another piece of the story.
+
+03:41.420 --> 03:48.660
+Please note that we are very conscious of keeping the writing clear and direct, short
+
+03:48.660 --> 03:51.100
+paragraphs.
+
+03:51.100 --> 03:56.940
+As you all know, most folks who read things online tend to be scrollers and scanners.
+
+03:56.940 --> 04:02.540
+If you have all this in one great text, they'll skip a lot of stuff in between.
+
+04:03.260 --> 04:07.000
+We also know that more and more people are reading things on their smartphones.
+
+04:07.000 --> 04:10.740
+If you put these two paragraphs together, it would probably fill up the screen, which
+
+04:10.740 --> 04:13.260
+makes it pretty unreadable.
+
+04:13.260 --> 04:21.020
+Other components are pullout, text, maps, section breaks, which are really important
+
+04:21.020 --> 04:28.420
+in organizing the story and making it more accessible to the readers, graphics, and so
+
+04:28.420 --> 04:29.420
+on.
+
+04:29.500 --> 04:36.260
+Again, I'm going to tell you really quickly, show you another data storytelling tool that
+
+04:36.260 --> 04:37.820
+we've used.
+
+04:37.820 --> 04:39.340
+Let's see if this loads.
+
+04:39.340 --> 04:40.340
+Okay.
+
+04:40.340 --> 04:45.140
+This is a story that we ran last spring, which was extremely popular.
+
+04:45.140 --> 04:50.500
+The story basically highlights interactive data visualization, which I will show you
+
+04:50.500 --> 04:51.660
+in a second.
+
+04:51.660 --> 04:59.220
+So again, strong headlines that tell the story, subhead that tells a story, all of this.
+
+04:59.220 --> 05:01.540
+The bullet points, all this.
+
+05:01.540 --> 05:10.060
+And then this takes you to the actual interactive data visualization, which was extremely popular.
+
+05:10.060 --> 05:14.980
+This allows you to compare teachers' pay with all other occupation.
+
+05:14.980 --> 05:20.060
+As you can see, you can drop the menu and pick any other occupation and compare what
+
+05:20.060 --> 05:24.220
+teachers are getting paid by educational level.
+
+05:24.220 --> 05:31.380
+And the interactive continues with more very appealing visuals.
+
+05:31.380 --> 05:37.540
+So I just wanted to give you a quick intro to some of the work that we are doing at the
+
+05:37.540 --> 05:41.300
+Census Bureau in the area of data storytelling.
+
+05:41.300 --> 05:47.020
+And I'm happy to report that it has been quite successful.
+
+05:47.020 --> 05:54.660
+We are nearing 12 million page visits since we launched in the fall of 2017.
+
+05:54.660 --> 05:59.900
+And we're growing at a faster rate than we added just 4 million of those visits, I believe
+
+05:59.900 --> 06:01.740
+just in the past year.
+
+06:01.740 --> 06:06.420
+So I'll just close with that and I'll make sure I put a link and my contact info in the
+
+06:06.420 --> 06:07.420
+chat.
+
+06:07.420 --> 06:11.600
+But let me go ahead and introduce our next speaker.
+
+06:11.600 --> 06:16.740
+And I assume I'm no longer sharing, right?
+
+06:16.740 --> 06:17.740
+So good.
+
+06:17.740 --> 06:21.820
+I can still see your screen.
+
+06:21.820 --> 06:28.540
+Some people don't see the screen, so perhaps change the view of your window when you click
+
+06:28.540 --> 06:31.860
+on the right-hand side, it says gallery side-by-side speaker.
+
+06:31.860 --> 06:35.700
+So for those that can't see, perhaps try to toggle your options.
+
+06:35.700 --> 06:38.740
+And now you're going to be seeing effective ways to use data.
+
+06:38.740 --> 06:39.740
+Okay.
+
+06:39.740 --> 06:40.740
+Then it's fine.
+
+06:40.740 --> 06:41.740
+Okay.
+
+06:41.740 --> 06:42.740
+Then we're good.
+
+06:42.740 --> 06:48.140
+So I'm going to go ahead and introduce our first speaker.
+
+06:48.140 --> 06:54.380
+Brent Dykes is the founder and chief data storyteller at Analytics Hero LLC.
+
+06:54.380 --> 07:00.620
+He's also the author of Effective Data Storytelling, How to Drive Change with Data, Narrative, and
+
+07:00.620 --> 07:01.620
+Visuals.
+
+07:01.620 --> 07:07.500
+Brent has nearly two decades of enterprise analytics experience at Omniture, Adobe, Domo,
+
+07:07.500 --> 07:09.340
+and Blast Analytics.
+
+07:09.340 --> 07:14.420
+His passion for data storytelling comes from consulting with many industry leaders, including
+
+07:14.420 --> 07:18.420
+Ikea, Nike, Microsoft, Sony, and Comcast.
+
+07:18.420 --> 07:22.700
+He's a regular Forbes contributor and has written more than 45 articles on different
+
+07:22.700 --> 07:24.700
+data-related topics.
+
+07:24.700 --> 07:30.740
+He's a popular speaker at conferences such as Strata, Web Summit, Shop.org, Ad Tech,
+
+07:30.740 --> 07:36.780
+PopCon, Rise, Crunch, and Adobe Summit, and of course today, the Top Summit.
+
+07:36.780 --> 07:40.060
+So Brent, take it away.
+
+07:40.060 --> 07:42.060
+Thank you, Hannah.
+
+07:42.060 --> 07:47.820
+I'm excited here to talk about effective ways to use data stories or data powerful data
+
+07:47.820 --> 07:48.820
+stories.
+
+07:48.820 --> 07:53.460
+So one of the things we may question whether we need more data, right?
+
+07:53.460 --> 07:58.300
+I think we're all have a lot of data that we're using today and in sharing that with
+
+07:58.300 --> 08:00.300
+other people, it can be overwhelming.
+
+08:00.300 --> 08:05.120
+But what everybody's really thirsty for, what they're really seeking are insights.
+
+08:05.120 --> 08:07.520
+And this is something that we really need to focus on.
+
+08:07.520 --> 08:13.000
+And I believe that if we look at an insight, it really needs to be at the core of every
+
+08:13.000 --> 08:15.920
+good data story or powerful data story.
+
+08:15.920 --> 08:21.640
+We need an insight, not just more data or more observations, but actually insights.
+
+08:21.640 --> 08:25.440
+Now when I was writing my book, I had some of my book reviewers when they're reading
+
+08:25.440 --> 08:31.180
+draft copies of my book, effective data storytelling, they mentioned, oh, well, you're using the
+
+08:31.180 --> 08:34.800
+word insight a lot, but you haven't really defined what it is.
+
+08:34.840 --> 08:35.960
+And so I was like, oh, yeah, sure.
+
+08:35.960 --> 08:38.040
+That's a great idea. I'll add that to the first chapter.
+
+08:38.040 --> 08:42.880
+And then when I went in and tried to decide, well, what is an insight, I realized that
+
+08:42.880 --> 08:48.320
+maybe I used that that term really loosely and didn't really have a good idea of what
+
+08:48.320 --> 08:52.240
+it really meant. And so I turned to the dictionaries, started looking at the dictionary,
+
+08:52.240 --> 08:54.720
+seeing what they kind of represented.
+
+08:54.720 --> 08:59.840
+And it didn't really resonate with me until somebody pointed me to this definition by
+
+08:59.840 --> 09:02.280
+Gary Klein, who's a psychologist and author.
+
+09:02.680 --> 09:07.240
+And he said that an insight is an unexpected shift in the way we understand things.
+
+09:08.160 --> 09:13.000
+Now, this is really important because I think what happens a lot of the time is we have
+
+09:13.000 --> 09:17.320
+an observation in the data, we find something interesting, maybe an interesting trend or
+
+09:17.520 --> 09:20.560
+anomaly or something like that, and we call that an insight.
+
+09:20.560 --> 09:22.520
+But really, that's not an insight.
+
+09:22.520 --> 09:24.040
+So let me give you an example here.
+
+09:24.040 --> 09:28.880
+So maybe we're looking at some data here and we see high speed Internet access grew by
+
+09:28.920 --> 09:31.560
+23 percent in our state last year.
+
+09:31.560 --> 09:37.800
+And that that may be surprising or unexpected, but really, that's just what it doesn't
+
+09:37.800 --> 09:40.120
+really get into the why. What what drove that?
+
+09:40.560 --> 09:44.520
+And so if we dig in a little bit further, we might discover something interesting,
+
+09:45.280 --> 09:47.080
+something that shifts our understanding.
+
+09:47.080 --> 09:51.920
+In this case, the 80 percent of this increase came from a local government initiative to
+
+09:51.920 --> 09:54.160
+expand access for low income families.
+
+09:54.640 --> 09:58.760
+And so with that insight, we have something now that we can do something with.
+
+09:59.360 --> 10:03.800
+Now, when we analyze the data, we go through it, we find something interesting, we find
+
+10:03.800 --> 10:09.720
+an insight and the numbers are so clear to us, they're so compelling.
+
+10:10.200 --> 10:13.040
+And we say that the numbers speak for themselves.
+
+10:13.240 --> 10:15.840
+And so we share that out with other people.
+
+10:15.840 --> 10:19.920
+And what happens, though, is that the numbers don't speak for themselves.
+
+10:19.920 --> 10:23.520
+What happens is they really do need a data storyteller.
+
+10:23.520 --> 10:28.480
+They need a narrator, need somebody to really explain what those insights mean
+
+10:28.800 --> 10:30.520
+and help people to understand them.
+
+10:31.240 --> 10:35.520
+So when I look at data storytelling, there are really three key elements that I focus
+
+10:35.520 --> 10:39.200
+on, probably no surprise, because probably before this presentation would have said,
+
+10:39.200 --> 10:41.320
+oh, yeah, data, narrative and visuals.
+
+10:41.680 --> 10:46.560
+But I think the power of data storytelling really comes in when we look at the
+
+10:46.560 --> 10:48.000
+intersections of these bubbles.
+
+10:48.440 --> 10:51.720
+Now, the first thing is I could do some analysis, I could find an insight and I could
+
+10:51.720 --> 10:53.120
+share a spreadsheet with you.
+
+10:53.600 --> 10:57.480
+And you could look at that same spreadsheet and say, I don't understand what you're
+
+10:57.480 --> 10:59.640
+sharing with me, Brian, I don't see any insight here.
+
+10:59.640 --> 11:03.480
+Or maybe you see a different insight or maybe you misinterpret the insight that I'm
+
+11:03.480 --> 11:06.040
+sharing. And so we we don't do that.
+
+11:06.040 --> 11:10.640
+What we do is we combine the narrative with the data to help make sure that the
+
+11:10.640 --> 11:15.200
+information is clear, that it's concrete and that we're explaining the numbers to the
+
+11:15.200 --> 11:19.040
+audience so they can really understand it and come away with the same insight that we
+
+11:19.040 --> 11:24.000
+get. Another thing we do is we use visuals because sometimes if we look at that table
+
+11:24.000 --> 11:27.480
+of data, there's a good chance that we're not going to see the anomalies, we're not
+
+11:27.480 --> 11:29.760
+going to see the patterns or trends in the numbers.
+
+11:30.000 --> 11:34.400
+And it's only when the numbers are visualized that we can actually enlighten the
+
+11:34.400 --> 11:37.840
+audience to these key findings that we have in our data.
+
+11:38.720 --> 11:43.560
+And the last intersection here that I want to focus on is between the visuals and the
+
+11:43.560 --> 11:48.640
+narrative. Now, one of the things we do as human beings is we love to hear stories,
+
+11:48.800 --> 11:54.480
+they engage us at a very deep level and especially the visual storytelling.
+
+11:54.840 --> 11:59.920
+We may have been up binge watching our favorite show on Netflix or Amazon Prime.
+
+12:01.120 --> 12:05.680
+So the interesting thing is when we bring the right data, we combine it with the right
+
+12:05.680 --> 12:10.000
+narrative and the right visuals, all of a sudden we have something that's very powerful,
+
+12:10.000 --> 12:14.600
+that can change the way people view the world, can change how they behave and what
+
+12:14.600 --> 12:17.400
+actions they take. So this is very powerful.
+
+12:17.880 --> 12:22.600
+Now, the interesting thing that you might be surprised to hear from a data guy is that
+
+12:22.600 --> 12:24.160
+stories beat statistics.
+
+12:25.000 --> 12:27.120
+You know, this is this is very interesting.
+
+12:27.120 --> 12:32.720
+I like this quote by Robert McKee, who he trains a lot of the script writers in
+
+12:32.720 --> 12:36.760
+Hollywood. And he said that storytelling is one of the most powerful ways to put ideas
+
+12:36.760 --> 12:39.160
+in the world today. And the same goes for insights.
+
+12:39.560 --> 12:44.040
+Now, let's look at the differences between stories and statistics.
+
+12:44.040 --> 12:46.440
+There's two ways that stories beat statistics.
+
+12:46.440 --> 12:50.600
+And these both come from a great book written by Chip and Dan Heath, if you're familiar
+
+12:50.600 --> 12:53.480
+with it, Made to Stick. It's on communication.
+
+12:53.480 --> 12:58.400
+And in that book, Chip Heath, who is a professor at Stanford University, shares how
+
+12:58.880 --> 13:03.240
+stories are more memorable. And he shares an example of an activity that he does with
+
+13:03.360 --> 13:07.960
+an undergrad class of communication students, where he gives them a bunch of data on a
+
+13:07.960 --> 13:13.280
+particular topic and asks them to incorporate the data or statistics into their
+
+13:13.280 --> 13:15.960
+presentations. And they create these short presentations.
+
+13:16.240 --> 13:20.000
+On average, the students are using about two and a half statistics in these
+
+13:20.120 --> 13:25.120
+presentations. And the other interesting side note is one in ten of these students
+
+13:25.120 --> 13:29.880
+will actually include an anecdote, a short anecdote in their presentations.
+
+13:30.320 --> 13:33.800
+So they go through this exercise, they divide up into groups, they present to each
+
+13:33.800 --> 13:36.520
+other, they rate each other and give feedback.
+
+13:37.400 --> 13:38.920
+And they think the activity is over.
+
+13:39.320 --> 13:43.840
+But about 10 minutes later, the professor comes back to them and says, OK, how many
+
+13:43.840 --> 13:45.840
+of these statistics do you actually remember?
+
+13:46.480 --> 13:49.840
+And the interesting thing that only about five percent of them could remember any
+
+13:49.840 --> 13:54.520
+statistics, but 63 percent of them could remember the stories.
+
+13:54.520 --> 13:59.600
+And so our human brains, when we try to make sense of the world around us, we're
+
+13:59.600 --> 14:03.920
+trying to put things into stories or trying to make sense of this world.
+
+14:03.920 --> 14:08.360
+And so stories make our information more memorable.
+
+14:09.760 --> 14:12.720
+The next thing is, is that stories are more persuasive.
+
+14:12.720 --> 14:16.760
+And so the example in the book that they share is a study from Carnegie Mellon
+
+14:16.800 --> 14:21.040
+University where students were asked to take a technology survey.
+
+14:21.360 --> 14:24.240
+And at the end of that survey, they were given five one dollar bills.
+
+14:24.600 --> 14:28.240
+And then they were asked if they'd like to donate some of that money to a local
+
+14:28.240 --> 14:31.760
+charity. And this charity was Save the Children.
+
+14:32.200 --> 14:37.800
+And so they gave them two brochures on this charity and one version of this
+
+14:37.800 --> 14:43.080
+brochure talked about all of the suffering of children in Africa and how,
+
+14:43.400 --> 14:49.760
+you know, due to illness or war or famine and shared lots of data and statistics
+
+14:49.760 --> 14:52.480
+on the number of children that are being impacted.
+
+14:53.520 --> 14:56.760
+So that was one version. The other version didn't include any data.
+
+14:56.760 --> 15:00.440
+It basically just talked about the story of Rukia, a seven year old girl from
+
+15:00.440 --> 15:04.360
+Bali and talked about the suffering of her family and what they went through.
+
+15:04.760 --> 15:09.200
+And when they looked at the average donations for both versions, they found
+
+15:09.200 --> 15:14.680
+that the story version generated a much higher average donation than the
+
+15:14.680 --> 15:20.560
+statistics did. So for these two reasons, it's really important that we take our
+
+15:20.560 --> 15:23.960
+data and let's work it weave it into stories.
+
+15:24.600 --> 15:28.400
+I like to say that we hear statistics, but we feel stories.
+
+15:28.400 --> 15:32.640
+And so when neuroscientists look at our brains, we hear facts being shared with
+
+15:32.640 --> 15:36.040
+us. There's a couple of regions of our brain that light up and they're strictly
+
+15:36.400 --> 15:38.720
+associated with processing language.
+
+15:39.120 --> 15:44.120
+However, when somebody hears a story or sharing a story and they they look at the
+
+15:44.120 --> 15:46.720
+brain, they see other regions of the brain light up.
+
+15:46.720 --> 15:51.160
+And that's because they're not only are they experienced or hearing what the
+
+15:51.160 --> 15:53.680
+people are saying, they're also experiencing it as well.
+
+15:53.680 --> 15:58.440
+So it's a much more deeper connection when you're telling a story as opposed to
+
+15:58.440 --> 15:59.600
+just sharing facts.
+
+15:59.600 --> 16:03.320
+Another thing that's interesting about sharing facts is that how we receive them,
+
+16:03.320 --> 16:06.440
+right? When we have information that's shared with us that maybe conflicts with
+
+16:06.440 --> 16:09.280
+our worldview, we're going to go into defensive mode.
+
+16:09.280 --> 16:13.280
+Our shields are going to come up and we're going to come much more critical and
+
+16:13.280 --> 16:14.880
+skeptical of this information.
+
+16:15.400 --> 16:20.480
+However, when we are approached with a story, all of a sudden, our shields come
+
+16:20.480 --> 16:22.480
+down. We drop that analytical guard.
+
+16:22.480 --> 16:25.680
+We're not likely not as likely to nitpick on the details.
+
+16:25.680 --> 16:27.560
+We want to see where the story goes.
+
+16:27.600 --> 16:32.600
+And so this opens an opportunity for us to convey our information in a way that's
+
+16:32.600 --> 16:34.080
+going to resonate with people.
+
+16:34.400 --> 16:35.800
+I like to look at it this way.
+
+16:35.800 --> 16:37.840
+We have all this evidence that we have.
+
+16:37.840 --> 16:41.240
+We have the data, which really speaks to the logical side.
+
+16:41.240 --> 16:43.760
+But a lot of the time, decisions are being made by emotion.
+
+16:44.160 --> 16:49.640
+And the story is what enables us to connect with that emotion that that goes into a
+
+16:49.640 --> 16:50.640
+lot of decision making.
+
+16:51.640 --> 16:56.640
+So today, I want to give you three quick tips on how to turn your information into
+
+16:56.680 --> 16:57.680
+powerful data stories.
+
+16:58.680 --> 17:03.680
+The first one, and I think this is important, is that we need to match the narrative to
+
+17:03.680 --> 17:04.680
+the audience, right?
+
+17:04.680 --> 17:05.680
+So here's the same story.
+
+17:06.680 --> 17:09.680
+This is the story of Robin Hood told multiple different ways.
+
+17:10.680 --> 17:15.680
+And if I were holding a birthday party for six year olds, I probably couldn't use the
+
+17:15.680 --> 17:17.680
+four on the right without getting in trouble with the parents.
+
+17:18.680 --> 17:20.680
+The one on the left, maybe the kids would get bored.
+
+17:21.680 --> 17:23.680
+And so really, I need to focus on that Disney one.
+
+17:23.720 --> 17:28.720
+Now, if it was a different audience, maybe maybe it's 16 year olds or 30 year olds, I'm
+
+17:28.720 --> 17:29.720
+going to choose a different one.
+
+17:30.720 --> 17:34.720
+And so it's really important that when we look at our data story, we need to determine
+
+17:34.720 --> 17:40.720
+who the right audience is for our story, or we mean to look at, you know, adjusting our
+
+17:40.720 --> 17:43.720
+data story to the audience that we're sharing it with.
+
+17:45.720 --> 17:47.720
+The second tip is how do we apply?
+
+17:47.720 --> 17:50.720
+Can we apply a narrative structure to our findings?
+
+17:50.760 --> 17:54.760
+So when I was researching for my book, I found I was looking at different models and I came
+
+17:54.760 --> 17:59.760
+across Gustav Freytag, who was a German playwright, who he studied, like Shakespearean
+
+17:59.760 --> 18:01.760
+plays and Greek tragedies.
+
+18:02.760 --> 18:05.760
+And he defined, he identified that they all had a story arc.
+
+18:06.760 --> 18:09.760
+And I've taken that story arc and I've applied it to data storytelling.
+
+18:09.760 --> 18:14.760
+We can take the same approach, just like a story that sets the scene for the for the
+
+18:14.760 --> 18:16.760
+characters and the story that they're about to tell.
+
+18:16.800 --> 18:18.800
+We can do the same thing with our data storytelling.
+
+18:18.800 --> 18:23.800
+You want to establish what are the expected trends that we typically see, you know, giving
+
+18:23.800 --> 18:26.800
+background on what is this data that we're looking at.
+
+18:26.800 --> 18:28.800
+And then we have a hook.
+
+18:28.800 --> 18:32.800
+And the hook is really where there's something that that's unusual and observation.
+
+18:32.800 --> 18:33.800
+Something's changed.
+
+18:33.800 --> 18:38.800
+Maybe a metric went up sharply or down significantly, and that caught our attention and
+
+18:38.800 --> 18:42.800
+that would capture the the attention of the audience as well.
+
+18:42.840 --> 18:45.840
+And then from there, we dig into, well, why did that occur?
+
+18:45.840 --> 18:46.840
+What's going on?
+
+18:46.840 --> 18:47.840
+What caused that?
+
+18:47.840 --> 18:53.840
+And so we have rising insights that start to build up to our aha moment, which is our
+
+18:53.840 --> 18:58.840
+main insight that we're sharing, our major finding, our central insight that we want
+
+18:58.840 --> 18:59.840
+the audience to remember.
+
+18:59.840 --> 19:03.840
+Now, we're not done at that point because we want the audience to do something.
+
+19:03.840 --> 19:08.840
+And that's where, you know, we're recommending either a solution or we're recommending
+
+19:08.880 --> 19:14.880
+And that's where, you know, we're recommending either a solution or we're showing different
+
+19:14.880 --> 19:16.880
+options and discussing the next steps.
+
+19:16.880 --> 19:22.880
+And through this process, the audience is learning more about this topic and hopefully
+
+19:22.880 --> 19:26.880
+they're putting they're being put into a position to act on it and make decisions.
+
+19:26.880 --> 19:28.880
+Now, how do we do this?
+
+19:28.880 --> 19:31.880
+I'll give you an example here from a real world example.
+
+19:31.880 --> 19:35.880
+And this was based on a retailer that had its analytics team, and they were looking
+
+19:35.920 --> 19:38.920
+at their customer data, the transactions.
+
+19:38.920 --> 19:43.920
+And so the the analytics team was expecting to see something like this, you know, a normal
+
+19:43.920 --> 19:46.920
+standard distribution of their orders by size.
+
+19:46.920 --> 19:49.920
+And what they found was this.
+
+19:49.920 --> 19:52.920
+There was this second peak that surprised them.
+
+19:52.920 --> 19:53.920
+They weren't expecting that.
+
+19:53.920 --> 19:55.920
+That was unexpected.
+
+19:55.920 --> 19:59.920
+And again, that's not an insight by itself until they dig into it to find out what was
+
+19:59.920 --> 20:01.920
+causing the second peak.
+
+20:01.960 --> 20:05.960
+When they did, they discovered that there was a segment of customers that were coming
+
+20:05.960 --> 20:08.960
+into their physical stores from outside the country.
+
+20:08.960 --> 20:13.960
+This retailer only had a presence in the United States and didn't have any stores outside
+
+20:13.960 --> 20:14.960
+of the United States.
+
+20:14.960 --> 20:19.960
+And international buyers were coming into their physical stores, making large bulk
+
+20:19.960 --> 20:24.960
+purchases and taking it back to their home countries to sell in their own stores.
+
+20:24.960 --> 20:29.960
+And then from there, they were able to make recommendations about maybe how they expand
+
+20:30.000 --> 20:34.000
+into these countries, how maybe they partner with some of these resellers.
+
+20:34.000 --> 20:39.000
+And what you're seeing here is the taking those findings of an analysis and turning
+
+20:39.000 --> 20:44.000
+it into a data story that can be shared, that's persuasive and memorable and engaging.
+
+20:45.000 --> 20:49.000
+The next tip that we have is obviously we have a lot of data and we want to use the
+
+20:49.000 --> 20:52.000
+visuals to amplify our messages.
+
+20:52.000 --> 20:57.000
+So in this case here, we're looking at COVID testing 2021, 2020 for various regions.
+
+20:57.040 --> 21:00.040
+And this chart is good.
+
+21:00.040 --> 21:02.040
+I mean, it's definitely sharing the data.
+
+21:02.040 --> 21:05.040
+You know, obviously we can look at it and see the insights.
+
+21:05.040 --> 21:08.040
+Now, the question is, maybe there's a better chart out there.
+
+21:08.040 --> 21:12.040
+Often what I recommend is iterating until you find a chart that really amplifies your
+
+21:12.040 --> 21:13.040
+message.
+
+21:13.040 --> 21:15.040
+In this case, maybe we want to go with a different chart.
+
+21:15.040 --> 21:17.040
+This is a slope graph chart.
+
+21:17.040 --> 21:22.040
+And in this case here, the angle of the slopes indicate, you know, if something growing or
+
+21:22.080 --> 21:27.080
+has increased significantly, you're going to see a sharper slope there than maybe the
+
+21:27.080 --> 21:30.080
+ones that are just wasn't much change.
+
+21:30.080 --> 21:34.080
+You know, you're not going to see as sharp an angle, pretty flat or decreasing.
+
+21:34.080 --> 21:39.080
+And so in this case here, maybe this chart is more effective than the one on the left.
+
+21:39.080 --> 21:43.080
+Another thing we can do is we can use color to really bring out our key points, right?
+
+21:43.080 --> 21:48.080
+So in this case here, we want to focus the audience's attention on region B, where we
+
+21:48.120 --> 21:53.120
+had this massive increase in COVID tests that grew 18% far and above any other region.
+
+21:56.120 --> 22:01.120
+And then finally, another thing that we can do is we can take that generic descriptive
+
+22:01.120 --> 22:06.120
+title and we can turn it into something where we have an explanatory headline or title
+
+22:06.120 --> 22:11.120
+that's really going to draw the attention of the audience to the key point that we're
+
+22:11.120 --> 22:14.120
+trying to make about region B.
+
+22:14.160 --> 22:19.160
+And so that ends my, I want to conclude my presentation with this quote from Stephen
+
+22:19.160 --> 22:24.160
+Few, you know, that the numbers have an important story to tell and they rely on you to
+
+22:24.160 --> 22:26.160
+give them a clear and convincing voice.
+
+22:26.160 --> 22:31.160
+And if you'd like to learn more about my philosophies on data storytelling, please check
+
+22:31.160 --> 22:34.160
+out my book, Effective Data Storytelling.
+
+22:36.160 --> 22:37.160
+Thank you, Brent.
+
+22:37.160 --> 22:39.160
+That was fantastic.
+
+22:39.160 --> 22:40.160
+Really appreciate it.
+
+22:40.200 --> 22:45.200
+I'm going to introduce our next speaker, who's a former colleague of mine, by the
+
+22:45.200 --> 22:46.200
+way.
+
+22:46.200 --> 22:52.200
+Lam Thuy Vo is a journalist who marries data analysis with underground reporting to
+
+22:52.200 --> 22:56.200
+examine how systems and policies affect individuals.
+
+22:56.200 --> 23:02.200
+She's currently a Soros Justice Fellow and AI Accountability Fellow for the Pulitzer
+
+23:02.200 --> 23:07.200
+Center and a data journalist and residence at the Craig Newmark Graduate School of
+
+23:07.200 --> 23:08.200
+Journalism.
+
+23:08.240 --> 23:13.240
+She has worked with Documented, ProPublica, The Guardian, The New York Times, and ESPN
+
+23:13.240 --> 23:15.240
+as an independent reporter.
+
+23:15.240 --> 23:20.240
+Previously, she was a journalist at BuzzFeed News, The Wall Street Journal, Al Jazeera
+
+23:20.240 --> 23:23.240
+America, and NPR's Planet Money.
+
+23:23.240 --> 23:24.240
+Lam?
+
+23:26.240 --> 23:27.240
+Hi, everyone.
+
+23:27.240 --> 23:30.240
+My name is Lam, and I'm very excited to see who is in the house.
+
+23:30.240 --> 23:32.240
+I've been seeing some of the bios I've been reading.
+
+23:32.240 --> 23:35.240
+I love how many folks I hear from Puerto Rico.
+
+23:35.280 --> 23:40.280
+I think there are a lot of stories that you can do in Puerto Rico using Census data, but
+
+23:40.280 --> 23:46.280
+I am particularly excited to nerd out about data when it comes to the Census Bureau
+
+23:46.280 --> 23:47.280
+because I use it so much.
+
+23:47.280 --> 23:54.280
+And one of the things I will start doing is I have already put into the Slack site, into
+
+23:54.280 --> 23:59.280
+the chat, the links to my slides.
+
+23:59.320 --> 24:06.320
+So what I'm going to do now is I'm going to share my, I think, desktop, which you will
+
+24:06.320 --> 24:11.320
+see is catastrophically overly, I have too many links and everything, but if there's
+
+24:11.320 --> 24:15.320
+one thing that you will take away from today, I would like for you to take a screenshot
+
+24:15.320 --> 24:22.320
+right now, yes, of my desktop, but you'll also see the link here.
+
+24:22.320 --> 24:26.320
+All you need to get in touch with me, to look at the things that are on these slides, are
+
+24:26.360 --> 24:27.360
+on that link, right?
+
+24:27.360 --> 24:28.360
+So go for that.
+
+24:28.360 --> 24:31.360
+You can also find me on Twitter and you'll find that afterwards as well.
+
+24:31.360 --> 24:36.360
+So I am so excited to talk about Census data today because I am a nerd.
+
+24:36.360 --> 24:41.360
+I love the American Community Survey and other surveys that the Census Bureau puts out.
+
+24:41.360 --> 24:47.360
+This is me in, I think, 2018 filling out an American Community Survey with so much pride.
+
+24:47.360 --> 24:48.360
+This is why I'm here.
+
+24:48.360 --> 24:53.360
+I cannot tell you that I even texted my partner as soon as I was told to speak to me.
+
+24:53.400 --> 24:58.400
+I even texted my partner as soon as I was told to speak to the Census Bureau, for the
+
+24:58.400 --> 25:03.400
+Census Bureau, and I can attest to you that this data is extremely important.
+
+25:03.400 --> 25:08.400
+So to give you a quick understanding of who I am, maybe it helps you to understand the
+
+25:08.400 --> 25:11.400
+context through which I'm talking to you about today.
+
+25:11.400 --> 25:14.400
+I used to be a videographer for the Wall Street Journal.
+
+25:14.400 --> 25:16.400
+I was a data vis and video person for NPR.
+
+25:16.400 --> 25:19.400
+I was an interactive editor for Al Jazeera America.
+
+25:19.440 --> 25:25.440
+In all of those jobs as a journalist with multiple media, Census data at some point
+
+25:25.440 --> 25:29.440
+played a role in how I viewed the stories I was doing.
+
+25:29.440 --> 25:31.440
+Then I became a BuzzFeed reporter.
+
+25:31.440 --> 25:36.440
+The story we're going to talk about today is from BuzzFeed where I looked into basically
+
+25:36.440 --> 25:41.440
+any kinds of stories that were du jour at that point in time, identifying news trends
+
+25:41.440 --> 25:46.440
+and then figuring out ways to tell those stories in multiple platforms and using different
+
+25:46.440 --> 25:48.440
+types of data.
+
+25:48.480 --> 25:52.480
+And now I'm a data journalist in residence at CUNY where I teach these things.
+
+25:52.480 --> 25:54.480
+I've been teaching data journalism for a good decade.
+
+25:54.480 --> 25:59.480
+So if you have any questions in that small corner, you can see my email address.
+
+25:59.480 --> 26:03.480
+I tell my students I come with a lifetime guarantee, which is probably bad for my social
+
+26:03.480 --> 26:06.480
+life, but most people don't seem to email me, so you have that.
+
+26:06.480 --> 26:10.480
+And you can also find me on Twitter under the handle Alam Tuivo.
+
+26:10.480 --> 26:15.480
+So with all of that out of the way, I want to talk to you about a sample story today.
+
+26:15.520 --> 26:23.520
+And I want to walk you through how you can use census data in a way that might not seem
+
+26:23.520 --> 26:25.520
+as intuitive.
+
+26:25.520 --> 26:33.520
+In my capacity as a reporter, I used to be a general assignment reporter, but in my capacity
+
+26:33.520 --> 26:38.520
+as a reporter, I at that point in time was doing a lot of social media data listening.
+
+26:38.520 --> 26:44.520
+And what I found in 2018, we're going to walk through a story today that addresses the
+
+26:44.560 --> 26:50.560
+idea of that was formulated when people started looking into viral incidences around
+
+26:50.560 --> 26:55.560
+white folks in a neighborhood calling the cops and black and brown folks for doing
+
+26:55.560 --> 26:57.560
+seemingly very normal things.
+
+26:57.560 --> 27:04.560
+If anyone of you remembers in 2018, there were several incidents that went viral,
+
+27:04.560 --> 27:10.560
+including one about Barbecue Becky, a woman who called the cops on her black neighbors
+
+27:10.600 --> 27:15.600
+who were having a barbecue at the park saying that they weren't using a permit to do so.
+
+27:15.600 --> 27:18.600
+There was a woman called Permit Patty.
+
+27:18.600 --> 27:23.600
+If you remember them, this person was calling the cops on a, I think it was a Latino child
+
+27:23.600 --> 27:25.600
+who was selling water without a permit.
+
+27:25.600 --> 27:30.600
+And these incidents kept on going viral at that point in time.
+
+27:30.600 --> 27:35.600
+And one of the things that my editor and I wanted to do at that point in time in 2018
+
+27:35.640 --> 27:40.640
+was to better understand the hypothesis that all of these folks were formulating
+
+27:40.640 --> 27:43.640
+by making these stories go viral.
+
+27:43.640 --> 27:49.640
+So with this said, the hypothesis, it seemed to be looking at the conversation around
+
+27:49.640 --> 27:54.640
+these topics, looking at this particular, the particular stories around it was that
+
+27:54.640 --> 27:59.640
+white folks who move into gentrifying neighborhoods might be calling the cops on their black
+
+27:59.640 --> 28:02.640
+and brown neighbors more often, which leads to over-policing.
+
+28:02.680 --> 28:04.680
+And this was an interesting story to tackle.
+
+28:04.680 --> 28:06.680
+It was A, very controversial.
+
+28:06.680 --> 28:10.680
+It was B, also something that was kind of hard to prove.
+
+28:10.680 --> 28:15.680
+And so one of the things that we wanted to do, my editor and I, was to come up with better
+
+28:15.680 --> 28:21.680
+ideas of understanding how we can tackle this statistically so that we can go from having
+
+28:21.680 --> 28:27.680
+anecdotal viral conversations about a topic to one that is more informed by hypothesis
+
+28:27.720 --> 28:32.720
+building, data analysis, and then figuring out whether this was actually something that
+
+28:32.720 --> 28:35.720
+was, that we could prove statistically to some degree.
+
+28:35.720 --> 28:40.720
+And one of the reasons why I'm fascinated by this is that it taps into a power dynamic
+
+28:40.720 --> 28:45.720
+that is very much something that we have observed ever since then in many gentrifying
+
+28:45.720 --> 28:52.720
+neighborhoods where sometimes more affluent new residents seem to have a disproportionate
+
+28:52.760 --> 28:57.760
+amount of power over long-term residents who in the end get displaced from their neighborhoods.
+
+28:57.760 --> 29:02.760
+So with this said, one of the things that we wanted to do was to find a trend for this
+
+29:02.760 --> 29:04.760
+hypothesis.
+
+29:04.760 --> 29:10.760
+What's interesting is that what we needed to figure out was to find two to three different
+
+29:10.760 --> 29:13.760
+measurements based on that hypothesis, right?
+
+29:13.760 --> 29:19.760
+If the hypothesis is, as I remind you, if more white folks move into, who are more affluent
+
+29:19.800 --> 29:24.800
+move into gentrifying neighborhoods, there will be more calls to the cops, which may
+
+29:24.800 --> 29:26.800
+lead to over-policing.
+
+29:26.800 --> 29:31.800
+And one of the things that we needed to measure with that was gentrification, demographic
+
+29:31.800 --> 29:34.800
+changes, and then also calls to the police.
+
+29:34.800 --> 29:38.800
+And the three data sources that we used for that were 311 calls.
+
+29:38.800 --> 29:45.800
+So 311 calls are the types of quality of life complaints that go to a city's hotline.
+
+29:45.840 --> 29:50.840
+And then from that hotline, the city can connect you to different people.
+
+29:50.840 --> 29:51.840
+This data is open.
+
+29:51.840 --> 29:52.840
+This data is out there.
+
+29:52.840 --> 29:57.840
+I think at that point in time, we were looking at 17 million rows of data, and we were able
+
+29:57.840 --> 30:02.840
+to work with analyses that other folks had done before to better understand what of this
+
+30:02.840 --> 30:07.840
+data set would constitute calling the cops on your neighbors.
+
+30:07.840 --> 30:12.840
+The second thing that we needed to do was to find a trend for this hypothesis.
+
+30:12.880 --> 30:17.880
+And this is where ACS, or American Community Survey, data came in really strong.
+
+30:17.880 --> 30:23.880
+We used census data to look into census tracts all over New York City that went from being
+
+30:23.880 --> 30:30.880
+some of the poorest, so in the bottom 40th percentile, if that makes any sense to you,
+
+30:30.880 --> 30:35.880
+to one of the more affluent census tracts as compared to the region.
+
+30:35.880 --> 30:40.880
+We also looked at census tracts that went from being the poorest, so in the bottom 40th
+
+30:40.920 --> 30:41.920
+as compared to the region.
+
+30:41.920 --> 30:48.920
+We also looked at that from a stance of median home value and median income, as well as
+
+30:48.920 --> 30:54.920
+understanding whether there may be more folks, and this was an analysis done by Columbia
+
+30:54.920 --> 30:59.920
+and then later by another magazine, if there may have also been an increase of people who
+
+30:59.920 --> 31:03.920
+were 25 and older and had a bachelor's degree.
+
+31:03.920 --> 31:09.920
+All of those tests, so to speak, were academic tests that someone did to figure out
+
+31:09.960 --> 31:17.960
+whether a census tract, which is a small geographic location, the smallest sort of like
+
+31:17.960 --> 31:23.960
+one of the smallest divisions of a geographic area had gentrified, had gone from not so
+
+31:23.960 --> 31:25.960
+affluent to more affluent.
+
+31:25.960 --> 31:28.960
+That was one analysis we did.
+
+31:28.960 --> 31:33.960
+We looked into whether it was correlated to the calls to cops about noise and about other
+
+31:33.960 --> 31:37.960
+things that you found bothersome about your neighbors.
+
+31:38.000 --> 31:41.000
+And then we also looked into demographic changes.
+
+31:41.000 --> 31:49.000
+Now, this is a very convoluted and very boring way of saying the hypothesis that many people
+
+31:49.000 --> 31:53.000
+on the Internet were formulating seemed to statistically check out.
+
+31:53.000 --> 31:55.000
+This graphic shows you that.
+
+31:55.000 --> 32:02.000
+And for that, we were able to use ACS data to do a larger statistical study to see whether
+
+32:02.000 --> 32:07.000
+there is a correlation between gentrification and calling the cops on your neighbors.
+
+32:07.040 --> 32:12.040
+And what we also saw, thanks to the census data, was that in the neighborhoods where
+
+32:12.040 --> 32:18.040
+there was a gentrified, where there was a higher rate per capita of calling the cops,
+
+32:18.040 --> 32:20.040
+we also saw demographic changes.
+
+32:20.040 --> 32:26.040
+This is a sort of convoluted chart that kind of makes that point of showing that in gentrifying
+
+32:26.040 --> 32:31.040
+neighborhoods where the calls were higher per capita to cops about noise complaints
+
+32:31.040 --> 32:35.040
+and other complaints about your neighbors, there were also major demographic changes.
+
+32:35.080 --> 32:39.080
+You could see that there were demographic changes in terms of more white folks moving
+
+32:39.080 --> 32:46.080
+in and fewer Black folks living in that neighborhood as a percentage of the entire neighborhood.
+
+32:47.080 --> 32:52.080
+So I've now explained to you how we went from looking at viral incidents to doing
+
+32:52.080 --> 32:58.080
+statistical analyses with the ACS to them being like, oh, the hypothesis that all of
+
+32:58.080 --> 33:02.080
+these folks on the Internet were kind of like speaking about, that seems to check out.
+
+33:02.120 --> 33:07.120
+And trust me, I've done enough to try and disprove my hypothesis, to try and disprove
+
+33:07.120 --> 33:08.120
+this hypothesis.
+
+33:08.120 --> 33:12.120
+This is a very controversial subject, so I wanted to make sure that it was extra right.
+
+33:12.120 --> 33:13.120
+And we were able to prove that.
+
+33:13.120 --> 33:18.120
+And what you can see is also that in a visual sense, one of the ways in which we showed
+
+33:18.120 --> 33:24.120
+this map is the tracks that are outlined, our census tracks that gentrified.
+
+33:24.120 --> 33:30.120
+The error up meant that the white population as a percentage of that neighborhood went
+
+33:30.160 --> 33:31.160
+up.
+
+33:31.160 --> 33:38.160
+And the darker the shade of each census track, the higher the calls per capita were to complain
+
+33:38.160 --> 33:43.160
+about noise, to complain about, quote unquote, illegal usage of an apartment.
+
+33:44.160 --> 33:47.160
+So this very clearly shows certain trends.
+
+33:47.160 --> 33:52.160
+But I can tell you all these things and I can make you feel like this is really important.
+
+33:52.160 --> 33:56.160
+But one of the things that's really important as well is to kind of bring that data and
+
+33:56.200 --> 34:01.200
+bring these findings down to a more visceral understanding of the subject.
+
+34:01.200 --> 34:05.200
+And so what we did for that story as well was to look into one block.
+
+34:05.200 --> 34:11.200
+What are interesting outliers, or not outliers, what are extreme versions or good emblematic
+
+34:11.200 --> 34:14.200
+examples of how this may manifest itself?
+
+34:14.200 --> 34:20.200
+And we found one block in Harlem, which was predominantly Dominican, where there were
+
+34:20.200 --> 34:23.200
+3,000 noise complaints over the course of three years.
+
+34:23.240 --> 34:28.240
+And as you can see here in this little data visualization, you can see that one address
+
+34:28.240 --> 34:33.240
+had 1,118 noise complaints lobbed against it between 2015 and 2017.
+
+34:33.240 --> 34:36.240
+And this kind of brings it down to a block level.
+
+34:36.240 --> 34:39.240
+Imagine living in a block and there were 3,000 noise complaints.
+
+34:39.240 --> 34:42.240
+One of those days had 100 noise complaints.
+
+34:42.240 --> 34:46.240
+What does this say about the ways in which we handle conflict in those areas?
+
+34:46.280 --> 34:52.280
+And so I was able to go from showing the trend, understanding sort of like whether
+
+34:52.280 --> 34:56.280
+figuring out a way of looking into that hypothesis of discrimination that might be
+
+34:56.280 --> 35:00.280
+happening in gentrifying neighborhoods, to finding a hot spot.
+
+35:00.280 --> 35:05.280
+And the main part that it comes down to as well to make you understand the story better,
+
+35:05.280 --> 35:10.280
+because I can tell you all the statistics around it, is we wanted to find a person.
+
+35:10.280 --> 35:12.280
+And we found this young man.
+
+35:12.280 --> 35:13.280
+He's 105 years old.
+
+35:13.320 --> 35:14.320
+He's 105 years old.
+
+35:14.320 --> 35:17.320
+He used to live on that very street.
+
+35:17.320 --> 35:22.320
+And he did tell us, and I think we interviewed about 40 people to get to that point.
+
+35:22.320 --> 35:29.320
+He did tell us that he, after 30, I think it was four decades of living in that block,
+
+35:29.320 --> 35:35.320
+once the noise complaints kept on going up, he had to stop living the way he used to live
+
+35:35.320 --> 35:42.320
+his life, playing dominoes outside and I guess having chit chat outside on the streets.
+
+35:42.360 --> 35:47.360
+So one of the things that we needed to do was to go from the larger findings of the
+
+35:47.360 --> 35:52.360
+data down to what that feels like on the ground to real human beings.
+
+35:53.360 --> 35:58.360
+And with that said, I think once we had explored that, we also wanted to find a better
+
+35:58.360 --> 36:00.360
+understanding of the why behind the data.
+
+36:00.360 --> 36:06.360
+And I think that is one of the main parts that sometimes is more difficult to get to.
+
+36:06.360 --> 36:11.360
+And that takes a lot more research with experts who have either worked with populations
+
+36:11.400 --> 36:15.400
+there, experts who live on that block, people who are experts in their lived experience,
+
+36:15.400 --> 36:19.400
+as well as experts who work on an academic level on that.
+
+36:19.400 --> 36:24.400
+And we were able to find the why behind that data by talking to several folks.
+
+36:24.400 --> 36:29.400
+So this is a quote from a person who studies gentrification.
+
+36:29.400 --> 36:32.400
+He mentioned that when you live in a neighborhood where you feel comfortable knocking
+
+36:32.400 --> 36:34.400
+on your neighbor's door, then you would do that.
+
+36:34.400 --> 36:39.400
+So what he means by that is that a lot of people felt very uncomfortable
+
+36:39.440 --> 36:44.440
+due to racial issues, due to being new and having longer established folks.
+
+36:44.440 --> 36:49.440
+Whatever the reason was, they didn't feel comfortable talking to their neighbors
+
+36:49.440 --> 36:52.440
+about the noise complaints, about the noise outside.
+
+36:52.440 --> 36:55.440
+And so instead mediated the conflict through a third party.
+
+36:55.440 --> 36:56.440
+Right.
+
+36:56.440 --> 36:58.440
+That was one of the whys.
+
+36:58.440 --> 37:03.440
+And then we also spoke to several people who did call the cops on that block on their
+
+37:03.440 --> 37:04.440
+neighbors.
+
+37:04.480 --> 37:09.480
+And one of them said there's this tendency among new residents of people of not
+
+37:09.480 --> 37:11.480
+addressing problems directly.
+
+37:11.480 --> 37:16.480
+He said he had called 311 a few times to deal with his downstairs neighbor who was
+
+37:16.480 --> 37:17.480
+playing loud rap music.
+
+37:17.480 --> 37:21.480
+He also said he didn't feel safe approaching his neighbor to ask for the music to be
+
+37:21.480 --> 37:22.480
+turned down.
+
+37:22.480 --> 37:27.480
+He said this used to be a bad neighborhood, even though this stands in stark contrast
+
+37:27.480 --> 37:30.480
+with crime rates in that neighborhood as well.
+
+37:30.520 --> 37:35.520
+And so I think one of the things that's hopefully clear through this story is that
+
+37:35.520 --> 37:39.520
+some of the things that you might be seeing, the hypothesis that you might be
+
+37:39.520 --> 37:45.520
+building around something can be really answered through very clear analyses, almost
+
+37:45.520 --> 37:51.520
+like a scientific way of using census data to tell those kinds of stories.
+
+37:54.520 --> 37:55.520
+Thank you, Lam.
+
+37:55.520 --> 37:57.520
+That was a wonderful presentation.
+
+37:57.520 --> 37:58.520
+Really appreciate it.
+
+37:58.520 --> 37:59.520
+Thank you again.
+
+37:59.560 --> 38:04.560
+And please, before we go to the next speaker, let me remind everyone if you have any
+
+38:04.560 --> 38:09.560
+questions, you can drop them in the chat and we'll try to get to them at the end of
+
+38:09.560 --> 38:10.560
+the presentations.
+
+38:10.560 --> 38:18.560
+So let's go to our third speaker, who is Shannon Arvizu, who is a sociologist and
+
+38:18.560 --> 38:22.560
+senior advisor in the Office of the Chief Data Officer at the Department of
+
+38:22.560 --> 38:23.560
+Commerce.
+
+38:23.560 --> 38:28.560
+She combines her expertise in organizational change management, social science
+
+38:28.600 --> 38:33.600
+and systems thinking to support evidence-based policymaking efforts.
+
+38:33.600 --> 38:37.600
+In her role within the Department of Commerce, she leads efforts to improve the
+
+38:37.600 --> 38:42.600
+use of data for federal programs aimed at increasing equitable outcomes and
+
+38:42.600 --> 38:45.600
+opportunities for communities across the country.
+
+38:45.600 --> 38:49.600
+She also leads two equitable data communities of practice, one for data
+
+38:49.600 --> 38:54.600
+practitioners within the DOC and one for practitioners within a larger federal
+
+38:54.640 --> 38:59.640
+landscape aimed at building capacity for more rigorous government program
+
+38:59.640 --> 39:00.640
+design.
+
+39:00.640 --> 39:06.640
+In addition, Dr. Arvizu is the founder of Epic Teams, a leading consultancy in the
+
+39:06.640 --> 39:09.640
+field of agile organizational performance.
+
+39:09.640 --> 39:10.640
+Shannon?
+
+39:11.640 --> 39:12.640
+All right.
+
+39:12.640 --> 39:13.640
+Thank you so much.
+
+39:13.640 --> 39:19.640
+And thank you, Lam, for that very inspiring example of data journalism in
+
+39:19.640 --> 39:20.640
+action.
+
+39:20.680 --> 39:25.680
+So, I want to share with you today the power of data storytelling to solve
+
+39:25.680 --> 39:27.680
+public problems better.
+
+39:27.680 --> 39:32.680
+And I hope that after this presentation, you are all inspired to be equitable
+
+39:32.680 --> 39:34.680
+data practitioners.
+
+39:34.680 --> 39:40.680
+And I want to first start with a personal story of how pandemic data led to my
+
+39:40.680 --> 39:43.680
+tour of duty in public service.
+
+39:43.680 --> 39:48.680
+So, with that, I will share my next slide.
+
+39:48.720 --> 39:54.720
+I'm a sociologist, and I've always been very passionate and interested about how
+
+39:54.720 --> 39:56.720
+social change occurs.
+
+39:56.720 --> 40:01.720
+How do our institutions evolve to better meet the needs of the common good?
+
+40:01.720 --> 40:06.720
+And we know that all social change happens through organizations.
+
+40:06.720 --> 40:12.720
+Organizations are the medium through which ideas and resources and data turn
+
+40:12.720 --> 40:15.720
+into products and services and policies.
+
+40:15.760 --> 40:20.760
+And I spent the last 10 years working inside mission-driven organizations to
+
+40:20.760 --> 40:23.760
+help them do that transformational work.
+
+40:23.760 --> 40:28.760
+And in particular, I helped them develop systems to do three things better.
+
+40:28.760 --> 40:33.760
+How to build the right things in the right way and at the right speed for the
+
+40:33.760 --> 40:35.760
+people that they serve.
+
+40:35.760 --> 40:40.760
+And I built a pretty successful practice, worked my way up to Fortune 500
+
+40:40.800 --> 40:45.800
+companies, helped them surpass their revenue goals and help some tech
+
+40:45.800 --> 40:48.800
+companies achieve billion-dollar exits.
+
+40:48.800 --> 40:51.800
+And then the pandemic hit.
+
+40:51.800 --> 40:56.800
+And all of a sudden, we were all inside during lockdown looking at
+
+40:56.800 --> 40:58.800
+dashboards every day.
+
+40:58.800 --> 41:03.800
+And I found it super fascinating as a sociologist to see that Americans
+
+41:03.800 --> 41:08.800
+across the country were governing their daily lives by data, looking at
+
+41:08.840 --> 41:11.840
+hospitalization rates and infection rates and death rates.
+
+41:11.840 --> 41:16.840
+And it really got me thinking, wow, okay, where is all the other data about
+
+41:16.840 --> 41:19.840
+where all other parts of our society are doing?
+
+41:19.840 --> 41:24.840
+And it was really interesting to also look at the intersection between COVID
+
+41:24.840 --> 41:26.840
+data and sociodemographic data.
+
+41:26.840 --> 41:31.840
+And we saw, for example, that there were pretty wide disparities when it
+
+41:31.840 --> 41:33.840
+came to health outcomes.
+
+41:33.880 --> 41:38.880
+We know that Black and Latino and Asian communities were disproportionately
+
+41:38.880 --> 41:43.880
+impacted, mostly because they were more likely to be living in homes where
+
+41:43.880 --> 41:48.880
+there was a higher density and were more likely to live in jobs that were
+
+41:48.880 --> 41:50.880
+not remote.
+
+41:50.880 --> 41:55.880
+We also know that there were wide disparities in economic impacts.
+
+41:55.880 --> 41:59.880
+Here's a line of folks in line for a food bank in Brooklyn.
+
+41:59.920 --> 42:04.920
+And we know that those that were in low-paying jobs, again, were
+
+42:04.920 --> 42:07.920
+disproportionately impacted by the pandemic.
+
+42:07.920 --> 42:11.920
+And low-paying jobs account for 30% of all American jobs.
+
+42:11.920 --> 42:16.920
+And we know that Black and Latino women in particular are more likely to be
+
+42:16.920 --> 42:18.920
+in those lower-paying jobs.
+
+42:18.920 --> 42:23.920
+And lower-paying jobs accounted for 56% of all jobs that were lost during
+
+42:23.920 --> 42:25.920
+that time.
+
+42:25.960 --> 42:31.960
+We also saw that there were disparities in terms of educational outcomes.
+
+42:31.960 --> 42:35.960
+We know that those in predominantly Black and Indigenous communities
+
+42:35.960 --> 42:40.960
+already experienced disparities when it came to access to books and high
+
+42:40.960 --> 42:42.960
+student-to-teacher ratio.
+
+42:42.960 --> 42:47.960
+And they were also less likely to have access to computers and the internet,
+
+42:47.960 --> 42:52.960
+which had a greater impact than just on their educational outcomes.
+
+42:53.000 --> 42:56.000
+It also affected a lot of other outcomes.
+
+42:56.000 --> 43:00.000
+I have this quote here from the Harvard Graduate School Education
+
+43:00.000 --> 43:02.000
+Dean Bridget Long.
+
+43:02.000 --> 43:05.000
+And she says, you think about schools and academics, but a child's school
+
+43:05.000 --> 43:07.000
+is social and emotional support.
+
+43:07.000 --> 43:08.000
+It's safety.
+
+43:08.000 --> 43:09.000
+It's a food system.
+
+43:09.000 --> 43:10.000
+It's health care.
+
+43:10.000 --> 43:12.000
+It's all of those things that those students missed out on during that
+
+43:12.000 --> 43:13.000
+time.
+
+43:13.000 --> 43:18.000
+And unfortunately, we also saw disparities when it came to access to
+
+43:18.000 --> 43:22.000
+basic necessities like clean, running water in your home.
+
+43:22.040 --> 43:27.040
+We know that those in Navajo country, for example, about 30% didn't have
+
+43:27.040 --> 43:30.040
+access to clean, running water in their homes.
+
+43:30.040 --> 43:34.040
+And that also proved to be a challenge in a time when frequent hand
+
+43:34.040 --> 43:37.040
+washing was a way to stay healthy.
+
+43:37.040 --> 43:42.040
+So all of those disparities existed before the pandemic.
+
+43:42.040 --> 43:48.040
+And this pandemic data really brought to light the differences that
+
+43:48.080 --> 43:52.080
+Americans experience based on where they live and where they come from.
+
+43:52.080 --> 43:57.080
+And those have real impacts for the type of life that you lead and also
+
+43:57.080 --> 44:00.080
+how long of a life that you lead.
+
+44:00.080 --> 44:04.080
+And so this became my passion during the pandemic.
+
+44:04.080 --> 44:09.080
+I became really interested in understanding how might our government
+
+44:09.080 --> 44:13.080
+institutions better deliver the right things in the right way and at the
+
+44:13.080 --> 44:16.080
+right speed for the communities who need it most.
+
+44:16.120 --> 44:23.120
+And when I say government, I want to introduce a definition of citizens
+
+44:23.120 --> 44:26.120
+working together to solve shared problems.
+
+44:26.120 --> 44:31.120
+And this to me really is the definition of being an American.
+
+44:31.120 --> 44:38.120
+And when I had the opportunity to be of service to our chief data officer
+
+44:38.120 --> 44:42.120
+team at the Department of Commerce, I jumped at it because I thought
+
+44:42.160 --> 44:47.160
+there's no better way for me to use my talents and skills to be able to
+
+44:47.160 --> 44:50.160
+help contribute to furthering of this mission.
+
+44:50.160 --> 44:55.160
+And what I've uncovered in my time so far is that there are millions of
+
+44:55.160 --> 44:58.160
+civil servants that are working to fulfill this core purpose of our
+
+44:58.160 --> 45:03.160
+government, which is to equip every American with a fair shot to build
+
+45:03.160 --> 45:08.160
+their best life possible for themselves and for their families.
+
+45:08.200 --> 45:13.200
+And our government has made some historic investments in the last couple
+
+45:13.200 --> 45:18.200
+years to address those disparities, including the American Rescue Plan,
+
+45:18.200 --> 45:23.200
+which provided things like stimulus checks and emergency rental assistance
+
+45:23.200 --> 45:28.200
+and support to schools in order to strengthen the safety net when it was
+
+45:28.200 --> 45:29.200
+most weak.
+
+45:29.200 --> 45:34.200
+We also know that there was a second historic investment called the
+
+45:34.240 --> 45:39.240
+Infrastructure Bill, which made investments in things like improved
+
+45:39.240 --> 45:43.240
+water quality for those in Navajo country, for example, and bringing
+
+45:43.240 --> 45:46.240
+broadband to rural communities so they can access education and
+
+45:46.240 --> 45:48.240
+employment opportunities.
+
+45:48.240 --> 45:54.240
+So with all of this, we ask ourselves, how do we know whether we are
+
+45:54.240 --> 45:59.240
+actually moving the needle to address those disparities?
+
+45:59.240 --> 46:03.240
+And there's a movement underway in the federal government, which I'll call
+
+46:03.280 --> 46:08.280
+the Equitable Data Movement, and this is a movement spearheaded by
+
+46:08.280 --> 46:13.280
+White House Chief Data Scientist Denise Ross and others that really
+
+46:13.280 --> 46:18.280
+builds on the work of the Evidence Act, which was passed in 2019 nearly
+
+46:18.280 --> 46:23.280
+unanimously by those in Congress, to build an evidence-based policy
+
+46:23.280 --> 46:24.280
+culture.
+
+46:24.280 --> 46:29.280
+And so to drill a little bit deeper into this notion of equitable data,
+
+46:29.320 --> 46:34.320
+we have this definition, which is data which enables rigorous
+
+46:34.320 --> 46:37.320
+assessment of the extent to which government programs and policies
+
+46:37.320 --> 46:42.320
+yield consistently fair, just, and impartial treatment of all
+
+46:42.320 --> 46:43.320
+individuals.
+
+46:43.320 --> 46:49.320
+And the reason why this is so important is because we need to focus
+
+46:49.320 --> 46:54.320
+on opportunities for targeted actions to result in improved outcomes
+
+46:54.320 --> 46:57.320
+for underserved communities.
+
+46:57.360 --> 47:00.360
+And I want to share with you an example.
+
+47:00.360 --> 47:04.360
+Since I'm using the term equity, oftentimes people are curious about
+
+47:04.360 --> 47:07.360
+what's the difference between equality and equity.
+
+47:07.360 --> 47:10.360
+And so if you take a rental assistance program, from an equality
+
+47:10.360 --> 47:15.360
+perspective, every county receives an equal amount of rental assistance
+
+47:15.360 --> 47:19.360
+funds, whereas from an equity perspective, counties with renter
+
+47:19.360 --> 47:23.360
+households that have higher rates of cost burden receive proportionally
+
+47:23.360 --> 47:26.360
+more funds than other counties.
+
+47:26.400 --> 47:31.400
+And so the focus really is on what are called underserved communities
+
+47:31.400 --> 47:35.400
+and how do we identify those underserved communities?
+
+47:35.400 --> 47:39.400
+Well, the first step is we need to disaggregate the data.
+
+47:39.400 --> 47:41.400
+So what does that mean?
+
+47:41.400 --> 47:46.400
+That means that we look at their data by demographic information.
+
+47:46.400 --> 47:49.400
+So we're looking at differences between income, race, gender,
+
+47:49.400 --> 47:50.400
+language spoken.
+
+47:50.400 --> 47:55.400
+We disaggregate it by geography and other relevant variables that
+
+47:55.440 --> 47:58.440
+are relevant variables for your program efforts.
+
+47:58.440 --> 48:03.440
+And I want to share an example of how equitable data practices
+
+48:03.440 --> 48:05.440
+look like in action.
+
+48:05.440 --> 48:10.440
+So I'm going to use the Digital Equity Act as an example.
+
+48:10.440 --> 48:15.440
+So as part of the infrastructure bill, about $2.75 billion is
+
+48:15.440 --> 48:18.440
+administered through our National Telecom and Information
+
+48:18.440 --> 48:23.440
+Administration to communities that could benefit from digital skills
+
+48:23.480 --> 48:27.480
+training, improved online accessibility, and really empowering
+
+48:27.480 --> 48:30.480
+rural communities in particular to be able to measure and address
+
+48:30.480 --> 48:32.480
+their own broadband needs.
+
+48:32.480 --> 48:36.480
+So you may ask yourself, OK, where are those communities?
+
+48:36.480 --> 48:40.480
+What type of population would benefit most from this?
+
+48:40.480 --> 48:45.480
+So we know from research that these are the types of communities
+
+48:45.480 --> 48:48.480
+that are less likely to have access to the Internet.
+
+48:48.520 --> 48:53.520
+Folks that are making less than 150% of the poverty line.
+
+48:53.520 --> 48:57.520
+Older folks, those who have been incarcerated, veterans, disabled,
+
+48:57.520 --> 49:00.520
+those that face a language barrier, racial or ethnic minorities,
+
+49:00.520 --> 49:03.520
+and those that tend to be in rural communities.
+
+49:03.520 --> 49:06.520
+So then you may ask yourself, but where are they located?
+
+49:06.520 --> 49:13.520
+So Census and NTIA collaborated to create the Digital Equity Act
+
+49:13.520 --> 49:15.520
+population viewer.
+
+49:15.560 --> 49:19.560
+And you can start to see here, at least on a state-by-state basis,
+
+49:19.560 --> 49:23.560
+where are the states that have the most amount per capita of those
+
+49:23.560 --> 49:26.560
+types of folks that are in those covered populations?
+
+49:26.560 --> 49:30.560
+And when you dive a little bit deeper into this, say, for example,
+
+49:30.560 --> 49:34.560
+in New Mexico, you can start to see the breakdown by that
+
+49:34.560 --> 49:35.560
+disaggregation.
+
+49:35.560 --> 49:39.560
+And you can also see here their usage as it comes to the Internet
+
+49:39.560 --> 49:42.560
+and PC, also from ACS.
+
+49:42.600 --> 49:48.600
+So ACS, I've been getting a tip or hats off in this session today.
+
+49:48.600 --> 49:54.600
+And so, again, this is an example of how equitable data practitioners
+
+49:54.600 --> 49:58.600
+start to better design programs so that way we are meeting the needs
+
+49:58.600 --> 50:00.600
+of those who need it most.
+
+50:00.600 --> 50:05.600
+And so I throw out this term, equitable data practitioner.
+
+50:05.600 --> 50:08.600
+And we are in the business of illuminating opportunities
+
+50:08.600 --> 50:10.600
+for targeted actions.
+
+50:10.640 --> 50:15.640
+And as an equitable data practitioner, we are civic data entrepreneurs.
+
+50:15.640 --> 50:19.640
+So we're inspiring new ways of thinking about data and analysis
+
+50:19.640 --> 50:22.640
+in program design and delivery.
+
+50:22.640 --> 50:24.640
+We are also change agents.
+
+50:24.640 --> 50:29.640
+So we might not always have access to all the data we'd like to have,
+
+50:29.640 --> 50:31.640
+but we look for the low-hanging fruit.
+
+50:31.640 --> 50:32.640
+We see what we can do now.
+
+50:32.640 --> 50:34.640
+We see coalitions of the willing.
+
+50:34.640 --> 50:36.640
+Who's excited to do this work?
+
+50:36.640 --> 50:39.640
+And then once we find really interesting, powerful ways to do
+
+50:39.680 --> 50:41.680
+this work, we seek to institutionalize them.
+
+50:41.680 --> 50:45.680
+So that way this just becomes how we do things.
+
+50:45.680 --> 50:48.680
+And lastly, we are continuous learners.
+
+50:48.680 --> 50:52.680
+So we're all learning together how to build the next-gen
+
+50:52.680 --> 50:54.680
+government data infrastructure.
+
+50:54.680 --> 50:57.680
+And it's really important that we look internally
+
+50:57.680 --> 50:59.680
+across the federal landscape.
+
+50:59.680 --> 51:02.680
+We look to state and local governments and nonprofits.
+
+51:02.680 --> 51:04.680
+We look for the people who are benefiting from programs
+
+51:04.680 --> 51:08.680
+and really engaging them in this continuous feedback loop.
+
+51:08.720 --> 51:11.720
+So that is my call to you all.
+
+51:11.720 --> 51:15.720
+Now that you have an idea of what equitable data practitioners do
+
+51:15.720 --> 51:18.720
+and the stories that we can tell when we do our work well,
+
+51:18.720 --> 51:22.720
+I invite you all to see yourselves as part of this movement.
+
+51:22.720 --> 51:25.720
+And if you'd like to continue the conversation,
+
+51:25.720 --> 51:28.720
+you can find me on LinkedIn.
+
+51:28.720 --> 51:30.720
+So thank you very much, everyone.
+
+51:30.720 --> 51:33.720
+And I pass the talking stick back to you.
+
+51:34.720 --> 51:36.720
+Thank you, Shannon.
+
+51:36.720 --> 51:37.720
+That was wonderful.
+
+51:37.760 --> 51:39.760
+I really appreciate this.
+
+51:39.760 --> 51:44.760
+So we're going to move to our last but not least speaker
+
+51:44.760 --> 51:46.760
+who is Philip Deng.
+
+51:46.760 --> 51:49.760
+He is co-founder and CEO of Grantable,
+
+51:49.760 --> 51:53.760
+a world-class grant writing assistant for everyone
+
+51:53.760 --> 51:55.760
+powered by AI.
+
+51:55.760 --> 51:58.760
+Philip has been working at the nonprofit sector
+
+51:58.760 --> 52:00.760
+for more than 15 years on three continents
+
+52:00.760 --> 52:02.760
+and in three languages.
+
+52:02.760 --> 52:04.760
+He loves to cook and gather with friends.
+
+52:04.800 --> 52:07.800
+He lives in Richmond, Virginia with his partner Anita
+
+52:07.800 --> 52:09.800
+and their two pups, Harper and Suki.
+
+52:09.800 --> 52:11.800
+I love the personal touch, Philip.
+
+52:11.800 --> 52:13.800
+Take it away.
+
+52:13.800 --> 52:15.800
+Thank you so much, Aya.
+
+52:15.800 --> 52:18.800
+And thank you, everybody, for having me at this summit.
+
+52:18.800 --> 52:21.800
+It really is an honor that I feel like I've skipped
+
+52:21.800 --> 52:23.800
+a few steps to arrive at.
+
+52:23.800 --> 52:25.800
+But I'm grateful to be here.
+
+52:25.800 --> 52:28.800
+And I don't have a presentation deck,
+
+52:28.800 --> 52:31.800
+so I'm just going to try to speak and kind of bring my thoughts
+
+52:31.800 --> 52:33.800
+together along with what the other presenters
+
+52:33.840 --> 52:35.840
+have shared today.
+
+52:35.840 --> 52:38.840
+Where I want to begin to set the stage is just to
+
+52:38.840 --> 52:42.840
+call back to the bio that was just read about me.
+
+52:42.840 --> 52:47.840
+I probably have the least amount of in-depth experience
+
+52:47.840 --> 52:50.840
+with data and numbers of anybody on this panel.
+
+52:50.840 --> 52:54.840
+My background is almost 15 years in the nonprofit sector
+
+52:54.840 --> 52:58.840
+as a practitioner on the ground in different countries
+
+52:58.840 --> 53:00.840
+working in different languages.
+
+53:00.880 --> 53:04.880
+And my focus from that has been in grants.
+
+53:04.880 --> 53:08.880
+And so I think I was asked to join today's panel to talk
+
+53:08.880 --> 53:12.880
+about how data can be effective in storytelling
+
+53:12.880 --> 53:14.880
+in a grants context.
+
+53:14.880 --> 53:19.880
+And I think what are consistent themes with what everybody
+
+53:19.880 --> 53:24.880
+else has shared today is that stories are very powerful.
+
+53:24.880 --> 53:27.880
+There are problems that need to be solved.
+
+53:27.920 --> 53:29.920
+And so we're asking ourselves today,
+
+53:29.920 --> 53:33.920
+how can we measure the world around us to help us tell
+
+53:33.920 --> 53:35.920
+these stories to solve problems?
+
+53:35.920 --> 53:41.920
+And so I think grants are very much a synthesis of that effort.
+
+53:41.920 --> 53:45.920
+For those of you that maybe don't know the statistics,
+
+53:45.920 --> 53:49.920
+about $800 billion worth of funding is distributed
+
+53:49.920 --> 53:51.920
+as grants every year.
+
+53:51.920 --> 53:54.920
+My company's estimated probably about 30 million
+
+53:54.920 --> 53:56.920
+grant proposals are written.
+
+53:56.960 --> 54:00.960
+By all kinds of different organizations, agencies,
+
+54:00.960 --> 54:02.960
+and even businesses as well.
+
+54:02.960 --> 54:06.960
+We saw that during COVID for sure and people applying
+
+54:06.960 --> 54:08.960
+for their different relief funds.
+
+54:08.960 --> 54:12.960
+So that's sort of the context that I've been working in.
+
+54:12.960 --> 54:16.960
+And one of the observations that I've made,
+
+54:16.960 --> 54:20.960
+particularly in my role now transitioning from the
+
+54:20.960 --> 54:24.960
+nonprofit sector into a tech startup role,
+
+54:25.000 --> 54:28.000
+particularly one working with AI,
+
+54:28.000 --> 54:33.000
+is that I believe the nature of data is changing
+
+54:33.000 --> 54:37.000
+and so will storytelling with it.
+
+54:37.000 --> 54:40.000
+As an example, probably many of you have heard of
+
+54:40.000 --> 54:43.000
+or played around with chat GPT.
+
+54:43.000 --> 54:47.000
+And for those of you who maybe haven't delved deeply into how
+
+54:47.000 --> 54:51.000
+that chat bot is generating these wild and sometimes
+
+54:51.040 --> 54:55.040
+very amazing skillful outputs,
+
+54:55.040 --> 54:59.040
+it has been trained on a massive amount of data,
+
+54:59.040 --> 55:03.040
+mostly text data from the internet and with enormous
+
+55:03.040 --> 55:07.040
+amounts of computing power and complex algorithms.
+
+55:07.040 --> 55:13.040
+It is teasing patterns out of that data and using probability
+
+55:13.040 --> 55:15.040
+to generate these text outputs.
+
+55:15.040 --> 55:20.040
+So I saw a parallel with today's theme and today's discussion
+
+55:20.080 --> 55:24.080
+and I thought one of the things I could do for those gathered
+
+55:24.080 --> 55:28.080
+here today is to kind of point out what I see happening
+
+55:28.080 --> 55:32.080
+at scale here, which again is data is changing and the way
+
+55:32.080 --> 55:35.080
+we can tell stories with it is as well.
+
+55:35.080 --> 55:41.080
+So chat GPT is data and from it we are now coaxing out
+
+55:41.080 --> 55:45.080
+patterns which are literally telling us stories.
+
+55:45.080 --> 55:47.080
+If you go to this chat bot and you say,
+
+55:47.120 --> 55:50.120
+hey, tell me a bedtime story, it will.
+
+55:50.120 --> 55:55.120
+And it is doing that literally from massive amounts of data
+
+55:55.120 --> 55:59.120
+which human engineers have trained to find patterns
+
+55:59.120 --> 56:03.120
+and bring out of the data and it is now writing bedtime
+
+56:03.120 --> 56:05.120
+stories if that is what you ask it to do.
+
+56:05.120 --> 56:09.120
+So I just think one of the things that is very interesting
+
+56:09.120 --> 56:13.120
+for I think the people gathered today is to stretch our
+
+56:13.160 --> 56:17.160
+imaginations a little bit and think about what might
+
+56:17.160 --> 56:22.160
+storytelling with numbers mean in the future, in the next few
+
+56:22.160 --> 56:24.160
+months, in the next few years?
+
+56:24.160 --> 56:29.160
+How are we going to take these themes of equity, these themes
+
+56:29.160 --> 56:33.160
+of measuring impact and figuring out how to make
+
+56:33.160 --> 56:35.160
+evidence-based decisions?
+
+56:35.160 --> 56:40.160
+What else can we do if we lay a lens of this new paradigm
+
+56:40.200 --> 56:46.200
+of tech-enabled data analysis to help us in that effort?
+
+56:46.200 --> 56:49.200
+So that was one thing I really wanted to call out today
+
+56:49.200 --> 56:52.200
+and ask people to think about and try.
+
+56:52.200 --> 56:56.200
+And in that effort I will just say a lot of people I have
+
+56:56.200 --> 57:00.200
+encouraged to do that, try it out and the first reaction
+
+57:00.200 --> 57:05.200
+is a pretty heady mix of excitement and anxiety.
+
+57:05.200 --> 57:09.200
+A lot of people are creeped out quite frankly by what these
+
+57:09.240 --> 57:13.240
+things are capable of doing and what I'm not doing is
+
+57:13.240 --> 57:17.240
+telling people to calm down or don't worry about it.
+
+57:17.240 --> 57:21.240
+I'm actually telling everyone to listen to that emotion,
+
+57:21.240 --> 57:25.240
+to that instinct that is saying, hey, this is different,
+
+57:25.240 --> 57:29.240
+this is strange, this is unsettling, and to allow that
+
+57:29.240 --> 57:33.240
+to heighten our senses and to say, okay, I'm now sitting up,
+
+57:33.240 --> 57:37.240
+I'm paying attention, what is this thing and how do we all
+
+57:37.280 --> 57:40.280
+collectively get our arms around it and use it?
+
+57:40.280 --> 57:44.280
+So that's just one thing I wanted to mention that I think
+
+57:44.280 --> 57:49.280
+is relevant in the moment as pertains to data.
+
+57:49.280 --> 57:53.280
+And then to bring it back to grants, for those of you who
+
+57:53.280 --> 57:58.280
+may be working on grants for different agencies or
+
+57:58.280 --> 58:01.280
+organizations, some things I wanted to call out from my own
+
+58:01.280 --> 58:06.280
+experience as a grant writer and recipient, I echo what
+
+58:06.320 --> 58:09.320
+Brent said at the beginning to sort of begin with your
+
+58:09.320 --> 58:14.320
+audience and to shape your narrative based on who are you
+
+58:14.320 --> 58:18.320
+trying to tell a story to, who are you trying to move with
+
+58:18.320 --> 58:22.320
+your narrative, and from there I think it usually becomes
+
+58:22.320 --> 58:25.320
+clear what kind of data to use.
+
+58:25.320 --> 58:30.320
+I also think based on your audience, you kind of have to
+
+58:30.320 --> 58:35.320
+pick the Zoom that you're going to put on the numbers or the
+
+58:35.360 --> 58:38.360
+quantitative material that you're using.
+
+58:38.360 --> 58:43.360
+So if your funder, for example, is working on national level
+
+58:43.360 --> 58:47.360
+initiatives, then you're probably going to want numbers
+
+58:47.360 --> 58:50.360
+that convey the scale of work that is going to have a
+
+58:50.360 --> 58:55.360
+national impact versus a local foundation.
+
+58:55.360 --> 58:58.360
+This is, again, just in my purview, you would want
+
+58:58.360 --> 59:03.360
+numbers that maybe actually highlight a clinic or a food
+
+59:03.400 --> 59:07.400
+bank in the neighborhood where the funder lives and have
+
+59:07.400 --> 59:11.400
+numbers that clarify that that's the level of focus that
+
+59:11.400 --> 59:13.400
+you're trying to achieve.
+
+59:13.400 --> 59:18.400
+So I think the scope is really important, as is choosing when
+
+59:18.400 --> 59:21.400
+to use numbers and when to use words.
+
+59:21.400 --> 59:24.400
+I think that's how I came into this conversation, but maybe
+
+59:24.400 --> 59:29.400
+after hearing several of my co-panelists, I think it's kind
+
+59:29.400 --> 59:32.400
+of how do you use both together in a really compelling way.
+
+59:32.440 --> 59:37.440
+So I think the examples I came in with are when there's a
+
+59:37.440 --> 59:42.440
+story of individual impact, you probably don't want to boil
+
+59:42.440 --> 59:45.440
+that down to a single number or a few statistics.
+
+59:45.440 --> 59:48.440
+But if you wanted to show change, if you wanted to show
+
+59:48.440 --> 59:53.440
+how a program is growing and how prior grant funding has
+
+59:53.440 --> 59:57.440
+impacted the ability to scale the benefits and impact, then
+
+59:57.440 --> 01:00:00.440
+I think numbers are really powerful.
+
+01:00:00.480 --> 01:00:05.480
+One of the last things I wanted to bring attention to is
+
+01:00:05.480 --> 01:00:10.480
+unfortunately I would say when is measuring something or
+
+01:00:10.480 --> 01:00:12.480
+measuring it in the wrong way?
+
+01:00:12.480 --> 01:00:14.480
+When can data be harmful?
+
+01:00:14.480 --> 01:00:18.480
+I don't think I heard that brought up, and I think it's a
+
+01:00:18.480 --> 01:00:23.480
+very real outcome that unfortunately organizations can
+
+01:00:23.480 --> 01:00:25.480
+find themselves in at times.
+
+01:00:25.520 --> 01:00:31.520
+So what I've seen personally is organizations that are asked
+
+01:00:31.520 --> 01:00:37.520
+to measure outcomes and program activities in a way that is
+
+01:00:37.520 --> 01:00:42.520
+so detailed and burdensome that they either can't do it or
+
+01:00:42.520 --> 01:00:45.520
+they're actually coming up with numbers that really, they
+
+01:00:45.520 --> 01:00:47.520
+can't really stand behind.
+
+01:00:47.520 --> 01:00:51.520
+In the worst cases, maybe made up, and in the best cases,
+
+01:00:51.520 --> 01:00:53.520
+they're kind of fuzzy.
+
+01:00:53.560 --> 01:00:56.560
+So I think that can be a real problem and I think something
+
+01:00:56.560 --> 01:00:59.560
+that the field is starting to address.
+
+01:00:59.560 --> 01:01:05.560
+I think also, I saw a comment earlier, if things get done
+
+01:01:05.560 --> 01:01:09.560
+when we focus on them or whatever we measure tends to
+
+01:01:09.560 --> 01:01:10.560
+get done.
+
+01:01:10.560 --> 01:01:15.560
+I think that is usually meant as a positive, but in another
+
+01:01:15.560 --> 01:01:20.560
+sense, sometimes if we measure something, everybody really
+
+01:01:20.600 --> 01:01:25.600
+starts to try to make that metric rise or that metric fall,
+
+01:01:25.600 --> 01:01:29.600
+whatever that metric starts to become this overwhelming force,
+
+01:01:29.600 --> 01:01:34.600
+this guiding star, and I just think it's always important for
+
+01:01:34.600 --> 01:01:38.600
+everybody to take a step back and look at what we're doing
+
+01:01:38.600 --> 01:01:42.600
+because sometimes the pursuit of a single metric or a single
+
+01:01:42.600 --> 01:01:46.600
+number can really be misleading for certain groups.
+
+01:01:46.640 --> 01:01:50.640
+If you're just pursuing, say, profit, for example, I think
+
+01:01:50.640 --> 01:01:53.640
+we're all looking at that and what the effects are on our
+
+01:01:53.640 --> 01:01:54.640
+society.
+
+01:01:54.640 --> 01:01:57.640
+That's obviously a very well-measured number in our
+
+01:01:57.640 --> 01:02:01.640
+culture, but it doesn't quite capture all of the
+
+01:02:01.640 --> 01:02:06.640
+externalities that sometimes pursuing just profits can
+
+01:02:06.640 --> 01:02:08.640
+create for the society.
+
+01:02:08.640 --> 01:02:11.640
+So I think that's an example that without singling anyone
+
+01:02:11.640 --> 01:02:14.640
+out, I wanted to just throw that out there.
+
+01:02:14.680 --> 01:02:17.680
+It can cause people to bend the truth.
+
+01:02:17.680 --> 01:02:20.680
+It can cause people to draw the wrong conclusions.
+
+01:02:20.680 --> 01:02:24.680
+So I think what I always advocate when I speak with
+
+01:02:24.680 --> 01:02:30.680
+grantors and grantees that I coach, what can we do in terms
+
+01:02:30.680 --> 01:02:33.680
+of data integrity and continuity?
+
+01:02:33.680 --> 01:02:37.680
+So what I mean by that is what can we measure confidently,
+
+01:02:37.680 --> 01:02:41.680
+accurately, and within our capacity and for the long term
+
+01:02:41.680 --> 01:02:43.680
+so that we can see trends?
+
+01:02:43.720 --> 01:02:47.720
+I think I see a lot of people sprint to try to win a grant
+
+01:02:47.720 --> 01:02:51.720
+and they will devote lots of resources to game a number.
+
+01:02:51.720 --> 01:02:55.720
+If we want lots of volunteers, if we have to show that we
+
+01:02:55.720 --> 01:02:58.720
+have great participation numbers, then the entire
+
+01:02:58.720 --> 01:03:02.720
+organization starts to shift all of its resources to
+
+01:03:02.720 --> 01:03:07.720
+hosting events that are just big rather than effective.
+
+01:03:07.720 --> 01:03:10.720
+So I think that's probably an example that a lot of folks
+
+01:03:10.720 --> 01:03:11.720
+can relate to.
+
+01:03:11.760 --> 01:03:15.760
+So hopefully some of that stuff brings at least some
+
+01:03:15.760 --> 01:03:19.760
+questions to mind and I think I'm happy here to stand
+
+01:03:19.760 --> 01:03:23.760
+alongside my more data expert co-panelists and if there's
+
+01:03:23.760 --> 01:03:28.760
+anything about grant seeking and maybe particularly what's
+
+01:03:28.760 --> 01:03:30.760
+happening with AI and technology.
+
+01:03:30.760 --> 01:03:32.760
+I'm looking forward to some questions as well.
+
+01:03:32.760 --> 01:03:34.760
+So hopefully I'm on time.
+
+01:03:35.760 --> 01:03:36.760
+You are, Phil.
+
+01:03:36.760 --> 01:03:39.760
+That was wonderful and we're not creeped out.
+
+01:03:39.800 --> 01:03:41.800
+So thank you.
+
+01:03:41.800 --> 01:03:44.800
+Thank you for talking about something that I think
+
+01:03:44.800 --> 01:03:50.800
+everyone is wondering about and testing and I know many
+
+01:03:50.800 --> 01:03:54.800
+folks in the media industry are wondering if they'll have
+
+01:03:54.800 --> 01:03:57.800
+jobs in the next couple months as a result of this.
+
+01:03:57.800 --> 01:04:01.800
+So I'm going to start the question period.
+
+01:04:01.800 --> 01:04:04.800
+I'll start off with one question that was in the chat
+
+01:04:04.800 --> 01:04:07.800
+from Kimi and it's for Philip.
+
+01:04:07.840 --> 01:04:11.840
+Kimi says, I wonder if only the stories and data that are
+
+01:04:11.840 --> 01:04:15.840
+being searched for will be identified by data gathering
+
+01:04:15.840 --> 01:04:16.840
+and analysis.
+
+01:04:16.840 --> 01:04:19.840
+What about the stories that are not identified?
+
+01:04:20.840 --> 01:04:22.840
+Could you elaborate a little more?
+
+01:04:22.840 --> 01:04:26.840
+I think there's a very, very interesting question that
+
+01:04:26.840 --> 01:04:27.840
+I'd love to.
+
+01:04:27.840 --> 01:04:28.840
+Okay.
+
+01:04:28.840 --> 01:04:31.840
+So it's like a poll, right?
+
+01:04:31.840 --> 01:04:36.840
+When poll takers go out, they have an assigned set of
+
+01:04:36.880 --> 01:04:40.880
+questions and they're asking those questions, right?
+
+01:04:40.880 --> 01:04:42.880
+And they get responses to them, right?
+
+01:04:42.880 --> 01:04:48.880
+But sometimes the story, the items that are most
+
+01:04:48.880 --> 01:04:51.880
+interesting to that community or most challenging to that
+
+01:04:51.880 --> 01:04:54.880
+community don't correspond to the questions that are asked,
+
+01:04:54.880 --> 01:04:55.880
+right?
+
+01:04:55.880 --> 01:05:01.880
+So this is the same, you know, this could be similar, right?
+
+01:05:01.880 --> 01:05:05.880
+So the people who are saying, you know, how do we evaluate
+
+01:05:05.920 --> 01:05:08.920
+this data, right?
+
+01:05:08.920 --> 01:05:14.920
+You know, maybe that data relates to a phenomenon that
+
+01:05:14.920 --> 01:05:19.920
+hasn't emerged as being quantifiable or important yet.
+
+01:05:19.920 --> 01:05:24.920
+Like the previous speaker, one of the previous speakers, she
+
+01:05:24.920 --> 01:05:29.920
+said that an old man, 105-year-old man, he can't, like,
+
+01:05:29.920 --> 01:05:31.920
+he can't live the same way he used to live.
+
+01:05:31.920 --> 01:05:34.920
+He can't just be out in the community playing checkers and
+
+01:05:34.960 --> 01:05:35.960
+what have you.
+
+01:05:35.960 --> 01:05:40.960
+Like, the quality of his life has basically eroded because
+
+01:05:40.960 --> 01:05:43.960
+of gentrification, right?
+
+01:05:43.960 --> 01:05:45.960
+But this is not an expected outcome.
+
+01:05:45.960 --> 01:05:50.960
+It's not something that someone who's not a community member
+
+01:05:50.960 --> 01:05:53.960
+would think probably to look for.
+
+01:05:53.960 --> 01:05:57.960
+So are we going to capture that data or not capture that data?
+
+01:05:57.960 --> 01:05:58.960
+Okay.
+
+01:05:58.960 --> 01:06:00.960
+Thank you for clarifying that.
+
+01:06:01.000 --> 01:06:08.000
+I think my first reaction there is that what I believe is
+
+01:06:08.000 --> 01:06:13.000
+increasingly possible is that we can take, let's take your
+
+01:06:13.000 --> 01:06:16.000
+example of survey data and all those data points that are
+
+01:06:16.000 --> 01:06:17.000
+coming in.
+
+01:06:17.000 --> 01:06:22.000
+What I believe is increasingly possible is to apply more and
+
+01:06:22.000 --> 01:06:27.000
+more computing power to data sets and what that power is
+
+01:06:27.040 --> 01:06:32.040
+doing is looking for very, very complex patterns to emerge.
+
+01:06:32.040 --> 01:06:39.040
+So I think what the frontier is and the work for us is I think
+
+01:06:39.040 --> 01:06:44.040
+we're going to see connections that are both very, very
+
+01:06:44.040 --> 01:06:49.040
+insightful, to use sort of what Brent brought up at first, and
+
+01:06:49.040 --> 01:06:54.040
+I think we're going to see one of those connections that are
+
+01:06:54.080 --> 01:06:59.080
+really challenging and reveal aspects of our society that are
+
+01:06:59.080 --> 01:07:02.080
+extremely uncomfortable, maybe extremely controversial that
+
+01:07:02.080 --> 01:07:07.080
+people are going to really have a lot of intense debate over.
+
+01:07:07.080 --> 01:07:12.080
+So I think that maybe what you're saying, what are the other
+
+01:07:12.080 --> 01:07:15.080
+things that are just beyond the questions that we're literally
+
+01:07:15.080 --> 01:07:20.080
+asking people, I think more of that is going to be illuminated
+
+01:07:20.120 --> 01:07:25.120
+by the basic computational advancements that companies are
+
+01:07:25.120 --> 01:07:30.120
+making, and I think the role for all of us will be to prepare
+
+01:07:30.120 --> 01:07:35.120
+for sort of, if you imagine literally light kind of filling
+
+01:07:35.120 --> 01:07:40.120
+more of a darkness, we have to prepare as people to take on
+
+01:07:40.120 --> 01:07:45.120
+what we see and what is revealed.
+
+01:07:45.160 --> 01:07:48.160
+Thank you.
+
+01:07:48.160 --> 01:07:49.160
+We appreciate that.
+
+01:07:49.160 --> 01:07:51.160
+Thank you, Phillip.
+
+01:07:51.160 --> 01:07:56.160
+I'm trying to keep track of some of the questions or statements.
+
+01:07:56.160 --> 01:07:59.160
+It's mostly statements in the chat.
+
+01:07:59.160 --> 01:08:03.160
+If anybody has a question, you can just speak up and ask any of
+
+01:08:03.160 --> 01:08:06.160
+the panelists.
+
+01:08:06.160 --> 01:08:11.160
+If nobody is speaking up, I see one question in the chat.
+
+01:08:11.200 --> 01:08:16.200
+What do you do when officials want to apply one indicator
+
+01:08:16.200 --> 01:08:21.200
+specific methodology to all related data requests because it
+
+01:08:21.200 --> 01:08:23.200
+is easiest?
+
+01:08:23.200 --> 01:08:28.200
+That sounds like a workplace issue, but I don't know if
+
+01:08:28.200 --> 01:08:31.200
+Shannon or anyone else wants to address that.
+
+01:08:31.200 --> 01:08:34.200
+I just wanted to clarify the conversation.
+
+01:08:34.200 --> 01:08:37.200
+I feel like, hi, my name is Leah Icon.
+
+01:08:37.200 --> 01:08:39.200
+I work at the Administration for Children's Services at New
+
+01:08:39.240 --> 01:08:42.240
+York City, and I handle the child stat data analytics.
+
+01:08:42.240 --> 01:08:49.240
+One thing that I find in terms of kind of, I created a unit
+
+01:08:49.240 --> 01:08:53.240
+that kind of wanted to expand the data conversation to the
+
+01:08:53.240 --> 01:08:56.240
+frontline staff as well as all the databases and the data
+
+01:08:56.240 --> 01:08:59.240
+literacy behind all of these performance indicators and
+
+01:08:59.240 --> 01:09:00.240
+metrics.
+
+01:09:00.240 --> 01:09:06.240
+Sometimes it's hard to get people to really stop and use
+
+01:09:06.280 --> 01:09:07.280
+the data.
+
+01:09:07.280 --> 01:09:10.280
+Sometimes they be their minds a little bit to say, hey, these
+
+01:09:10.280 --> 01:09:13.280
+are the questions asked of an indicator, and this is what the
+
+01:09:13.280 --> 01:09:14.280
+answers are.
+
+01:09:14.280 --> 01:09:18.280
+But over here for a city council report or something else,
+
+01:09:18.280 --> 01:09:21.280
+there's a different question asked, but the words sound the
+
+01:09:21.280 --> 01:09:22.280
+same.
+
+01:09:22.280 --> 01:09:28.280
+And so I'm wondering because I really, really appreciated
+
+01:09:28.280 --> 01:09:33.280
+Shannon's presentation today and speaking pretty much the same
+
+01:09:33.320 --> 01:09:37.320
+kind of explain to my team of people how and why we do this is
+
+01:09:37.320 --> 01:09:40.320
+to get out there, get the conversation from the community,
+
+01:09:40.320 --> 01:09:45.320
+bring it back, and then kind of apply also the metric standards
+
+01:09:45.320 --> 01:09:49.320
+to say, here's the basic ways we need to build a metric or an
+
+01:09:49.320 --> 01:09:52.320
+indicator, but here's the questions that can be asked of it.
+
+01:09:52.320 --> 01:09:55.320
+Here's the data behind it and full transparency.
+
+01:09:55.320 --> 01:10:00.320
+But then there's another issue with, and I feel like it's not
+
+01:10:00.320 --> 01:10:01.320
+just government.
+
+01:10:01.360 --> 01:10:03.360
+It's a little bit bigger than this.
+
+01:10:03.360 --> 01:10:07.360
+People not able to stop and think for just a second, like we
+
+01:10:07.360 --> 01:10:11.360
+can ask different questions of indicators and let us quickly
+
+01:10:11.360 --> 01:10:14.360
+storytell you the differences, right?
+
+01:10:14.360 --> 01:10:19.360
+Like we try to bring in these like little stories or anecdotes
+
+01:10:19.360 --> 01:10:22.360
+so that people will start to learn the difference between a
+
+01:10:22.360 --> 01:10:25.360
+performance indicator asked of a frontline staff to speak to
+
+01:10:25.360 --> 01:10:29.360
+versus what we might report at a citywide level.
+
+01:10:29.400 --> 01:10:33.400
+And so I'm wondering if you have any guidance around how to stop
+
+01:10:33.400 --> 01:10:37.400
+and slow people down that aren't really, that are too busy for
+
+01:10:37.400 --> 01:10:41.400
+everything else, but you also need them to take notice that
+
+01:10:41.400 --> 01:10:43.400
+these things are different.
+
+01:10:43.400 --> 01:10:49.400
+Yeah, I'll share that I feel your pain.
+
+01:10:49.400 --> 01:10:53.400
+I had a conversation today that had a very similar tone.
+
+01:10:53.400 --> 01:10:57.400
+And the one thing that we know is that oftentimes these
+
+01:10:57.440 --> 01:11:02.440
+indicators are a simplification of reality and that it really
+
+01:11:02.440 --> 01:11:04.440
+needs to be contextualized.
+
+01:11:04.440 --> 01:11:10.440
+And we're talking in the context of jobs, 50 jobs in an urban
+
+01:11:10.440 --> 01:11:16.440
+region is not the same as 50 jobs in a tribal reservation.
+
+01:11:16.440 --> 01:11:23.440
+And so context matters to situate these stats.
+
+01:11:23.480 --> 01:11:28.480
+And so just balancing the case studies with the indicators and
+
+01:11:28.480 --> 01:11:33.480
+coupling them together, we found to be helpful moving forward.
+
+01:11:33.480 --> 01:11:36.480
+But I'll pass the talking stick back.
+
+01:11:36.480 --> 01:11:41.480
+And I see what you're struggling with for sure.
+
+01:11:41.480 --> 01:11:45.480
+I hope that answered your question.
+
+01:11:45.480 --> 01:11:49.480
+I see a question in the chat for Lam.
+
+01:11:49.520 --> 01:11:54.520
+Where would you go to build a story about how federal dollars
+
+01:11:54.520 --> 01:11:58.520
+are spent by agency for a specific geographic area like
+
+01:11:58.520 --> 01:12:00.520
+Puerto Rico?
+
+01:12:00.520 --> 01:12:01.520
+Oh, okay.
+
+01:12:01.520 --> 01:12:03.520
+Puerto Rico is probably different.
+
+01:12:03.520 --> 01:12:06.520
+There are databases that look into contracts.
+
+01:12:06.520 --> 01:12:09.520
+I think there's a lot of relationships between government
+
+01:12:09.520 --> 01:12:13.520
+agencies and private contractors and what that expenditure looks
+
+01:12:13.520 --> 01:12:14.520
+like.
+
+01:12:14.520 --> 01:12:18.520
+If you ping me afterwards, I can find you the exact source that
+
+01:12:18.560 --> 01:12:20.560
+we used for something similar.
+
+01:12:20.560 --> 01:12:24.560
+I do not know whether that specific database I have in mind
+
+01:12:24.560 --> 01:12:27.560
+also looks to Puerto Rico, but I can look into that.
+
+01:12:27.560 --> 01:12:30.560
+And because I'm also part of the investigative reporters and
+
+01:12:30.560 --> 01:12:33.560
+editors network, I can ask a few folks who are working there to
+
+01:12:33.560 --> 01:12:34.560
+stay in touch.
+
+01:12:34.560 --> 01:12:37.560
+And then the other thing that you might want to think about is
+
+01:12:37.560 --> 01:12:40.560
+the way in which I teach data is oftentimes the data sets that
+
+01:12:40.560 --> 01:12:44.560
+are being given out to the public are not always everything
+
+01:12:44.560 --> 01:12:45.560
+that an agency has.
+
+01:12:45.600 --> 01:12:50.600
+And so this might be a longer term kind of project or a longer
+
+01:12:50.600 --> 01:12:55.600
+term endeavor, but a lot of the times thinking about the forms
+
+01:12:55.600 --> 01:12:59.600
+that people fill out or the databases that governments use
+
+01:12:59.600 --> 01:13:03.600
+and then figuring out a way of filing Freedom of Information Act
+
+01:13:03.600 --> 01:13:06.600
+requests or public records requests might be a way for you
+
+01:13:06.600 --> 01:13:10.600
+to play around with finding data sets around the subject you
+
+01:13:10.600 --> 01:13:11.600
+care about.
+
+01:13:11.640 --> 01:13:17.640
+And the last but not least, as a practitioner of data collection
+
+01:13:17.640 --> 01:13:23.640
+and I'm a coder, I do a lot of Python scraping, there are also
+
+01:13:23.640 --> 01:13:27.640
+ways to investigate these types of subjects with data sets that
+
+01:13:27.640 --> 01:13:31.640
+are adjacent to that, whether it's through public databases
+
+01:13:31.640 --> 01:13:35.640
+that like private databases like Property Shark or something
+
+01:13:35.640 --> 01:13:39.640
+like that, for example, or databases that you kind of build
+
+01:13:39.640 --> 01:13:40.640
+yourself.
+
+01:13:40.680 --> 01:13:44.680
+I call them DIY data sets, do it yourself data sets by cobbling
+
+01:13:44.680 --> 01:13:47.680
+together information that lives on the Internet and then putting
+
+01:13:47.680 --> 01:13:49.680
+that into a spreadsheet and then analyzing it for that.
+
+01:13:49.680 --> 01:13:52.680
+That might be an interesting way for you to look into that.
+
+01:13:53.680 --> 01:13:54.680
+That's great, Lam.
+
+01:13:54.680 --> 01:13:57.680
+It looks like we've come to the end of our session.
+
+01:13:57.680 --> 01:14:02.680
+So anybody who has questions, I think you can reach out
+
+01:14:02.680 --> 01:14:05.680
+directly to all of our panelists.
+
+01:14:05.680 --> 01:14:09.680
+Their contact information is in the chat and I believe that this
+
+01:14:09.720 --> 01:14:11.720
+will be made available to everyone.
+
+01:14:11.720 --> 01:14:13.720
+So again, thank you.
+
+01:14:13.720 --> 01:14:17.720
+Round of applause to everyone who spoke today was fascinating.
+
+01:14:17.720 --> 01:14:18.720
+Thank you again.
+
+01:14:19.720 --> 01:14:20.720
+Thank you.
+
+01:14:21.720 --> 01:14:23.720
+And before we wrap up real quick, I just want to mention a
+
+01:14:23.720 --> 01:14:24.720
+quick comment.
+
+01:14:24.720 --> 01:14:28.720
+I heard something I was kind of I stepped away for a second
+
+01:14:28.720 --> 01:14:30.720
+around contracts in Puerto Rico and data.
+
+01:14:30.720 --> 01:14:32.720
+I'm going to drop two links in the chat that you might be
+
+01:14:32.720 --> 01:14:33.720
+interested in.
+
+01:14:33.720 --> 01:14:36.720
+This organization that is doing great work and working with
+
+01:14:36.760 --> 01:14:40.760
+Open Contracting Partnership, which is an offshoot of the
+
+01:14:40.760 --> 01:14:41.760
+World Bank.
+
+01:14:41.760 --> 01:14:43.760
+And you heard from one of those speakers earlier in Top Summit.
+
+01:14:43.760 --> 01:14:45.760
+So check those two links out.
+
+01:14:45.760 --> 01:14:48.760
+It's contracts in law and it's great being more than 58
+
+01:14:48.760 --> 01:14:52.760
+government websites in Puerto Rico and then basically mapping
+
+01:14:52.760 --> 01:14:58.760
+out every contract, every RFP, NOFO and procurement transaction
+
+01:14:58.760 --> 01:15:02.760
+to open corporates data and business register data in
+
+01:15:02.760 --> 01:15:03.760
+Puerto Rico.
+
+01:15:03.760 --> 01:15:04.760
+So check that out.
+
+01:15:04.760 --> 01:15:05.760
+It's on the chat.
+
+01:15:05.800 --> 01:15:06.800
+Thank you so much for tuning in.
+
+01:15:07.800 --> 01:15:08.800
+Thank you, guys.
+
+01:15:08.800 --> 01:15:09.800
+Thank you.
+
+01:15:09.800 --> 01:15:10.800
+Bye, everyone.
+
+01:15:10.800 --> 01:15:13.800
+Thank you for moderating, show speakers, Brent, Lam, Phillip
+
+01:15:13.800 --> 01:15:14.800
+and Shannon.
+
+01:15:14.800 --> 01:15:15.800
+It was a pleasure to have you guys.
+
+01:15:15.800 --> 01:15:16.800
+I learned so much.
+
+01:15:16.800 --> 01:15:18.800
+Thank you all for participating in Top Summit 2023.
+
+01:15:18.800 --> 01:15:19.800
+Thank you.
+

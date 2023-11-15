@@ -1,0 +1,81 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "wJiJSGmu0BArRPS5X15_o-3YRmg",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "LF4eJu5Ncd8pTEDklcJPcS9xUvU",
+      "id": "UCJW2DTReF-JELb_gpeVJhFw",
+      "snippet": {
+        "title": "MS Board of Education Live Stream",
+        "description": "This channel is for streaming the monthly meetings of the Mississippi Board of Education. The  Board appoints the State Superintendent of Education, sets public education policy and oversees the The Mississippi Department of Education (MDE). The Board has established an ambitious mission and goals for the future of education in Mississippi with the primary objective of ensuring students are prepared for college and career.\n\nMDE provides resources and technical support to Mississippi\u2019s public school system. The department also functions as a resource for federal education requirements and funding. MDE is responsible for implementing state and federal education laws, disbursing state and federal funds, holding schools and districts accountable for performance and licensing all educators. The MDE seeks to create a world-class educational system that gives students the knowledge and skills to be successful in college and in the workforce, and to flourish as parents and citizens. \n\n#MSEDU\n\n",
+        "customUrl": "@msboardofeducationlivestre8735",
+        "publishedAt": "2016-11-16T16:57:40Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKbQE3V-vZ3x6k6KUawzCWI5I6mQSWBTo-eQvBnz=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKbQE3V-vZ3x6k6KUawzCWI5I6mQSWBTo-eQvBnz=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKbQE3V-vZ3x6k6KUawzCWI5I6mQSWBTo-eQvBnz=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "MS Board of Education Live Stream",
+          "description": "This channel is for streaming the monthly meetings of the Mississippi Board of Education. The  Board appoints the State Superintendent of Education, sets public education policy and oversees the The Mississippi Department of Education (MDE). The Board has established an ambitious mission and goals for the future of education in Mississippi with the primary objective of ensuring students are prepared for college and career.\n\nMDE provides resources and technical support to Mississippi\u2019s public school system. The department also functions as a resource for federal education requirements and funding. MDE is responsible for implementing state and federal education laws, disbursing state and federal funds, holding schools and districts accountable for performance and licensing all educators. The MDE seeks to create a world-class educational system that gives students the knowledge and skills to be successful in college and in the workforce, and to flourish as parents and citizens. \n\n#MSEDU\n\n"
+        }
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUJW2DTReF-JELb_gpeVJhFw"
+        }
+      },
+      "statistics": {
+        "viewCount": "166172",
+        "subscriberCount": "3060",
+        "hiddenSubscriberCount": false,
+        "videoCount": "200"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/098wr",
+          "/m/05qt0"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Society",
+          "https://en.wikipedia.org/wiki/Politics"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified",
+        "madeForKids": false
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "MS Board of Education Live Stream",
+          "description": "This channel is for streaming the monthly meetings of the Mississippi Board of Education. The  Board appoints the State Superintendent of Education, sets public education policy and oversees the The Mississippi Department of Education (MDE). The Board has established an ambitious mission and goals for the future of education in Mississippi with the primary objective of ensuring students are prepared for college and career.\n\nMDE provides resources and technical support to Mississippi\u2019s public school system. The department also functions as a resource for federal education requirements and funding. MDE is responsible for implementing state and federal education laws, disbursing state and federal funds, holding schools and districts accountable for performance and licensing all educators. The MDE seeks to create a world-class educational system that gives students the knowledge and skills to be successful in college and in the workforce, and to flourish as parents and citizens. \n\n#MSEDU\n\n"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.googleusercontent.com/UG5hcYGSaJ2hV-lxYiigiPj_Vu8nAlmxCwZjW0sIvs4S7D4ZcrDmzjnzkYyVNtrVKdZuEnQu"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:16.014408"
+}

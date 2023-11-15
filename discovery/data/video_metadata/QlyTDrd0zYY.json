@@ -1,0 +1,71 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "e0r-MCMNIQ7MkDKrYY9zoabJqDw",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "0AG1daid1SHK8ZC9h-hGRz599lA",
+      "id": "QlyTDrd0zYY",
+      "snippet": {
+        "publishedAt": "2023-06-14T19:05:33Z",
+        "channelId": "UC1XN82lXrzJSkhtBWWpyEGA",
+        "title": "Georgia Department of Education Live Stream",
+        "description": "Watch the State Board of Education meeting live here.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QlyTDrd0zYY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QlyTDrd0zYY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QlyTDrd0zYY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/QlyTDrd0zYY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/QlyTDrd0zYY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Georgia Department of Education",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Georgia Department of Education Live Stream",
+          "description": "Watch the State Board of Education meeting live here."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT3H19M4S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "353",
+        "likeCount": "1",
+        "favoriteCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

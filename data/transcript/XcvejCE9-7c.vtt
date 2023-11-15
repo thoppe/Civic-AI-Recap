@@ -1,0 +1,2276 @@
+WEBVTT
+
+00:00.000 --> 00:22.160
+Hi everyone. Welcome to today's event. My name is Danushi Vijayakula Surya. I'm a data
+
+00:22.160 --> 00:29.720
+scientist at Microsoft and I will be your moderator today and I will also share a bit
+
+00:29.720 --> 00:38.000
+about myself later as a speaker. And so we have several speakers today who will share
+
+00:38.000 --> 00:48.320
+about navigating massive layoffs and hiring freezers and careers in the tech industry.
+
+00:48.320 --> 00:54.640
+So with that, Bernard, do you want to share about yourself?
+
+01:00.720 --> 01:02.760
+Bernard, yes.
+
+01:02.760 --> 01:15.560
+Yes, I think it would help if I unmuted my screen. So I need to do this. Okay. Share this. All right.
+
+01:15.560 --> 01:18.880
+So you see my screen, right? Does everybody see my screen?
+
+01:18.880 --> 01:20.240
+Yes.
+
+01:20.240 --> 01:25.600
+All right. Excellent. So my name is Bernard. I have a doctorate in agriculture and applied
+
+01:25.640 --> 01:31.680
+economics. I went to the University of Georgia. I've been in the finance industry for over 20
+
+01:31.680 --> 01:38.000
+years. I've worked with multiple companies from American Express to JP Morgan Chase and I've been
+
+01:38.000 --> 01:43.240
+here at Wells Fargo for about three and a half years. I focus on, I mean, the corporate risk
+
+01:43.240 --> 01:51.280
+model oversight model, the corporate model risk team. We focus on validating models where we test
+
+01:51.760 --> 01:59.120
+them for conceptual soundness, for resilience, for reliability and for robustness. It's been a fun
+
+01:59.120 --> 02:02.800
+time. It's actually a great company to work for. I hope I'm going to stay here for a long time.
+
+02:03.440 --> 02:08.640
+But I want to talk to you about the undergraduate and graduate opportunities that we have here in
+
+02:08.640 --> 02:17.280
+Wells Fargo. If I may say so myself, this is the best in class in the finance industry. So here,
+
+02:18.000 --> 02:22.800
+this document says university program, but this is really for people that are graduating from
+
+02:22.800 --> 02:27.920
+school. Some are soon to graduate, others are far away. So we have different types of programs.
+
+02:28.640 --> 02:34.480
+But once you come in, there are options for you to build a network. We have programs that help you
+
+02:35.200 --> 02:40.240
+build a network while you learn about the Wells Fargo culture. You receive some intense training
+
+02:40.240 --> 02:47.680
+about six weeks where after you join, you're housed in this program where there's an intense
+
+02:47.680 --> 02:54.320
+training for quantitative skills, for business knowledge skills and stuff. But typically,
+
+02:55.120 --> 02:59.760
+you also get a chance to participate in community event services. You engage with senior leaders.
+
+03:00.480 --> 03:07.280
+You continue to get access to development and opportunities and alumni engagement opportunities
+
+03:07.280 --> 03:13.280
+post your graduation. And then you also get exclusive events tailored specifically for
+
+03:13.280 --> 03:18.800
+our recent graduates. The key thing here is we try to use this as an early talent recruitment
+
+03:18.800 --> 03:24.800
+program. We want to be looking for people with quantitative skills, technical skills, people,
+
+03:24.800 --> 03:29.280
+leadership, people, engagement skills, and communication skills. Those are some of the
+
+03:29.280 --> 03:34.640
+key requisites that we generally seek when we are looking for candidates. And then obviously,
+
+03:34.640 --> 03:40.800
+once you come in, we'll help you expand your skills. So in Wells Fargo, like I said, we have
+
+03:40.800 --> 03:46.000
+the quantitative analytics program, which is really aimed at people who are about to graduate. So by
+
+03:46.000 --> 03:53.680
+the time they get in here, they should have graduated. And then we have the internship
+
+03:53.680 --> 03:59.760
+program for people that are a few months or a few years away from graduation. But in Wells Fargo,
+
+03:59.760 --> 04:07.120
+we have seven centers of excellence, right? And each of them is tailored to specific areas. So
+
+04:07.120 --> 04:13.440
+going from left to right of the screen, the first four areas are really tailored to specific lines
+
+04:13.440 --> 04:19.040
+of business. So it spans from corporate and investment banking to consumer and small business
+
+04:19.040 --> 04:24.880
+banking, wealth and investment management and commercial banking. In here, the centers of
+
+04:24.880 --> 04:31.360
+excellence are focused on providing quantitative solutions to address specific business needs.
+
+04:32.480 --> 04:38.080
+And then as you pan to the last three, these are more enterprise-wise. So they are not specific to
+
+04:38.080 --> 04:45.360
+any of these segments that we talked about, these four segments. They do stuff here. We do stuff that's
+
+04:45.360 --> 04:50.400
+agnostic of these. So within here, for instance, you have the corporate model risk. This is the
+
+04:50.400 --> 04:56.160
+team organization, which I said, where we validate a lot of models. And I'll talk to you
+
+04:56.160 --> 05:02.240
+about some of the day in life of a modeler in a few minutes. But here's the value. We do a lot
+
+05:02.240 --> 05:08.080
+of validation and governance work in this team. The risk modeling team also provides some analytics
+
+05:08.080 --> 05:16.080
+to support specific areas in and across these lines of business. You have the market and
+
+05:16.080 --> 05:24.480
+counterparty risk analytics. You have this finance team, this finance center of excellence
+
+05:24.480 --> 05:38.720
+that focuses on more good model development. And then we have the AI center of excellence.
+
+05:38.720 --> 05:42.640
+Do you still see my screen or did I stop sharing? We can't see your slides.
+
+05:43.120 --> 05:52.400
+I'm sorry. Yeah. Apologies. And then you have the artificial intelligence and machine learning
+
+05:52.400 --> 05:57.040
+center of excellence. I'm sure a lot of folks will find this one. I'll use this as a day in the life.
+
+05:58.000 --> 06:01.680
+So the day in the life. So again, key thing is we have seven centers of excellence
+
+06:02.560 --> 06:07.200
+where you have people embedded within the centers of excellence to support specific needs of the
+
+06:07.200 --> 06:13.840
+area. Again, four of these are targeted towards specific segments. And then these three are
+
+06:13.840 --> 06:20.720
+enterprise wide. So I'll scroll down to one of these ones as an example of day in the life.
+
+06:20.720 --> 06:27.840
+I'm sorry. Somebody want to say something? Can you put your view on the full screen?
+
+06:27.840 --> 06:41.440
+It is Randy. Is that it? No, it was correct before.
+
+06:46.560 --> 06:54.080
+Okay. So is this okay? Perfect. Yes. Excellent. Okay. So I wanted to talk to
+
+06:54.960 --> 07:01.440
+talk a little bit about the center of excellence for artificial learning and
+
+07:01.440 --> 07:10.800
+machine learning and artificial intelligence. Yeah. So I wanted to focus on this because I
+
+07:10.800 --> 07:15.280
+think most of the folks in this audience will be very interested in this, right? So here the center
+
+07:15.280 --> 07:23.120
+of excellence, they focus on the response for developing models in support of any enterprise
+
+07:23.120 --> 07:29.920
+function that utilizes AI methods and or NLP use cases. So NLP, natural language processing,
+
+07:30.480 --> 07:38.480
+they focus on these. They focus on use cases such as a sanctions list screening, for instance.
+
+07:38.480 --> 07:43.040
+That's where the area where, you know, you have a sanctions list, they're trying to make sure that,
+
+07:43.040 --> 07:49.040
+you know, those folks on those entities on that list are captured and we prevent them from doing
+
+07:49.040 --> 07:54.800
+business with the bank, right? And then this since it's all worldwide, it's international,
+
+07:54.800 --> 08:00.240
+you have different, you know, the focus on attributes such as name, address and stuff.
+
+08:00.240 --> 08:07.600
+And for names, you have to be keenly aware of the language so that you can transcribe or translate
+
+08:07.600 --> 08:12.640
+or transliterate any of the names into the, you know, into the various sections that are various
+
+08:12.640 --> 08:18.480
+formats that are with the sanctions that entities appear. You have some machine
+
+08:18.480 --> 08:23.040
+learning techniques development that goes on for digital experience. So you have your virtual
+
+08:23.040 --> 08:32.000
+assistance. You have cyber security and adversarial attacks that use machine learning
+
+08:32.000 --> 08:37.840
+techniques to identify those. You have machine learning techniques that are used for models that
+
+08:37.840 --> 08:44.560
+are used for the corporate, the COO office, you know, so this is more like data management across
+
+08:44.560 --> 08:51.440
+enterprise, payment transformation, business continuity, resiliency, resilience, conduct
+
+08:51.440 --> 08:55.680
+surveillance, et cetera. And then you also have this thing where this area where, you know, there's
+
+08:56.240 --> 09:02.400
+refresh, constant refresh for model implementation, monitoring, et cetera. And these are cuts across
+
+09:02.400 --> 09:07.680
+all the enterprise. Again, this is focused on artificial learning, machine learning
+
+09:08.880 --> 09:14.160
+methods, but for each of the series, like I said, there's specific work that goes on.
+
+09:14.160 --> 09:19.520
+And, you know, while you're here, the idea is you are expected to work on machine learning projects
+
+09:19.520 --> 09:27.360
+covering end-to-end model development. There's some agile methods for certain project squads.
+
+09:27.360 --> 09:33.600
+You work with very multiple partners across LOB, technology governments, you name it. We use all
+
+09:33.600 --> 09:40.720
+sorts of, you know, techniques here. So the transambles, regression, CNN. We use tool in Python,
+
+09:40.720 --> 09:48.640
+HPO, and Spark. Right. And then, like I said, we also have, we have certain resources, you know,
+
+09:48.640 --> 09:53.360
+so these links are available. But the key thing is for the QAP program, I don't know if it's not
+
+09:53.360 --> 09:58.720
+on this deck, but we have this, it's an annual program that's been going on since 2012. And
+
+09:58.720 --> 10:05.440
+usually starts, we start opening those programs around the September framework while we open the
+
+10:05.440 --> 10:12.960
+applications specifically target to QAP, target focus on quantitative analytics program. And those
+
+10:12.960 --> 10:18.800
+are usually focused on masters and PhD candidates who are expected to graduate by June next year.
+
+10:19.680 --> 10:24.800
+So we take the applications around September. We take them through the interviews, multiple rounds
+
+10:24.800 --> 10:30.160
+of interviews. They typically last through, by end of, through December. And then, you know,
+
+10:30.160 --> 10:37.040
+this year, last year, we actually sent out, started sending out invitations, invitations from,
+
+10:37.040 --> 10:41.280
+what do you call it, office by end of December. So the folks, you know, would have some
+
+10:41.520 --> 10:46.160
+quant, tangible information in hand as they prepare to round up their,
+
+10:47.520 --> 10:52.080
+their degree programs. And then, you know, by June, they're here. And then we take them through the
+
+10:53.280 --> 10:57.920
+fellowship program for early quants. So I'll pause here, see if anybody has some questions
+
+10:57.920 --> 11:00.320
+that they'd like to talk about, they'd like to ask.
+
+11:12.080 --> 11:16.720
+I also remind people we have a Q&A session at the end. So
+
+11:18.720 --> 11:23.600
+you can use the Q&A option here to pose your questions at that time.
+
+11:25.280 --> 11:32.000
+If there are no questions right now, we can move on to Shannon Dong.
+
+11:37.120 --> 11:37.600
+Thank you.
+
+11:41.280 --> 12:00.720
+All right. So let's see. So my name is Shannon. I work at the Boeing Company. And I don't have,
+
+12:00.720 --> 12:06.400
+I'm not a, you know, an HR person or anything like that. So I just, for full disclosure, I am
+
+12:07.360 --> 12:12.480
+part of the engineering department. And so just a little bit of kind of
+
+12:14.240 --> 12:20.240
+personal tips, if you will. So this is not on behalf of like the Boeing Company in any official
+
+12:20.240 --> 12:28.880
+sense of the word. So just a few tips for like looking for jobs. So I guess maybe a little bit
+
+12:28.880 --> 12:33.440
+of background. I actually have sort of more, I was planning to talk about background a little
+
+12:33.440 --> 12:43.600
+bit later, but I am an associate tech fellow at Boeing. I run lots of projects, but I'm not a
+
+12:43.600 --> 12:52.320
+manager. So I don't oversee people. I oversee projects. And kind of when I am choosing,
+
+12:52.320 --> 12:58.640
+you know, engineers to work on my projects, what am I looking for when I am, you know,
+
+12:59.360 --> 13:07.280
+looking for people? I think ultimately, these are the four things that are really important to
+
+13:08.720 --> 13:16.480
+my project. So first, the ideal engineer would have, you know, all the right hard skills. And
+
+13:16.480 --> 13:25.200
+the hard skills are, for us, it would be like CAD modeling or simulation work or hands-on hardware
+
+13:25.200 --> 13:31.520
+development, software development, so things like that. And then they have to have
+
+13:34.720 --> 13:38.800
+good communication skills. And I kind of think of that as like softer skills.
+
+13:39.600 --> 13:47.760
+But really, it's almost as important as the hard skills to me. The ability to clearly communicate
+
+13:48.320 --> 13:56.640
+through email or through just talking. And sometimes those skills are overlooked
+
+13:57.360 --> 14:03.680
+for many engineers. So I say like, those are the type of things that are the big ones.
+
+14:05.520 --> 14:12.720
+It takes a lot of initiative to work in a big corporation and to really stand out. I think that
+
+14:13.680 --> 14:22.480
+when I, you know, assign projects to people, often I'm looking for those engineers that'll
+
+14:22.480 --> 14:31.120
+take it on and run with it and not have to be handheld, you know. And so I think that's the
+
+14:31.120 --> 14:36.640
+other part that I think is important. And then finally, the person has to be a nice person.
+
+14:36.800 --> 14:45.840
+So it's interesting, when Boeing conducts interviews, I would say most of the questions
+
+14:45.840 --> 14:51.360
+for engineering roles are going to be soft skill related. So they're going to be like,
+
+14:51.360 --> 14:57.520
+how do you work together as a team? What kind of conflicts have you come across? How do you resolve
+
+14:57.520 --> 15:03.040
+those types of conflicts? And when I was a student, I was thinking like, wow, like,
+
+15:03.040 --> 15:09.360
+why do they care so much about, you know, these soft skills things? And I think it's actually
+
+15:10.000 --> 15:18.080
+because Boeing produces airplanes, there is no way that one single person can build an airplane
+
+15:18.080 --> 15:24.560
+by themselves. And so it is really, really important that people really work together
+
+15:24.560 --> 15:30.080
+and that environment that they create together can make a lot of difference. You can really
+
+15:30.080 --> 15:35.840
+make a break in a project. And so yeah, being a team player, I think it's really one of those
+
+15:35.840 --> 15:45.440
+critical things. So I think when you are or if you are seeking a job, for example, at Boeing,
+
+15:45.440 --> 15:51.760
+or really anywhere, these are the four things that just kind of, these are the things that
+
+15:51.760 --> 15:58.240
+the other side will be looking for. And so you'll want to think about how to convey these qualities.
+
+16:00.320 --> 16:08.560
+For Boeing, here are a few tips I have for job hunting. So obviously, our job website is
+
+16:08.560 --> 16:16.160
+jobs.Boeing.com. And I've actually helped several friends, you know, like look for roles at Boeing.
+
+16:16.160 --> 16:22.080
+And the way I do that is I actually go to the website and what you can do is you can filter by
+
+16:22.720 --> 16:29.120
+the location. And typically, you know, if you don't want to move, you'll want to focus by that.
+
+16:29.120 --> 16:36.480
+And then I actually just skim through the entire list. And the reason why I don't search for
+
+16:36.480 --> 16:42.400
+anything more specific than that is because they often, like often the person searching will not
+
+16:42.400 --> 16:49.360
+know which buzzwords to use. And yeah, it's kind of a painstaking process. But that's my tip. Like
+
+16:49.360 --> 16:55.360
+I actually looked through the entire list. And then there are a few things to note, like there are
+
+16:55.360 --> 17:00.480
+different engineering levels. So if you are looking for an engineering role, for example,
+
+17:02.000 --> 17:06.880
+a role that says experienced engineers that does blah, blah, blah, you know, design engineers,
+
+17:06.880 --> 17:14.880
+something like that. The words, you know, experience or senior or principal, like what those
+
+17:14.880 --> 17:22.640
+kind of equate to are our engineering levels. And we have six engineering levels. So for example,
+
+17:22.880 --> 17:30.640
+college, a bachelor degree would usually come in as a level one. And that would be an entry level.
+
+17:31.520 --> 17:39.520
+A master's degree would typically come in as a level two. And then a PhD would typically
+
+17:39.520 --> 17:49.280
+come in as a level three, or yeah, what would be called experience level. And then level four
+
+17:49.360 --> 17:59.280
+would be a senior, usually that has some number of years with experience, etc. So those are
+
+17:59.280 --> 18:06.320
+some things like when you're looking at the jobs listed at jobs.downt.com, you can look for
+
+18:07.120 --> 18:16.960
+the appropriate, you know, level that is desired there. A few other things to note, we have several
+
+18:16.960 --> 18:24.800
+different programs for hiring for entry points. There is one that's called EHI, which is early
+
+18:24.800 --> 18:34.240
+accelerated hiring initiative, where we have partnerships with 27 universities that specialize
+
+18:34.240 --> 18:42.720
+in engineering across the country. And they hold career for events on site, they do interviews,
+
+18:43.680 --> 18:49.520
+potentially that same day, and then they give offers potentially like that same week,
+
+18:49.520 --> 18:55.680
+or maybe even that same day. It's a very, very fast process. And in those cases,
+
+18:57.040 --> 19:03.600
+they are not being hired for any particular role just yet, they get hired into a pool.
+
+19:04.320 --> 19:11.120
+And that pool, then there's another process where they match the students with
+
+19:12.640 --> 19:22.560
+an appropriate management team at Boeing. So that is, I think, a very nice, you know,
+
+19:22.560 --> 19:31.520
+fast way to get a role, get a position at Boeing. But it is again, only available to those 27
+
+19:31.520 --> 19:39.680
+engineering colleges. We do have a lot of internship opportunities. Those are again,
+
+19:40.320 --> 19:46.560
+they will be listed at jobs.downt.com. And there's sort of a cycle of a year, I'm sure,
+
+19:47.920 --> 19:56.240
+you know, that's probably true for most large companies as well. And then we also hold lots of
+
+19:56.240 --> 20:06.400
+events, or I should say we participate in a lot of external affiliation events. So for example,
+
+20:07.520 --> 20:14.960
+Society of Women Engineers holds a conference, or the Veterans Association, things like that.
+
+20:14.960 --> 20:22.800
+So we will go to these events. And they will seem like we're just there to see how things are and
+
+20:22.800 --> 20:29.360
+attend this conference. But just know that within Boeing, there will be management teams that are
+
+20:29.360 --> 20:37.440
+actively seeking to interview people and recruit during those events. So that's another opportunity
+
+20:37.440 --> 20:49.040
+available for people who are interested in that. Usually what happens is, let's say you submit
+
+20:49.040 --> 20:57.760
+through jobs.downt.com, and then someone will reach out. And the next step in the process is
+
+20:57.760 --> 21:06.960
+the interview process. Interviews have often been on the phone, or through, you know, through
+
+21:06.960 --> 21:13.200
+WebEx. Well, we usually use WebEx, but maybe through Zoom. Or it could be, it could potentially,
+
+21:14.160 --> 21:20.080
+I think it could potentially be on site. But I guess a few tips that I have for
+
+21:22.320 --> 21:27.440
+the folks that I mentor, usually I would say review the common interview questions. And those
+
+21:27.440 --> 21:33.600
+interview questions are going to be mostly the soft skill questions, as well as, you know, what kind of
+
+21:34.480 --> 21:42.960
+project background the person has. So it's not, at Boeing, it won't be like other tech companies
+
+21:42.960 --> 21:48.560
+where they'll like, you know, having to solve a problem on the spot. That's not very typical.
+
+21:48.560 --> 21:54.880
+For us, I think it's more typical to ask more teaming type questions, more soft skill questions,
+
+21:54.880 --> 21:59.280
+and then project questions. So based on your resume, what kind of projects have you worked on,
+
+22:00.080 --> 22:08.160
+it is expected that that person really understands every aspect of their projects and can explain it.
+
+22:08.160 --> 22:15.920
+I would say definitely practice. If you just Google or search online, you know,
+
+22:15.920 --> 22:19.360
+common interview questions, and then you go through and say, all right, I can answer this,
+
+22:19.360 --> 22:22.800
+this, this, this, like, this is how I'd answer all of them. So definitely practice that.
+
+22:24.720 --> 22:27.280
+Some things that I think are less common, I would say,
+
+22:28.960 --> 22:34.960
+have a build yourself a little cheat sheet. And I don't actually mean you would cheat with it. But
+
+22:34.960 --> 22:41.600
+I think it helps. So here's a little example, right? I would say, you know, just list out all
+
+22:41.600 --> 22:46.480
+the different projects that you've worked on, the major things that you want to showcase yourself.
+
+22:47.680 --> 22:51.360
+So let's say you have, you know, all these different projects that you've worked on,
+
+22:51.360 --> 22:57.600
+and then make another list on the side of common interview questions. So for example, you know,
+
+22:57.600 --> 23:04.720
+what's your, have you ever met with a conflict and how did you resolve it? Or how did you process,
+
+23:04.720 --> 23:11.840
+like, what's your, give an example of a failure and how did you handle that, right? So these are
+
+23:11.840 --> 23:17.440
+common interview questions. And then you can just try to figure out, like, how to answer those
+
+23:17.440 --> 23:23.200
+questions, and which, which projects they would point to. So if you were asked a question that
+
+23:23.200 --> 23:30.320
+was failure handling, okay, which project are you going to use as the example on that question?
+
+23:30.320 --> 23:36.640
+So just kind of, I would say it helps to list it out in advance to think through which,
+
+23:37.760 --> 23:44.560
+which project you will use as the example. And in that case, when the time comes,
+
+23:44.560 --> 23:50.400
+right, during an interview, you've already kind of reviewed that with yourself. And so when a
+
+23:50.400 --> 23:55.120
+question comes up, even if it's not one of those questions that you listed, it's probably close
+
+23:55.120 --> 24:02.480
+enough, right? And then you can immediately think of an appropriate project to talk about for that,
+
+24:03.280 --> 24:11.360
+for that question. I think that really helps because otherwise some of, sometimes people
+
+24:11.360 --> 24:16.080
+like to focus in on one project and they will answer all the questions based on that one project
+
+24:16.080 --> 24:22.080
+and they will never showcase the other aspects of their experience. The other thing that I,
+
+24:23.360 --> 24:31.200
+the other tip I give to my mentees is that you can bring, like, a show and tell piece. So
+
+24:32.400 --> 24:38.240
+if it's a face-to-face interview, you can bring a little piece of hardware with you and show the
+
+24:38.240 --> 24:46.160
+interviewer, you know, what you've worked on. You can bring, you can share a slide or a video
+
+24:46.160 --> 24:53.360
+of some piece of, you know, technology you've worked on. Don't be afraid to make it real,
+
+24:53.360 --> 24:57.280
+right? So that's another thing. And they won't necessarily be expecting that. So it would be kind
+
+24:57.280 --> 25:05.200
+of a nice break for them. A little bit about Boeing. Boeing has four major branches. So there's
+
+25:05.760 --> 25:09.520
+BCA, which is commercial airplanes. There's research in technology, defense,
+
+25:09.520 --> 25:16.400
+and then global services, which is a little bit of a smaller piece. And I am under
+
+25:17.120 --> 25:23.440
+Boeing commercial airplanes, which is mostly here in the Puget Sound area. Obviously there's a lot
+
+25:23.440 --> 25:30.960
+of Boeing facilities all around. So when you are interviewing or when you're job hunting
+
+25:30.960 --> 25:37.920
+or interested in Boeing, you kind of get a feel for where within the company you'd like to be.
+
+25:38.720 --> 25:46.720
+And then a little point about kind of the track that we have at Boeing. For engineers,
+
+25:46.720 --> 25:53.040
+we typically have two development tracks. One is obviously through management, where you are
+
+25:53.040 --> 26:00.080
+overseeing a group of people, but not necessarily projects. And then the other is technical
+
+26:00.080 --> 26:08.800
+leadership. And that is through our technical fellowship track. So in my case, I've gone with
+
+26:08.800 --> 26:15.200
+the technical leadership track. And I kind of mentioned already that we have six engineering
+
+26:15.200 --> 26:26.320
+levels. Yeah. So I think the topic of this panel was supposed to be on massive layoffs. And so I
+
+26:26.320 --> 26:34.720
+wanted to kind of throw in there a little note about how we in the company, at least from what I
+
+26:34.720 --> 26:43.600
+know, handle this. So every year we have a performance management process. In the beginning
+
+26:43.600 --> 26:52.880
+of the year, we write out our business goals and objectives, I guess. And we list out kind of like
+
+26:53.840 --> 26:59.440
+each of these projects that I'm working on. I plan to deliver whatever it is by the end of the year
+
+26:59.440 --> 27:08.400
+or by whatever date. And they can be specific goals. They can be broad goals. They can even
+
+27:08.400 --> 27:16.560
+be like, I plan to have zero safety instances this year or something like that. But generally
+
+27:16.560 --> 27:20.560
+speaking, we list those out at the beginning of the year. And then at the end of the year,
+
+27:20.560 --> 27:26.400
+there's a mid-year and then at the end of the year with our management team, we will sit down
+
+27:26.400 --> 27:33.760
+and kind of review the performance. There's a little bit of strategy and how we define our goals
+
+27:33.760 --> 27:40.960
+in the end of the year. But essentially, that's kind of a process. From the performance management
+
+27:40.960 --> 27:50.160
+process, then we have these things called retention ratings for engineering roles. And
+
+27:51.440 --> 27:58.720
+it's basically, you know, there's three levels, like rating one, two, or three. And if there were
+
+27:58.720 --> 28:08.960
+a layoff going on, the layoff would basically siphon from the retention rating three. That's
+
+28:08.960 --> 28:18.000
+typical of what goes on. Now, I think in 2020 and 2021, we had several rounds of
+
+28:18.000 --> 28:26.480
+what we call VLOs and ILOs. So VLO is a voluntary layoff and an ILO is an involuntary layoff.
+
+28:26.480 --> 28:36.320
+And typically, our VLOs and ILOs always have a kind of benefit. So there's an incentive.
+
+28:36.880 --> 28:43.280
+And I think it's interesting, like VLOs, we've typically lost lots of experienced engineers,
+
+28:44.000 --> 28:51.360
+people who have worked there for 34 years, and they're ready to retire essentially. And so they
+
+28:51.360 --> 28:59.280
+take the VLO and it has a nice package. The ILOs typically are for the, I would say,
+
+28:59.360 --> 29:07.440
+unfortunately, the newer engineers and folks with the lower retention ratings.
+
+29:08.720 --> 29:16.720
+And that's typically been what I've observed. And again, like I am not part of HR, so this is
+
+29:16.720 --> 29:24.720
+just my little view into this world here. But that's just, that's just a little bit of background
+
+29:25.120 --> 29:32.480
+how that works. And I guess I would have to speak a little bit about how I came to this
+
+29:33.040 --> 29:43.360
+role. I have a PhD in robotics and automation from MIT. And when I was graduating,
+
+29:44.400 --> 29:51.520
+I really wasn't thinking of Boeing. It wasn't really top of my list. I was looking around at
+
+29:52.320 --> 30:00.240
+SpaceX and other more, you know, in my mind, more exciting companies. And
+
+30:02.400 --> 30:08.000
+I went through the hiring process and there was a manager that came and talked to me and said,
+
+30:09.200 --> 30:16.960
+hey, like I need someone to develop these future factories for us. And I was like,
+
+30:17.040 --> 30:24.960
+okay, that sounds interesting. But I guess ultimately there was a CTO at the time who
+
+30:24.960 --> 30:34.080
+came and talked to the students and said, you know, Boeing is so large, it's so multifaceted,
+
+30:34.080 --> 30:39.120
+that if you get bored in one place, you can easily move to a different team and work on
+
+30:39.120 --> 30:47.200
+something completely different. It also is, you know, there are companies out there and I think
+
+30:47.200 --> 30:55.760
+like he was implying, you know, companies like SpaceX that build rockets. And he said, well,
+
+30:55.760 --> 31:01.120
+you know, we do that too. So if you are interested in that, you can also be part of that as well.
+
+31:02.000 --> 31:08.240
+So there are just like lots of opportunities at Boeing and lots of different areas.
+
+31:08.880 --> 31:16.480
+So I guess to me, I felt like, okay, well, I'll give it a try. And I've been there for a decade
+
+31:16.480 --> 31:23.200
+now. So it's been an interesting ride. So I'm part of product development under Boeing commercial
+
+31:23.200 --> 31:29.520
+airplanes. And we develop the airplanes of the future. So anything with a name on it, like 737
+
+31:29.520 --> 31:36.000
+or 87, like those are not part of our purview. We are looking at airplanes that don't have names yet
+
+31:36.960 --> 31:43.520
+and developing the production system for those airplanes for the future. I guess the,
+
+31:44.640 --> 31:50.160
+oh, and I should probably mention here that through my time at Boeing and all of the
+
+31:50.880 --> 31:55.280
+projects I work on, I've established several collaborations with the University of Washington.
+
+31:55.280 --> 32:02.640
+And so I'm also an affiliate assistant professor there. And I run the Boeing Advanced Research
+
+32:02.640 --> 32:09.200
+Center at the University of Washington. And I guess that's why it says that in the beginning of
+
+32:09.200 --> 32:17.760
+the, yeah. So ultimately, I guess, if anybody has any questions about
+
+32:17.760 --> 32:22.640
+applying for engineering roles, feel free to reach out. Thanks so much.
+
+32:22.640 --> 32:34.000
+Thanks, Shannon. Yeah, feel free to put your questions in the Q&A. Martin, are you...
+
+32:36.880 --> 32:40.560
+Yep. Just let me boot up here.
+
+32:44.320 --> 32:48.080
+Alrighty. How is that looking?
+
+32:48.160 --> 32:50.880
+Yep. That looks good.
+
+32:50.880 --> 32:57.440
+Cool. All right. Wow. I've got to follow someone who actually builds airplanes. This is intimidating.
+
+32:57.440 --> 33:04.560
+Boeing is such a cool company. And I was so sad that the last ever 747 took off from your
+
+33:05.360 --> 33:09.360
+Washington factory there a few weeks ago, one of my all-time favorite planes.
+
+33:10.320 --> 33:17.920
+So I'm Martin Tingley, and I'm extremely bad at following instructions in all forms. So
+
+33:17.920 --> 33:23.120
+this is going to have a little bit of a different flavor. I want to talk a little bit about how I
+
+33:23.120 --> 33:27.920
+ended up where I am at Netflix. I'll say a couple of words about what I do, and then I'll share
+
+33:28.560 --> 33:36.560
+some personal reflections on... We'll go with non-linear career journeys, which I think is
+
+33:36.560 --> 33:41.760
+particularly relevant at this moment, because this is a time when many of us need to think
+
+33:41.760 --> 33:48.960
+a little bit more about deviating from paths we might have set for ourselves. And if you take
+
+33:48.960 --> 33:54.080
+anything away from what I say today, take away that that's okay. If you have a plan and then
+
+33:54.080 --> 34:04.880
+you do something else, that's just fine. So if we go back several decades, I ended up with a PhD
+
+34:04.880 --> 34:12.240
+from Harvard in earth and planetary science with a master's degree in stats in about 2009.
+
+34:12.240 --> 34:16.960
+And at that point in my life, I was 100% on a faculty path. It was like, I'm going to do
+
+34:16.960 --> 34:20.640
+interdisciplinary research and statistical climatology. It's going to be awesome. The
+
+34:20.640 --> 34:26.560
+NFF is going to throw money at me and we're going to do great work. Obviously something changed. So
+
+34:26.560 --> 34:32.000
+let's talk a little bit about the steps. My work as a graduate student, as an academic, really
+
+34:32.000 --> 34:37.840
+focused on using a lot of hierarchical bays modeling, time series modeling to understand
+
+34:37.840 --> 34:43.200
+climate variability over hundreds to thousands, even millions of years, using things like old
+
+34:43.200 --> 34:52.640
+thermometers, measurements on old trees, measurements from ice sheets, things like that. So just really
+
+34:52.640 --> 34:57.200
+cool, I thought, high quality applied stats work in that climate and weather domain.
+
+34:57.360 --> 35:02.480
+So after I graduated, I spent a year down in North Carolina at SAMHC right next door to NIST,
+
+35:02.480 --> 35:10.960
+which is, I think, one of the reasons I know Jim Rosenberger. Again, still really on that faculty
+
+35:10.960 --> 35:17.440
+path at that point, but if you remember what the world was like in about 2009, we were still coming
+
+35:17.440 --> 35:23.440
+out of the financial crisis and much like right now, jobs were not easy to find.
+
+35:23.440 --> 35:29.440
+I then spent a year over in Colorado at NCAR, the National Center for Atmospheric Research at
+
+35:29.440 --> 35:33.040
+the Institute for Mathematics Applied to the Geosciences, which I always thought was like my
+
+35:33.040 --> 35:39.440
+spiritual home as an academic. And at that point, I'd say I was like 90% on the faculty path. I
+
+35:39.440 --> 35:44.320
+started having these existential questions. What am I? Am I a statistician? Well, the stats
+
+35:44.320 --> 35:49.840
+departments I applied to don't seem to think so. Am I a climate scientist? Well, I don't think so.
+
+35:50.080 --> 35:54.880
+I applied to don't seem to think so. Am I a climate scientist? Well, the sort of atmospheric
+
+35:54.880 --> 35:58.560
+or earth and planetary science departments I applied to, they don't seem to think so.
+
+35:59.200 --> 36:05.520
+Maybe this interdisciplinary research stuff has some downsides. That's the, I think, the best
+
+36:05.520 --> 36:12.400
+office I'll ever have in my life. NCAR is located in this beautiful building designed by IM Pei,
+
+36:12.400 --> 36:19.280
+right in the foothills of the Rockies. It was amazing. So then, again, unable to find a real
+
+36:19.280 --> 36:25.040
+faculty job, I actually went back and worked for a few more years with my doctoral advisor at Harvard,
+
+36:25.040 --> 36:31.040
+worked a lot with some of his grad students, enjoyed writing a whole ton of proposals that
+
+36:31.040 --> 36:37.920
+were generally rejected. But, you know, if you put aside some struggles on the job market and
+
+36:37.920 --> 36:43.120
+struggles with funding, it was a lot of fun. I was super productive, worked with some great people,
+
+36:43.120 --> 36:47.360
+but really starting to think maybe this interdisciplinary research has its drawbacks.
+
+36:49.760 --> 36:54.960
+So in 2013, I kind of landed this dream job, and that's definitely where I got to know Jim Rosenberger
+
+36:56.640 --> 37:01.840
+at Penn State, because they were hiring, they had this amazing faculty hiring program where
+
+37:01.840 --> 37:07.040
+you were hired like 51% into a science department and 49% into the stats department.
+
+37:07.040 --> 37:13.600
+Just really a perfect fit for me from that academic perspective. But as sometimes happens
+
+37:13.600 --> 37:17.520
+in life, once you get what you always want, you decide, well, maybe I don't want it after all.
+
+37:18.160 --> 37:24.000
+And when I think about my time as a faculty member, what I always reflect on is I sort
+
+37:24.000 --> 37:29.440
+of enjoyed every distinct element of that job and that time, but I didn't like the whole package.
+
+37:30.000 --> 37:35.760
+There were also some personal challenges. My wife was back in Boston at the time, so we were doing
+
+37:35.760 --> 37:40.960
+a lot of driving, and I wasn't getting enough sleep, and I was teaching actuarial science students,
+
+37:40.960 --> 37:45.840
+and I kept thinking that if they knew how much I was driving on how little sleep, they would
+
+37:45.840 --> 37:50.880
+probably suggest my life insurance premium should go up, and that didn't seem like a sustainable
+
+37:50.880 --> 37:59.120
+thing. But the work itself, I really enjoyed. It's just that package wasn't quite what was
+
+37:59.120 --> 38:06.800
+optimal for me and my family. So what do you do if you're faced with an optimization problem
+
+38:06.800 --> 38:14.320
+and local perturbations don't really help? You try to jump to a new area of the parameter space.
+
+38:15.280 --> 38:20.880
+So I started looking around for personal reasons. I have some connections in Australia,
+
+38:21.440 --> 38:29.200
+and from 2015 to 2017, I worked at this company called Insurance Australia Group pricing natural
+
+38:29.200 --> 38:34.800
+catastrophe risk for them. And it was a super cool and natural transition into the private sector
+
+38:34.800 --> 38:40.000
+for me because I was still dealing with weather and climate data. We're still doing pretty cool
+
+38:40.080 --> 38:44.400
+probabilistic modeling. We just put dollar signs at the end of all the work and say it was risk.
+
+38:45.920 --> 38:50.960
+So from my perspective, it was a great opportunity to learn more about the private sector, about
+
+38:50.960 --> 38:57.920
+for-profit businesses, new ways of framing problems, also new metrics for what success meant. Success
+
+38:57.920 --> 39:03.520
+no longer meant writing a bunch of papers. It meant actually helping the company understand,
+
+39:03.520 --> 39:07.840
+quantify, and quantify their risk and ultimately make some money.
+
+39:09.360 --> 39:13.520
+But some things also stayed the same. Super interesting problems and super interesting
+
+39:13.520 --> 39:20.240
+people are everywhere, particularly if you go seek them out. This is the best place I've ever
+
+39:20.240 --> 39:26.320
+lived in my life. This is just south of Sydney, Australia. We lived like a 400-yard walk from the
+
+39:26.320 --> 39:33.520
+beach. It was amazing. And then in 2017, I got one email from a Netflix recruiter. And sometimes
+
+39:33.520 --> 39:39.600
+when opportunity knocks, you don't ask it to come back later. You just take the call and see what's
+
+39:39.600 --> 39:47.360
+going to happen. So 2017, we moved back across the Pacific Ocean. And for the last six years,
+
+39:47.360 --> 39:54.320
+I've been leading data science teams at Netflix focused on experimentation. It's been really a
+
+39:54.320 --> 40:00.960
+period of massive personal and professional growth for me. It's certainly the best job I've
+
+40:00.960 --> 40:06.160
+ever had in my life. And one thing I want you to know here is the best job, the best office,
+
+40:08.400 --> 40:15.200
+and the best place to live, we're all separated by thousands of miles. And as you think about
+
+40:15.200 --> 40:22.000
+navigating your own career at this pretty uncertain moment, be aware that joint optimization is really
+
+40:22.000 --> 40:29.120
+hard. And maybe you'll have to think about what's most important to you. So a little bit about my
+
+40:29.120 --> 40:33.840
+role at Netflix. We've actually written very extensively on this. So if you go to our tech
+
+40:33.840 --> 40:41.360
+blog, you can read 10,000 words about what me and my team do. So I won't recite that. But I work
+
+40:41.360 --> 40:47.280
+on our experimentation platform. And to understand what that means, let's go way back in time.
+
+40:47.280 --> 40:53.840
+This is a picture of Rothamsted Research Station, where Ari Fisher developed most of the statistics
+
+40:53.840 --> 40:59.600
+that many of us on this call use on a daily basis. And ultimately, this is an experimentation
+
+40:59.600 --> 41:04.240
+platform. You take the land, you chop it up into bits, and you try different agricultural practices
+
+41:04.240 --> 41:10.320
+on little plots of land. And then you do standard Fisherian inference to back out your treatment
+
+41:10.320 --> 41:15.520
+effect and make a decision. But you can tell just from this plot, the throughput of experiments is
+
+41:15.520 --> 41:20.480
+low. Experiments are going to take a long time to run, and the overall data volume is going to be
+
+41:20.480 --> 41:28.720
+really small. At Netflix, we have at the moment over 200 million paying members. We have a very
+
+41:28.720 --> 41:35.840
+complex UI. We have a huge diverse set of personalization algorithms running in the
+
+41:35.840 --> 41:41.040
+background that really help you connect with the content that's best for you and allows that content
+
+41:41.040 --> 41:47.200
+to speak to you in a way that will resonate. And we run A-B tests that Fisher would recognize
+
+41:47.200 --> 41:52.720
+on every aspect of our product experience to try to improve it for our members. The real thing
+
+41:52.720 --> 41:58.400
+that's different is the throughput of experiments, so how many we have going at a time, how quickly
+
+41:58.400 --> 42:05.680
+we can execute on many of these experiments, and the data volume. So a lot of what me and my team
+
+42:05.680 --> 42:10.880
+do, I talk about it's turning innovation into commodity. How can we take what's interesting
+
+42:10.880 --> 42:16.880
+from the experimentation and causal inference literature and make that fast and accessible to
+
+42:16.880 --> 42:23.920
+a broad swath of the company so we can make really great decisions together? And I've really enjoyed
+
+42:23.920 --> 42:29.920
+being at this sort of intersection of engineering and applied stats in support of business decision
+
+42:29.920 --> 42:33.280
+making. It's been a great role for me, which is why I've stuck around for so long.
+
+42:35.840 --> 42:40.400
+Okay, and then there's a whole bunch of other uses of applied stats and related
+
+42:42.080 --> 42:50.480
+techniques around Netflix, and much like you can go to jobs.bowing.com, you can go to jobs.netflix.com
+
+42:50.480 --> 42:56.320
+and see what we have available. We are still hiring, admittedly at a much reduced rate,
+
+42:56.320 --> 43:03.840
+but there are still some jobs that we're looking to fill. Okay, I want to sort of switch gears and
+
+43:03.840 --> 43:08.880
+talk a little bit about some personal observations, and it's sort of motivated by the fact that I seem
+
+43:08.880 --> 43:15.440
+to spend a lot of time providing some mentorship and having career combos with different folks,
+
+43:15.440 --> 43:21.920
+and this is sort of the highlight of themes that seem to come up again and again. And I really want
+
+43:21.920 --> 43:26.640
+to emphasize, right, your mileage may vary, right? Everyone's journey is going to look very different,
+
+43:26.640 --> 43:31.440
+and maybe you can take some lessons from what I've experienced, maybe not, that's okay.
+
+43:31.440 --> 43:41.200
+So first, the future is super uncertain, and this is particularly true right now, right? And I just
+
+43:41.200 --> 43:48.640
+want to acknowledge this is a really rough moment on the hiring market, and so maybe if we think
+
+43:48.640 --> 43:52.320
+like statisticians, we just say that like our predictive uncertainty on the future is much
+
+43:52.320 --> 43:57.040
+higher right now, but it's always high, it's just a little bit higher right now.
+
+43:57.040 --> 44:02.240
+It's taken me like a long time to get to the position I'm in, because I took so many detours
+
+44:02.240 --> 44:08.480
+along the way, but what I want to emphasize is that that slow route, that exploration of different
+
+44:08.480 --> 44:15.040
+opportunities, of different environments, different ways of framing problems, actually has a lot of
+
+44:15.040 --> 44:20.880
+advantages. Every stop I've made along the way has made me a lot better at my current job,
+
+44:20.880 --> 44:25.520
+though I also admit it can be frustrating at times, and I feel like if I move across the Pacific
+
+44:25.520 --> 44:34.480
+one more time, it might do me in. So especially now, like focus on the journey versus like trying
+
+44:34.480 --> 44:41.360
+to get to a particular destination as fast as you can. And of course, there's more than one way is
+
+44:41.360 --> 44:46.240
+to get to a destination. I wouldn't have planned out a whole lot of different ways to get to a
+
+44:46.480 --> 44:50.320
+destination. And of course, there's more than one way is to get to a destination. I wouldn't have
+
+44:50.320 --> 44:54.960
+planned out this route if I knew I wanted to be like a data science experimentation manager
+
+44:54.960 --> 45:00.960
+at Netflix, I would not have picked the route I took. And at times, I've clearly not even known
+
+45:00.960 --> 45:06.000
+where I was going. But I really want to say that I think that's okay. As long as you're learning a
+
+45:06.000 --> 45:13.440
+lot at every stop, you're sort of increasing the number of ways you can solve problems,
+
+45:13.440 --> 45:22.640
+you're increasing your future value. And I've also found a lot of value in like being open to
+
+45:22.640 --> 45:28.080
+paths I never envisioned for myself, I was so directly focused on an academic career for so
+
+45:28.080 --> 45:35.120
+long. But even then, I'd take the odd call from a hedge fund from other places to learn a little
+
+45:35.120 --> 45:41.040
+bit about what was out there. So to try on that that jacket, see how it fits, see if that's something
+
+45:41.040 --> 45:47.040
+I could see myself doing. And I really want to stress, and this is something I learned way too
+
+45:47.040 --> 45:51.920
+late, the Academy and even the tech sector, they have no monopolies on interesting people and
+
+45:51.920 --> 45:56.880
+problems. There are great people and great problems everywhere. You just got to seek them out.
+
+45:58.640 --> 46:04.480
+So this is a book that's really helped me understand my own path. It's called Range,
+
+46:04.480 --> 46:09.760
+Why Generalists Triumph in a Specialized World. And as we think about the uncertainty, especially
+
+46:09.760 --> 46:16.000
+in the tech sector right now, that like mindful ability to adapt to different situations to figure
+
+46:16.000 --> 46:22.400
+out how to leverage your skill set in different ways, I think is just about the most important
+
+46:22.400 --> 46:30.240
+skill that you can have right now. So one question I get asked a lot is how to successfully transition
+
+46:30.240 --> 46:36.000
+from like an academic mindset to a private sector mindset. And Shannon sort of touched on some of
+
+46:36.000 --> 46:42.720
+these points as well. And the big warning here is like you should acknowledge quite openly that
+
+46:42.720 --> 46:48.160
+your graduate education has not prepared you for life outside of a university, right? And that's
+
+46:48.160 --> 46:55.440
+okay. And what I encourage you to think about is the skill set you've acquired in your university
+
+46:55.440 --> 47:00.480
+life, be that undergraduate or graduate. For me, this is the tool set of applied statistics and
+
+47:00.480 --> 47:08.000
+the ability to grapple with complex data and think about uncertainty. And in your graduate work,
+
+47:08.000 --> 47:13.840
+you've used that toolkit to optimize a particular loss or utility function here like writing a
+
+47:13.840 --> 47:18.960
+dissertation and writing some papers and passing some qual exams and things like that.
+
+47:20.160 --> 47:26.160
+But these can be completely decoupled, right? Your toolkit exists and has value
+
+47:26.800 --> 47:33.280
+outside of that particular utility function. So what's important is to understand that your
+
+47:33.280 --> 47:37.520
+utility function can be adapted, sorry, your toolkit can be adapted to optimize different
+
+47:37.520 --> 47:43.040
+utility functions. And as you venture out into the real world, as you switch careers, as you try out
+
+47:43.040 --> 47:50.240
+new industries, think in terms of a portable toolkit and then a new loss function. And your
+
+47:50.240 --> 47:55.760
+job when you start in a new environment is to really figure out what that loss function looks
+
+47:55.760 --> 48:01.440
+like so you can correctly optimize it using your toolkit. So if you come into an applied
+
+48:01.440 --> 48:06.160
+industry setting and try to write research papers, that's not going to go well. But if you come in
+
+48:06.160 --> 48:11.200
+and say, okay, I have this toolkit of applied stats and data analysis, let me figure out how
+
+48:11.200 --> 48:17.040
+to use that to solve the first order problems faced by this company. Then you're kind of
+
+48:17.040 --> 48:21.680
+recognizing that that loss function has changes and adapting your behavior accordingly.
+
+48:26.400 --> 48:32.400
+So I'll leave you with this slide here, which is like the toolkit and this braided river,
+
+48:32.400 --> 48:37.520
+right? Because there is a lot of uncertainty right now, there's a lot of people moving around
+
+48:37.520 --> 48:44.720
+between jobs, really focus on the applicability of your toolkit and think about different ways
+
+48:44.720 --> 48:49.600
+of achieving the goals that you have in your career, along with being open to exploring
+
+48:50.560 --> 48:57.600
+goals that you didn't know that you had. Think in terms of shorter timelines, like don't think
+
+48:57.600 --> 49:01.680
+I'm going to take this job, I'm going to be at this company for 25 years and I'm going to retire.
+
+49:01.680 --> 49:07.120
+Think in terms of what do I need to learn over the next two years so I can set myself up for the job
+
+49:07.120 --> 49:11.760
+that I really want. So be really open to positions that are maybe not your ideal.
+
+49:12.640 --> 49:17.840
+Yes, the tech sector has had pretty massive layoffs, but like 60% of them have been from
+
+49:18.160 --> 49:23.840
+four companies headquartered in San Francisco and Seattle. There's a whole lot of smaller
+
+49:23.840 --> 49:28.960
+companies all around the company that are hiring like crazy, that are doing wonderful things,
+
+49:28.960 --> 49:33.840
+that will provide you with an amazing opportunity. And from there, maybe you decide that's the path
+
+49:33.840 --> 49:38.080
+you want, or maybe in 18, 24 months when the economy is doing a bit better, you use that to
+
+49:38.080 --> 49:44.880
+jump to something else. And that's always super hard. And then two more final comments. First,
+
+49:44.880 --> 49:48.400
+job hunting is a numbers game. It is a pure numbers game. From the other side,
+
+49:48.400 --> 49:54.160
+from the hiring perspective, hiring is also a numbers game. So pump up your number, right?
+
+49:54.160 --> 49:58.320
+Apply to everything that looks relevant, connect with recruiters on LinkedIn, leverage every
+
+49:58.320 --> 50:04.720
+network you have, particularly alumni networks, which are great. And last, join optimization is
+
+50:04.720 --> 50:09.840
+really hard. So think about what's essential to you and what's nice to have and make that essential
+
+50:09.840 --> 50:19.200
+list shorter and just focus on that. Okay, that's all I got. And I will hand it back to our moderator.
+
+50:20.640 --> 50:27.920
+Thanks, Martin. So let me share a bit about myself and what I do. And then we can get into Q&A.
+
+50:27.920 --> 50:34.640
+I'll try to keep it as short as I can. I don't have slides, but let me just talk a bit about
+
+50:34.640 --> 50:44.160
+myself. So I am originally from Sri Lanka. I did my undergrad there in industrial statistics.
+
+50:45.680 --> 50:53.040
+And then I worked for two years in a financial research company, after which I moved to the US
+
+50:53.840 --> 51:04.080
+and I got my PhD in statistics at Penn State. A really fun experience I had at Penn State was
+
+51:04.080 --> 51:10.720
+for two years, I worked in the statistical consulting center. And so this gave me a really
+
+51:10.720 --> 51:18.240
+great experience, you know, seeing a lot of different problems in designing experiments,
+
+51:18.240 --> 51:26.800
+helping people analyze data. And that experience, I found that really enjoyable. And so while I was
+
+51:26.800 --> 51:35.200
+at Penn State, I did two internships, first with Lubrizol, and then second with Microsoft.
+
+51:36.160 --> 51:44.320
+And so that was the year before I graduated. And I really enjoyed, you know, both my internships.
+
+51:45.120 --> 51:53.600
+With Microsoft, I didn't pick this team, but somehow how it happens with both
+
+51:53.840 --> 52:01.360
+internships, as well as like fresh out of school opportunities, you respond to a very general
+
+52:02.320 --> 52:11.280
+job post. And then your CV is picked up by teams who, you know, find you a suitable candidate for
+
+52:11.280 --> 52:17.200
+a role they have. So I never really picked the team at Microsoft. They essentially picked me,
+
+52:17.200 --> 52:22.400
+but it was a good pairing. So I work in the experimentation platform. That is the same team
+
+52:22.400 --> 52:28.640
+that is the same team I interned on. Yeah, I don't have to explain what experimentation platform
+
+52:28.640 --> 52:36.320
+is, thanks to Martin. And so I interned there and then got a return offer and joined full time in
+
+52:36.880 --> 52:46.880
+2020. So kind of a typical day in my role as a data scientist on the experimentation platform is
+
+52:46.960 --> 52:57.040
+one, we help teams across Microsoft run their experiments. And this, you know, can be challenging
+
+52:57.040 --> 53:02.880
+because we have some teams who are very advanced and mature in their journey of experimentation,
+
+53:02.880 --> 53:07.200
+and other teams who are just starting off. So we have to solve a lot of different
+
+53:07.200 --> 53:14.320
+types of problems. So I work with Power BI, a relatively, maybe a relatively new team to
+
+53:14.320 --> 53:21.440
+experimentation. And so I help them, you know, with their design of experiments with understanding
+
+53:21.440 --> 53:29.680
+what metrics they need to include, and then interpreting results as well. And I also
+
+53:30.480 --> 53:38.400
+do quite a bit of work within my team to help us understand how users are leveraging our product.
+
+53:38.400 --> 53:44.480
+So basically, I help with running experiments for the experimentation platform,
+
+53:45.680 --> 53:51.840
+and also for our business reporting, like what are some of the important metrics? Should we
+
+53:51.840 --> 53:59.600
+rethink some of the metrics that we use for ourselves? Helping with, you know, some of the
+
+53:59.600 --> 54:06.000
+data engineering or data pipeline work, and things like that. So those are the two main things. And
+
+54:06.000 --> 54:14.400
+then in addition to that, we have some educational outreach that happens where we run classes for
+
+54:14.960 --> 54:20.560
+teams across Microsoft. So, you know, I will volunteer for those kind of opportunities as
+
+54:20.560 --> 54:31.200
+well. So that's kind of what I do at Microsoft. To talk a bit about hiring. So my team sits within
+
+54:31.200 --> 54:41.040
+AI platform. And we have had, as I said, we have these general job posts for new high, fresh out of
+
+54:42.000 --> 54:48.640
+grad school, as well as sorry, fresh out of school, as well as for interns. And
+
+54:49.920 --> 54:57.120
+what we've seen in the recent past is these can be very general. And even in the interview phase,
+
+54:57.120 --> 55:05.360
+you can have a loop interview with people from various different teams. This is so that, you know,
+
+55:05.360 --> 55:17.280
+say you have a very strong competency in a certain field, but maybe the post that you
+
+55:17.920 --> 55:22.240
+responded to, you know, is not the perfect match, but the team thinks, okay, you would do really
+
+55:22.240 --> 55:29.520
+well in another team. And this kind of is a way to make sure that you don't have to keep interviewing
+
+55:29.520 --> 55:36.480
+for different teams within the same org. One thing to note, we are having a hiring freeze right now.
+
+55:38.320 --> 55:45.600
+So there might not be any open opportunities within AI platform at this time. But you should,
+
+55:45.600 --> 55:53.280
+you know, keep looking for open opportunities. I know that there are other teams within Microsoft
+
+55:53.280 --> 56:02.160
+hiring. So I do have an interview prep guide from Microsoft that I'd like to share. I'm
+
+56:02.160 --> 56:09.120
+not sure if I can put it in the chat. So let me just quickly share my screen here.
+
+56:09.120 --> 56:12.720
+Okay. Can everyone see my screen?
+
+56:14.720 --> 56:15.360
+Yep.
+
+56:15.360 --> 56:22.720
+Okay. So yeah, if you can, if you just search for this online, you should be able to find it.
+
+56:22.720 --> 56:30.720
+So this gives some background about the team itself. And then about the interview process,
+
+56:31.120 --> 56:38.080
+typically, there are one to two phone screens, and then either an in-person or virtual interview loop.
+
+56:39.040 --> 56:45.200
+In more recent times, I've seen more of this. I've not really seen any in-person interviews.
+
+56:45.200 --> 56:53.840
+The virtual interview loop will include about four to five people. And it'll be a mix of technical
+
+56:53.840 --> 57:01.200
+and non-technical skills. And, I mean, you are not expected to show mastery in everything.
+
+57:01.200 --> 57:09.680
+You should show competency in each area and then mastery in some. So in addition, so when talking
+
+57:09.680 --> 57:17.760
+about non-technical skills, when interviewing, we focus on Microsoft competencies. So these are the
+
+57:18.480 --> 57:25.200
+competencies, adaptability, collaboration, customer focus, drive for results, influencing for impact
+
+57:25.200 --> 57:33.120
+and judgment. And so each, say, in a loop interview, each person will have a competency
+
+57:33.120 --> 57:41.120
+that that interviewer is supposed to assess you on. And so that will motivate these non-technical
+
+57:41.120 --> 57:50.480
+questions. And for the technical questions, you can expect, you know, to some of these topics.
+
+57:51.280 --> 57:58.240
+Of course, depending on the interviewer, this will change, because depending on where they're
+
+57:58.240 --> 58:06.240
+coming from. But, yeah, one thing that I have seen is that, you know, there's a lot of people
+
+58:06.320 --> 58:17.120
+but, yeah, one thing that I have seen is sometimes, for example, with a coding question,
+
+58:19.200 --> 58:26.240
+you are given the option of which language you want to use. And I have encountered this where,
+
+58:26.240 --> 58:30.720
+you know, I've posed a question to someone and said, you know, use any language that you feel
+
+58:30.720 --> 58:38.080
+comfortable. But they pick Python, although their main competency is R. And, you know, and then
+
+58:38.080 --> 58:45.520
+they're not as, you know, familiar with Python being maybe from a strong stats background.
+
+58:48.240 --> 58:54.800
+And I remember in this situation, at the end, she said, like, oh, I wish I had used
+
+58:54.800 --> 59:01.920
+R. You know, I didn't want to, I thought that in industry, you know, Python is used more,
+
+59:01.920 --> 59:10.000
+something like that. So when you are given a choice, or you can even ask, can I use this language?
+
+59:10.000 --> 59:14.880
+And for these questions, we have a specific tool where you can actually write in that language and
+
+59:14.880 --> 59:22.800
+you can compile it, etc. So that is one. The second thing, if you put something on your CV,
+
+59:23.600 --> 59:32.480
+you should be able to have an in-depth conversation on that. So that is another thing
+
+59:36.160 --> 59:45.760
+that I have seen as a pitfall. So there are some tips here in, you know, some tips for interviewing
+
+59:46.400 --> 59:52.960
+that might be helpful. Asking questions is really important because it also,
+
+59:54.160 --> 01:00:00.160
+it helps you kind of grasp more about what is being asked. It also helps
+
+01:00:01.280 --> 01:00:06.560
+the interviewer give a sense of what it's like to collaborate with you. So you can almost think of
+
+01:00:06.640 --> 01:00:15.360
+it as a collaboration. At Microsoft, you know, when it comes to evaluating
+
+01:00:17.600 --> 01:00:24.160
+your performance, we look at your own personal impact, how you influence the success of others,
+
+01:00:24.720 --> 01:00:31.360
+and how you leverage the success of others in your work. So collaboration is really important.
+
+01:00:32.320 --> 01:00:40.240
+So also, again, I'm not sure, I don't think I have, you know, I can use the chat to share this,
+
+01:00:40.240 --> 01:00:46.960
+but you can go to, you can look for experimentation platform. This is the team that I'm on to get more
+
+01:00:46.960 --> 01:00:55.440
+details of what we do, the type of problems we are interested in, etc. So in terms of the
+
+01:00:56.240 --> 01:01:03.280
+job market right now, it is a difficult time in tech with a lot of uncertainty.
+
+01:01:03.280 --> 01:01:12.880
+And I agree with what Martin said, you know, there are, so in big tech, we see a lot of,
+
+01:01:17.920 --> 01:01:22.640
+this issue seems to be heightened in big tech, but there are other companies out there that are
+
+01:01:22.640 --> 01:01:29.680
+recruiting. And so, so not to be focused, don't be too focused on
+
+01:01:30.800 --> 01:01:36.160
+big tech. I mean, look for opportunities, and those opportunities will be more competitive
+
+01:01:36.160 --> 01:01:45.520
+than earlier, but also look elsewhere, there are plenty of tech roles in non tech industries.
+
+01:01:46.160 --> 01:01:54.480
+So that would be my advice. Also to those who are, to international students who are on visas,
+
+01:01:55.920 --> 01:02:06.240
+this is also a difficult time. And you need to have conversations around the support that
+
+01:02:07.120 --> 01:02:10.560
+whatever company you are interviewing on, the support that they can give you
+
+01:02:10.800 --> 01:02:17.760
+to be able to live and work in the US. That's very important. That was almost like a given
+
+01:02:17.760 --> 01:02:27.360
+with some of the big tech companies, but with the current situation, there are issues even there.
+
+01:02:28.080 --> 01:02:35.520
+Even there. So with that, I'd like to, oops, sorry, let me
+
+01:02:37.520 --> 01:02:43.440
+stop sharing. And let's look at the questions that have come in.
+
+01:02:46.960 --> 01:02:47.840
+I can see that.
+
+01:02:48.320 --> 01:02:52.480
+Okay, Martin, I can see that you've answered the questions posed to you.
+
+01:02:53.680 --> 01:03:04.400
+There were several open. Okay, this one is, this question is from Laura. As a recent
+
+01:03:04.400 --> 01:03:11.200
+stats PhD grad, I've had little luck landing interviews with a wide search of large and small
+
+01:03:11.280 --> 01:03:16.800
+companies. I worry about the growing gap in my resume of unemployment after graduation.
+
+01:03:17.360 --> 01:03:23.440
+Should I indeed be worried about this and broaden my search to positions that are much lower?
+
+01:03:24.320 --> 01:03:28.720
+Example, analyst positions for recent BA graduates, or should I continue to search for
+
+01:03:28.720 --> 01:03:36.640
+DSML statistician positions that align more with my education? Does anyone want to take this?
+
+01:03:36.640 --> 01:03:44.560
+I will venture into this thorny, but important question. Nothing I say is going to be the
+
+01:03:44.560 --> 01:03:51.200
+actual answer, but if you're struggling, broaden in some way, also have someone sort of look at
+
+01:03:51.200 --> 01:03:56.640
+your resume and say, okay, I'm going to do this, I'm going to do this, I'm going to do this,
+
+01:03:56.640 --> 01:04:01.840
+I'm going to do this, I'm going to do this, I'm going to do this, I'm going to do this,
+
+01:04:02.000 --> 01:04:07.920
+if you're struggling, broaden in some way, also have someone sort of look at your CV and look at
+
+01:04:07.920 --> 01:04:12.080
+your application materials and see if they can help you hone in there and if there's a way to
+
+01:04:12.080 --> 01:04:18.800
+sort of help you stand out as a candidate, but in general, yeah, I would broaden and kind of the
+
+01:04:18.800 --> 01:04:23.680
+axis along which you want to broaden might be up to you, it might be position, it might be location,
+
+01:04:23.760 --> 01:04:33.200
+it might be industry. Benadir, if I may add to what Martin said,
+
+01:04:35.200 --> 01:04:41.040
+just the broad index, being able to extend your requirements are very important, so location is
+
+01:04:41.040 --> 01:04:48.080
+cool, and as you said earlier, it doesn't matter how you get in, just get in and then learn what
+
+01:04:48.080 --> 01:04:55.120
+you need to take you where you want to be, so don't limit yourself to one specific area
+
+01:04:55.120 --> 01:05:00.720
+or opportunity or title, but just come in, learn what you need and then move on later
+
+01:05:00.720 --> 01:05:09.680
+if you feel like there's not working for you. That's it. Yeah, and I'll point to just also
+
+01:05:11.360 --> 01:05:16.800
+that tech might not be hiring right now, but there are other industries that are,
+
+01:05:17.760 --> 01:05:23.440
+so for example, Boeing just went through a bunch of layoffs two years ago and we're actually in
+
+01:05:23.440 --> 01:05:31.600
+the position to hire, but they might not be the right positions, but yeah, so I guess
+
+01:05:33.920 --> 01:05:41.040
+one thought is, yeah, in any industry there will be need for positions for data scientists,
+
+01:05:42.000 --> 01:05:46.160
+even in the manufacturing sector as well, so just kind of broaden your
+
+01:05:48.720 --> 01:05:49.760
+approach, I guess.
+
+01:05:52.880 --> 01:05:59.600
+Following up on that, on the same question, so this person said that they had
+
+01:06:00.960 --> 01:06:08.240
+little luck landing interviews, so to me it also suggests maybe you'd want to revisit
+
+01:06:08.240 --> 01:06:18.400
+how you've written your CV. I would suggest reaching out to maybe friends who you have
+
+01:06:18.400 --> 01:06:24.400
+in certain companies that you would want to work in and asking them to review your CV or even if
+
+01:06:24.400 --> 01:06:34.320
+you have access to your career guidance from your university, still reaching out to them to get some
+
+01:06:34.320 --> 01:06:43.440
+feedback on your CV. One more comment here. Another technique is to try to figure out who
+
+01:06:43.440 --> 01:06:49.840
+the hiring manager is or who the recruiter is and just ping them on LinkedIn. Less so for the,
+
+01:06:49.840 --> 01:06:54.720
+here's my CV, I want this job and more like, hey, I saw some interesting roles, would you be up for
+
+01:06:54.720 --> 01:06:59.840
+a casual chat? And then it's just like the door just opens a tiny bit and then as Bernard said,
+
+01:07:00.800 --> 01:07:05.600
+keep getting the door a little bit open and then walk into the company and then figure out
+
+01:07:05.600 --> 01:07:09.360
+where you should be at that company and once you're in the door, it's a lot easier.
+
+01:07:10.800 --> 01:07:14.800
+Yeah, I can share a success story like that where someone reached out to me
+
+01:07:16.320 --> 01:07:22.960
+and said, you know, can I just talk to you? And I said, okay, we can have a chat and I realized
+
+01:07:22.960 --> 01:07:27.440
+just looking, you know, talking to her and looking at her CV that she would be a very good fit
+
+01:07:27.520 --> 01:07:32.240
+for my team and we were hiring at that time and so I wrote to my manager and I said,
+
+01:07:32.240 --> 01:07:37.440
+I think this person will be a really good fit and so that really fast tracked the whole process.
+
+01:07:38.560 --> 01:07:47.440
+So making those connections can be really helpful. Okay, so this next question is for Bernard.
+
+01:07:48.160 --> 01:07:54.240
+Can you give us tips on how to approach the hiring and our interview process? What is the world's
+
+01:07:54.240 --> 01:07:58.880
+Fargo current attitude in terms of the current situation with layoffs and hiring freezes?
+
+01:07:59.600 --> 01:08:04.800
+All right, so I'll start with the last question. Our attitude is we are still always looking for
+
+01:08:04.800 --> 01:08:12.320
+top quantitative skills out there. So we actually are still hiring, right? So I'd advise the
+
+01:08:16.160 --> 01:08:22.000
+Dobroña to check out our quantitative, check out the Wells Fargo site, look for positions titled
+
+01:08:22.560 --> 01:08:28.960
+quantitative analytics specialist or analytics specialist or anything with analytics consultant,
+
+01:08:28.960 --> 01:08:35.360
+analytics in, will probably fall in your field, right? But we have postings, like I said, and then
+
+01:08:35.920 --> 01:08:40.960
+those are just current positions going on and like I mentioned, around September you'll also
+
+01:08:40.960 --> 01:08:46.560
+be looking out for the targeted program where we are looking for people that are soon to graduate.
+
+01:08:47.040 --> 01:08:51.280
+That are soon to graduate. So it'll come out, it'll be quantitative analytics program,
+
+01:08:52.080 --> 01:08:56.480
+fellows, and you should make sure if by then if you're still on the market, you should make sure
+
+01:08:56.480 --> 01:09:00.720
+to throw your heart in. And like Martin said, I have a feeling that Martin and I, we've kind of
+
+01:09:00.720 --> 01:09:05.680
+overlapped on some job interviews because the ideas that he's talking about are key, right?
+
+01:09:05.680 --> 01:09:10.480
+Connect on LinkedIn, reach out to hiring managers, even if the hiring manager is not there,
+
+01:09:11.040 --> 01:09:14.560
+you don't see a hiring manager. I think I'm already seeing LinkedIn invitations for the
+
+01:09:14.560 --> 01:09:20.240
+panelists, I'm sure you all are. So it's a good idea to just connect, reach out, figure out, hey,
+
+01:09:20.240 --> 01:09:24.640
+what positions are coming? What are things that I think and how do I need to prepare for some of
+
+01:09:24.640 --> 01:09:30.160
+these specific positions that I'm seeing out there? And you'd be surprised how open people are to
+
+01:09:30.160 --> 01:09:34.960
+sharing opportunities with you. And then, you know, key thing also, I think someone talked about GAP
+
+01:09:34.960 --> 01:09:40.080
+would be just look at other positions and look at your resume because there's something, there
+
+01:09:40.080 --> 01:09:44.400
+might be a disconnect between how you're presenting yourself and what the hiring managers are looking
+
+01:09:44.400 --> 01:09:56.160
+for. I hope this helps. Thanks, Bernard. So Blanca has a question. Thanks a lot for the presentation.
+
+01:09:56.160 --> 01:10:00.960
+I wonder, except for LinkedIn, could we get connected with presenters in other ways?
+
+01:10:00.960 --> 01:10:06.080
+I'm a business intelligence engineer with five years of experience. I think I can be a good
+
+01:10:06.080 --> 01:10:09.040
+match for a few positions I saw at Netflix and Boeing.
+
+01:10:13.040 --> 01:10:16.720
+Well, there are many ways, but it looks like LinkedIn is probably your best bet, right?
+
+01:10:16.720 --> 01:10:21.520
+So, I mean, I'm not sure that we can post our phone numbers and information here,
+
+01:10:22.720 --> 01:10:26.240
+but LinkedIn is probably as safe as a good bet, a place to start, right?
+
+01:10:28.000 --> 01:10:32.160
+I don't know about that. Yeah, plus one, LinkedIn is the way to find me.
+
+01:10:32.160 --> 01:10:36.240
+Yeah, I agree with that.
+
+01:10:40.080 --> 01:10:45.200
+Okay, so Johnny has a question. If we get laid off,
+
+01:10:45.200 --> 01:10:49.360
+do we have to disclose this to our next employer when we interview?
+
+01:10:54.800 --> 01:10:59.360
+I mean, I don't think any of us are from HR, so maybe you should take this answer with some
+
+01:10:59.360 --> 01:11:10.160
+skepticism, but I would say no. In fact, when I hire, I'm always mindful to not ask candidates
+
+01:11:10.160 --> 01:11:18.400
+about potential gaps on their CV, because there's a lot of personal reasons that could lead to an
+
+01:11:18.400 --> 01:11:24.800
+interruption in work, family reasons, health reasons. You wanted to do a startup and it
+
+01:11:24.800 --> 01:11:30.480
+bombed after three months reasons, and of course, layoffs. So, I don't think there's
+
+01:11:30.480 --> 01:11:36.800
+any need to disclose, and I actually think it's a red flag if a potential employer starts poking
+
+01:11:36.800 --> 01:11:44.880
+you about that. And finally, I looked at the numbers last night, it's like a quarter of a
+
+01:11:44.880 --> 01:11:51.120
+million people in the tech industry have been laid off, so there's absolutely no shame. There's no
+
+01:11:51.120 --> 01:11:59.760
+personal failure in being laid off at this time. Some of the brightest engineers in the world are
+
+01:11:59.760 --> 01:12:03.680
+now looking for jobs, so there's no shame, and it's not something you need to disclose.
+
+01:12:07.280 --> 01:12:13.040
+I agree with that. Completely agree, too. Just, I mean, we've all been through different, across
+
+01:12:13.040 --> 01:12:18.640
+different journeys in our career, so I mean, if somebody's asking you, hey, why do you have this
+
+01:12:18.640 --> 01:12:24.480
+gap? Like you said, it's a red flag for you. It's a red flag for you. Just show your skills and don't
+
+01:12:24.480 --> 01:12:33.280
+worry about the other stuff. So, I think we addressed all the questions. So, if you
+
+01:12:34.160 --> 01:12:40.800
+still have a question that you would want to pose to us, please go ahead. I think we still
+
+01:12:40.800 --> 01:12:42.640
+have time to take more questions.
+
+01:12:48.640 --> 01:13:17.600
+Okay, we have a question from Wesley.
+
+01:13:17.600 --> 01:13:22.640
+How do you bring up the conversation around diverse hiring practices and what that looks
+
+01:13:22.640 --> 01:13:24.880
+like in the company you're interviewing for?
+
+01:13:31.520 --> 01:13:37.360
+Could a person, you know, highlight, expand a bit on, are they talking about, is the candidate
+
+01:13:37.360 --> 01:13:43.200
+asking for information on diverse hiring practices? Like you're going for a job, you're going to apply
+
+01:13:43.200 --> 01:13:51.120
+for a job, you're talking about your particular kind AC and they aim to be asking about diversity.
+
+01:13:51.760 --> 01:13:53.600
+Is that what Wesley is asking?
+
+01:13:55.600 --> 01:14:03.520
+Wesley, do you mind adding a bit more detail here? Or do you want to, or do you mean within
+
+01:14:03.520 --> 01:14:09.840
+the interview kind of asking what are your diverse hiring practices within the interview?
+
+01:14:13.200 --> 01:14:25.360
+I guess I'll say a few things about what, I guess for, in terms of diversity at Boeing,
+
+01:14:26.240 --> 01:14:35.040
+we specifically go out to, you know, the associations like Black Engineers, we go to
+
+01:14:35.760 --> 01:14:48.800
+Society of Women Engineers. We kind of have a goal of hiring from those communities. So
+
+01:14:50.480 --> 01:14:57.680
+from Boeing's perspective, I think like those would be good avenues to, you know,
+
+01:14:58.240 --> 01:15:07.520
+participate in those activities and then you can reach kind of the right hiring recruiting team
+
+01:15:07.520 --> 01:15:15.680
+there. So I guess, so that's from a kind of hiring perspective, like we are definitely looking very
+
+01:15:15.680 --> 01:15:22.560
+aggressively at diversity and increasing diversity at Boeing. And I will say like up front, like most
+
+01:15:22.560 --> 01:15:29.760
+of my team, I think my team is, you know, about 20, 30 people and we have like two other women,
+
+01:15:29.760 --> 01:15:38.320
+right? I am surrounded by men, but we are really hoping to make changes there. And I think I've
+
+01:15:38.320 --> 01:15:45.680
+seen quite a few changes throughout the years as well. I will say that in this environment as a
+
+01:15:45.680 --> 01:15:58.160
+female in an engineering corporation, it's surprising that I don't feel flighted or, you know,
+
+01:16:00.640 --> 01:16:08.800
+in any way like treated differently because of my gender, for example. So I guess like I would say
+
+01:16:08.880 --> 01:16:15.200
+from what I've seen at Boeing, we've tried to work on this aspect and it's like a very,
+
+01:16:15.200 --> 01:16:19.360
+very important aspect, at least to the Boeing Company. I'm sure like it is true for
+
+01:16:20.000 --> 01:16:27.600
+mostly other big companies as well. So Wesley added in some clarification.
+
+01:16:28.240 --> 01:16:35.680
+So basically to ask if the work, if the team that they will be working on is diverse.
+
+01:16:36.320 --> 01:16:43.520
+So how I would ask this is maybe say like diversity and inclusion is really important for me.
+
+01:16:43.520 --> 01:16:51.520
+And what does your team do specifically, you know, for this or to support this?
+
+01:16:52.480 --> 01:16:59.280
+And I can speak a bit about Microsoft. When I first interned on my team in 2019, there were about
+
+01:17:00.240 --> 01:17:07.600
+five or six women in a team of maybe 30 to 40 data scientists. But in the last,
+
+01:17:08.240 --> 01:17:15.280
+just the last few years, we've had a lot more diversity, you know, gender of different
+
+01:17:15.280 --> 01:17:23.120
+ethnicities and diversity and inclusion is a core priority. It is part of, we are assessed on it.
+
+01:17:23.200 --> 01:17:28.480
+So just as we have to set goals for what work we will do, you know,
+
+01:17:30.000 --> 01:17:35.760
+that is considered work too. So we have to set goals for ourselves for diversity and inclusion.
+
+01:17:36.720 --> 01:17:46.640
+And there are opportunities to get involved more if you want to. So for example, I work on this
+
+01:17:46.720 --> 01:17:55.600
+speaker series team that does various talks around culture and highlight different communities based
+
+01:17:55.600 --> 01:18:01.680
+on like different heritage months and things like that. So it really depends on you how,
+
+01:18:01.680 --> 01:18:10.560
+to what extent you want to do that and get involved. But it is a core requirement for everyone.
+
+01:18:10.560 --> 01:18:24.400
+Okay. Wendy asks, Martin, did you have anything to add or? Okay. Wendy asks,
+
+01:18:24.400 --> 01:18:28.960
+what in your experience improves one's chances of having high retention value?
+
+01:18:33.920 --> 01:18:35.920
+Well, I think Martin wants to speak.
+
+01:18:36.320 --> 01:18:39.760
+I just, I don't quite understand what's meant by high retention value.
+
+01:18:39.760 --> 01:18:41.760
+So could we get some clarification there?
+
+01:18:44.320 --> 01:18:46.560
+I think it's probably to avoid getting layoffs.
+
+01:18:51.040 --> 01:18:55.760
+I mean, so I guess, I mean, I think, again, it's been said is
+
+01:18:57.120 --> 01:19:01.360
+layoffs. I mean, different, I don't know, maybe different companies handle it differently,
+
+01:19:01.360 --> 01:19:06.240
+but it's not, they usually don't say we're laying off like people necessarily because
+
+01:19:06.240 --> 01:19:11.200
+they are low performance, right? It's really a cost-cutting initiative. So, you know,
+
+01:19:11.920 --> 01:19:17.600
+the business would decide we have to scale down our activity in this particular line of business.
+
+01:19:18.640 --> 01:19:24.720
+And so we cannot afford to keep everybody, right? So it could affect anybody, right? So some,
+
+01:19:24.720 --> 01:19:28.160
+I don't know, some companies might say we're laying off low performance, but you know,
+
+01:19:29.040 --> 01:19:32.960
+I think there are different ways. So it's not, it's hard to say I'm going to avoid layoff.
+
+01:19:32.960 --> 01:19:39.920
+If you want to say, how do you want to add value, be viewed as a high performer, high contributor?
+
+01:19:39.920 --> 01:19:45.040
+I mean, again, it's been said is you come in, you have your, you come in with your quantitative
+
+01:19:45.040 --> 01:19:49.040
+skills, but you want to, it's really about you, how much you want to dedicate yourself to learning
+
+01:19:49.040 --> 01:19:55.040
+the business. And you always find that you can add value in certain ways because your skills don't
+
+01:19:55.040 --> 01:20:00.320
+go away. You can obviously have to keep refreshing them, but it's really how much you are able to
+
+01:20:00.320 --> 01:20:05.360
+show that you're adding value. And it could be in a technical area, applying, you know, some unknown
+
+01:20:05.360 --> 01:20:11.840
+technical skills, some rarely used technical skills to solve a problem that's widely known
+
+01:20:11.840 --> 01:20:18.320
+or finding a problem that's obscure, but solving it in a way that makes a big impact, right? And
+
+01:20:18.320 --> 01:20:23.440
+obviously I think Shannon talked about just how you interact with people. You know, so you,
+
+01:20:25.360 --> 01:20:30.400
+you can be very good at what you do, but if you don't get along with anybody, it's going to be
+
+01:20:30.400 --> 01:20:34.880
+also hard for you to show that, for someone to say, I really need to have this person on my team.
+
+01:20:35.600 --> 01:20:42.320
+So it's a mix, it's a mix. But again, layoffs, again, from what I've seen, it's not really about
+
+01:20:42.320 --> 01:20:48.400
+laying off, you know, removing low performance. It's really about a business need to scale down in
+
+01:20:48.400 --> 01:20:57.760
+an area. Right, so I'll let others speak out too. Yeah, I agree. I think, I think it's, I think of
+
+01:20:57.760 --> 01:21:05.840
+it as more this role is not needed anymore, rather than it's not really, you know, this person. It's
+
+01:21:05.840 --> 01:21:12.640
+more the role when it comes to these kind of restructuring changes that end up with people
+
+01:21:12.640 --> 01:21:20.880
+getting laid off. And kind of, you know, also echoing what Bernard said. So there are two
+
+01:21:20.880 --> 01:21:27.520
+things that I think, you know, in order to be successful in a company, once you enter in,
+
+01:21:27.520 --> 01:21:33.280
+of course, one, you have to have impact, like you have to do the work, but also you have to be
+
+01:21:33.280 --> 01:21:40.240
+mindful of how you bring visibility to the work that you do. Because sometimes, you know, you might
+
+01:21:40.240 --> 01:21:48.240
+be doing a lot of work, but if you are not showcasing that well, it could get lost. So,
+
+01:21:48.240 --> 01:21:56.080
+and a lot of the decision, decisions that are made, you know, for promotions and things like that,
+
+01:21:56.080 --> 01:22:02.160
+that doesn't happen at your manager's level, you know, he can nominate you, but it happens at a
+
+01:22:02.160 --> 01:22:08.880
+higher level. So kind of getting visibility that I think is important.
+
+01:22:11.360 --> 01:22:18.800
+Shannon, Martin, do either of you want to add to that? Okay.
+
+01:22:21.760 --> 01:22:26.800
+Let's go to the next one from Ekaterina. Hi, I would like to become a data analyst,
+
+01:22:26.800 --> 01:22:32.000
+but I have no experience. Will it be enough to complete a course from Google for a certificate
+
+01:22:32.000 --> 01:22:38.000
+in data analytics for an entry-level role? I worked in sales and have economic education.
+
+01:22:38.000 --> 01:22:39.920
+Please give some tips how to start.
+
+01:22:50.560 --> 01:22:54.080
+Ekaterina, it's a great question. I don't think it's impossible.
+
+01:22:56.160 --> 01:23:00.880
+Most industry positions don't really care how you've acquired the skills. They just want to see
+
+01:23:02.560 --> 01:23:10.080
+your ability to demonstrate those skills. That said, like there's a lot of markers that tend
+
+01:23:10.080 --> 01:23:14.880
+to be correlated with being able to do those skills, and you will be at a slight disadvantage
+
+01:23:14.880 --> 01:23:22.000
+there. How you can kind of overcome that is to like lean heavily into some of these networking
+
+01:23:22.000 --> 01:23:32.160
+activities. I once hired an engineer who has no college training, but he just was performed
+
+01:23:32.160 --> 01:23:37.760
+amazingly well in our interviews. And the reason we interviewed him is that he specifically tagged
+
+01:23:37.760 --> 01:23:43.120
+me on LinkedIn and then found my email and sent me a long list of reasons why we should interview
+
+01:23:43.120 --> 01:23:47.440
+him. And I was like, okay, I like this guy's enthusiasm. Let's give him a shot. And he's great.
+
+01:23:48.400 --> 01:23:51.600
+So there's always ways, but sometimes they will take more effort.
+
+01:23:56.320 --> 01:24:02.880
+Okay, let's get to the next question. So this question is for Wells Fargo.
+
+01:24:04.400 --> 01:24:12.800
+Will many research experience draw your attention for an analyst research role?
+
+01:24:13.760 --> 01:24:19.360
+Yes, I mean, definitely. So again, we talked about how you can demonstrate what you know
+
+01:24:20.320 --> 01:24:25.120
+in an interview. Well, if you actually have these on your resume and you've kind of highlighted the
+
+01:24:25.760 --> 01:24:30.960
+problems you saw, the techniques that you used on your resume, that actually gives you a leg up
+
+01:24:31.600 --> 01:24:37.840
+going into the interview. So definitely more ability to demonstrate your knowledge and your
+
+01:24:37.920 --> 01:24:45.600
+skills. Even before you get to an interview is attractive, right? So it doesn't hurt you at all.
+
+01:24:52.720 --> 01:25:00.560
+Okay. And so we have one more question from Wesley. Is there any need for Bayesian statistics,
+
+01:25:00.560 --> 01:25:06.960
+knowledge and skills in current experimentation platform job tasks? That's for me and for Martin.
+
+01:25:08.640 --> 01:25:17.200
+I can go first. So our platform heavily relies on frequentist statistics, but we do have,
+
+01:25:18.240 --> 01:25:22.880
+maybe you might not require Bayesian statistics like in your day-to-day work, but there are
+
+01:25:22.880 --> 01:25:29.120
+certain research projects where we look at, you know, incorporating new tools into our platform
+
+01:25:29.120 --> 01:25:37.200
+where we have data scientists who will use these tools. Martin?
+
+01:25:38.480 --> 01:25:46.640
+I am personally a huge fan of Bayesian inference and part because I think the outputs are more
+
+01:25:46.640 --> 01:25:52.560
+interpretable to humans who don't have degrees in statistics. So I keep trying to hire folks who
+
+01:25:52.560 --> 01:25:57.200
+know a lot of Bayesian statistics to work on our platform and we are slowly drifting in a Bayesian
+
+01:25:57.200 --> 01:26:00.080
+direction. It's going to take us a little while to get there though.
+
+01:26:00.080 --> 01:26:14.880
+Okay. Dabrina, I agree with Wesley's question. With the government, there are clear direct and
+
+01:26:14.880 --> 01:26:20.080
+fixed avenues for hiring disabled, hiring veterans, et cetera. But question for the panel,
+
+01:26:20.080 --> 01:26:24.880
+in the industry commercial sector, should you bring up the conversation about diverse hiring
+
+01:26:24.880 --> 01:26:31.120
+practices early in the process, or is it only worth focusing on bring forth this later in the
+
+01:26:31.120 --> 01:26:40.720
+process? Suppose that you only know a little bit of that specific companies and I think that it
+
+01:26:40.720 --> 01:26:51.600
+got cut off after that. So I think it probably doesn't hurt.
+
+01:26:52.080 --> 01:26:53.520
+Yeah.
+
+01:26:53.520 --> 01:27:01.840
+It probably doesn't hurt to bring whatever background up. It probably isn't something that
+
+01:27:01.840 --> 01:27:10.320
+you might want to only focus on, but it wouldn't hurt to just bring it up. If someone is a veteran,
+
+01:27:10.320 --> 01:27:14.400
+for sure, you should mention it. Why not? It's not going to hurt you.
+
+01:27:15.200 --> 01:27:23.760
+Yeah, and do some research into if the company does have some pipeline of hiring people,
+
+01:27:24.720 --> 01:27:35.200
+because I know that Microsoft, I think, has certain avenues for veterans to join.
+
+01:27:36.000 --> 01:27:41.440
+Okay. I think we answered all the questions, and we are at time.
+
+01:27:42.960 --> 01:27:48.480
+And so thank you, everyone, for posing your questions. Thank you for the panelists
+
+01:27:48.480 --> 01:28:01.360
+for sharing your thoughts. And is there any survey or feedback? I'm asking this question
+
+01:28:01.840 --> 01:28:13.520
+from the organizers. Yes, there will be a survey that everyone will have access to at the end of
+
+01:28:13.520 --> 01:28:18.720
+the webinar. Thank you so much for all of our panelists to come out today and talk to everyone.
+
+01:28:18.880 --> 01:28:21.040
+Thank you.
+
+01:28:21.040 --> 01:28:21.600
+Thank you.
+
+01:28:21.600 --> 01:28:21.680
+Bye.
+

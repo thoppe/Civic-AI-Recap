@@ -1,0 +1,83 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "e1Bb6FMu9QMLCEmH_I5yHRMeuqQ",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "wFSJrd09d1nlgfHvBO3EL85Hq6o",
+      "id": "UCzGBHwAQzzay6lVJafnholw",
+      "snippet": {
+        "title": "MSDE TV",
+        "description": "MSDE TV offers a view of Maryland education through short news reports on topics of the day. You'll see and hear about issues in the classroom and in the boardroom. You will also hear from Interim State Superintendent of Schools Dr. Carey Wright. Playlists will group similar topics for easy viewing. Sit back and enjoy education as it happens in the great state of Maryland!",
+        "customUrl": "@msdetv6068",
+        "publishedAt": "2015-02-18T16:05:44Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-dFY5iO7h993IRJPeSOrA7GCbYhkg0qu6eXE-N41a2x-MfbOAz6KJI2wkTqu59Nlg0Ad6KOeqG0=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-dFY5iO7h993IRJPeSOrA7GCbYhkg0qu6eXE-N41a2x-MfbOAz6KJI2wkTqu59Nlg0Ad6KOeqG0=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-dFY5iO7h993IRJPeSOrA7GCbYhkg0qu6eXE-N41a2x-MfbOAz6KJI2wkTqu59Nlg0Ad6KOeqG0=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "MSDE TV",
+          "description": "MSDE TV offers a view of Maryland education through short news reports on topics of the day. You'll see and hear about issues in the classroom and in the boardroom. You will also hear from Interim State Superintendent of Schools Dr. Carey Wright. Playlists will group similar topics for easy viewing. Sit back and enjoy education as it happens in the great state of Maryland!"
+        },
+        "country": "US"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUzGBHwAQzzay6lVJafnholw"
+        }
+      },
+      "statistics": {
+        "viewCount": "993396",
+        "subscriberCount": "2290",
+        "hiddenSubscriberCount": false,
+        "videoCount": "405"
+      },
+      "topicDetails": {
+        "topicIds": [
+          "/m/098wr",
+          "/m/05qt0"
+        ],
+        "topicCategories": [
+          "https://en.wikipedia.org/wiki/Society",
+          "https://en.wikipedia.org/wiki/Politics"
+        ]
+      },
+      "status": {
+        "privacyStatus": "public",
+        "isLinked": true,
+        "longUploadsStatus": "longUploadsUnspecified"
+      },
+      "brandingSettings": {
+        "channel": {
+          "title": "MSDE TV",
+          "description": "MSDE TV offers a view of Maryland education through short news reports on topics of the day. You'll see and hear about issues in the classroom and in the boardroom. You will also hear from Interim State Superintendent of Schools Dr. Carey Wright. Playlists will group similar topics for easy viewing. Sit back and enjoy education as it happens in the great state of Maryland!",
+          "unsubscribedTrailer": "OkZ-PsWK4HM",
+          "country": "US"
+        },
+        "image": {
+          "bannerExternalUrl": "https://yt3.googleusercontent.com/XWZpSnxlPyXCjNAyZQETA_COe_HsGx9Xoa334wbGKdqOeDgMICZzkpldwB9rSInJ2UiRhmsstg"
+        }
+      },
+      "contentOwnerDetails": {}
+    }
+  ],
+  "download_date": "2023-11-10T22:34:15.912587"
+}
