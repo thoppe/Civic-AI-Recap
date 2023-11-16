@@ -18,7 +18,7 @@ class Video:
     def __init__(self, video_id):
         self.video_id = video_id
 
-    @cache_video.memoize(expire=60 * 60 * 24)
+    @cache_video.memoize(expire=7 * 60 * 60 * 24)
     def get_metadata(self):
         msg.info(f"Downloading video metadata {self.video_id}")
 
@@ -152,7 +152,7 @@ class Channel:
         }
 
     @property
-    @cache_channel.memoize(expire=60 * 60 * 24)
+    @cache_channel.memoize(expire=7 * 60 * 60 * 24)
     def upload_playlist_id(self):
         # Get the "Uploads" playlist ID
         channel_request = youtube.channels().list(
@@ -166,7 +166,7 @@ class Channel:
         upload_playlist_id = response["relatedPlaylists"]["uploads"]
         return upload_playlist_id
 
-    @cache_channel.memoize(expire=60 * 60 * 24)
+    @cache_channel.memoize(expire=7 * 60 * 60 * 24)
     def get_uploads(self):
         playlist_id = self.upload_playlist_id
         msg.info(f"Getting upload playlist videos {playlist_id}")
@@ -201,7 +201,7 @@ class Channel:
                 video_id = item["snippet"]["resourceId"]["videoId"]
                 video_info.append(
                     {
-                        "youtube_id": video_id,
+                        "video_id": video_id,
                         "title": item["snippet"]["title"],
                         "publishedAt": item["snippet"]["publishedAt"],
                     }
@@ -214,4 +214,7 @@ class Channel:
             progress_bar.update()
 
         progress_bar.close()
-        return video_info
+
+        df = pd.DataFrame(video_info)
+        df["channel_id"] = self.channel_id
+        return df
