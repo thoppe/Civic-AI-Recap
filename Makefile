@@ -14,5 +14,5 @@ clean:
 	rm -rvf CAIR.egg* build
 
 lint:
-	black *.py CAIR --line-length 80
-	flake8 *.py CAIR --ignore=E501,E712
+	black *.py CAIR discovery --line-length 80
+	flake8 *.py CAIR discovery --ignore=E501,E712

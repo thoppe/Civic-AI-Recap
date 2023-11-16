@@ -8,6 +8,7 @@ import diskcache
 import yt_dlp
 from wasabi import msg
 import subprocess
+import isodate
 
 cache_video = diskcache.Cache("cache/youtube/videos")
 cache_channel = diskcache.Cache("cache/youtube/channels")
@@ -75,6 +76,34 @@ class Video:
         meta = self.get_metadata()
         return meta["items"][0]["snippet"]["title"]
 
+    @property
+    def description(self):
+        meta = self.get_metadata()
+        return meta["items"][0]["snippet"]["description"]
+
+    @property
+    def published_at(self):
+        meta = self.get_metadata()
+        return meta["items"][0]["snippet"]["publishedAt"]
+
+    @property
+    def duration(self):
+        # Returns the duration in seconds
+        meta = self.get_metadata()
+        duration = meta["items"][0]["contentDetails"]["duration"]
+        duration = isodate.parse_duration(duration)
+        return int(duration.total_seconds())
+
+    def build_info(self):
+        return {
+            "video_id": self.video_id,
+            "description": self.description,
+            "published_at": self.published_at,
+            "title": self.title,
+            "duration": self.duration,
+            "channel_id": self.channel_id,
+        }
+
 
 class Channel:
     def __init__(self, channel_id):
@@ -105,9 +134,22 @@ class Channel:
         return meta["items"][0]["snippet"]["title"]
 
     @property
+    def description(self):
+        meta = self.get_metadata()
+        return meta["items"][0]["snippet"]["description"]
+
+    @property
     def n_videos(self):
         meta = self.get_metadata()
         return int(meta["items"][0]["statistics"]["videoCount"])
+
+    def build_info(self):
+        return {
+            "channel_id": self.channel_id,
+            "description": self.description,
+            "title": self.title,
+            "n_videos": self.n_videos,
+        }
 
     @property
     @cache_channel.memoize(expire=60 * 60 * 24)
