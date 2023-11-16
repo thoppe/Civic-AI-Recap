@@ -1,5 +1,6 @@
-# Civic-AI-Recap
-CAIR is a pipeline to to digitize and transcribe public hearings, committees, and symposiums.
+# Civic-AI-Recap (CAIR)
+Tools to digitize, transcribe, and analyze public hearings, committees, and symposiums on youtube.
+
 
 ``` python
 import pandas as pd

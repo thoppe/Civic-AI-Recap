@@ -22,6 +22,7 @@ add:
 
 clean:
 	rm -f data/transcript/*.json data/transcript/*.tsv data/transcript/*.srt
+	rm -rvf CAIR.egg* build
 
 lint:
 	black *.py CAIR --line-length 80
