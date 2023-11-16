@@ -1,6 +1,10 @@
 # Civic-AI-Recap (CAIR)
 Tools to digitize, transcribe, and analyze public hearings, committees, and symposiums on youtube.
 
+    git clone https://github.com/thoppe/Civic-AI-Recap/
+    cd Civic-AI-Recap
+    pip install .
+
 
 ``` python
 import pandas as pd
