@@ -7,9 +7,10 @@ clf = Transcription(method="whisperx")
 
 def compute(f0, f1):
     print(f"Processing {f0}")
-    result = clf.transcribe(f0)
+    result = clf.transcribe(f0, text_only=False)
     df = pd.DataFrame(result["segments"])
-    df.to_csv(f1)
+    del df["words"]
+    df.to_csv(f1, index=False)
 
 
 Pipe("data/audio", "data/transcript", output_suffix=".csv")(compute, 1)

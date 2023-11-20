@@ -6,6 +6,7 @@ import tiktoken
 import os
 
 sleep_time = 10
+TIMEOUT = 60 * 2
 requests.adapters.DEFAULT_RETRIES = 4
 
 key_name = "OPENAI_API_KEY"
@@ -55,7 +56,7 @@ def embed(text):
     }
 
     params = base_params.copy()
-    r = requests.post(query_url, headers=headers, json=params)
+    r = requests.post(query_url, headers=headers, json=params, timeout=TIMEOUT)
 
     assert r.ok
 
@@ -84,7 +85,7 @@ def query(
     }
 
     params = base_params.copy()
-    r = requests.post(query_url, headers=headers, json=params)
+    r = requests.post(query_url, headers=headers, json=params, timeout=TIMEOUT)
 
     if not r.ok:
         print(r.status_code, r.content)
