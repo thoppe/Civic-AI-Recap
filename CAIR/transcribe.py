@@ -35,10 +35,11 @@ class Transcription:
         }[self.method]
 
     def load_STT_model(self):
-        msg.warn(f"Loading transcription method {self.method}")
-
+        
         if self.model is not None:
             return
+
+        msg.warn(f"Loading transcription method {self.method}")
 
         if self.method == "insanely-fast-whisper":
             from transformers import pipeline
