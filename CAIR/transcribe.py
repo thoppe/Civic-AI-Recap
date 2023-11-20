@@ -1,5 +1,6 @@
 import diskcache
 import pandas as pd
+from wasabi import msg
 
 # key_name = "HF_ACCESS_TOKEN"
 # HF_API_KEY = os.environ.get(key_name)
@@ -13,7 +14,7 @@ import pandas as pd
 class Transcription:
     def __init__(
         self,
-        method="insanely-faster_whisper",
+        method="insanely-fast-whisper",
         model_size="large",
         language="en",
     ):
@@ -34,6 +35,8 @@ class Transcription:
         }[self.method]
 
     def load_STT_model(self):
+        msg.warn(f"Loading transcription method {self.method}")
+
         if self.model is not None:
             return
 
@@ -114,7 +117,7 @@ class Transcription:
 
         return result
 
-    def compute_insane_whisper(self, f_audio, batch_size=24 * 4):
+    def compute_insane_whisper(self, f_audio, batch_size=24 * 2):
         self.load_STT_model()
         outputs = self.model(
             f_audio,
