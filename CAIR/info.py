@@ -12,13 +12,14 @@ import isodate
 
 cache_video = diskcache.Cache("cache/youtube/videos")
 cache_channel = diskcache.Cache("cache/youtube/channels")
+expire_time = 7 * 60 * 60 * 24
 
 
 class Video:
     def __init__(self, video_id):
         self.video_id = video_id
 
-    @cache_video.memoize(expire=7 * 60 * 60 * 24)
+    @cache_video.memoize(expire=expire_time)
     def get_metadata(self):
         msg.info(f"Downloading video metadata {self.video_id}")
 
@@ -29,7 +30,7 @@ class Video:
         meta["download_date"] = datetime.datetime.now().isoformat()
         return meta
 
-    @cache_video.memoize(expire=60 * 60 * 24)
+    @cache_video.memoize(expire=expire_time)
     def get_extended_metadata(self):
         # Uses yt-dlp to download
         msg.info(f"Downloading video metadata using yt-dlp {self.video_id}")
@@ -109,7 +110,7 @@ class Channel:
     def __init__(self, channel_id):
         self.channel_id = channel_id
 
-    @cache_channel.memoize(expire=60 * 60 * 24)
+    @cache_channel.memoize(expire=expire_time)
     def get_metadata(self):
         msg.info(f"Downloading channel metadata {self.channel_id}")
         parts = [
@@ -152,7 +153,7 @@ class Channel:
         }
 
     @property
-    @cache_channel.memoize(expire=7 * 60 * 60 * 24)
+    @cache_channel.memoize(expire=expire_time)
     def upload_playlist_id(self):
         # Get the "Uploads" playlist ID
         channel_request = youtube.channels().list(
@@ -166,7 +167,7 @@ class Channel:
         upload_playlist_id = response["relatedPlaylists"]["uploads"]
         return upload_playlist_id
 
-    @cache_channel.memoize(expire=7 * 60 * 60 * 24)
+    @cache_channel.memoize(expire=expire_time)
     def get_uploads(self):
         playlist_id = self.upload_playlist_id
         msg.info(f"Getting upload playlist videos {playlist_id}")

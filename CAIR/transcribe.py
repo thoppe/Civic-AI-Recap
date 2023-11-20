@@ -1,9 +1,6 @@
 import diskcache
 import pandas as pd
 
-cache_whisper = diskcache.Cache(
-    "cache/transcription/whisper", size_limit=int(1e11)
-)
 # key_name = "HF_ACCESS_TOKEN"
 # HF_API_KEY = os.environ.get(key_name)
 
@@ -14,12 +11,20 @@ cache_whisper = diskcache.Cache(
 
 
 class Transcription:
-    def __init__(self, method="whisperx", model_size="large", language="en"):
+    def __init__(
+        self,
+        method="insanely-faster_whisper",
+        model_size="large",
+        language="en",
+    ):
         self.method = method
         self.model = None
         self.model_size = model_size
         self.language = language
         self.device = "cuda"
+        self.cache = diskcache.Cache(
+            f"cache/transcription/{method}", size_limit=int(1e11)
+        )
 
         self.compute_method_call = {
             "insanely-fast-whisper": self.compute_insane_whisper,
@@ -109,23 +114,23 @@ class Transcription:
 
         return result
 
-    def compute_insane_whisper(self, f_audio):
+    def compute_insane_whisper(self, f_audio, batch_size=24 * 4):
         self.load_STT_model()
         outputs = self.model(
             f_audio,
             chunk_length_s=30,
-            batch_size=24 * 4,
+            batch_size=batch_size,
             return_timestamps=True,
         )
         return outputs
 
     def transcribe(self, f_audio, text_only=True):
-        if f_audio not in cache_whisper:
+        if f_audio not in self.cache:
             result = self.compute_method_call(f_audio)
 
-            cache_whisper[f_audio] = result
+            self.cache[f_audio] = result
 
-        result = cache_whisper[f_audio]
+        result = self.cache[f_audio]
 
         if text_only and self.method == "whisper":
             df = pd.DataFrame(result["segments"])
