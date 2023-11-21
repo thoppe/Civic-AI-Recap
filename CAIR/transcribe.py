@@ -14,7 +14,7 @@ from wasabi import msg
 class Transcription:
     def __init__(
         self,
-        method="insanely-fast-whisper",
+        method="whisperx",
         model_size="large",
         language="en",
     ):
@@ -35,7 +35,6 @@ class Transcription:
         }[self.method]
 
     def load_STT_model(self):
-        
         if self.model is not None:
             return
 
@@ -94,13 +93,15 @@ class Transcription:
         print(segments)
         return segments
 
-    def compute_whisperx(self, f_audio):
+    def compute_whisperx(self, f_audio, batch_size=24 * 2):
         import whisperx
 
         self.load_STT_model()
 
         audio = whisperx.load_audio(f_audio)
-        result = self.model.transcribe(audio, language=self.language)
+        result = self.model.transcribe(
+            audio, language=self.language, batch_size=batch_size
+        )
 
         result = whisperx.align(
             result["segments"],

@@ -57,6 +57,11 @@ print(Analyze().outline(text))
 '''
 ```
 
+## Thoughts and ideas
+
++ Pull in a large corpus of text to analyze (NISS? State Ed. Board Meetings?)
++ Work on RAG analysis of corpus ([Private GPT](https://github.com/imartinez/privateGPT)?)
+
 ## Dev notes
 
 To get [whisperx](https://github.com/m-bain/whisperX) to run:
