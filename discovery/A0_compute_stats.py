@@ -14,8 +14,12 @@ df = pd.concat(Pipe("data/transcript/")(get_transcript))
 g = df.groupby("video_id")
 hours = g["end"].max() / 3600.0
 total_hours = hours.sum()
+n_days = total_hours / 24
+n_months = n_days / 30
+
 print(
-    f"Total transcribed hours {total_hours:0.1f}, ({total_hours/24:0.1f} days)"
+    f"Total transcribed hours {total_hours:0.1f}, "
+    f"({n_days:0.1f} days or {n_months:0.1f} months)"
 )
 
 n_chars = df["text"].str.len().sum()

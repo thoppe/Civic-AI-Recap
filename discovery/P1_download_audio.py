@@ -17,4 +17,6 @@ def compute(f0, f1):
         print(f"Failed with {EX}")
 
 
-Pipe("data/video_metadata", "data/audio", output_suffix=".mp4")(compute, 2)
+Pipe("data/video_metadata", "data/audio", output_suffix=".mp4", shuffle=True)(
+    compute, 4
+)

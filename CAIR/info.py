@@ -12,7 +12,47 @@ import isodate
 
 cache_video = diskcache.Cache("cache/youtube/videos")
 cache_channel = diskcache.Cache("cache/youtube/channels")
+cache_search = diskcache.Cache("cache/youtube/search")
 expire_time = 7 * 60 * 60 * 24
+
+
+class Search:
+    def __init__(self):
+        pass
+
+    @cache_search.memoize(expire=expire_time)
+    def __call__(self, q, max_results=1_000, v_type="video", duration="any"):
+        # msg.info(f"Searching '{q}'")
+
+        search_info = []
+        next_page_token = None
+        progress_bar = tqdm()
+
+        while True:
+            request = youtube.search().list(
+                part="snippet",
+                q=q,
+                maxResults=max_results,
+                type=v_type,
+                videoDuration=duration,
+                eventType="completed",
+                pageToken=next_page_token,
+            )
+            response = request.execute()
+            next_page_token = response.get("nextPageToken")
+            items = response.get("items", [])
+
+            for item in items:
+                search_info.append(item["snippet"])
+
+            if next_page_token is None or len(search_info) >= max_results:
+                break
+
+            print(len(search_info))
+
+            progress_bar.update()
+
+        return search_info
 
 
 class Video:

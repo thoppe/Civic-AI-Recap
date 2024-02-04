@@ -9,7 +9,12 @@ def compute(f0, f1):
     print(f"Transcribing {f0}")
     result = clf.transcribe(f0, text_only=False)
     df = pd.DataFrame(result["segments"])
-    del df["words"]
+    if "words" in df:
+        del df["words"]
+    else:
+        # Handle a case where there are no words??
+        print(df)
+        return
     df.to_csv(f1, index=False)
 
 

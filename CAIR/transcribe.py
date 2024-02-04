@@ -137,12 +137,20 @@ class Transcription:
 
         result = self.cache[f_audio]
 
-        if text_only and self.method == "whisper":
-            df = pd.DataFrame(result["segments"])
-            result = "\n".join(df["text"].str.strip())
+        if text_only:
+            if self.method == "whisperx":
+                df = pd.DataFrame(result["segments"])
+                result = "\n".join(df["text"].str.strip())
 
-        if text_only and self.method == "insanely-fast-whisper":
-            df = pd.DataFrame(result["chunks"])
-            result = "\n".join(df["text"].str.strip())
+            elif self.method == "whisper":
+                df = pd.DataFrame(result["segments"])
+                result = "\n".join(df["text"].str.strip())
+
+            elif self.method == "insanely-fast-whisper":
+                df = pd.DataFrame(result["chunks"])
+                result = "\n".join(df["text"].str.strip())
+
+            else:
+                raise KeyError(f"{self.method}")
 
         return result

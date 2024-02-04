@@ -17,6 +17,7 @@ class Analyze:
         self.page_size = 4_000
 
     def preprocess_text(self, text):
+        print(text)
         assert isinstance(text, str)
 
         lines = text.split("\n")
