@@ -14,11 +14,19 @@ print(df)
 f_audio = f"{video_id}.mp4"
 vid.download_audio(f_audio)
 
+js = vid.get_extended_metadata()
+#import json
+#print(json.dumps(js, indent=2))
+#exit()
+#print(vid.download_english_captions())
+#exit()
+
 text = Transcription().transcribe(f_audio)
 with open("OoqYjxkjsRU.txt", "w") as FOUT:
     FOUT.write(text)
 
-print(text[:500])
+print(text[:1000])
+exit()
 
 data = Transcription().transcribe(f_audio, text_only=False)
 df = pd.DataFrame(data["segments"])[["start", "end", "text"]]
