@@ -62,12 +62,13 @@ class Video:
     @cache_video.memoize(expire=expire_time)
     def get_caption_list(self):
         msg.info(f"Downloading caption metadata {self.video_id}")
-        caption_list_response = youtube.captions().list(
-            part='snippet',
-            videoId=self.video_id
-        ).execute()
+        caption_list_response = (
+            youtube.captions()
+            .list(part="snippet", videoId=self.video_id)
+            .execute()
+        )
         return caption_list_response
-    
+
     @cache_video.memoize(expire=expire_time)
     def get_metadata(self):
         msg.info(f"Downloading video metadata {self.video_id}")
@@ -93,22 +94,24 @@ class Video:
 
     def download_english_captions(self):
         caption_metadata = self.get_caption_list()
-        
-        for item in caption_metadata['items']:
-            if (item['snippet']['language'] == 'en'
-                and item['snippet']['trackKind'] == 'asr'):
-                caption_id = item['id']
+
+        for item in caption_metadata["items"]:
+            if (
+                item["snippet"]["language"] == "en"
+                and item["snippet"]["trackKind"] == "asr"
+            ):
+                caption_id = item["id"]
                 break
         else:
-            err = f'Automatic English captions not found. {self.video_id}'
+            err = f"Automatic English captions not found. {self.video_id}"
             raise ValueError(err)
 
-        caption_response = youtube.captions().download(
-            id=caption_id,
-            tfmt='srt'  # or 'vtt' for WebVTT format
-        ).execute()
+        caption_response = (
+            youtube.captions()
+            .download(id=caption_id, tfmt="srt")  # or 'vtt' for WebVTT format
+            .execute()
+        )
 
-        
         print(caption_response)
 
     def download_audio(self, f_audio):

@@ -39,12 +39,12 @@ class Analyze:
 
     def outline(self, text):
         q = """
-         "Clean, organize, and format the notes below using markdown:
+        Clean, organize, and format the collective notes below using markdown. Only provide bullets.
         {response}
         """.strip()
 
         # Summarize the text first
-        text = self.summarize(text)
+        # text = self.summarize(text)
 
         blocks = self.preprocess_text(text)
         result = "\n".join(self.GPT.multiASK(q, "text", response=blocks))

@@ -153,4 +153,7 @@ class Transcription:
             else:
                 raise KeyError(f"{self.method}")
 
-        return result
+        df = pd.DataFrame(result["segments"])[["start", "end", "text"]]
+        df["text"] = df["text"].str.strip()
+
+        return df
