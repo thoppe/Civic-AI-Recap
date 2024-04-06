@@ -6,32 +6,31 @@ video_id = "7Bho2wwBhOw"
 vid = Video(video_id)
 channel = Channel(vid.channel_id)
 
-print(vid.title)
-print(channel.title, channel.n_videos)
+# print(vid.title)
+# print(channel.title, channel.n_videos)
 
 df = pd.DataFrame(channel.get_uploads())
-print(df)
+# print(df)
 
 f_audio = f"{video_id}.mp4"
 vid.download_audio(f_audio)
 
 df = Transcription().transcribe(f_audio, text_only=False)
-print(df)
-df.to_csv(f"{video_id}.csv", index=False)
+
+model = Analyze()
+stext = model.summarize(df["text"])
+outline = model.outline(stext)
+outline = model.align_sections(df["text"], outline)
+
+dx = outline
+dx["t0"] = [df.iloc[i]["start"] for i in dx.starting_index]
+dx["t1"] = [df.iloc[i]["end"] for i in dx.ending_index]
+
+dx["duration"] = dx["t1"] - dx["t0"]
+print(dx["duration"])
+print(dx["duration"].sum())
+print(df["end"].max())
 exit()
-
-text = Transcription().transcribe(f_audio)
-print(text[:2000])
-
-model_name = "gpt-3.5-turbo-0125"
-
-model = Analyze(model_name)
-sum_text = model.summarize(text)
-print(sum_text[:1000])
-outline_text = model.outline(
-    sum_text,
-)
-print(outline_text)
 
 # js = vid.get_extended_metadata()
 # print(js)
