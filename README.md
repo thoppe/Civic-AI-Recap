@@ -67,10 +67,17 @@ print(summary)
 
 '''
 1. Bottom Line Up Front (BLUF)
-San Jose’s council advanced an ambitious, data-driven “Focus Area 2.0” performance model while approving near-term actions with statewide implications: significant police labor concessions to stabilize staffing, a city amicus joining litigation in defense of Planned Parenthood, an ordinance limiting masked identities for law-enforcement/immigration agents, major downtown land acquisition to preserve future convention/sports options, and a large subsidized downtown workforce housing loan — all overlapping statewide priorities on public safety, homelessness, housing affordability, labor enforcement, and immigrant/community trust.
+San Jose’s council advanced an ambitious, data-driven “Focus Area 2.0” performance model while
+approving near-term actions with statewide implications: significant police labor concessions
+to stabilize staffing, a city amicus joining litigation in defense of Planned Parenthood, an
+ordinance limiting masked identities for law-enforcement/immigration agents, major downtown
+land acquisition to preserve future convention/sports options, and a large subsidized downtown
+workforce housing loan — all overlapping statewide priorities on public safety, homelessness,
+housing affordability, labor enforcement, and immigrant/community trust.
 
 2. Key State-Level Themes and Implications
-- Homelessness and shelter operations are shifting from capacity-building to systems/integration issues (throughput, CalAIM billing, HMIS integration, county coordination). San Jose’s
+- Homelessness and shelter operations are shifting from capacity-building to systems/integration
+issues (throughput, CalAIM billing, HMIS integration, county coordination). San Jose’s
 [...]
 '''
 ```
