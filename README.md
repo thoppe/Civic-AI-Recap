@@ -13,10 +13,10 @@ from CAIR import Channel, Video, Transcription, Analyze
 video_id = "P0rxq42sckU"
 vid = Video(video_id)
 channel = Channel(vid.channel_id)
+df = pd.DataFrame(channel.get_uploads())
 
 print(vid.title)
 print(channel.title, channel.n_videos)
-df = pd.DataFrame(channel.get_uploads())
 print(df)
 
 '''
@@ -36,10 +36,10 @@ City of San Jose, CA 1741
 3685  19911.48  19912.20                                         Thank you.
 '''
 
-
 f_audio = f"{video_id}.mp3"
 vid.download_audio(f_audio)
 df = Transcription().transcribe(f_audio, text_only=False)
+print(df)
 
 '''
       youtube_id                                              title           publishedAt
@@ -58,8 +58,6 @@ df = Transcription().transcribe(f_audio, text_only=False)
 
 f_audio = f"{video_id}.mp4"
 vid.download_audio(f_audio)
-
-text = Transcription().transcribe(f_audio)
 
 model = Analyze(model_name="gpt-5-mini")
 text = model.preprocess_text(df)
@@ -179,6 +177,8 @@ print(uploads[['video_id', 'title', 'publishedAt']])
 + Work on RAG analysis of corpus ([Private GPT](https://github.com/imartinez/privateGPT)?)
 
 ## DEV notes
+
+Prompts for summary and streamlining can be found [here](CAIR/prompts/).
 
 To get [whisperx](https://github.com/m-bain/whisperX) to run:
 
