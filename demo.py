@@ -31,4 +31,5 @@ print(len(text.split()), len(streamline.split()), len(esum.split()))
 print(channel.get_uploads()[["video_id", "title", "publishedAt"]])
 
 from rich import print_json
+
 print_json(data=channel.get_metadata())

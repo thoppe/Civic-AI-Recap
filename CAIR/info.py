@@ -219,16 +219,40 @@ class Channel:
         return meta["items"][0]["snippet"]["description"]
 
     @property
+    def custom_url(self):
+        meta = self.get_metadata()
+        return meta["items"][0]["snippet"]["customUrl"]
+
+    @property
+    def published_at(self):
+        meta = self.get_metadata()
+        return meta["items"][0]["snippet"]["publishedAt"]
+
+    @property
     def n_videos(self):
         meta = self.get_metadata()
         return int(meta["items"][0]["statistics"]["videoCount"])
+
+    @property
+    def n_views(self):
+        meta = self.get_metadata()
+        return int(meta["items"][0]["statistics"]["viewCount"])
+
+    @property
+    def n_subscribers(self):
+        meta = self.get_metadata()
+        return int(meta["items"][0]["statistics"]["subscriberCount"])
 
     def build_info(self):
         return {
             "channel_id": self.channel_id,
             "description": self.description,
             "title": self.title,
+            "published_at": self.published_at,
+            "custom_url": self.custom_url,
             "n_videos": self.n_videos,
+            "n_subscribers": self.n_subscribers,
+            "n_views": self.n_views,
         }
 
     @property
