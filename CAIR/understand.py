@@ -1,12 +1,9 @@
-from .openAI_utils import tokenized_sampler
-
 # from .cache_GPT import ChatGPT
+# import pandas as pd
 from .ai_tools import chat_with_openai
-import pandas as pd
 from pathlib import Path
 import numpy as np
 import diskcache
-
 
 cache_align = diskcache.Cache("cache/understand/alignment")
 
