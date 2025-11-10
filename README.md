@@ -41,8 +41,7 @@ f_audio = f"{video_id}.mp3"
 vid.download_audio(f_audio)
 df = Transcription().transcribe(f_audio, text_only=False)
 
-
-
+'''
       youtube_id                                              title           publishedAt
 0    CisZ6m-_lRw  Superintendent Thurmond's 2023 Digital Citizen...  2023-11-09T01:12:16Z
 1    rqXdw30u6Rc  Digital Citizenship and Digital Safety - 2023 ...  2023-11-07T18:55:35Z
