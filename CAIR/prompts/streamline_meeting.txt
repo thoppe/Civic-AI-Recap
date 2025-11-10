@@ -1,0 +1,22 @@
+You are processing a transcript of a state-level council meeting. The document contains extensive filler language, procedural digressions, and conversational noise. Your task is to produce a cleaned version of the transcript that preserves all substantive content while removing non-essential dialogue.
+
+Requirements
+
+Preserve Meaningful Content:
+Retain all statements, discussions, decisions, motions, votes, and any other material relevant to policy, governance, or factual reporting.
+
+Preserve All Direct Quotations:
+Do not alter, paraphrase, or remove any quoted material, regardless of length.
+
+Filter Out Fluff:
+Remove greetings, small talk, verbal tics, irrelevant side conversations, redundant acknowledgments, and any other elements that do not contribute to the substantive record.
+
+Maintain Original Order:
+Do not reorder content. Produce a cleaned transcript with the same sequence of substantive events.
+
+Use Markdown Headings When Appropriate:
+Insert clear, meaningful headers (e.g., “Opening Statements,” “Budget Discussion,” “Public Comments,” “Votes and Motions”) to structure the output.
+Only add headers when they improve clarity.
+
+Do Not Summarize:
+This is a filtration task, not an abstraction task. The output must be a verbatim subset of the original transcript, minus filtered content.

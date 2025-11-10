@@ -64,13 +64,7 @@ def embed(text):
     return result
 
 
-def query(
-    messages,
-    temperature=0.7,
-    max_tokens=200,
-    n=1,
-    model_name="gpt-4o"
-):
+def query(messages, temperature=0.7, max_tokens=200, n=1, model_name="gpt-4o"):
     query_url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {API_KEY}",

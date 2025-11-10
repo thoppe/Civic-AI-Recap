@@ -2,17 +2,48 @@ import pandas as pd
 from CAIR import Channel, Video, Transcription, Analyze
 
 # video_id = "OoqYjxkjsRU"
-#video_id = "7Bho2wwBhOw"
-#video_id = "l-HO22OaHsU"
-video_id = "2PnYYb_xj3U"
+video_id = "7Bho2wwBhOw"
+# video_id = "l-HO22OaHsU"
+# video_id = "2PnYYb_xj3U"
+video_id = "aOPuthwHrWM"
+video_id = "texPgLvUegw"
+video_id = "MlN73HAxlUw"
+video_id = "6m88C2ti2j0"
+video_id = "P0rxq42sckU"
 
 vid = Video(video_id)
 channel = Channel(vid.channel_id)
 
-# print(vid.title)
-# print(channel.title, channel.n_videos)
+print(vid.title)
+print(channel.title, channel.n_videos)
 
-#df = pd.DataFrame(channel.get_uploads())
+f_audio = f"{video_id}.mp3"
+vid.download_audio(f_audio)
+
+df = Transcription().transcribe(f_audio, text_only=False)
+print(df)
+
+# with open(f"{video_id}.txt", 'w') as FOUT:
+#    text = '\n'.join(df['text'].tolist())
+#    FOUT.write(text)
+# print('\n'.join(df['text'].tolist()))
+
+print(len(df))
+
+model = Analyze(model_name="gpt-5-mini")
+text = model.preprocess_text(df)
+streamline = model.streamline(text)
+
+
+esum = model.executive_summary(streamline)
+print(esum)
+
+print(len(text), len(streamline), len(esum))
+print(len(text.split()), len(streamline.split()), len(esum.split()))
+
+exit()
+
+# df = pd.DataFrame(channel.get_uploads())
 # print(df)
 
 f_audio = f"{video_id}.mp4"
@@ -22,16 +53,20 @@ df = Transcription().transcribe(f_audio, text_only=False)
 df.to_csv(f"output/{video_id}_transcription.csv")
 print(df)
 
-txt = '\n'.join(df['text'].values.tolist())
-with open(f"output/{video_id}_transcription.txt", 'w') as FOUT:
-    FOUT.write(txt)
-print(txt)
 
-model = Analyze()
+# txt = '\n'.join(df['text'].values.tolist())
+# with open(f"output/{video_id}_transcription.txt", 'w') as FOUT:
+#    FOUT.write(txt)
+# print(txt)
+
+
+exit()
+
+
 stext = model.summarize(df["text"])
 outline = model.outline(stext)
 
-with open(f"output/{video_id}_summary.txt", 'w') as FOUT:
+with open(f"output/{video_id}_summary.txt", "w") as FOUT:
     FOUT.write(stext)
 
 exit()

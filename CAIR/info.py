@@ -115,12 +115,17 @@ class Video:
         print(caption_response)
 
     def download_audio(self, f_audio):
+        cmd = f"yt-dlp -f bestaudio -x --audio-format mp3 --audio-quality 0 -o {f_audio} {self.URL}"
+
         f_audio = Path(f_audio)
         if f_audio.exists():
             return f_audio
 
         msg.info(f"Downloading audio {self.video_id}")
+        subprocess.call(cmd, shell=True)
 
+        # Old code here, we don't need it anymore
+        """
         meta = self.get_extended_metadata()
         dx = pd.DataFrame(meta["formats"])
         dx = dx[(dx["audio_ext"] == "mp4") | (dx["audio_ext"] == "m4a")]
@@ -135,6 +140,7 @@ class Video:
 
         cmd = f"yt-dlp -f {format_id} -o {f_audio} {self.URL}"
         subprocess.call(cmd, shell=True)
+        """
 
     @property
     def URL(self):

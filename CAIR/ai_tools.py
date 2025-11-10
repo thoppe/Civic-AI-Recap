@@ -1,0 +1,61 @@
+import os
+from openai import OpenAI
+from typing import Literal
+import tiktoken
+from diskcache import Cache
+from pathlib import Path
+
+# Pull API key from environment
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    raise ValueError("Missing OPENAI_API_KEY in environment variables.")
+
+
+# Effort types from docs
+ReasoningEffort = Literal["low", "medium", "high"]
+Gpt5ReasoningEffort = Literal["minimal", "low", "medium", "high"]
+encoding = tiktoken.get_encoding("cl100k_base")
+
+
+def chat_with_openai(
+    model: str,
+    system_prompt: str,
+    user_prompt: str,
+    reasoning_effort: Gpt5ReasoningEffort,
+):
+    """
+    Call OpenAI ChatGPT with a chosen model, system prompt, and user prompt.
+
+    Args:
+        model (str): The model name, e.g., "gpt-4o-mini" or "gpt-4.1".
+        system_prompt (str): The system role instructions.
+        user_prompt (str): The user input prompt.
+
+    Returns:
+        str: The assistant's reply.
+    """
+
+    # Return a cached answer if possible
+    cache_location = Path("cache") / model
+    cache = Cache(cache_location, expire=60 * 60)  # Expire in one hour
+    key = (model, system_prompt, user_prompt, reasoning_effort)
+    if key in cache:
+        return cache[key]
+
+    # Make sure we don't have too many input tokens
+    system_n = len(encoding.encode(system_prompt))
+    prompt_n = len(encoding.encode(user_prompt))
+    assert system_n + prompt_n < 400_000
+
+    client = OpenAI(api_key=api_key)
+
+    response = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
+    )
+
+    cache[key] = response.choices[0].message.content
+    return cache[key]

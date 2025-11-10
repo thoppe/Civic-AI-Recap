@@ -14,8 +14,8 @@ from wasabi import msg
 class Transcription:
     def __init__(
         self,
-        method="whisperx",
-        model_size="large",
+        method="whisper",
+        model_size="turbo",
         language="en",
     ):
         self.method = method
@@ -82,6 +82,7 @@ class Transcription:
             raise KeyError(f"Model {self.method} not found")
 
     def compute_whisper(self, f_audio):
+        self.load_STT_model()
         result = self.model.transcribe(f_audio, language=self.language)
         return result
 

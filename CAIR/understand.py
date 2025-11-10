@@ -1,63 +1,63 @@
 from .openAI_utils import tokenized_sampler
-from .cache_GPT import ChatGPT
+
+# from .cache_GPT import ChatGPT
+from .ai_tools import chat_with_openai
 import pandas as pd
+from pathlib import Path
 import numpy as np
 import diskcache
 
+
 cache_align = diskcache.Cache("cache/understand/alignment")
+
+current_file_path = Path(__file__).parent
+prompt_file_path = current_file_path / "prompts"
 
 
 class Analyze:
     def __init__(
         self,
-        model_name="gpt-4o",
-        max_tokens=1024 * 4,
-        parallel_threads=1,
-        embed_model_name="sentence-transformers/all-MiniLM-L6-v2",
+        model_name="gpt-5",
+        # parallel_threads=1,
+        # embed_model_name="sentence-transformers/all-MiniLM-L6-v2",
     ):
-        self.GPT = ChatGPT(
-            max_tokens=max_tokens,
-            model_name=model_name,
-            parallel_threads=parallel_threads,
-        )
-        self.page_size = 1_204 * 50
+        # self.GPT = ChatGPT(
+        #    max_tokens=max_tokens,
+        #    model_name=model_name,
+        #    parallel_threads=parallel_threads,
+        # )
+        self.model_name = model_name
+        # self.page_size = 1_204 * 50
+        # self.embed_model_name = embed_model_name
 
-        self.embed_model_name = embed_model_name
+    def preprocess_text(self, df) -> str:
+        """
+        Given an input dataframe, remove empty and repeated lines.
+        """
+        df["text"] = df["text"].str.strip()
+        df["text"] = df["text"].replace("", np.nan)
+        df.dropna(subset=["text"], inplace=True)
+        df.drop_duplicates(subset=["text"], inplace=True, keep="first")
+        text = "\n".join(df["text"].tolist())
+        return text
 
-    def preprocess_text(self, text):
-        if isinstance(text, pd.Series):
-            text = text.str.cat(sep="\n")
+    def streamline(self, text: str) -> str:
+        f_instructions = prompt_file_path / "streamline_meeting.txt"
+        with open(f_instructions) as FIN:
+            instructions = FIN.read().strip()
 
-        lines = text.split("\n")
-        blocks = [
-            "\n".join(x) for x in tokenized_sampler(lines, self.page_size)
-        ]
-        return blocks
-
-    def summarize(self, text):
-        q = """
-        Give a detailed summary from the following transcript of a meeting.
-        Speak in a declarative voice and get directly to the point.
-        {response}
-        """.strip()
-
-        blocks = self.preprocess_text(text)
-        result = "\n".join(self.GPT.multiASK(q, "text", response=blocks))
+        result = chat_with_openai(self.model_name, instructions, text, "low")
         return result
 
-    def outline(self, text):
-        q = """
-        Clean, organize, and format the collective notes below using markdown. Only provide bullets.
-        {response}
-        """.strip()
+    def executive_summary(self, text: str) -> str:
+        f_instructions = prompt_file_path / "exec_summary.txt"
+        with open(f_instructions) as FIN:
+            instructions = FIN.read().strip()
 
-        blocks = self.preprocess_text(text)
-        result = self.GPT.multiASK(q, output="list", response=blocks)
-
-        # Flatten
-        result = [item for row in result for item in row]
+        result = chat_with_openai(self.model_name, instructions, text, "high")
         return result
 
+    '''
     @cache_align.memoize()
     def align_sections(self, text_lines, outline, window_n=30):
         """
@@ -105,3 +105,4 @@ class Analyze:
 
         df["ref_text"] = [long_text[i] for i in df.starting_index]
         return df
+    '''
