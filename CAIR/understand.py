@@ -10,7 +10,7 @@ cache_align = diskcache.Cache("cache/understand/alignment")
 class Analyze:
     def __init__(
         self,
-        model_name="gpt-3.5-turbo-0125",
+        model_name="gpt-4o",
         max_tokens=1024 * 4,
         parallel_threads=1,
         embed_model_name="sentence-transformers/all-MiniLM-L6-v2",
@@ -20,7 +20,7 @@ class Analyze:
             model_name=model_name,
             parallel_threads=parallel_threads,
         )
-        self.page_size = 4_000
+        self.page_size = 1_204 * 50
 
         self.embed_model_name = embed_model_name
 

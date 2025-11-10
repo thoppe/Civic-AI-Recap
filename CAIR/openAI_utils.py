@@ -69,7 +69,7 @@ def query(
     temperature=0.7,
     max_tokens=200,
     n=1,
-    model_name="gpt-3.5-turbo-1106",
+    model_name="gpt-4o"
 ):
     query_url = "https://api.openai.com/v1/chat/completions"
     headers = {

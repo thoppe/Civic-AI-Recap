@@ -1,0 +1,8 @@
+pandas
+dspipe
+wasabi
+diskcache
+numpy
+yt-dlp
+tiktoken
+google-api-python-client

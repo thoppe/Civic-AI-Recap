@@ -123,13 +123,14 @@ class Video:
 
         meta = self.get_extended_metadata()
         dx = pd.DataFrame(meta["formats"])
-        dx = dx[dx["audio_ext"] == "mp4"]
+        dx = dx[(dx["audio_ext"] == "mp4") | (dx["audio_ext"] == "m4a")]
 
         if not len(dx):
             err = f"No mp4 formats on youtube video {self.video_id}"
+
             raise ValueError(err)
 
-        # Pick the first mp4 format ID and download
+        # Pick the first mp4/m4a format ID and download
         format_id = dx["format_id"].values[0]
 
         cmd = f"yt-dlp -f {format_id} -o {f_audio} {self.URL}"
