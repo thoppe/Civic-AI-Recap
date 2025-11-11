@@ -54,6 +54,15 @@ class Analyze:
         result = chat_with_openai(self.model_name, instructions, text, "high")
         return result
 
+    def __call__(self, prompt: str, system_prompt: str, reasoning_effort: str) -> str:
+        result = chat_with_openai(
+            self.model_name,
+            system_prompt=system_prompt,
+            user_prompt=prompt,
+            reasoning_effort=reasoning_effort,
+        )
+        return result
+
     '''
     @cache_align.memoize()
     def align_sections(self, text_lines, outline, window_n=30):

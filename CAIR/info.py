@@ -63,9 +63,7 @@ class Video:
     def get_caption_list(self):
         msg.info(f"Downloading caption metadata {self.video_id}")
         caption_list_response = (
-            youtube.captions()
-            .list(part="snippet", videoId=self.video_id)
-            .execute()
+            youtube.captions().list(part="snippet", videoId=self.video_id).execute()
         )
         return caption_list_response
 
