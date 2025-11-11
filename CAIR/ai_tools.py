@@ -22,6 +22,7 @@ def chat_with_openai(
     system_prompt: str,
     user_prompt: str,
     reasoning_effort: Gpt5ReasoningEffort,
+        seed:int=None,
 ):
     """
     Call OpenAI ChatGPT with a chosen model, system prompt, and user prompt.
@@ -38,7 +39,7 @@ def chat_with_openai(
     # Return a cached answer if possible
     cache_location = Path("cache") / model
     cache = Cache(cache_location, expire=60 * 60)  # Expire in one hour
-    key = (model, system_prompt, user_prompt, reasoning_effort)
+    key = (model, system_prompt, user_prompt, reasoning_effort, seed)
     if key in cache:
         return cache[key]
 
@@ -51,6 +52,7 @@ def chat_with_openai(
 
     response = client.chat.completions.create(
         model=model,
+        seed=seed,
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
