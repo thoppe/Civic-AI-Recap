@@ -45,6 +45,9 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     # Include package data...
     include_package_data=True,
+    package_data={
+        "CAIR": ["prompts/*.txt"],
+    },
     description=description,
     long_description=long_description,
     long_description_content_type="text/markdown",

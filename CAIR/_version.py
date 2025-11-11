@@ -1,6 +1,7 @@
-__version__ = "0.2.3"
+__version__ = "0.2.4"
 
 """
+Version 0.2.4: Add package prompt data
 Version 0.2.3: Added cache_expiration to chat_with_ai
 Version 0.2.2: Added seed option in chat_with_ai
 Version 0.2.1: Added some more channel options.
