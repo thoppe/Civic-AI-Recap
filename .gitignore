@@ -3,6 +3,8 @@ data/audio
 
 # Temp files
 cache/
+build/
+CAIR.egg-info/
 
 *~
 \#*
