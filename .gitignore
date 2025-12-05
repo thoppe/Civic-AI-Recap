@@ -5,6 +5,8 @@ data/audio
 cache/
 build/
 CAIR.egg-info/
+output/
+.python-version
 
 *~
 \#*
@@ -13,4 +15,5 @@ CAIR.egg-info/
 data/transcript/*.json
 data/transcript/*.srt
 data/transcript/*.tsv
-
+*.bz2
+demo2.py
