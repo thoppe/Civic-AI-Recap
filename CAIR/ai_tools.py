@@ -1,15 +1,10 @@
 import os
-from openai import OpenAI
+from pathlib import Path
 from typing import Literal
+
 import tiktoken
 from diskcache import Cache
-from pathlib import Path
-
-# Pull API key from environment
-api_key = os.getenv("OPENAI_API_KEY")
-if not api_key:
-    raise ValueError("Missing OPENAI_API_KEY in environment variables.")
-
+from openai import OpenAI
 
 # Effort types from docs
 ReasoningEffort = Literal["low", "medium", "high"]
@@ -21,7 +16,7 @@ def chat_with_openai(
     model: str,
     system_prompt: str,
     user_prompt: str,
-    reasoning_effort: Gpt5ReasoningEffort,
+    reasoning_effort: Gpt5ReasoningEffort | None,
     seed: int = None,
     cache_expire: int = 60 * 60,
 ):
@@ -54,16 +49,27 @@ def chat_with_openai(
     if total_tokens > 400_000:
         raise ValueError(f"Used {total_tokens} tokens, limit 400,000")
 
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise EnvironmentError(
+            "Missing OPENAI_API_KEY in environment variables."
+        )
+
     client = OpenAI(api_key=api_key)
 
-    response = client.chat.completions.create(
-        model=model,
-        seed=seed,
-        messages=[
+    request_kwargs = {
+        "model": model,
+        "seed": seed,
+        "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ],
-    )
+    }
+
+    if reasoning_effort:
+        request_kwargs["reasoning_effort"] = reasoning_effort
+
+    response = client.chat.completions.create(**request_kwargs)
 
     cache[key] = response.choices[0].message.content
     return cache[key]

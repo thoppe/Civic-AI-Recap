@@ -3,7 +3,7 @@ import math
 from tqdm import tqdm
 import pandas as pd
 import datetime
-from .youtube_utils import youtube
+from .youtube_utils import get_youtube_client
 import diskcache
 import yt_dlp
 from wasabi import msg
@@ -27,9 +27,10 @@ class Search:
         search_info = []
         next_page_token = None
         progress_bar = tqdm()
+        yt = get_youtube_client()
 
         while True:
-            request = youtube.search().list(
+            request = yt.search().list(
                 part="snippet",
                 q=q,
                 maxResults=max_results,
@@ -62,10 +63,9 @@ class Video:
     @cache_video.memoize(expire=expire_time)
     def get_caption_list(self):
         msg.info(f"Downloading caption metadata {self.video_id}")
+        yt = get_youtube_client()
         caption_list_response = (
-            youtube.captions()
-            .list(part="snippet", videoId=self.video_id)
-            .execute()
+            yt.captions().list(part="snippet", videoId=self.video_id).execute()
         )
         return caption_list_response
 
@@ -73,7 +73,8 @@ class Video:
     def get_metadata(self):
         msg.info(f"Downloading video metadata {self.video_id}")
 
-        request = youtube.videos().list(
+        yt = get_youtube_client()
+        request = yt.videos().list(
             part="snippet,contentDetails,statistics", id=self.video_id
         )
         meta = request.execute()
@@ -94,6 +95,7 @@ class Video:
 
     def download_english_captions(self):
         caption_metadata = self.get_caption_list()
+        yt = get_youtube_client()
 
         for item in caption_metadata["items"]:
             if (
@@ -107,7 +109,7 @@ class Video:
             raise ValueError(err)
 
         caption_response = (
-            youtube.captions()
+            yt.captions()
             .download(id=caption_id, tfmt="srt")  # or 'vtt' for WebVTT format
             .execute()
         )
@@ -123,24 +125,6 @@ class Video:
 
         msg.info(f"Downloading audio {self.video_id}")
         subprocess.call(cmd, shell=True)
-
-        # Old code here, we don't need it anymore
-        """
-        meta = self.get_extended_metadata()
-        dx = pd.DataFrame(meta["formats"])
-        dx = dx[(dx["audio_ext"] == "mp4") | (dx["audio_ext"] == "m4a")]
-
-        if not len(dx):
-            err = f"No mp4 formats on youtube video {self.video_id}"
-
-            raise ValueError(err)
-
-        # Pick the first mp4/m4a format ID and download
-        format_id = dx["format_id"].values[0]
-
-        cmd = f"yt-dlp -f {format_id} -o {f_audio} {self.URL}"
-        subprocess.call(cmd, shell=True)
-        """
 
     @property
     def URL(self):
@@ -192,6 +176,7 @@ class Channel:
     @cache_channel.memoize(expire=expire_time)
     def get_metadata(self):
         msg.info(f"Downloading channel metadata {self.channel_id}")
+        yt = get_youtube_client()
         parts = [
             "id",
             "snippet",
@@ -203,7 +188,7 @@ class Channel:
             "topicDetails",
         ]
         parts = ",".join(parts)
-        request = youtube.channels().list(part=parts, id=self.channel_id)
+        request = yt.channels().list(part=parts, id=self.channel_id)
         meta = request.execute()
         meta["download_date"] = datetime.datetime.now().isoformat()
         return meta
@@ -259,7 +244,8 @@ class Channel:
     @cache_channel.memoize(expire=expire_time)
     def upload_playlist_id(self):
         # Get the "Uploads" playlist ID
-        channel_request = youtube.channels().list(
+        yt = get_youtube_client()
+        channel_request = yt.channels().list(
             part="contentDetails",
             id=self.channel_id,
             fields="items/contentDetails/relatedPlaylists/uploads",
@@ -274,6 +260,7 @@ class Channel:
     def get_uploads(self):
         playlist_id = self.upload_playlist_id
         msg.info(f"Getting upload playlist videos {playlist_id}")
+        yt = get_youtube_client()
 
         # Fetch videos from the "Uploads" playlist
         video_info = []
@@ -291,7 +278,7 @@ class Channel:
         max_results = 100_000
 
         while True:
-            playlist_request = youtube.playlistItems().list(
+            playlist_request = yt.playlistItems().list(
                 part="snippet",
                 playlistId=playlist_id,
                 maxResults=max_results,

@@ -7,9 +7,12 @@ build/
 CAIR.egg-info/
 output/
 .python-version
+*.mp3
 
 *~
 \#*
+
+
 
 # Other transcripts
 data/transcript/*.json

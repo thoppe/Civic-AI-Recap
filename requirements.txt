@@ -6,5 +6,6 @@ numpy
 yt-dlp
 tiktoken
 google-api-python-client
+tqdm
 isodate
 openai

@@ -1,6 +1,7 @@
-__version__ = "0.2.5"
+__version__ = "0.3.0"
 
 """
+Version 0.3.0: Packaging and API fixes; restored Analyze helpers; lazy API clients.
 Version 0.2.5: Add specific call option for Analyze
 Version 0.2.4: Add package prompt data
 Version 0.2.3: Added cache_expiration to chat_with_ai

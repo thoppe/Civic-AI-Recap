@@ -8,7 +8,7 @@ f_version = os.path.join(__local__, package_name, "_version.py")
 exec(open(f_version).read())
 
 # Get the long description from the relevant file
-description = "Tools to digitize, transcribe, and analyze public hearings, committees, and symposiums on youtube."
+description = "Tools that capture public hearings, committee meetings, and symposiums from YouTube, then convert the recordings into searchable, analyzable transcripts."
 
 # URL shown on pypi
 homepage_url = "https://github.com/thoppe/Civic-AI-Recap/"
@@ -28,11 +28,18 @@ INSTALL_REQUIRES = [
     "yt-dlp",
     "tiktoken",
     "google-api-python-client",
+    "openai",
+    "isodate",
+    "tqdm",
 ]
 
 EXTRAS_REQUIRE = {
-    "NLP": [
-        "",
+    "transcription": [
+        "openai-whisper",
+        "faster-whisper",
+        "whisperx",
+        "transformers",
+        "torch",
     ]
 }
 
@@ -45,9 +52,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     # Include package data...
     include_package_data=True,
-    package_data={
-        "CAIR": ["prompts/*.txt"],
-    },
+    package_data={},
     description=description,
     long_description=long_description,
     long_description_content_type="text/markdown",

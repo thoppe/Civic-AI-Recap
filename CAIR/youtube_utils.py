@@ -1,15 +1,21 @@
 import os
+from functools import lru_cache
+
 from googleapiclient.discovery import build
 
 key_name = "YOUTUBE_API_KEY"
-API_KEY = os.environ.get(key_name)
-if API_KEY is None:
-    print(f"Set {key_name} in as an ENV variable")
-    exit(1)
-
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 
-youtube = build(
-    YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION, developerKey=API_KEY
-)
+
+@lru_cache(maxsize=1)
+def get_youtube_client():
+    api_key = os.environ.get(key_name)
+    if api_key is None:
+        raise EnvironmentError(
+            f"Set {key_name} in your environment to use the YouTube Data API."
+        )
+
+    return build(
+        YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION, developerKey=api_key
+    )
