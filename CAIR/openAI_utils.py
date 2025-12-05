@@ -86,7 +86,9 @@ def query(messages, temperature=0.7, max_tokens=200, n=1, model_name="gpt-4o"):
         if r.status_code == 429:
             print(f"Sleeping for {sleep_time} seconds.")
             time.sleep(sleep_time)
-            return query(messages, temperature, max_tokens, n, model_name=model_name)
+            return query(
+                messages, temperature, max_tokens, n, model_name=model_name
+            )
         else:
             exit()
 
@@ -151,7 +153,9 @@ def tokenized_sampler(list_of_strings, query_tokens, seed=7142):
     for n, dx in df.groupby("batch_n"):
         # Last batch is too small fill it up with a random sample
         if n == df.batch_n.max():
-            dx = pd.concat([dx, df[df.batch_n != n].sample(frac=1, random_state=seed)])
+            dx = pd.concat(
+                [dx, df[df.batch_n != n].sample(frac=1, random_state=seed)]
+            )
             dx["cum_n_tokens"] = dx["n_tokens"].cumsum()
             dx["batch_n"] = (dx["cum_n_tokens"] + 2) // query_tokens
             dx = dx[dx.batch_n == 0]

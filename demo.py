@@ -1,5 +1,7 @@
-import pandas as pd
+from rich import print_json
 from CAIR import Channel, Video, Transcription, Analyze
+
+# import pandas as pd
 
 video_id = "P0rxq42sckU"
 
@@ -30,6 +32,5 @@ print(len(text.split()), len(streamline.split()), len(esum.split()))
 # Look at the channel info
 print(channel.get_uploads()[["video_id", "title", "publishedAt"]])
 
-from rich import print_json
 
 print_json(data=channel.get_metadata())

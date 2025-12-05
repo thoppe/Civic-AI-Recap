@@ -45,7 +45,9 @@ class ChatGPT:
 
     @property
     def total_embed_cost(self):
-        return OpenAI_embed_token_cost_per_1K * (self.total_embed_tokens / 1_000)
+        return OpenAI_embed_token_cost_per_1K * (
+            self.total_embed_tokens / 1_000
+        )
 
     def return_from_cache(self, messages, output):
         result = self.cache[messages]
@@ -78,7 +80,9 @@ class ChatGPT:
         try:
             assert output in valid_outputs
         except Exception as EX:
-            print(f"{EX} Expected output to be one of {valid_outputs} for {output}")
+            print(
+                f"{EX} Expected output to be one of {valid_outputs} for {output}"
+            )
             exit()
 
         if messages in self.cache and not force:
@@ -178,7 +182,9 @@ class ChatGPT:
             print(is_valid, p)
         exit()
 
-    def multiASK(self, prompt, output="text", force=False, flatten=False, **kwargs):
+    def multiASK(
+        self, prompt, output="text", force=False, flatten=False, **kwargs
+    ):
         """
         Calls self.__call__ in parallel.
         Output is one of [text, raw, list, json]
