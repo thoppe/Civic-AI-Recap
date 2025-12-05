@@ -3,6 +3,8 @@ data/audio
 
 # Temp files
 cache/
+output/
+.python-version
 
 *~
 \#*
@@ -11,4 +13,5 @@ cache/
 data/transcript/*.json
 data/transcript/*.srt
 data/transcript/*.tsv
-
+*.bz2
+demo2.py
