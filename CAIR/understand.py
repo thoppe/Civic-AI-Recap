@@ -3,7 +3,7 @@ from typing import Optional
 
 import pandas as pd
 
-from .ai_tools import chat_with_openai
+from .ai_tools import ServiceTier, chat_with_openai
 
 
 def _read_prompt(prompt_name: str) -> str:
@@ -17,18 +17,49 @@ class Analyze:
         self,
         model_name: str = "gpt-5-mini",
         reasoning_effort: Optional[str] = "low",
+        timeout: int = 60 * 10,
+        service_tier: ServiceTier = "standard",
     ):
+        """
+        Analyzer wrapper around OpenAI chat calls.
+
+        Args:
+            model_name (str): OpenAI model to use.
+            reasoning_effort (Optional[str]): Reasoning effort hint for GPT‑5 family.
+            timeout (int): Request timeout in seconds (default 600).
+            service_tier (ServiceTier): Service tier to use
+                for requests (default "default").
+        """
         self.model_name = model_name
         self.reasoning_effort = reasoning_effort
+        self.timeout = timeout
+        self.service_tier = service_tier
 
     def __call__(
-        self, prompt: str, system_prompt: str, reasoning_effort: Optional[str]
+        self,
+        prompt: str,
+        system_prompt: str,
+        reasoning_effort: Optional[str],
+        timeout: Optional[int] = None,
+        service_tier: Optional[ServiceTier] = None,
     ) -> str:
+        """
+        Execute a single analysis request.
+
+        Args:
+            prompt (str): User prompt content.
+            system_prompt (str): System instructions to guide the model.
+            reasoning_effort (Optional[str]): Override reasoning effort for this call.
+            timeout (Optional[int]): Override timeout (seconds) for this call.
+            service_tier (Optional[ServiceTier]): Override service tier for this call.
+        """
         result = chat_with_openai(
             self.model_name,
             system_prompt=system_prompt,
             user_prompt=prompt,
             reasoning_effort=reasoning_effort,
+            timeout=timeout or self.timeout,
+            service_tier=service_tier or self.service_tier,
         )
         return result
 
@@ -57,6 +88,8 @@ class Analyze:
             system_prompt=prompt,
             user_prompt=transcript,
             reasoning_effort=self.reasoning_effort,
+            timeout=self.timeout,
+            service_tier=self.service_tier,
         )
 
     def executive_summary(self, streamlined_text: str) -> str:
@@ -67,4 +100,6 @@ class Analyze:
             system_prompt=prompt,
             user_prompt=streamlined_text,
             reasoning_effort=self.reasoning_effort,
+            timeout=self.timeout,
+            service_tier=self.service_tier,
         )

@@ -1,8 +1,6 @@
 from rich import print_json
 from CAIR import Channel, Video, Transcription, Analyze
 
-# import pandas as pd
-
 video_id = "P0rxq42sckU"
 video_id = "dvQxuqVqsoM"  # Short CDC video for testing
 
@@ -17,7 +15,6 @@ print(channel.title, channel.n_videos)
 print(channel.get_uploads()[["video_id", "title", "publishedAt"]])
 print_json(data=channel.get_metadata())
 
-
 f_audio = f"{video_id}.mp3"
 vid.download_audio(f_audio)
 
@@ -26,13 +23,14 @@ print(df)
 print(len(df))
 
 clf = Analyze(model_name="gpt-5-mini")
-instructions = "Explain the transcript like I'm 5."
+instructions = "Explain the transcript like I'm 6."
 text = clf.preprocess_text(df)
 print(text)
 
 result = clf(
     prompt=text,
     system_prompt=instructions,
-    reasoning_effort="medium",
+    reasoning_effort="low",
+    service_tier="flex",
 )
 print(result)

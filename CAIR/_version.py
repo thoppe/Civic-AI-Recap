@@ -1,6 +1,7 @@
-__version__ = "0.3.0"
+__version__ = "0.4.0"
 
 """
+Version 0.4.0: Added OpenAI request timeout and service_tier options; exposed on Analyze.
 Version 0.3.0: Packaging and API fixes; restored Analyze helpers; lazy API clients.
 Version 0.2.5: Add specific call option for Analyze
 Version 0.2.4: Add package prompt data

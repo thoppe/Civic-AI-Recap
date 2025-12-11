@@ -7,8 +7,8 @@ from diskcache import Cache
 from openai import OpenAI
 
 # Effort types from docs
-ReasoningEffort = Literal["low", "medium", "high"]
 Gpt5ReasoningEffort = Literal["minimal", "low", "medium", "high"]
+ServiceTier = Literal["auto", "default", "flex", "priority"]
 encoding = tiktoken.get_encoding("cl100k_base")
 
 
@@ -19,6 +19,8 @@ def chat_with_openai(
     reasoning_effort: Gpt5ReasoningEffort | None,
     seed: int = None,
     cache_expire: int = 60 * 60,
+    timeout: int = 60 * 10,
+    service_tier: ServiceTier = "default",
 ):
     """
     Call OpenAI ChatGPT with a chosen model, system prompt, and user prompt.
@@ -30,6 +32,8 @@ def chat_with_openai(
         reasoning_effort: ["minimal", "low", "medium", "high"]
         seed (int): Random state for chatgpt
         cache_expire (int): Pull value from cache, set to None to force.
+        timeout (int): Request timeout in seconds.
+        service_tier (str): "auto", "default", "flex", or "priority".
 
     Returns:
         str: The assistant's reply.
@@ -69,7 +73,13 @@ def chat_with_openai(
     if reasoning_effort:
         request_kwargs["reasoning_effort"] = reasoning_effort
 
-    response = client.chat.completions.create(**request_kwargs)
+    if service_tier:
+        request_kwargs["service_tier"] = service_tier
+
+    response = client.chat.completions.create(
+        **request_kwargs,
+        timeout=timeout,
+    )
 
     cache[key] = response.choices[0].message.content
     return cache[key]

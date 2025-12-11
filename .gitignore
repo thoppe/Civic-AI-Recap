@@ -8,6 +8,7 @@ CAIR.egg-info/
 output/
 .python-version
 *.mp3
+__pycache__
 
 *~
 \#*
