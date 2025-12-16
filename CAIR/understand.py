@@ -18,7 +18,7 @@ class Analyze:
         model_name: str = "gpt-5-mini",
         reasoning_effort: Optional[str] = "low",
         timeout: int = 60 * 10,
-        service_tier: ServiceTier = "standard",
+        service_tier: ServiceTier = "default",
     ):
         """
         Analyzer wrapper around OpenAI chat calls.
