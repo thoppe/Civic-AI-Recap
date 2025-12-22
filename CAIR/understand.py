@@ -3,7 +3,7 @@ from typing import Optional
 
 import pandas as pd
 
-from .ai_tools import ServiceTier, chat_with_openai
+from .ai_tools import Gpt5ReasoningEffort, ServiceTier, chat_with_openai
 
 
 def _read_prompt(prompt_name: str) -> str:
@@ -16,7 +16,8 @@ class Analyze:
     def __init__(
         self,
         model_name: str = "gpt-5-mini",
-        reasoning_effort: Optional[str] = "low",
+        reasoning_effort: Optional[Gpt5ReasoningEffort] = "low",
+        seed: Optional[int] = None,
         timeout: int = 60 * 10,
         service_tier: ServiceTier = "default",
     ):
@@ -26,22 +27,24 @@ class Analyze:
         Args:
             model_name (str): OpenAI model to use.
             reasoning_effort (Optional[str]): Reasoning effort hint for GPT‑5 family.
+            seed (Optional[int]): Random seed for deterministic outputs.
             timeout (int): Request timeout in seconds (default 600).
             service_tier (ServiceTier): Service tier to use
                 for requests (default "default").
         """
         self.model_name = model_name
         self.reasoning_effort = reasoning_effort
+        self.seed = seed
         self.timeout = timeout
         self.service_tier = service_tier
+        self._usage_log = []
 
     def __call__(
         self,
         prompt: str,
         system_prompt: str,
-        reasoning_effort: Optional[str],
+        seed: Optional[int] = None,
         timeout: Optional[int] = None,
-        service_tier: Optional[ServiceTier] = None,
     ) -> str:
         """
         Execute a single analysis request.
@@ -50,6 +53,7 @@ class Analyze:
             prompt (str): User prompt content.
             system_prompt (str): System instructions to guide the model.
             reasoning_effort (Optional[str]): Override reasoning effort for this call.
+            seed (Optional[int]): Override random seed for this call.
             timeout (Optional[int]): Override timeout (seconds) for this call.
             service_tier (Optional[ServiceTier]): Override service tier for this call.
         """
@@ -57,13 +61,32 @@ class Analyze:
             self.model_name,
             system_prompt=system_prompt,
             user_prompt=prompt,
-            reasoning_effort=reasoning_effort,
+            reasoning_effort=self.reasoning_effort,
+            service_tier=self.service_tier,
+            seed=seed if seed is not None else self.seed,
             timeout=timeout or self.timeout,
-            service_tier=service_tier or self.service_tier,
         )
-        return result
 
-    def preprocess_text(self, transcript) -> str:
+        result_usage = dict(result["usage"]) | dict(result["call_parameters"])
+        self._usage_log.append(result_usage)
+
+        return result["content"]
+
+    @property
+    def usage(self) -> pd.DataFrame:
+        df = pd.DataFrame(self._usage_log)
+        keys = [
+            "prompt_tokens",
+            "completion_tokens",
+            "total_tokens",
+            "model_name",
+            "service_tier",
+            "reasoning_effort",
+        ]
+        df = df[keys]
+        return df
+
+    def preprocess_text(self, transcript: pd.DataFrame) -> str:
         """Flatten a transcript DataFrame into raw text for prompting."""
         if isinstance(transcript, pd.DataFrame):
             if "text" not in transcript.columns:
@@ -78,28 +101,4 @@ class Analyze:
 
         raise TypeError(
             "Transcript must be a pandas DataFrame with a 'text' column or a raw string."
-        )
-
-    def streamline(self, transcript: str) -> str:
-        """Filter filler language while keeping meeting content in order."""
-        prompt = _read_prompt("streamline_meeting.txt")
-        return chat_with_openai(
-            self.model_name,
-            system_prompt=prompt,
-            user_prompt=transcript,
-            reasoning_effort=self.reasoning_effort,
-            timeout=self.timeout,
-            service_tier=self.service_tier,
-        )
-
-    def executive_summary(self, streamlined_text: str) -> str:
-        """Create a governor-ready executive summary."""
-        prompt = _read_prompt("exec_summary.txt")
-        return chat_with_openai(
-            self.model_name,
-            system_prompt=prompt,
-            user_prompt=streamlined_text,
-            reasoning_effort=self.reasoning_effort,
-            timeout=self.timeout,
-            service_tier=self.service_tier,
         )
