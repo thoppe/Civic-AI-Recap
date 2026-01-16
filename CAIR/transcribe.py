@@ -22,7 +22,7 @@ class Transcription:
         self.model = None
         self.model_size = model_size
         self.language = language
-        self.device = "cuda"
+        self.device = self._get_device()
         self.cache = diskcache.Cache(
             f"cache/transcription/{method}", size_limit=int(1e11)
         )
@@ -33,6 +33,19 @@ class Transcription:
             "whisperx": self.compute_whisperx,
             "faster-whisper": self.compute_faster_whisper,
         }[self.method]
+
+    def _get_device(self):
+        """Automatically detect the best available device (CUDA, MPS, or CPU)."""
+        try:
+            import torch
+            if torch.cuda.is_available():
+                return "cuda"
+            elif hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
+                return "mps"
+            else:
+                return "cpu"
+        except ImportError:
+            return "cpu"
 
     def load_STT_model(self):
         if self.model is not None:
@@ -61,7 +74,10 @@ class Transcription:
         elif self.method == "whisper":
             import whisper
 
-            self.model = whisper.load_model(self.model_size, device=self.device)
+            # Whisper has compatibility issues with MPS on macOS
+            # Use CPU for whisper to avoid PyTorch MPS compatibility issues
+            whisper_device = "cpu" if self.device == "mps" else self.device
+            self.model = whisper.load_model(self.model_size, device=whisper_device)
 
         elif self.method == "whisperx":
             import whisperx
