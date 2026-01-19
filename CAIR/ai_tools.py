@@ -45,6 +45,8 @@ def chat_with_openai(
     seed: int = None,
     timeout: int = 60 * 10,
     service_tier: ServiceTier = "default",
+    force: bool = False,
+    cache_result: bool = True,
 ) -> dict:
     """
     Call OpenAI ChatGPT with a chosen model, system prompt, and user prompt.
@@ -57,25 +59,30 @@ def chat_with_openai(
         seed (int): Optional random state for chatgpt.
         timeout (int): Request timeout in seconds.
         service_tier (str): "auto", "default", "flex", or "priority".
+        force (bool): If True, skip cache reads and writes.
+        cache_result (bool): If True, store the response in cache.
 
     Returns:
         dict: Similar to an OpenAIResponse payload.
     """
 
     # Return a cached answer if possible
-    cache_location = Path("cache") / model_name
-    cache = Cache(cache_location)
-    cache_key = (
-        model_name,
-        system_prompt,
-        user_prompt,
-        reasoning_effort,
-        seed,
-    )
-    if cache_key in cache:
-        cached_value = cache[cache_key]
-        cached_value["call_parameters"]["was_cached"] = True
-        return cached_value
+    cache = None
+    cache_key = None
+    if not force or cache_result:
+        cache_location = Path("cache") / model_name
+        cache = Cache(cache_location)
+        cache_key = (
+            model_name,
+            system_prompt,
+            user_prompt,
+            reasoning_effort,
+            seed,
+        )
+        if not force and cache_key in cache:
+            cached_value = cache[cache_key]
+            cached_value["call_parameters"]["was_cached"] = True
+            return cached_value
 
     # Make sure we don't have too many input tokens
     system_n = len(encoding.encode(system_prompt))
@@ -135,6 +142,7 @@ def chat_with_openai(
         call_parameters=call_parameters,
     )
     output = output_model.model_dump()
-    cache[cache_key] = output
+    if cache is not None and cache_key is not None and cache_result:
+        cache[cache_key] = output
 
     return output

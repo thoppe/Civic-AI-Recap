@@ -1,6 +1,7 @@
-__version__ = "0.5.0"
+__version__ = "0.5.1"
 
 """
+Version 0.5.1: Add force and cache_result options to control cache reads/writes.
 Version 0.5.0: Breaking change, invalidates cache. Now start logging usage.
 Version 0.4.1: Include service_tier in cache key to respect tier overrides.
 Version 0.4.0: Added OpenAI request timeout and service_tier options; exposed on Analyze.

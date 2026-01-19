@@ -20,6 +20,8 @@ class Analyze:
         seed: Optional[int] = None,
         timeout: int = 60 * 10,
         service_tier: ServiceTier = "default",
+        force: bool = False,
+        cache_result: bool = True,
     ):
         """
         Analyzer wrapper around OpenAI chat calls.
@@ -31,12 +33,16 @@ class Analyze:
             timeout (int): Request timeout in seconds (default 600).
             service_tier (ServiceTier): Service tier to use
                 for requests (default "default").
+            force (bool): If True, skip cache reads but allow writes.
+            cache_result (bool): If True, store the response in cache.
         """
         self.model_name = model_name
         self.reasoning_effort = reasoning_effort
         self.seed = seed
         self.timeout = timeout
         self.service_tier = service_tier
+        self.force = force
+        self.cache_result = cache_result
         self._usage_log = []
 
     def __call__(
@@ -45,6 +51,8 @@ class Analyze:
         system_prompt: str,
         seed: Optional[int] = None,
         timeout: Optional[int] = None,
+        force: Optional[bool] = None,
+        cache_result: Optional[bool] = None,
     ) -> str:
         """
         Execute a single analysis request.
@@ -56,6 +64,8 @@ class Analyze:
             seed (Optional[int]): Override random seed for this call.
             timeout (Optional[int]): Override timeout (seconds) for this call.
             service_tier (Optional[ServiceTier]): Override service tier for this call.
+            force (Optional[bool]): Override cache read behavior for this call.
+            cache_result (Optional[bool]): Override cache write behavior for this call.
         """
         result = chat_with_openai(
             self.model_name,
@@ -65,26 +75,19 @@ class Analyze:
             service_tier=self.service_tier,
             seed=seed if seed is not None else self.seed,
             timeout=timeout or self.timeout,
+            force=self.force if force is None else force,
+            cache_result=(
+                self.cache_result if cache_result is None else cache_result
+            ),
         )
-
         result_usage = dict(result["usage"]) | dict(result["call_parameters"])
         self._usage_log.append(result_usage)
 
         return result["content"]
 
     @property
-    def usage(self) -> pd.DataFrame:
-        df = pd.DataFrame(self._usage_log)
-        keys = [
-            "prompt_tokens",
-            "completion_tokens",
-            "total_tokens",
-            "model_name",
-            "service_tier",
-            "reasoning_effort",
-        ]
-        df = df[keys]
-        return df
+    def usage(self) -> list[dict]:
+        return self._usage_log
 
     def preprocess_text(self, transcript: pd.DataFrame) -> str:
         """Flatten a transcript DataFrame into raw text for prompting."""

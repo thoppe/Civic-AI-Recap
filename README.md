@@ -189,17 +189,23 @@ print(uploads[['video_id', 'title', 'publishedAt']])
 
 ```
 
-## Thoughts and ideas (TBD)
+## Usage notes
 
-+ Pull in a large corpus of text to analyze (NISS? State Ed. Board Meetings?)
-+ Work on RAG analysis of corpus ([Private GPT](https://github.com/imartinez/privateGPT)?)
+Analyze module:
 
-## DEV notes
+- `Analyze` wraps OpenAI chat calls and records per-call usage in `Analyze.usage`.
+- Caching uses `cache/<model_name>`. Set `force=True` to skip cache reads, and `cache_result=False`
+  to skip writes; both can be overridden per call.
+- Per-call overrides include `seed`, `timeout`, `force`, and `cache_result`.
 
-Prompts for summary and streamlining can be found [here](CAIR/prompts/).
+``` python
+from CAIR import Analyze
 
-To get [whisperx](https://github.com/m-bain/whisperX) to run:
-
-     export PATH=~/anaconda3/bin:$PATH
-     source activate
-     conda activate whisperx
+model = Analyze(model_name="gpt-5-mini", force=True)
+content = model(
+    prompt="Summarize the hearing in 5 bullets.",
+    system_prompt="You are a concise analyst.",
+    cache_result=True,
+)
+print(model.usage)
+```
