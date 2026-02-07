@@ -1,6 +1,7 @@
-__version__ = "0.5.1"
+__version__ = "0.5.2"
 
 """
+Version 0.5.2: Allow `model_name` in CallParameters by disabling Pydantic protected `model_` namespace for that model.
 Version 0.5.1: Add force and cache_result options to control cache reads/writes.
 Version 0.5.0: Breaking change, invalidates cache. Now start logging usage.
 Version 0.4.1: Include service_tier in cache key to respect tier overrides.

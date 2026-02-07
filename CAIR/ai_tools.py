@@ -5,7 +5,7 @@ from typing import Literal, Optional
 import tiktoken
 from diskcache import Cache
 from openai import OpenAI
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 # Effort types from docs
 Gpt5ReasoningEffort = Literal["minimal", "low", "medium", "high"]
@@ -25,6 +25,8 @@ class Usage(BaseModel):
 
 
 class CallParameters(BaseModel):
+    # Pydantic v2 protects the `model_` prefix; allow `model_name` intentionally.
+    model_config = ConfigDict(protected_namespaces=())
     model_name: str
     reasoning_effort: Optional[Gpt5ReasoningEffort] = None
     service_tier: Optional[ServiceTier] = None

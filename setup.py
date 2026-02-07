@@ -31,6 +31,7 @@ INSTALL_REQUIRES = [
     "openai",
     "isodate",
     "tqdm",
+    "random-user-agent",
 ]
 
 EXTRAS_REQUIRE = {
