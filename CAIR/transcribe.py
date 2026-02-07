@@ -38,9 +38,13 @@ class Transcription:
         """Automatically detect the best available device (CUDA, MPS, or CPU)."""
         try:
             import torch
+
             if torch.cuda.is_available():
                 return "cuda"
-            elif hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
+            elif (
+                hasattr(torch.backends, "mps")
+                and torch.backends.mps.is_available()
+            ):
                 return "mps"
             else:
                 return "cpu"
@@ -77,7 +81,9 @@ class Transcription:
             # Whisper has compatibility issues with MPS on macOS
             # Use CPU for whisper to avoid PyTorch MPS compatibility issues
             whisper_device = "cpu" if self.device == "mps" else self.device
-            self.model = whisper.load_model(self.model_size, device=whisper_device)
+            self.model = whisper.load_model(
+                self.model_size, device=whisper_device
+            )
 
         elif self.method == "whisperx":
             import whisperx
