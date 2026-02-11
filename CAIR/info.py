@@ -37,16 +37,23 @@ class Search:
 
         def loader():
             # msg.info(f"Searching '{q}'")
+            if max_results <= 0:
+                return []
+
             search_info = []
             next_page_token = None
             progress_bar = tqdm()
             yt = get_youtube_client()
 
             while True:
+                remaining = max_results - len(search_info)
+                if remaining <= 0:
+                    break
+                request_max_results = min(50, remaining)
                 request = yt.search().list(
                     part="snippet",
                     q=q,
-                    maxResults=max_results,
+                    maxResults=request_max_results,
                     type=v_type,
                     videoDuration=duration,
                     eventType="completed",
@@ -66,7 +73,7 @@ class Search:
 
                 progress_bar.update()
 
-            return search_info
+            return search_info[:max_results]
 
         return _cache_get_or_set(cache_search, key, self.expire_time, loader)
 
@@ -317,10 +324,14 @@ class Channel:
             max_results = 100_000
 
             while True:
+                remaining = max_results - len(video_info)
+                if remaining <= 0:
+                    break
+                request_max_results = min(50, remaining)
                 playlist_request = yt.playlistItems().list(
                     part="snippet",
                     playlistId=playlist_id,
-                    maxResults=max_results,
+                    maxResults=request_max_results,
                     pageToken=next_page_token,
                     fields=fields,
                 )

@@ -8,6 +8,9 @@ youtube_ID = "XcvejCE9-7c"
 all:
 	python demo.py
 
+test:
+	python -m unittest -v tests.test_info_cache
+
 clean:
 	rm -f data/transcript/*.json data/transcript/*.tsv data/transcript/*.srt
 	rm -rvf CAIR.egg* build
@@ -15,3 +18,6 @@ clean:
 lint:
 	black *.py CAIR  --line-length 80
 	flake8 *.py CAIR --ignore=E501,E712,W503
+
+test-all:
+	python -m unittest discover -s tests -p "test_*.py" -v
