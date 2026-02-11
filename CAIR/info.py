@@ -13,85 +13,113 @@ import isodate
 cache_video = diskcache.Cache("cache/youtube/videos")
 cache_channel = diskcache.Cache("cache/youtube/channels")
 cache_search = diskcache.Cache("cache/youtube/search")
-expire_time = 7 * 60 * 60 * 24
+DEFAULT_EXPIRE_TIME = 7 * 60 * 60 * 24
+expire_time = DEFAULT_EXPIRE_TIME
+
+
+def _cache_get_or_set(cache, key, ttl, loader):
+    missing = object()
+    cached = cache.get(key, default=missing)
+    if cached is not missing:
+        return cached
+
+    value = loader()
+    cache.set(key, value, expire=ttl)
+    return value
 
 
 class Search:
-    def __init__(self):
-        pass
+    def __init__(self, expire_time=DEFAULT_EXPIRE_TIME):
+        self.expire_time = expire_time
 
-    @cache_search.memoize(expire=expire_time)
     def __call__(self, q, max_results=1_000, v_type="video", duration="any"):
-        # msg.info(f"Searching '{q}'")
+        key = ("Search.__call__", q, max_results, v_type, duration)
 
-        search_info = []
-        next_page_token = None
-        progress_bar = tqdm()
-        yt = get_youtube_client()
+        def loader():
+            # msg.info(f"Searching '{q}'")
+            search_info = []
+            next_page_token = None
+            progress_bar = tqdm()
+            yt = get_youtube_client()
 
-        while True:
-            request = yt.search().list(
-                part="snippet",
-                q=q,
-                maxResults=max_results,
-                type=v_type,
-                videoDuration=duration,
-                eventType="completed",
-                pageToken=next_page_token,
-            )
-            response = request.execute()
-            next_page_token = response.get("nextPageToken")
-            items = response.get("items", [])
+            while True:
+                request = yt.search().list(
+                    part="snippet",
+                    q=q,
+                    maxResults=max_results,
+                    type=v_type,
+                    videoDuration=duration,
+                    eventType="completed",
+                    pageToken=next_page_token,
+                )
+                response = request.execute()
+                next_page_token = response.get("nextPageToken")
+                items = response.get("items", [])
 
-            for item in items:
-                search_info.append(item["snippet"])
+                for item in items:
+                    search_info.append(item["snippet"])
 
-            if next_page_token is None or len(search_info) >= max_results:
-                break
+                if next_page_token is None or len(search_info) >= max_results:
+                    break
 
-            print(len(search_info))
+                print(len(search_info))
 
-            progress_bar.update()
+                progress_bar.update()
 
-        return search_info
+            return search_info
+
+        return _cache_get_or_set(cache_search, key, self.expire_time, loader)
 
 
 class Video:
-    def __init__(self, video_id):
+    def __init__(self, video_id, expire_time=DEFAULT_EXPIRE_TIME):
         self.video_id = video_id
+        self.expire_time = expire_time
 
-    @cache_video.memoize(expire=expire_time)
     def get_caption_list(self):
-        msg.info(f"Downloading caption metadata {self.video_id}")
-        yt = get_youtube_client()
-        caption_list_response = (
-            yt.captions().list(part="snippet", videoId=self.video_id).execute()
-        )
-        return caption_list_response
+        key = ("Video.get_caption_list", self.video_id)
 
-    @cache_video.memoize(expire=expire_time)
+        def loader():
+            msg.info(f"Downloading caption metadata {self.video_id}")
+            yt = get_youtube_client()
+            caption_list_response = (
+                yt.captions().list(part="snippet", videoId=self.video_id).execute()
+            )
+            return caption_list_response
+
+        return _cache_get_or_set(cache_video, key, self.expire_time, loader)
+
     def get_metadata(self):
-        msg.info(f"Downloading video metadata {self.video_id}")
+        key = ("Video.get_metadata", self.video_id)
 
-        yt = get_youtube_client()
-        request = yt.videos().list(
-            part="snippet,contentDetails,statistics", id=self.video_id
-        )
-        meta = request.execute()
-        meta["download_date"] = datetime.datetime.now().isoformat()
-        return meta
+        def loader():
+            msg.info(f"Downloading video metadata {self.video_id}")
 
-    @cache_video.memoize(expire=expire_time)
+            yt = get_youtube_client()
+            request = yt.videos().list(
+                part="snippet,contentDetails,statistics", id=self.video_id
+            )
+            meta = request.execute()
+            meta["download_date"] = datetime.datetime.now().isoformat()
+            return meta
+
+        return _cache_get_or_set(cache_video, key, self.expire_time, loader)
+
     def get_extended_metadata(self):
-        # Uses yt-dlp to download
-        msg.info(f"Downloading video metadata using yt-dlp {self.video_id}")
+        key = ("Video.get_extended_metadata", self.video_id)
 
-        with yt_dlp.YoutubeDL({}) as ydl:
-            info = ydl.extract_info(self.URL, download=False)
+        def loader():
+            # Uses yt-dlp to download
+            msg.info(f"Downloading video metadata using yt-dlp {self.video_id}")
 
-        # ydl.sanitize_info makes the info json-serializable
-        info = ydl.sanitize_info(info)
-        return info
+            with yt_dlp.YoutubeDL({}) as ydl:
+                info = ydl.extract_info(self.URL, download=False)
+
+            # ydl.sanitize_info makes the info json-serializable
+            info = ydl.sanitize_info(info)
+            return info
+
+        return _cache_get_or_set(cache_video, key, self.expire_time, loader)
 
     def download_english_captions(self):
         caption_metadata = self.get_caption_list()
@@ -170,28 +198,33 @@ class Video:
 
 
 class Channel:
-    def __init__(self, channel_id):
+    def __init__(self, channel_id, expire_time=DEFAULT_EXPIRE_TIME):
         self.channel_id = channel_id
+        self.expire_time = expire_time
 
-    @cache_channel.memoize(expire=expire_time)
     def get_metadata(self):
-        msg.info(f"Downloading channel metadata {self.channel_id}")
-        yt = get_youtube_client()
-        parts = [
-            "id",
-            "snippet",
-            "statistics",
-            "contentDetails",
-            "contentOwnerDetails",
-            "brandingSettings",
-            "status",
-            "topicDetails",
-        ]
-        parts = ",".join(parts)
-        request = yt.channels().list(part=parts, id=self.channel_id)
-        meta = request.execute()
-        meta["download_date"] = datetime.datetime.now().isoformat()
-        return meta
+        key = ("Channel.get_metadata", self.channel_id)
+
+        def loader():
+            msg.info(f"Downloading channel metadata {self.channel_id}")
+            yt = get_youtube_client()
+            parts = [
+                "id",
+                "snippet",
+                "statistics",
+                "contentDetails",
+                "contentOwnerDetails",
+                "brandingSettings",
+                "status",
+                "topicDetails",
+            ]
+            parts = ",".join(parts)
+            request = yt.channels().list(part=parts, id=self.channel_id)
+            meta = request.execute()
+            meta["download_date"] = datetime.datetime.now().isoformat()
+            return meta
+
+        return _cache_get_or_set(cache_channel, key, self.expire_time, loader)
 
     @property
     def title(self):
@@ -241,71 +274,79 @@ class Channel:
         }
 
     @property
-    @cache_channel.memoize(expire=expire_time)
     def upload_playlist_id(self):
-        # Get the "Uploads" playlist ID
-        yt = get_youtube_client()
-        channel_request = yt.channels().list(
-            part="contentDetails",
-            id=self.channel_id,
-            fields="items/contentDetails/relatedPlaylists/uploads",
-        )
-        response = channel_request.execute()
-        response = response["items"][0]["contentDetails"]
+        key = ("Channel.upload_playlist_id", self.channel_id)
 
-        upload_playlist_id = response["relatedPlaylists"]["uploads"]
-        return upload_playlist_id
-
-    @cache_channel.memoize(expire=expire_time)
-    def get_uploads(self):
-        playlist_id = self.upload_playlist_id
-        msg.info(f"Getting upload playlist videos {playlist_id}")
-        yt = get_youtube_client()
-
-        # Fetch videos from the "Uploads" playlist
-        video_info = []
-        next_page_token = None
-        fields = ",".join(
-            [
-                "nextPageToken",
-                "items(snippet(publishedAt,resourceId(videoId),title))",
-            ]
-        )
-
-        # Download is chunked by 50
-        n_pages = math.ceil(self.n_videos / 50)
-        progress_bar = tqdm(total=n_pages)
-        max_results = 100_000
-
-        while True:
-            playlist_request = yt.playlistItems().list(
-                part="snippet",
-                playlistId=playlist_id,
-                maxResults=max_results,
-                pageToken=next_page_token,
-                fields=fields,
+        def loader():
+            # Get the "Uploads" playlist ID
+            yt = get_youtube_client()
+            channel_request = yt.channels().list(
+                part="contentDetails",
+                id=self.channel_id,
+                fields="items/contentDetails/relatedPlaylists/uploads",
             )
-            playlist_response = playlist_request.execute()
-            items = playlist_response.get("items", [])
+            response = channel_request.execute()
+            response = response["items"][0]["contentDetails"]
 
-            for item in items:
-                video_id = item["snippet"]["resourceId"]["videoId"]
-                video_info.append(
-                    {
-                        "video_id": video_id,
-                        "title": item["snippet"]["title"],
-                        "publishedAt": item["snippet"]["publishedAt"],
-                    }
+            upload_playlist_id = response["relatedPlaylists"]["uploads"]
+            return upload_playlist_id
+
+        return _cache_get_or_set(cache_channel, key, self.expire_time, loader)
+
+    def get_uploads(self):
+        key = ("Channel.get_uploads", self.channel_id)
+
+        def loader():
+            playlist_id = self.upload_playlist_id
+            msg.info(f"Getting upload playlist videos {playlist_id}")
+            yt = get_youtube_client()
+
+            # Fetch videos from the "Uploads" playlist
+            video_info = []
+            next_page_token = None
+            fields = ",".join(
+                [
+                    "nextPageToken",
+                    "items(snippet(publishedAt,resourceId(videoId),title))",
+                ]
+            )
+
+            # Download is chunked by 50
+            n_pages = math.ceil(self.n_videos / 50)
+            progress_bar = tqdm(total=n_pages)
+            max_results = 100_000
+
+            while True:
+                playlist_request = yt.playlistItems().list(
+                    part="snippet",
+                    playlistId=playlist_id,
+                    maxResults=max_results,
+                    pageToken=next_page_token,
+                    fields=fields,
                 )
+                playlist_response = playlist_request.execute()
+                items = playlist_response.get("items", [])
 
-            next_page_token = playlist_response.get("nextPageToken")
+                for item in items:
+                    video_id = item["snippet"]["resourceId"]["videoId"]
+                    video_info.append(
+                        {
+                            "video_id": video_id,
+                            "title": item["snippet"]["title"],
+                            "publishedAt": item["snippet"]["publishedAt"],
+                        }
+                    )
 
-            if next_page_token is None or len(video_info) >= max_results:
-                break
-            progress_bar.update()
+                next_page_token = playlist_response.get("nextPageToken")
 
-        progress_bar.close()
+                if next_page_token is None or len(video_info) >= max_results:
+                    break
+                progress_bar.update()
 
-        df = pd.DataFrame(video_info)
-        df["channel_id"] = self.channel_id
-        return df
+            progress_bar.close()
+
+            df = pd.DataFrame(video_info)
+            df["channel_id"] = self.channel_id
+            return df
+
+        return _cache_get_or_set(cache_channel, key, self.expire_time, loader)
