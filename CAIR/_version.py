@@ -1,6 +1,7 @@
-__version__ = "0.5.2"
+__version__ = "0.6.0"
 
 """
+Version 0.6.0: Move YouTube metadata/search/upload caching to runtime-configurable TTL per Search/Video/Channel instance.
 Version 0.5.2: Allow `model_name` in CallParameters by disabling Pydantic protected `model_` namespace for that model.
 Version 0.5.1: Add force and cache_result options to control cache reads/writes.
 Version 0.5.0: Breaking change, invalidates cache. Now start logging usage.
