@@ -386,6 +386,27 @@ class TestInfoCaching(unittest.TestCase):
         with self.assertRaises(ValueError):
             video.download_english_captions()
 
+    def test_download_audio_omits_js_runtimes_by_default(self):
+        video = info.Video("video-1")
+        f_audio = Path(self.temp_root.name) / "audio.mp3"
+        with patch.object(info.subprocess, "call") as mock_call:
+            video.download_audio(f_audio)
+        cmd = mock_call.call_args[0][0]
+        self.assertNotIn("--js-runtimes", cmd)
+        self.assertIn("yt-dlp", cmd)
+        self.assertIn(video.URL, cmd)
+
+    def test_download_audio_passes_js_runtimes_when_provided(self):
+        video = info.Video("video-1")
+        f_audio = Path(self.temp_root.name) / "audio.mp3"
+        js_runtimes = "node:/usr/bin/node"
+        with patch.object(info.subprocess, "call") as mock_call:
+            video.download_audio(f_audio, js_runtimes=js_runtimes)
+        cmd = mock_call.call_args[0][0]
+        self.assertIn("--js-runtimes", cmd)
+        self.assertIn(js_runtimes, cmd)
+        self.assertIn(video.URL, cmd)
+
     def test_channel_stats_are_ints_and_build_info_schema(self):
         channel = info.Channel("channel-1")
         self.assertEqual(channel.n_videos, 60)

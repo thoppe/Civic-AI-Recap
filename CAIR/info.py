@@ -151,15 +151,27 @@ class Video:
 
         print(caption_response)
 
-    def download_audio(self, f_audio):
-        cmd = f"yt-dlp -f bestaudio -x --audio-format mp3 --audio-quality 0 -o {f_audio} {self.URL}"
-
+    def download_audio(self, f_audio, js_runtimes=None):
         f_audio = Path(f_audio)
         if f_audio.exists():
             return f_audio
 
+        cmd = [
+            "yt-dlp",
+            "-f",
+            "bestaudio",
+            "-x",
+            "--audio-format",
+            "mp3",
+            "--audio-quality",
+            "0",
+        ]
+        if js_runtimes is not None:
+            cmd.extend(["--js-runtimes", js_runtimes])
+        cmd.extend(["-o", str(f_audio), self.URL])
+
         msg.info(f"Downloading audio {self.video_id}")
-        subprocess.call(cmd, shell=True)
+        subprocess.call(cmd)
 
     @property
     def URL(self):
