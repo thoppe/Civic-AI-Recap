@@ -17,6 +17,7 @@ class Analyze:
         self,
         model_name: str = "gpt-5-mini",
         reasoning_effort: Optional[Gpt5ReasoningEffort] = "low",
+        websearch: bool = False,
         seed: Optional[int] = None,
         timeout: int = 60 * 10,
         service_tier: ServiceTier = "default",
@@ -29,6 +30,7 @@ class Analyze:
         Args:
             model_name (str): OpenAI model to use.
             reasoning_effort (Optional[str]): Reasoning effort hint for GPT‑5 family.
+            websearch (bool): If True, enable OpenAI web_search tool.
             seed (Optional[int]): Random seed for deterministic outputs.
             timeout (int): Request timeout in seconds (default 600).
             service_tier (ServiceTier): Service tier to use
@@ -38,6 +40,7 @@ class Analyze:
         """
         self.model_name = model_name
         self.reasoning_effort = reasoning_effort
+        self.websearch = websearch
         self.seed = seed
         self.timeout = timeout
         self.service_tier = service_tier
@@ -72,6 +75,7 @@ class Analyze:
             system_prompt=system_prompt,
             user_prompt=prompt,
             reasoning_effort=self.reasoning_effort,
+            websearch=self.websearch,
             service_tier=self.service_tier,
             seed=seed if seed is not None else self.seed,
             timeout=timeout or self.timeout,

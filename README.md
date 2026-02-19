@@ -196,12 +196,13 @@ Analyze module:
 - `Analyze` wraps OpenAI chat calls and records per-call usage in `Analyze.usage`.
 - Caching uses `cache/<model_name>`. Set `force=True` to skip cache reads, and `cache_result=False`
   to skip writes; both can be overridden per call.
+- Set `websearch=True` on `Analyze(...)` to include the OpenAI `web_search` tool in requests.
 - Per-call overrides include `seed`, `timeout`, `force`, and `cache_result`.
 
 ``` python
 from CAIR import Analyze
 
-model = Analyze(model_name="gpt-5-mini", force=True)
+model = Analyze(model_name="gpt-5-mini", force=True, websearch=True)
 content = model(
     prompt="Summarize the hearing in 5 bullets.",
     system_prompt="You are a concise analyst.",

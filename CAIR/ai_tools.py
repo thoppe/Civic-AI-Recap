@@ -44,6 +44,7 @@ def chat_with_openai(
     system_prompt: str,
     user_prompt: str,
     reasoning_effort: Gpt5ReasoningEffort | None,
+    websearch: bool = False,
     seed: int = None,
     timeout: int = 60 * 10,
     service_tier: ServiceTier = "default",
@@ -58,6 +59,7 @@ def chat_with_openai(
         system_prompt (str): The system role instructions.
         user_prompt (str): The user input prompt.
         reasoning_effort: Optional; one of ["minimal", "low", "medium", "high"].
+        websearch (bool): If True, enable OpenAI web_search tool.
         seed (int): Optional random state for chatgpt.
         timeout (int): Request timeout in seconds.
         service_tier (str): "auto", "default", "flex", or "priority".
@@ -79,6 +81,7 @@ def chat_with_openai(
             system_prompt,
             user_prompt,
             reasoning_effort,
+            websearch,
             seed,
         )
         if not force and cache_key in cache:
@@ -101,35 +104,76 @@ def chat_with_openai(
 
     client = OpenAI(api_key=api_key)
 
-    request_kwargs = {
-        "model": model_name,
-        "seed": seed,
-        "messages": [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ],
-    }
+    if websearch:
+        # Built-in web search tools are available on the Responses API.
+        request_kwargs = {
+            "model": model_name,
+            "instructions": system_prompt,
+            "input": user_prompt,
+            "tools": [{"type": "web_search"}],
+        }
 
-    if reasoning_effort:
-        request_kwargs["reasoning_effort"] = reasoning_effort
+        if reasoning_effort:
+            request_kwargs["reasoning"] = {"effort": reasoning_effort}
 
-    if service_tier:
-        request_kwargs["service_tier"] = service_tier
+        if service_tier:
+            request_kwargs["service_tier"] = service_tier
 
-    response = client.chat.completions.create(
-        **request_kwargs,
-        timeout=timeout,
-    )
+        response = client.responses.create(
+            **request_kwargs,
+            timeout=timeout,
+        )
 
-    # Build a structured response
-    content = response.choices[0].message.content
+        content = response.output_text
 
-    usage = dict(response.usage)
+        response_usage = response.usage
+        if hasattr(response_usage, "model_dump"):
+            response_usage = response_usage.model_dump()
+        elif not isinstance(response_usage, dict):
+            response_usage = dict(response_usage)
 
-    # Cast these objects into a dict
+        usage = {
+            "prompt_tokens": response_usage.get("input_tokens", 0),
+            "completion_tokens": response_usage.get("output_tokens", 0),
+            "total_tokens": response_usage.get("total_tokens", 0),
+            "prompt_tokens_details": response_usage.get("input_tokens_details"),
+            "completion_tokens_details": response_usage.get(
+                "output_tokens_details"
+            ),
+        }
+    else:
+        request_kwargs = {
+            "model": model_name,
+            "seed": seed,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+        }
+
+        if reasoning_effort:
+            request_kwargs["reasoning_effort"] = reasoning_effort
+
+        if service_tier:
+            request_kwargs["service_tier"] = service_tier
+
+        response = client.chat.completions.create(
+            **request_kwargs,
+            timeout=timeout,
+        )
+
+        # Build a structured response
+        content = response.choices[0].message.content
+
+        usage = dict(response.usage)
+
+    # Cast details objects into plain dicts where present
     for key in ["prompt_tokens_details", "completion_tokens_details"]:
         if key in usage:
-            usage[key] = dict(usage[key])
+            if hasattr(usage[key], "model_dump"):
+                usage[key] = usage[key].model_dump()
+            elif usage[key] is not None and not isinstance(usage[key], dict):
+                usage[key] = dict(usage[key])
 
     call_parameters = CallParameters(
         model_name=model_name,

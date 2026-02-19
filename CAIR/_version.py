@@ -1,6 +1,7 @@
-__version__ = "0.6.1"
+__version__ = "0.6.2"
 
 """
+Version 0.6.2: Add optional `websearch` flag to Analyze/chat_with_openai to enable OpenAI `web_search` tool per request.
 Version 0.6.1: Add optional `js_runtimes` support for yt-dlp audio downloads in `Video.download_audio`.
 Version 0.6.0: Move YouTube metadata/search/upload caching to runtime-configurable TTL per Search/Video/Channel instance.
 Version 0.5.2: Allow `model_name` in CallParameters by disabling Pydantic protected `model_` namespace for that model.
