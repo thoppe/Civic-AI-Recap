@@ -1,6 +1,7 @@
-__version__ = "0.6.2"
+__version__ = "0.6.3"
 
 """
+Version 0.6.3: Add S3 streaming transcription helper, expose S3 utility, and add tests/README updates.
 Version 0.6.2: Add optional `websearch` flag to Analyze/chat_with_openai to enable OpenAI `web_search` tool per request.
 Version 0.6.1: Add optional `js_runtimes` support for yt-dlp audio downloads in `Video.download_audio`.
 Version 0.6.0: Move YouTube metadata/search/upload caching to runtime-configurable TTL per Search/Video/Channel instance.

@@ -32,6 +32,7 @@ INSTALL_REQUIRES = [
     "isodate",
     "tqdm",
     "random-user-agent",
+    "boto3",
 ]
 
 EXTRAS_REQUIRE = {

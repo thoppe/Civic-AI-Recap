@@ -10,3 +10,4 @@ tqdm
 isodate
 openai
 random-user-agent
+boto3

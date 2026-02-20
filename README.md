@@ -210,3 +210,17 @@ content = model(
 )
 print(model.usage)
 ```
+
+Transcription module:
+
+- `Transcription.transcribe_s3(s3_location, text_only=...)` streams audio directly from S3 and reuses
+  the same post-processing as `transcribe(...)`.
+- `s3_location` must be a full S3 URI like `s3://my-bucket/path/to/audio.mp3`.
+
+``` python
+from CAIR import Transcription
+
+t = Transcription()
+df = t.transcribe_s3("s3://my-bucket/path/to/audio.mp3", text_only=False)
+print(df[["start", "end", "text"]].head())
+```
