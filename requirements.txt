@@ -11,3 +11,4 @@ isodate
 openai
 random-user-agent
 boto3
+beautifulsoup4

@@ -33,6 +33,7 @@ INSTALL_REQUIRES = [
     "tqdm",
     "random-user-agent",
     "boto3",
+    "beautifulsoup4",
 ]
 
 EXTRAS_REQUIRE = {
