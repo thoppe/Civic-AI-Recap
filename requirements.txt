@@ -12,3 +12,6 @@ openai
 random-user-agent
 boto3
 beautifulsoup4
+silero-vad
+torchcodec
+faster-whisper

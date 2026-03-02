@@ -216,6 +216,11 @@ Transcription module:
 - `Transcription.transcribe_s3(s3_location, text_only=...)` streams audio directly from S3 and reuses
   the same post-processing as `transcribe(...)`.
 - `s3_location` must be a full S3 URI like `s3://my-bucket/path/to/audio.mp3`.
+- `Transcription(method=...)` supports `whisper` and `faster_whisper`.
+- `compute_vad=True` enables Silero VAD and adds `is_vad` to row-based transcript output.
+- `output_progress=True` (faster_whisper only) shows a tqdm progress bar and prints
+  `(segment.start, segment.end, segment.text)` while consuming segment output.
+- `force=True` skips cache reads for that call while still writing fresh results.
 
 ``` python
 from CAIR import Transcription
@@ -223,4 +228,17 @@ from CAIR import Transcription
 t = Transcription()
 df = t.transcribe_s3("s3://my-bucket/path/to/audio.mp3", text_only=False)
 print(df[["start", "end", "text"]].head())
+```
+
+``` python
+from CAIR import Transcription
+
+t = Transcription(
+    method="faster_whisper",
+    model_size="distil-large-v3",
+    compute_vad=True,
+    output_progress=True,
+)
+df = t.transcribe("meeting_audio.wav", text_only=False)
+print(df[["start", "end", "text", "is_vad"]].head())
 ```
