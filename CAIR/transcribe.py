@@ -1,4 +1,5 @@
 import diskcache
+import numpy as np
 import pandas as pd
 from wasabi import msg
 
@@ -175,34 +176,41 @@ class Transcription:
 
         self.load_VAD_model()
 
-        # Starting point: only run VAD for local audio-file paths.
-        # S3 audio currently arrives as numpy arrays in transcribe_s3.
-        if not isinstance(f_audio, str):
-            return None
-
         from silero_vad import get_speech_timestamps, read_audio
 
-        wav = read_audio(f_audio)
+        if isinstance(f_audio, str):
+            wav = read_audio(f_audio)
+        elif isinstance(f_audio, np.ndarray):
+            import torch
+
+            wav = torch.from_numpy(
+                np.array(f_audio, dtype=np.float32, copy=True)
+            )
+        else:
+            return None
+
         return get_speech_timestamps(
             wav,
             self.vad_model,
             return_seconds=True,
         )
 
-    def get_vad_segments(self, f_audio, force=None):
+    def get_vad_segments(self, f_audio, force=None, cache_key=None):
         if not self.vad_filter:
             return None
 
-        # Starting point: only run VAD for local audio-file paths.
-        # S3 audio currently arrives as numpy arrays in transcribe_s3.
-        if not isinstance(f_audio, str):
-            return None
-
         force_read = self.force if force is None else force
-        if force_read or f_audio not in self.vad_cache:
-            self.vad_cache[f_audio] = self.compute_vad_segments(f_audio)
+        key = cache_key
+        if key is None and isinstance(f_audio, str):
+            key = f_audio
 
-        return self.vad_cache[f_audio]
+        if key is None:
+            return self.compute_vad_segments(f_audio)
+
+        if force_read or key not in self.vad_cache:
+            self.vad_cache[key] = self.compute_vad_segments(f_audio)
+
+        return self.vad_cache[key]
 
     def compute_whisper(self, f_audio, force=None):
         vad_segments = self.get_vad_segments(f_audio, force=force)
@@ -284,7 +292,11 @@ class Transcription:
         if self.vad_filter:
             # Resolve VAD independently from transcription cache so older cached
             # transcription payloads without "VAD" can still be processed.
-            vad_segments = self.get_vad_segments(f_audio, force=force_read)
+            vad_segments = self.get_vad_segments(
+                f_audio,
+                force=force_read,
+                cache_key=f_audio,
+            )
             if vad_segments is not None:
                 result = dict(result)
                 result["VAD"] = vad_segments
@@ -298,12 +310,28 @@ class Transcription:
 
     def transcribe_s3(self, s3_location, text_only=True, force=None):
         force_read = self.force if force is None else force
+        audio = None
         if force_read or s3_location not in self.cache:
             audio = s3_location_to_audio_numpy(s3_location)
             result = self.compute_method_call(audio, force=force_read)
             self.cache[s3_location] = result
 
         result = self.cache[s3_location]
+        if self.vad_filter:
+            # Mirror transcribe(...): attach VAD independently of STT cache.
+            if audio is None and (force_read or s3_location not in self.vad_cache):
+                audio = s3_location_to_audio_numpy(s3_location)
+            vad_input = audio if audio is not None else s3_location
+            vad_segments = self.get_vad_segments(
+                vad_input,
+                force=force_read,
+                cache_key=s3_location,
+            )
+            if vad_segments is not None:
+                result = dict(result)
+                result["VAD"] = vad_segments
+                self.cache[s3_location] = result
+
         return post_process_transcription_result(
             result,
             text_only=text_only,

@@ -34,6 +34,8 @@ INSTALL_REQUIRES = [
     "random-user-agent",
     "boto3",
     "beautifulsoup4",
+    "silero-vad",
+    "torchcodec",
 ]
 
 EXTRAS_REQUIRE = {

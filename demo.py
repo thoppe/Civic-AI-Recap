@@ -4,7 +4,6 @@ from CAIR import Channel, Video, Transcription, Analyze
 video_id = "P0rxq42sckU"
 video_id = "dvQxuqVqsoM"  # Short CDC video for testing
 
-'''
 vid = Video(video_id)
 channel = Channel(vid.channel_id)
 
@@ -15,25 +14,19 @@ print(channel.title, channel.n_videos)
 # Look at the channel info
 print(channel.get_uploads()[["video_id", "title", "publishedAt"]])
 print_json(data=channel.get_metadata())
-'''
-f_audio = f"{video_id}.mp3"
-#vid.download_audio(f_audio)
 
-f_audio = "jRsHeQxjnrU.webm"
+f_audio = f"{video_id}.mp3"
+vid.download_audio(f_audio)
 
 df = Transcription(
     method="faster_whisper",
-    model_size="large",
+    model_size="distil-large-v3",
     compute_vad=True,
 ).transcribe(f_audio, text_only=False)
-#df = Transcription(method="faster_whisper", compute_vad=True).transcribe(f_audio, text_only=False)
-df = df[df["is_vad"]==True]
-print(df)
-print(df.head(30))
-df.to_csv(f"testing_{f_audio}.csv")
-exit()
 
-print(len(df))
+#df = df[df["is_vad"]==True]
+print(df)
+
 
 clf = Analyze(
     model_name="gpt-5-mini",
