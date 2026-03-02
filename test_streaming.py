@@ -2,8 +2,7 @@ from pathlib import Path
 from CAIR import Transcription
 
 s3_location = "s3://groundvue/testing_assets/Ln8UwPd1z20.webm"
-s3_location = "s3://groundvue/source_media/youtube/0qiIn_mDGoE.webm"
-
+#s3_location = "s3://groundvue/source_media/youtube/0qiIn_mDGoE.webm"
 #clf = Transcription(model_size="turbo")
 
 clf = Transcription(

@@ -97,4 +97,5 @@ def s3_location_to_audio_numpy(s3_location: str) -> np.ndarray:
     if process.returncode != 0:
         raise RuntimeError(f"ffmpeg failed for key: {s3_location}")
 
-    return np.frombuffer(bytes(pcm_bytes), np.float32)
+    # Avoid an extra full-buffer copy by reading directly from bytearray.
+    return np.frombuffer(pcm_bytes, np.float32)
