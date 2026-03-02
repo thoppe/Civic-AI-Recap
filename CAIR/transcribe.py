@@ -131,32 +131,43 @@ class Transcription:
         if self.model is not None:
             return
 
-        msg.warn(f"Loading transcription method {self.method}:{self.model_size}")
-
         import whisper
 
         # Whisper has compatibility issues with MPS on macOS
         # Use CPU for whisper to avoid PyTorch MPS compatibility issues
         whisper_device = "cpu" if self.device == "mps" else self.device
+        msg.warn(
+            f"Loading transcription method {self.method}:{self.model_size} "
+            f"(device={whisper_device})"
+        )
         self.model = whisper.load_model(
             self.model_size, device=whisper_device
+        )
+        msg.info(
+            f"Finished loading transcription method {self.method}:{self.model_size}"
         )
 
     def load_faster_whisper_model(self):
         if self.model is not None:
             return
 
-        msg.warn(f"Loading transcription method {self.method}:{self.model_size}")
         from faster_whisper import WhisperModel
 
         # faster-whisper supports cuda/cpu; fallback mps to cpu.
         faster_device = "cpu" if self.device == "mps" else self.device
         compute_type = "float16" # if faster_device == "cuda" else "int8"
+        msg.warn(
+            f"Loading transcription method {self.method}:{self.model_size} "
+            f"(device={faster_device}, compute_type={compute_type})"
+        )
         
         self.model = WhisperModel(
             self.model_size,
             device=faster_device,
             compute_type=compute_type,
+        )
+        msg.info(
+            f"Finished loading transcription method {self.method}:{self.model_size}"
         )
 
     def load_VAD_model(self):
@@ -165,10 +176,11 @@ class Transcription:
         if not self.vad_filter:
             return
 
-        msg.warn("Loading VAD model silero-vad")
+        msg.warn("Loading VAD model silero-vad (backend=torchscript, device=cpu)")
         from silero_vad import load_silero_vad
 
         self.vad_model = load_silero_vad()
+        msg.info("Finished loading VAD model silero-vad")
 
     def compute_vad_segments(self, f_audio):
         if not self.vad_filter:
@@ -218,6 +230,7 @@ class Transcription:
             msg.info(f"VAD detected {len(vad_segments)} speech segments")
 
         self.load_STT_model()
+        msg.info("Starting transcription")
         result = self.model.transcribe(f_audio, language=self.language)
  
         if self.vad_filter and vad_segments is not None:
@@ -231,6 +244,7 @@ class Transcription:
             msg.info(f"VAD detected {len(vad_segments)} speech segments")
 
         self.load_faster_whisper_model()
+        msg.info("Starting transcription")
         segments, info = self.model.transcribe(
             f_audio,
             language=self.language,
@@ -312,7 +326,9 @@ class Transcription:
         force_read = self.force if force is None else force
         audio = None
         if force_read or s3_location not in self.cache:
+            msg.info(f"Starting S3 audio load to numpy: {s3_location}")
             audio = s3_location_to_audio_numpy(s3_location)
+            msg.info(f"Finished S3 audio load to numpy: {s3_location}")
             result = self.compute_method_call(audio, force=force_read)
             self.cache[s3_location] = result
 
@@ -320,7 +336,9 @@ class Transcription:
         if self.vad_filter:
             # Mirror transcribe(...): attach VAD independently of STT cache.
             if audio is None and (force_read or s3_location not in self.vad_cache):
+                msg.info(f"Starting S3 audio load to numpy: {s3_location}")
                 audio = s3_location_to_audio_numpy(s3_location)
+                msg.info(f"Finished S3 audio load to numpy: {s3_location}")
             vad_input = audio if audio is not None else s3_location
             vad_segments = self.get_vad_segments(
                 vad_input,
