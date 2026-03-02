@@ -1,6 +1,7 @@
-__version__ = "0.8.1"
+__version__ = "0.8.2"
 
 """
+Version 0.8.2: Add richer transcription logging for S3 numpy load boundaries, model load completion/status, and transcription start timing after model readiness.
 Version 0.8.1: Fix VAD handling for transcribe_s3 with independent VAD cache keying, numpy-audio VAD support, and writable tensor conversion; sync packaging/demo updates.
 Version 0.8.0: Add faster_whisper transcription method, optional Silero VAD computation/caching, VAD overlap flagging, and transcription progress output support.
 Version 0.7.0: Add Granicus metadata properties, ViewPublisher discovery helper, and HTML upload parsing with tests.
