@@ -1,6 +1,7 @@
-__version__ = "0.8.4"
+__version__ = "0.9.0"
 
 """
+Version 0.9.0: Add stop_before support for Channel.get_uploads, including date-based early pagination cutoff and cache-key separation for filtered upload queries.
 Version 0.8.3: Remove extra S3 PCM buffer copy by constructing numpy audio directly from bytearray output.
 Version 0.8.2: Add richer transcription logging for S3 numpy load boundaries, model load completion/status, and transcription start timing after model readiness.
 Version 0.8.1: Fix VAD handling for transcribe_s3 with independent VAD cache keying, numpy-audio VAD support, and writable tensor conversion; sync packaging/demo updates.

@@ -293,7 +293,7 @@ class TestInfoCaching(unittest.TestCase):
         )
         self._assert_ttl_close(
             info.cache_channel,
-            ("Channel.get_uploads", "channel-1"),
+            ("Channel.get_uploads", "channel-1", None),
             info.DEFAULT_EXPIRE_TIME,
         )
 
@@ -493,3 +493,65 @@ class TestInfoCaching(unittest.TestCase):
         _ = channel.get_uploads()
         kwargs = self.fake_client.last_playlist_kwargs
         self.assertLessEqual(kwargs["maxResults"], 50)
+
+    def test_channel_get_uploads_stop_before_stops_pagination_early(self):
+        class PagedPlaylistItemsAPI:
+            def __init__(self, parent):
+                self.parent = parent
+
+            def list(self, **kwargs):
+                self.parent.last_playlist_kwargs = kwargs
+                token = kwargs.get("pageToken")
+                if token is None:
+                    response = {
+                        "items": [
+                            {
+                                "snippet": {
+                                    "resourceId": {"videoId": "v-new"},
+                                    "title": "Video New",
+                                    "publishedAt": "2024-01-05T00:00:00Z",
+                                }
+                            },
+                            {
+                                "snippet": {
+                                    "resourceId": {"videoId": "v-old"},
+                                    "title": "Video Old",
+                                    "publishedAt": "2023-12-31T00:00:00Z",
+                                }
+                            },
+                        ],
+                        "nextPageToken": "PAGE-2",
+                    }
+                else:
+                    response = {
+                        "items": [
+                            {
+                                "snippet": {
+                                    "resourceId": {"videoId": "v-page-2"},
+                                    "title": "Video Page 2",
+                                    "publishedAt": "2024-01-04T00:00:00Z",
+                                }
+                            }
+                        ]
+                    }
+                return FakeRequest(self.parent, "playlistItems.list", response)
+
+        self.fake_client.playlistItems = lambda: PagedPlaylistItemsAPI(self.fake_client)
+
+        channel = info.Channel("channel-1")
+        df = channel.get_uploads(stop_before="2024-01-01")
+
+        self.assertEqual(self.fake_client.execute_counts["playlistItems.list"], 1)
+        self.assertEqual(df["video_id"].tolist(), ["v-new"])
+
+    def test_channel_get_uploads_stop_before_uses_distinct_cache_key(self):
+        channel = info.Channel("channel-1")
+        _ = channel.get_uploads()
+        _ = channel.get_uploads(stop_before="2024-01-01")
+
+        self.assertEqual(self.fake_client.execute_counts["playlistItems.list"], 2)
+        self._assert_ttl_close(
+            info.cache_channel,
+            ("Channel.get_uploads", "channel-1", "2024-01-01T00:00:00+00:00"),
+            info.DEFAULT_EXPIRE_TIME,
+        )

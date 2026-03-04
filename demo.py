@@ -1,4 +1,5 @@
 from rich import print_json
+import datetime
 from CAIR import Channel, Video, Transcription, Analyze
 
 video_id = "P0rxq42sckU"
@@ -12,8 +13,12 @@ print(vid.title)
 print(channel.title, channel.n_videos)
 
 # Look at the channel info
-print(channel.get_uploads()[["video_id", "title", "publishedAt"]])
+two_months_ago = datetime.date.today() - datetime.timedelta(days=60)
+recent_uploads = channel.get_uploads(stop_before=two_months_ago)
+print(recent_uploads[["video_id", "title", "publishedAt"]])
 print_json(data=channel.get_metadata())
+
+exit()
 
 f_audio = f"{video_id}.mp3"
 vid.download_audio(f_audio)

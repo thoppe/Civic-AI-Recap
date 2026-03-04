@@ -28,6 +28,50 @@ def _cache_get_or_set(cache, key, ttl, loader):
     return value
 
 
+def _parse_rfc3339_datetime(value):
+    if not isinstance(value, str):
+        raise TypeError(f"Expected RFC3339 datetime string, got: {type(value).__name__}")
+
+    candidate = value.strip()
+    if candidate.endswith("Z"):
+        candidate = candidate[:-1] + "+00:00"
+
+    parsed = datetime.datetime.fromisoformat(candidate)
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=datetime.timezone.utc)
+    return parsed.astimezone(datetime.timezone.utc)
+
+
+def _normalize_stop_before(stop_before):
+    if stop_before is None:
+        return None
+
+    if isinstance(stop_before, datetime.datetime):
+        dt = stop_before
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=datetime.timezone.utc)
+        return dt.astimezone(datetime.timezone.utc)
+
+    if isinstance(stop_before, datetime.date):
+        return datetime.datetime.combine(
+            stop_before, datetime.time.min, tzinfo=datetime.timezone.utc
+        )
+
+    if isinstance(stop_before, str):
+        try:
+            return _parse_rfc3339_datetime(stop_before)
+        except ValueError:
+            # Support date-only ISO inputs like "2024-01-01".
+            d = datetime.date.fromisoformat(stop_before)
+            return datetime.datetime.combine(
+                d, datetime.time.min, tzinfo=datetime.timezone.utc
+            )
+
+    raise TypeError(
+        "stop_before must be None, datetime/date, or ISO-8601 date/datetime string"
+    )
+
+
 class Search:
     def __init__(self, expire_time=DEFAULT_EXPIRE_TIME):
         self.expire_time = expire_time
@@ -312,8 +356,10 @@ class Channel:
 
         return _cache_get_or_set(cache_channel, key, self.expire_time, loader)
 
-    def get_uploads(self):
-        key = ("Channel.get_uploads", self.channel_id)
+    def get_uploads(self, stop_before=None):
+        stop_before_utc = _normalize_stop_before(stop_before)
+        stop_before_key = None if stop_before_utc is None else stop_before_utc.isoformat()
+        key = ("Channel.get_uploads", self.channel_id, stop_before_key)
 
         def loader():
             playlist_id = self.upload_playlist_id
@@ -333,36 +379,41 @@ class Channel:
             # Download is chunked by 50
             n_pages = math.ceil(self.n_videos / 50)
             progress_bar = tqdm(total=n_pages)
-            max_results = 100_000
 
             while True:
-                remaining = max_results - len(video_info)
-                if remaining <= 0:
-                    break
-                request_max_results = min(50, remaining)
                 playlist_request = yt.playlistItems().list(
                     part="snippet",
                     playlistId=playlist_id,
-                    maxResults=request_max_results,
+                    maxResults=50,
                     pageToken=next_page_token,
                     fields=fields,
                 )
                 playlist_response = playlist_request.execute()
                 items = playlist_response.get("items", [])
 
+                reached_stop_before = False
                 for item in items:
+                    published_at = item["snippet"]["publishedAt"]
+                    if stop_before_utc is not None:
+                        published_at_utc = _parse_rfc3339_datetime(published_at)
+                        if published_at_utc < stop_before_utc:
+                            reached_stop_before = True
+                            break
                     video_id = item["snippet"]["resourceId"]["videoId"]
                     video_info.append(
                         {
                             "video_id": video_id,
                             "title": item["snippet"]["title"],
-                            "publishedAt": item["snippet"]["publishedAt"],
+                            "publishedAt": published_at,
                         }
                     )
 
+                if reached_stop_before:
+                    break
+
                 next_page_token = playlist_response.get("nextPageToken")
 
-                if next_page_token is None or len(video_info) >= max_results:
+                if next_page_token is None:
                     break
                 progress_bar.update()
 
