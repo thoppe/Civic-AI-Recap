@@ -6,6 +6,25 @@ import boto3
 import numpy as np
 
 
+def _parse_s3_location(s3_location: str) -> tuple[str, str]:
+    if not s3_location.startswith("s3://"):
+        raise ValueError(f"Expected s3:// URI, got: {s3_location}")
+
+    s3_path = s3_location[5:]
+    if "/" not in s3_path:
+        raise ValueError(f"Expected s3://<bucket>/<key>, got: {s3_location}")
+
+    return s3_path.split("/", 1)
+
+
+def s3_location_size_gb(s3_location: str) -> float:
+    """Return S3 object size in gibibytes for a full s3:// URI."""
+    bucket, key = _parse_s3_location(s3_location)
+    s3_client = boto3.client("s3")
+    obj = s3_client.head_object(Bucket=bucket, Key=key)
+    return obj["ContentLength"] / float(1024 ** 3)
+
+
 def s3_location_to_audio_numpy(s3_location: str) -> np.ndarray:
     """
     Stream and decode an audio object from S3 into Whisper-ready PCM samples.
@@ -22,14 +41,8 @@ def s3_location_to_audio_numpy(s3_location: str) -> np.ndarray:
         transcription accuracy on compressed or noisy inputs.
     """
     # Validate expected URI format before any network/process work.
-    if not s3_location.startswith("s3://"):
-        raise ValueError(f"Expected s3:// URI, got: {s3_location}")
-
-    s3_path = s3_location[5:]
-    if "/" not in s3_path:
-        raise ValueError(f"Expected s3://<bucket>/<key>, got: {s3_location}")
     # Split once so keys can still contain additional slashes.
-    bucket, key = s3_path.split("/", 1)
+    bucket, key = _parse_s3_location(s3_location)
 
     s3_client = boto3.client("s3")
     # Body is a streaming object; we do not download the source file to disk.
