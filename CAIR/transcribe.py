@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from wasabi import msg
 
-from .s3_utils import s3_location_to_audio_numpy
+from .s3_utils import s3_location_size_gb, s3_location_to_audio_numpy
 
 # key_name = "HF_ACCESS_TOKEN"
 # HF_API_KEY = os.environ.get(key_name)
@@ -323,10 +323,23 @@ class Transcription:
         )
 
     def transcribe_s3(self, s3_location, text_only=True, force=None):
+        def _s3_load_start_message():
+            try:
+                size_gb = s3_location_size_gb(s3_location)
+                msg.info(
+                    f"Starting S3 audio load to numpy: {s3_location} "
+                    f"({size_gb:.3f} GB)"
+                )
+            except Exception:
+                msg.info(
+                    f"Starting S3 audio load to numpy: {s3_location} "
+                    "(size: unavailable)"
+                )
+
         force_read = self.force if force is None else force
         audio = None
         if force_read or s3_location not in self.cache:
-            msg.info(f"Starting S3 audio load to numpy: {s3_location}")
+            _s3_load_start_message()
             audio = s3_location_to_audio_numpy(s3_location)
             msg.info(f"Finished S3 audio load to numpy: {s3_location}")
             result = self.compute_method_call(audio, force=force_read)
@@ -336,7 +349,7 @@ class Transcription:
         if self.vad_filter:
             # Mirror transcribe(...): attach VAD independently of STT cache.
             if audio is None and (force_read or s3_location not in self.vad_cache):
-                msg.info(f"Starting S3 audio load to numpy: {s3_location}")
+                _s3_load_start_message()
                 audio = s3_location_to_audio_numpy(s3_location)
                 msg.info(f"Finished S3 audio load to numpy: {s3_location}")
             vad_input = audio if audio is not None else s3_location
