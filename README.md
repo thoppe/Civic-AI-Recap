@@ -16,6 +16,19 @@ Optional speech-to-text backends (Whisper/faster-whisper/whisperx) can be instal
 pip install ".[transcription]"
 ```
 
+Resolve a YouTube channel ID from a handle URL:
+
+``` python
+from CAIR import channel_id_from_url
+
+channel_id = channel_id_from_url("https://www.youtube.com/@hanovercountyva")
+print(channel_id)
+
+'''
+UCg0poGd4dTMOKXEXL4xPi4g
+'''
+```
+
 
 ``` python
 import pandas as pd
