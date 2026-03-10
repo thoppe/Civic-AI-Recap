@@ -1,5 +1,6 @@
 from pathlib import Path
 import math
+from urllib.parse import urlparse
 from tqdm import tqdm
 import pandas as pd
 import datetime
@@ -70,6 +71,48 @@ def _normalize_stop_before(stop_before):
     raise TypeError(
         "stop_before must be None, datetime/date, or ISO-8601 date/datetime string"
     )
+
+
+def _normalize_channel_handle_url(url_or_handle):
+    if not isinstance(url_or_handle, str):
+        raise TypeError(f"Expected YouTube handle URL or handle string, got: {type(url_or_handle).__name__}")
+
+    candidate = url_or_handle.strip()
+    if not candidate:
+        raise ValueError("YouTube handle URL or handle string cannot be empty")
+
+    if candidate.startswith("@"):
+        return candidate[1:]
+
+    parsed = urlparse(candidate)
+    if parsed.scheme and parsed.netloc:
+        hostname = parsed.netloc.lower()
+        if hostname not in {"youtube.com", "www.youtube.com", "m.youtube.com"}:
+            raise ValueError(f"Unsupported YouTube hostname: {parsed.netloc}")
+
+        path = parsed.path.rstrip("/")
+        if path.startswith("/@") and len(path) > 2:
+            return path[2:]
+
+    raise ValueError(
+        "Expected a YouTube handle URL like https://www.youtube.com/@example or a handle like @example"
+    )
+
+
+def channel_id_from_url(url_or_handle, expire_time=DEFAULT_EXPIRE_TIME):
+    handle = _normalize_channel_handle_url(url_or_handle)
+    key = ("channel_id_from_url", handle)
+
+    def loader():
+        yt = get_youtube_client()
+        request = yt.channels().list(part="id", forHandle=handle)
+        response = request.execute()
+        items = response.get("items", [])
+        if not items:
+            raise ValueError(f"No YouTube channel found for handle @{handle}")
+        return items[0]["id"]
+
+    return _cache_get_or_set(cache_channel, key, expire_time, loader)
 
 
 class Search:
