@@ -83,6 +83,12 @@ class FakeChannelsAPI:
         self.parent = parent
 
     def list(self, **kwargs):
+        if "forHandle" in kwargs:
+            self.parent.last_channel_handle_kwargs = kwargs
+            handle = kwargs["forHandle"]
+            response = {"items": [{"id": f"resolved-{handle}"}]}
+            return FakeRequest(self.parent, "channels.forHandle", response)
+
         part = kwargs.get("part", "")
         if part == "contentDetails":
             response = {
@@ -141,12 +147,14 @@ class FakeYouTubeClient:
             "videos.list": 0,
             "captions.list": 0,
             "captions.download": 0,
+            "channels.forHandle": 0,
             "channels.metadata": 0,
             "channels.uploads": 0,
             "playlistItems.list": 0,
         }
         self.last_search_kwargs = None
         self.last_caption_download_kwargs = None
+        self.last_channel_handle_kwargs = None
         self.last_playlist_kwargs = None
 
     def search(self):
@@ -296,6 +304,27 @@ class TestInfoCaching(unittest.TestCase):
             ("Channel.get_uploads", "channel-1", None),
             info.DEFAULT_EXPIRE_TIME,
         )
+
+    def test_channel_id_from_url_resolves_handle_and_caches(self):
+        resolved_1 = info.channel_id_from_url("https://www.youtube.com/@hanovercountyva")
+        resolved_2 = info.channel_id_from_url("@hanovercountyva")
+
+        self.assertEqual(resolved_1, "resolved-hanovercountyva")
+        self.assertEqual(resolved_1, resolved_2)
+        self.assertEqual(self.fake_client.execute_counts["channels.forHandle"], 1)
+        self.assertEqual(
+            self.fake_client.last_channel_handle_kwargs,
+            {"part": "id", "forHandle": "hanovercountyva"},
+        )
+        self._assert_ttl_close(
+            info.cache_channel,
+            ("channel_id_from_url", "hanovercountyva"),
+            info.DEFAULT_EXPIRE_TIME,
+        )
+
+    def test_channel_id_from_url_rejects_non_handle_urls(self):
+        with self.assertRaises(ValueError):
+            info.channel_id_from_url("https://www.youtube.com/channel/UC123")
 
     def test_search_collects_multiple_pages_and_respects_max_results(self):
         class PagedSearchAPI:
