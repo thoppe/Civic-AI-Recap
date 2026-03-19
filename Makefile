@@ -13,7 +13,7 @@ test:
 
 clean:
 	rm -f data/transcript/*.json data/transcript/*.tsv data/transcript/*.srt
-	rm -rvf CAIR.egg* build
+	rm -rvf CAIR.egg* build dist
 
 lint:
 	black *.py CAIR  --line-length 80
@@ -21,3 +21,13 @@ lint:
 
 test-all:
 	python -m unittest discover -s tests -p "test_*.py" -v
+
+dist_test:
+	rm -rvf dist
+	python -m build
+	twine upload -r testpypi dist/* --verbose
+
+dist_production:
+	rm -rvf dist
+	python -m build
+	twine upload -r pypi dist/* --verbose
