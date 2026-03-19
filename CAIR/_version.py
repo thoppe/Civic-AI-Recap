@@ -8,7 +8,6 @@ Version 0.8.3: Remove extra S3 PCM buffer copy by constructing numpy audio direc
 Version 0.8.2: Add richer transcription logging for S3 numpy load boundaries, model load completion/status, and transcription start timing after model readiness.
 Version 0.8.1: Fix VAD handling for transcribe_s3 with independent VAD cache keying, numpy-audio VAD support, and writable tensor conversion; sync packaging/demo updates.
 Version 0.8.0: Add faster_whisper transcription method, optional Silero VAD computation/caching, VAD overlap flagging, and transcription progress output support.
-Version 0.7.0: Add Granicus metadata properties, ViewPublisher discovery helper, and HTML upload parsing with tests.
 Version 0.6.3: Add S3 streaming transcription helper, expose S3 utility, and add tests/README updates.
 Version 0.6.2: Add optional `websearch` flag to Analyze/chat_with_openai to enable OpenAI `web_search` tool per request.
 Version 0.6.1: Add optional `js_runtimes` support for yt-dlp audio downloads in `Video.download_audio`.
