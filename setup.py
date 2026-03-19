@@ -1,6 +1,7 @@
 import setuptools
 import os
 
+distribution_name = "civic-ai-recap"
 package_name = "CAIR"
 __local__ = os.path.abspath(os.path.dirname(__file__))
 
@@ -15,7 +16,7 @@ homepage_url = "https://github.com/thoppe/Civic-AI-Recap/"
 
 # Author information
 author_name = "Travis Hoppe"
-author_email = f"travis.hoppe+{package_name}@gmail.com"
+author_email = f"travis.hoppe+{distribution_name}@gmail.com"
 
 license_name = "CC-SA"
 
@@ -50,7 +51,7 @@ with open("README.md") as FIN:
     long_description = FIN.read()
 
 setuptools.setup(
-    name=package_name,
+    name=distribution_name,
     packages=setuptools.find_packages(),
     # Include package data...
     include_package_data=True,
