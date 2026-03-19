@@ -4,11 +4,13 @@ data/audio
 # Temp files
 cache/
 build/
+dist/
 CAIR.egg-info/
 output/
 .python-version
 *.mp3
 __pycache__
+.pytest_cache/
 
 *~
 \#*

@@ -15,7 +15,7 @@ homepage_url = "https://github.com/thoppe/Civic-AI-Recap/"
 
 # Author information
 author_name = "Travis Hoppe"
-author_email = "travis.hoppe+{package_name}@gmail.com"
+author_email = f"travis.hoppe+{package_name}@gmail.com"
 
 license_name = "CC-SA"
 
@@ -66,6 +66,7 @@ setuptools.setup(
     author_email=author_email,
     # Choose your license
     license=license_name,
+    python_requires=">=3.10",
     install_requires=INSTALL_REQUIRES,
     extras_require=EXTRAS_REQUIRE,
     classifiers=[
