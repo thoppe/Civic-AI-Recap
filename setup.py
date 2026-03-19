@@ -30,20 +30,17 @@ INSTALL_REQUIRES = [
     "google-api-python-client",
     "openai",
     "isodate",
+    "rich",
     "tqdm",
-    "random-user-agent",
     "boto3",
-    "beautifulsoup4",
-    "silero-vad",
-    "torchcodec",
+    "pydantic",
 ]
 
 EXTRAS_REQUIRE = {
     "transcription": [
         "openai-whisper",
         "faster-whisper",
-        "whisperx",
-        "transformers",
+        "silero-vad",
         "torch",
     ]
 }
