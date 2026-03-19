@@ -1,20 +1,32 @@
 # Civic-AI-Recap (CAIR)
 Tools to digitize, transcribe, and analyze public hearings, committees, and symposiums on youtube.
 
-    git clone https://github.com/thoppe/Civic-AI-Recap/
-    cd Civic-AI-Recap
-    pip install .
+Install from PyPI:
+
+```bash
+pip install CAIR
+```
+
+Install with transcription dependencies:
+
+```bash
+pip install "CAIR[transcription]"
+```
+
+Install from source:
+
+```bash
+git clone https://github.com/thoppe/Civic-AI-Recap/
+cd Civic-AI-Recap
+pip install .
+```
 
 Set required environment variables:
 
 - `YOUTUBE_API_KEY` for fetching metadata via the YouTube Data API.
 - `OPENAI_API_KEY` for LLM-powered analysis (used by `Analyze`).
 
-Optional speech-to-text backends (Whisper/faster-whisper with optional Silero VAD) can be installed with:
-
-```
-pip install ".[transcription]"
-```
+The `transcription` extra installs Whisper, faster-whisper, Silero VAD, and Torch support.
 
 Resolve a YouTube channel ID from a handle URL:
 
@@ -31,33 +43,26 @@ UCg0poGd4dTMOKXEXL4xPi4g
 
 
 ``` python
-import pandas as pd
 from CAIR import Channel, Video, Transcription, Analyze
 
 video_id = "P0rxq42sckU"
 vid = Video(video_id)
 channel = Channel(vid.channel_id)
-df = pd.DataFrame(channel.get_uploads())
+uploads = channel.get_uploads()
 
 print(vid.title)
 print(channel.title, channel.n_videos)
-print(df)
+print(uploads[["video_id", "title", "publishedAt"]].head())
 
 '''
-SEP 30, 2025 |  City Council
+SEP 30, 2025 | City Council
 City of San Jose, CA 1741
-
-         start       end                                               text
-0         0.00     29.28                                         All right.
-1        29.28     30.28                                    Good afternoon.
-2        30.28     31.28                                 Welcome, everyone.
-3        31.28     36.40  I'm pleased to call to order this meeting of t...
-4        36.40     38.10                                 of September 30th.
-...        ...       ...                                                ...
-3682  19872.78  19874.34  I thought he was waiting to speak. Back to cou...
-3683  19876.92  19879.92  Thank you. That concludes our meeting. Thank you.
-3684  19881.48  19911.46                                         Thank you.
-3685  19911.48  19912.20                                         Thank you.
+      video_id                                              title           publishedAt
+0  h1sCi9oiBSc  NOV 6, 2025 | Police & Fire Department Retirem...  2025-11-08T07:05:34Z
+1  4mvGLqa-G70                       NOV 18, 2025 | City Council  2025-11-05T22:27:04Z
+2  BAvwrwjsnZM      18 NOVIEMBRE 2025 | Reunión del Ayuntamiento  2025-11-05T22:24:28Z
+3  KGeDIw6vUDo  NOV 5, 2025 | Rules & Open Government/Committe...  2025-11-05T22:16:10Z
+4  itaRH6GLzBw       4 NOVIEMBRE 2025 | Reunión del Ayuntamiento  2025-11-05T12:59:25Z
 '''
 
 f_audio = f"{video_id}.mp3"
@@ -66,27 +71,25 @@ df = Transcription().transcribe(f_audio, text_only=False)
 print(df)
 
 '''
-      youtube_id                                              title           publishedAt
-0    CisZ6m-_lRw  Superintendent Thurmond's 2023 Digital Citizen...  2023-11-09T01:12:16Z
-1    rqXdw30u6Rc  Digital Citizenship and Digital Safety - 2023 ...  2023-11-07T18:55:35Z
-2    s_x12A3843A  Digital Citizenship and Mental Health - 2023 D...  2023-11-07T18:52:55Z
-3    RQjrFZoCIIo  Digital Citizenship and Assistive Technology -...  2023-11-07T18:50:20Z
-4    O35efka1PWg  Digital Citizenship and Inclusive Technologies...  2023-11-07T18:45:15Z
-..           ...                                                ...                   ...
-873  4HaAwQa7Q_A  Chapter 8: Supporting Transitional Kindergarte...  2013-10-22T18:01:33Z
-874  JEokucRJeC0  Local Educational Agency (LEA) Plan Evidence o...  2013-08-29T17:44:51Z
-875  g5cYubdeh8U  Transition to Assessments Based on Common Core...  2013-08-21T20:47:21Z
-876  zGMRdS11nJg  California School for the Deaf, Riverside (CSD...  2013-05-29T20:56:18Z
-877  _H-EylSk-sM     Black Women...on the Move!...Image of the 80's  2012-02-28T01:12:20Z
+      start    end                                               text
+0      0.00  29.28                                         All right.
+1     29.28  30.28                                    Good afternoon.
+2     30.28  31.28                                 Welcome, everyone.
+3     31.28  36.40  I'm pleased to call to order this meeting of t...
+4     36.40  38.10                                 of September 30th.
+...     ...    ...                                                ...
+3682  19872.78  19874.34  I thought he was waiting to speak. Back to cou...
+3683  19876.92  19879.92  Thank you. That concludes our meeting. Thank you.
+3684  19881.48  19911.46                                         Thank you.
+3685  19911.48  19912.20                                         Thank you.
 '''
-
-f_audio = f"{video_id}.mp4"
-vid.download_audio(f_audio)
 
 model = Analyze(model_name="gpt-5-mini")
 text = model.preprocess_text(df)
-streamline = model.streamline(text)
-summary = model.executive_summary(streamline)
+summary = model(
+    prompt=text,
+    system_prompt="Provide a concise executive summary of this hearing.",
+)
 print(summary)
 
 '''
@@ -106,7 +109,7 @@ issues (throughput, CalAIM billing, HMIS integration, county coordination). San 
 '''
 ```
 
-Channel metadata and videos can be acessed:
+Channel metadata and videos can be accessed:
 
 ``` python
 uploads = channel.get_uploads()
