@@ -29,7 +29,7 @@ df = Transcription(
     compute_vad=True,
 ).transcribe(f_audio, text_only=False)
 
-#df = df[df["is_vad"]==True]
+# df = df[df["is_vad"]==True]
 print(df)
 
 

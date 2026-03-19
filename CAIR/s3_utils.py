@@ -1,4 +1,3 @@
-
 import subprocess
 import threading
 
@@ -22,7 +21,7 @@ def s3_location_size_gb(s3_location: str) -> float:
     bucket, key = _parse_s3_location(s3_location)
     s3_client = boto3.client("s3")
     obj = s3_client.head_object(Bucket=bucket, Key=key)
-    return obj["ContentLength"] / float(1024 ** 3)
+    return obj["ContentLength"] / float(1024**3)
 
 
 def s3_location_to_audio_numpy(s3_location: str) -> np.ndarray:
@@ -106,7 +105,9 @@ def s3_location_to_audio_numpy(s3_location: str) -> np.ndarray:
 
     process.wait()
     if writer_error is not None:
-        raise RuntimeError(f"ffmpeg pipe write failed for key: {s3_location}") from writer_error
+        raise RuntimeError(
+            f"ffmpeg pipe write failed for key: {s3_location}"
+        ) from writer_error
     if process.returncode != 0:
         raise RuntimeError(f"ffmpeg failed for key: {s3_location}")
 
