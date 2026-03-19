@@ -4,13 +4,13 @@ Tools to digitize, transcribe, and analyze public hearings, committees, and symp
 Install from PyPI:
 
 ```bash
-pip install CAIR
+pip install civic-ai-recap
 ```
 
 Install with transcription dependencies:
 
 ```bash
-pip install "CAIR[transcription]"
+pip install "civic-ai-recap[transcription]"
 ```
 
 Install from source:
@@ -20,6 +20,8 @@ git clone https://github.com/thoppe/Civic-AI-Recap/
 cd Civic-AI-Recap
 pip install .
 ```
+
+The PyPI project name is `civic-ai-recap`, but the import remains `CAIR`.
 
 Set required environment variables:
 

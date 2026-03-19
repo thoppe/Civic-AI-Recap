@@ -1,6 +1,7 @@
-__version__ = "0.10.1"
+__version__ = "0.10.2"
 
 """
+Version 0.10.2: Rename the published distribution to `civic-ai-recap` while keeping the Python import path as `CAIR`.
 Version 0.10.1: Clean up package dependencies by removing stale entries, declaring direct runtime requirements, and making setup.py the single source of truth.
 Version 0.10.0: Add a YouTube Data API helper to resolve channel IDs from @handle URLs with cache coverage and tests.
 Version 0.9.0: Add stop_before support for Channel.get_uploads, including date-based early pagination cutoff and cache-key separation for filtered upload queries.
