@@ -10,7 +10,7 @@ Set required environment variables:
 - `YOUTUBE_API_KEY` for fetching metadata via the YouTube Data API.
 - `OPENAI_API_KEY` for LLM-powered analysis (used by `Analyze`).
 
-Optional speech-to-text backends (Whisper/faster-whisper/whisperx) can be installed with:
+Optional speech-to-text backends (Whisper/faster-whisper with optional Silero VAD) can be installed with:
 
 ```
 pip install ".[transcription]"

@@ -1,6 +1,7 @@
-__version__ = "0.10.0"
+__version__ = "0.10.1"
 
 """
+Version 0.10.1: Clean up package dependencies by removing stale entries, declaring direct runtime requirements, and making setup.py the single source of truth.
 Version 0.10.0: Add a YouTube Data API helper to resolve channel IDs from @handle URLs with cache coverage and tests.
 Version 0.9.0: Add stop_before support for Channel.get_uploads, including date-based early pagination cutoff and cache-key separation for filtered upload queries.
 Version 0.8.3: Remove extra S3 PCM buffer copy by constructing numpy audio directly from bytearray output.

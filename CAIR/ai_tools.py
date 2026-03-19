@@ -14,14 +14,12 @@ encoding = tiktoken.get_encoding("cl100k_base")
 
 
 class Usage(BaseModel):
+    model_config = ConfigDict(extra="allow")
     prompt_tokens: int = 0
     completion_tokens: int = 0
     total_tokens: int = 0
     completion_tokens_details: Optional[dict] = None
     prompt_tokens_details: Optional[dict] = None
-
-    class Config:
-        extra = "allow"
 
 
 class CallParameters(BaseModel):

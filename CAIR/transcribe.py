@@ -155,12 +155,12 @@ class Transcription:
 
         # faster-whisper supports cuda/cpu; fallback mps to cpu.
         faster_device = "cpu" if self.device == "mps" else self.device
-        compute_type = "float16" # if faster_device == "cuda" else "int8"
+        compute_type = "float16" if faster_device == "cuda" else "int8"
         msg.warn(
             f"Loading transcription method {self.method}:{self.model_size} "
             f"(device={faster_device}, compute_type={compute_type})"
         )
-        
+
         self.model = WhisperModel(
             self.model_size,
             device=faster_device,

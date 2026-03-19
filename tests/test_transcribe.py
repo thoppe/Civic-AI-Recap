@@ -33,14 +33,16 @@ def test_transcribe_s3_streams_and_caches(monkeypatch):
         state["s3_calls"] += 1
         return audio
 
-    def fake_compute(f_audio):
+    def fake_compute(f_audio, force=None):
         state["compute_calls"] += 1
+        assert force is False
         assert np.array_equal(f_audio, audio)
         return _fake_whisper_result()
 
     monkeypatch.setattr("CAIR.transcribe.s3_location_to_audio_numpy", fake_s3_loader)
 
     t = Transcription(method="whisper")
+    t.cache.clear()
     t.compute_method_call = fake_compute
 
     text_1 = t.transcribe_s3("s3://bucket/example.wav", text_only=True)
