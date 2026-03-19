@@ -29,7 +29,7 @@ def post_process_transcription_result(
         raise KeyError("VAD not present in transcription")
 
     if vad_filter:
-        
+
         vad_df = pd.DataFrame(result["VAD"])
         if not {"start", "end"}.issubset(vad_df.columns):
             raise KeyError("VAD")
@@ -73,6 +73,7 @@ class Transcription:
         force (bool): Default cache-read policy. If True, recompute instead of
             reading cached results (while still writing new results to cache).
     """
+
     def __init__(
         self,
         method="whisper",
@@ -102,7 +103,7 @@ class Transcription:
         self.vad_cache = diskcache.Cache(
             "cache/transcription_vad/silero", size_limit=int(1e11)
         )
-        
+
         if method == "whisper":
             self.compute_method_call = self.compute_whisper
         elif method == "faster_whisper":
@@ -140,9 +141,7 @@ class Transcription:
             f"Loading transcription method {self.method}:{self.model_size} "
             f"(device={whisper_device})"
         )
-        self.model = whisper.load_model(
-            self.model_size, device=whisper_device
-        )
+        self.model = whisper.load_model(self.model_size, device=whisper_device)
         msg.info(
             f"Finished loading transcription method {self.method}:{self.model_size}"
         )
@@ -176,7 +175,9 @@ class Transcription:
         if not self.vad_filter:
             return
 
-        msg.warn("Loading VAD model silero-vad (backend=torchscript, device=cpu)")
+        msg.warn(
+            "Loading VAD model silero-vad (backend=torchscript, device=cpu)"
+        )
         from silero_vad import load_silero_vad
 
         self.vad_model = load_silero_vad()
@@ -232,10 +233,10 @@ class Transcription:
         self.load_STT_model()
         msg.info("Starting transcription")
         result = self.model.transcribe(f_audio, language=self.language)
- 
+
         if self.vad_filter and vad_segments is not None:
             result["VAD"] = vad_segments
-            
+
         return result
 
     def compute_faster_whisper(self, f_audio, force=None):
@@ -255,7 +256,9 @@ class Transcription:
 
             segments_data = []
             for segment in tqdm(segments, desc="faster_whisper segments"):
-                tqdm.write((segment.start, segment.end, segment.text).__repr__())
+                tqdm.write(
+                    (segment.start, segment.end, segment.text).__repr__()
+                )
                 segments_data.append(
                     {
                         "start": segment.start,
@@ -315,7 +318,7 @@ class Transcription:
                 result = dict(result)
                 result["VAD"] = vad_segments
                 self.cache[f_audio] = result
-        
+
         return post_process_transcription_result(
             result,
             text_only=text_only,
@@ -348,7 +351,9 @@ class Transcription:
         result = self.cache[s3_location]
         if self.vad_filter:
             # Mirror transcribe(...): attach VAD independently of STT cache.
-            if audio is None and (force_read or s3_location not in self.vad_cache):
+            if audio is None and (
+                force_read or s3_location not in self.vad_cache
+            ):
                 _s3_load_start_message()
                 audio = s3_location_to_audio_numpy(s3_location)
                 msg.info(f"Finished S3 audio load to numpy: {s3_location}")

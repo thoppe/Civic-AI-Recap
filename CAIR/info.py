@@ -31,7 +31,9 @@ def _cache_get_or_set(cache, key, ttl, loader):
 
 def _parse_rfc3339_datetime(value):
     if not isinstance(value, str):
-        raise TypeError(f"Expected RFC3339 datetime string, got: {type(value).__name__}")
+        raise TypeError(
+            f"Expected RFC3339 datetime string, got: {type(value).__name__}"
+        )
 
     candidate = value.strip()
     if candidate.endswith("Z"):
@@ -75,7 +77,9 @@ def _normalize_stop_before(stop_before):
 
 def _normalize_channel_handle_url(url_or_handle):
     if not isinstance(url_or_handle, str):
-        raise TypeError(f"Expected YouTube handle URL or handle string, got: {type(url_or_handle).__name__}")
+        raise TypeError(
+            f"Expected YouTube handle URL or handle string, got: {type(url_or_handle).__name__}"
+        )
 
     candidate = url_or_handle.strip()
     if not candidate:
@@ -177,7 +181,9 @@ class Video:
             msg.info(f"Downloading caption metadata {self.video_id}")
             yt = get_youtube_client()
             caption_list_response = (
-                yt.captions().list(part="snippet", videoId=self.video_id).execute()
+                yt.captions()
+                .list(part="snippet", videoId=self.video_id)
+                .execute()
             )
             return caption_list_response
 
@@ -401,7 +407,9 @@ class Channel:
 
     def get_uploads(self, stop_before=None):
         stop_before_utc = _normalize_stop_before(stop_before)
-        stop_before_key = None if stop_before_utc is None else stop_before_utc.isoformat()
+        stop_before_key = (
+            None if stop_before_utc is None else stop_before_utc.isoformat()
+        )
         key = ("Channel.get_uploads", self.channel_id, stop_before_key)
 
         def loader():
