@@ -1,7 +1,17 @@
 import numpy as np
 import pandas as pd
+from pathlib import Path
+import sys
 
-from CAIR.transcribe import Transcription, post_process_transcription_result
+_REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+
+import CAIR.transcribe as repo_transcribe
+
+Transcription = repo_transcribe.Transcription
+post_process_transcription_result = repo_transcribe.post_process_transcription_result
+_compute_vad_overlap_flags = repo_transcribe._compute_vad_overlap_flags
 
 
 def _fake_whisper_result():
@@ -57,3 +67,50 @@ def test_transcribe_s3_streams_and_caches(monkeypatch):
     # Ensure the S3 fetch + model compute path is cached by S3 URI.
     assert state["s3_calls"] == 1
     assert state["compute_calls"] == 1
+
+
+def test_compute_vad_overlap_flags_boundary_semantics():
+    flags = _compute_vad_overlap_flags(
+        segment_starts=np.array([0.0, 1.0, 2.0, 3.0]),
+        segment_ends=np.array([1.0, 2.0, 3.0, 4.0]),
+        vad_starts=np.array([1.0]),
+        vad_ends=np.array([2.0]),
+    )
+
+    assert flags.tolist() == [False, True, False, False]
+
+
+def test_compute_vad_overlap_flags_multiple_intervals():
+    flags = _compute_vad_overlap_flags(
+        segment_starts=np.array([0.0, 1.4, 2.2, 4.0]),
+        segment_ends=np.array([0.8, 2.0, 3.0, 4.5]),
+        vad_starts=np.array([0.5, 2.5, 5.0]),
+        vad_ends=np.array([0.9, 2.7, 5.5]),
+    )
+
+    assert flags.tolist() == [True, False, True, False]
+
+
+def test_post_process_transcription_result_with_vad_overlap_flags():
+    result = {
+        "segments": [
+            {"start": 0.0, "end": 1.0, "text": " a "},
+            {"start": 1.0, "end": 2.0, "text": " b "},
+            {"start": 2.0, "end": 3.0, "text": " c "},
+            {"start": 3.0, "end": 4.0, "text": " d "},
+        ],
+        "VAD": [
+            {"start": 0.2, "end": 0.8},
+            {"start": 1.0, "end": 2.0},
+            {"start": 3.8, "end": 4.2},
+        ],
+    }
+
+    df = post_process_transcription_result(
+        result,
+        text_only=False,
+        vad_filter=True,
+    )
+
+    assert df["text"].tolist() == ["a", "b", "c", "d"]
+    assert df["is_vad"].tolist() == [True, True, False, True]

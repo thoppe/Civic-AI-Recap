@@ -237,6 +237,8 @@ Transcription module:
 - `Transcription(method=...)` supports `whisper` and `faster_whisper`.
 - `compute_vad=True` enables Silero VAD and adds `is_vad` to row-based transcript output.
 - Silero VAD prefers CUDA when available and falls back to CPU automatically.
+- `vad_progress=True` shows a tqdm progress bar while Silero VAD scans the waveform.
+- `stitch_progress=True` shows a tqdm progress bar while transcript segments are matched against VAD intervals.
 - `output_progress=True` (faster_whisper only) shows a tqdm progress bar and prints
   `(segment.start, segment.end, segment.text)` while consuming segment output.
 - `force=True` skips cache reads for that call while still writing fresh results.
@@ -256,6 +258,8 @@ t = Transcription(
     method="faster_whisper",
     model_size="distil-large-v3",
     compute_vad=True,
+    vad_progress=True,
+    stitch_progress=True,
     output_progress=True,
 )
 df = t.transcribe("meeting_audio.wav", text_only=False)

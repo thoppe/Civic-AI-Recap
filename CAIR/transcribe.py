@@ -1,6 +1,7 @@
 import diskcache
 import numpy as np
 import pandas as pd
+from tqdm import tqdm
 from wasabi import msg
 
 from .s3_utils import s3_location_size_gb, s3_location_to_audio_numpy
@@ -18,6 +19,7 @@ def post_process_transcription_result(
     result,
     text_only=True,
     vad_filter=False,
+    stitch_progress=False,
 ):
     df = pd.DataFrame(result["segments"])
     df = df[["start", "end", "text"]].copy()
@@ -42,17 +44,56 @@ def post_process_transcription_result(
         if vad_df.empty:
             df["is_vad"] = False
         else:
-            vad_starts = vad_df["start"]
-            vad_ends = vad_df["end"]
-            df["is_vad"] = [
-                bool(((seg_start < vad_ends) & (seg_end > vad_starts)).any())
-                for seg_start, seg_end in zip(df["start"], df["end"])
-            ]
+            df["is_vad"] = _compute_vad_overlap_flags(
+                df["start"].to_numpy(),
+                df["end"].to_numpy(),
+                vad_df["start"].to_numpy(),
+                vad_df["end"].to_numpy(),
+                progress=stitch_progress,
+            )
 
     if text_only:
         return "\n".join(df["text"])
 
     return df
+
+
+def _compute_vad_overlap_flags(
+    segment_starts,
+    segment_ends,
+    vad_starts,
+    vad_ends,
+    progress=False,
+):
+    segment_starts = np.asarray(segment_starts, dtype=float)
+    segment_ends = np.asarray(segment_ends, dtype=float)
+    vad_starts = np.asarray(vad_starts, dtype=float)
+    vad_ends = np.asarray(vad_ends, dtype=float)
+
+    flags = np.zeros(len(segment_starts), dtype=bool)
+    vad_idx = 0
+    n_vad = len(vad_starts)
+
+    segment_iter = enumerate(zip(segment_starts, segment_ends))
+    if progress:
+        segment_iter = tqdm(
+            segment_iter,
+            total=len(segment_starts),
+            desc="stitching vad",
+        )
+
+    for seg_idx, (seg_start, seg_end) in segment_iter:
+        while vad_idx < n_vad and vad_ends[vad_idx] <= seg_start:
+            vad_idx += 1
+
+        scan_idx = vad_idx
+        while scan_idx < n_vad and vad_starts[scan_idx] < seg_end:
+            if vad_ends[scan_idx] > seg_start:
+                flags[seg_idx] = True
+                break
+            scan_idx += 1
+
+    return flags
 
 
 class Transcription:
@@ -70,6 +111,9 @@ class Transcription:
         compute_vad (bool): Enable Silero VAD pass before Whisper.
         output_progress (bool): If True and method is ``"faster_whisper"``,
             show progress and emit per-segment tuples while consuming results.
+        vad_progress (bool): If True, show a progress bar during Silero VAD.
+        stitch_progress (bool): If True, show a progress bar while transcript
+            segments are matched against VAD intervals to populate ``is_vad``.
         force (bool): Default cache-read policy. If True, recompute instead of
             reading cached results (while still writing new results to cache).
     """
@@ -81,6 +125,8 @@ class Transcription:
         language="en",
         compute_vad=False,
         output_progress=False,
+        vad_progress=False,
+        stitch_progress=False,
         force=False,
     ):
         if method not in {"whisper", "faster_whisper"}:
@@ -98,6 +144,8 @@ class Transcription:
         self.language = language
         self.vad_filter = compute_vad
         self.output_progress = output_progress
+        self.vad_progress = vad_progress
+        self.stitch_progress = stitch_progress
         self.force = force
         self.device = self._get_device()
         self.cache = diskcache.Cache(
@@ -236,11 +284,26 @@ class Transcription:
         if self.vad_device == "cuda":
             wav = wav.to("cuda")
 
-        return get_speech_timestamps(
-            wav,
-            self.vad_model,
-            return_seconds=True,
-        )
+        progress_bar = None
+        progress_callback = None
+        if self.vad_progress:
+            progress_bar = tqdm(total=100, desc="silero vad", unit="%")
+
+            def progress_callback(progress_percent):
+                target = min(100, max(0, int(progress_percent)))
+                progress_bar.update(target - int(progress_bar.n))
+
+        try:
+            return get_speech_timestamps(
+                wav,
+                self.vad_model,
+                return_seconds=True,
+                progress_tracking_callback=progress_callback,
+            )
+        finally:
+            if progress_bar is not None:
+                progress_bar.update(100 - int(progress_bar.n))
+                progress_bar.close()
 
     def get_vad_segments(self, f_audio, force=None, cache_key=None):
         if not self.vad_filter:
@@ -361,6 +424,7 @@ class Transcription:
             result,
             text_only=text_only,
             vad_filter=self.vad_filter,
+            stitch_progress=self.stitch_progress,
         )
 
     def transcribe_s3(self, s3_location, text_only=True, force=None):
@@ -412,4 +476,5 @@ class Transcription:
             result,
             text_only=text_only,
             vad_filter=self.vad_filter,
+            stitch_progress=self.stitch_progress,
         )
