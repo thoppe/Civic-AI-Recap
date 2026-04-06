@@ -19,7 +19,7 @@ def post_process_transcription_result(
     result,
     text_only=True,
     vad_filter=False,
-    stitch_progress=False,
+    stitch_progress=True,
 ):
     df = pd.DataFrame(result["segments"])
     df = df[["start", "end", "text"]].copy()
@@ -111,9 +111,12 @@ class Transcription:
         compute_vad (bool): Enable Silero VAD pass before Whisper.
         output_progress (bool): If True and method is ``"faster_whisper"``,
             show progress and emit per-segment tuples while consuming results.
+            Defaults to True.
         vad_progress (bool): If True, show a progress bar during Silero VAD.
+            Defaults to True.
         stitch_progress (bool): If True, show a progress bar while transcript
             segments are matched against VAD intervals to populate ``is_vad``.
+            Defaults to True.
         force (bool): Default cache-read policy. If True, recompute instead of
             reading cached results (while still writing new results to cache).
     """
@@ -124,9 +127,9 @@ class Transcription:
         model_size="turbo",
         language="en",
         compute_vad=False,
-        output_progress=False,
-        vad_progress=False,
-        stitch_progress=False,
+        output_progress=True,
+        vad_progress=True,
+        stitch_progress=True,
         force=False,
     ):
         if method not in {"whisper", "faster_whisper"}:

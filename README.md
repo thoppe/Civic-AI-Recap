@@ -237,10 +237,9 @@ Transcription module:
 - `Transcription(method=...)` supports `whisper` and `faster_whisper`.
 - `compute_vad=True` enables Silero VAD and adds `is_vad` to row-based transcript output.
 - Silero VAD prefers CUDA when available and falls back to CPU automatically.
-- `vad_progress=True` shows a tqdm progress bar while Silero VAD scans the waveform.
-- `stitch_progress=True` shows a tqdm progress bar while transcript segments are matched against VAD intervals.
-- `output_progress=True` (faster_whisper only) shows a tqdm progress bar and prints
-  `(segment.start, segment.end, segment.text)` while consuming segment output.
+- Progress bars are enabled by default for Silero VAD, VAD stitching, and
+  `faster_whisper` segment consumption. Set `vad_progress=False`,
+  `stitch_progress=False`, or `output_progress=False` to disable them.
 - `force=True` skips cache reads for that call while still writing fresh results.
 
 ``` python
