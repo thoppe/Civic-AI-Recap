@@ -91,6 +91,9 @@ class Transcription:
         self.method = method
         self.model = None
         self.vad_model = None
+        self.vad_device = "cpu"
+        self.audio_length_samples = None
+        self.audio_length_seconds = None
         self.model_size = model_size
         self.language = language
         self.vad_filter = compute_vad
@@ -127,6 +130,16 @@ class Transcription:
                 return "cpu"
         except ImportError:
             return "cpu"
+
+    def _update_audio_length(self, audio, sampling_rate=16000):
+        if audio is None:
+            self.audio_length_samples = None
+            self.audio_length_seconds = None
+            return
+
+        n_samples = len(audio)
+        self.audio_length_samples = int(n_samples)
+        self.audio_length_seconds = float(n_samples) / float(sampling_rate)
 
     def load_STT_model(self):
         if self.model is not None:
@@ -175,12 +188,28 @@ class Transcription:
         if not self.vad_filter:
             return
 
-        msg.warn(
-            "Loading VAD model silero-vad (backend=torchscript, device=cpu)"
-        )
         from silero_vad import load_silero_vad
 
-        self.vad_model = load_silero_vad()
+        preferred_device = "cuda" if self.device == "cuda" else "cpu"
+        msg.warn(
+            "Loading VAD model silero-vad "
+            f"(backend=torchscript, device={preferred_device})"
+        )
+
+        model = load_silero_vad()
+        actual_device = "cpu"
+        if preferred_device == "cuda":
+            try:
+                model = model.to("cuda")
+                actual_device = "cuda"
+            except Exception as exc:
+                msg.warn(
+                    "Falling back to CPU for silero-vad "
+                    f"(cuda unavailable: {exc})"
+                )
+
+        self.vad_model = model
+        self.vad_device = actual_device
         msg.info("Finished loading VAD model silero-vad")
 
     def compute_vad_segments(self, f_audio):
@@ -193,7 +222,9 @@ class Transcription:
 
         if isinstance(f_audio, str):
             wav = read_audio(f_audio)
+            self._update_audio_length(wav)
         elif isinstance(f_audio, np.ndarray):
+            self._update_audio_length(f_audio)
             import torch
 
             wav = torch.from_numpy(
@@ -201,6 +232,9 @@ class Transcription:
             )
         else:
             return None
+
+        if self.vad_device == "cuda":
+            wav = wav.to("cuda")
 
         return get_speech_timestamps(
             wav,
@@ -226,6 +260,8 @@ class Transcription:
         return self.vad_cache[key]
 
     def compute_whisper(self, f_audio, force=None):
+        if isinstance(f_audio, np.ndarray):
+            self._update_audio_length(f_audio)
         vad_segments = self.get_vad_segments(f_audio, force=force)
         if self.vad_filter and vad_segments is not None:
             msg.info(f"VAD detected {len(vad_segments)} speech segments")
@@ -240,6 +276,8 @@ class Transcription:
         return result
 
     def compute_faster_whisper(self, f_audio, force=None):
+        if isinstance(f_audio, np.ndarray):
+            self._update_audio_length(f_audio)
         vad_segments = self.get_vad_segments(f_audio, force=force)
         if self.vad_filter and vad_segments is not None:
             msg.info(f"VAD detected {len(vad_segments)} speech segments")
@@ -344,6 +382,7 @@ class Transcription:
         if force_read or s3_location not in self.cache:
             _s3_load_start_message()
             audio = s3_location_to_audio_numpy(s3_location)
+            self._update_audio_length(audio)
             msg.info(f"Finished S3 audio load to numpy: {s3_location}")
             result = self.compute_method_call(audio, force=force_read)
             self.cache[s3_location] = result
@@ -356,6 +395,7 @@ class Transcription:
             ):
                 _s3_load_start_message()
                 audio = s3_location_to_audio_numpy(s3_location)
+                self._update_audio_length(audio)
                 msg.info(f"Finished S3 audio load to numpy: {s3_location}")
             vad_input = audio if audio is not None else s3_location
             vad_segments = self.get_vad_segments(

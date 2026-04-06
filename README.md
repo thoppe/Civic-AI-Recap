@@ -236,6 +236,7 @@ Transcription module:
 - `s3_location` must be a full S3 URI like `s3://my-bucket/path/to/audio.mp3`.
 - `Transcription(method=...)` supports `whisper` and `faster_whisper`.
 - `compute_vad=True` enables Silero VAD and adds `is_vad` to row-based transcript output.
+- Silero VAD prefers CUDA when available and falls back to CPU automatically.
 - `output_progress=True` (faster_whisper only) shows a tqdm progress bar and prints
   `(segment.start, segment.end, segment.text)` while consuming segment output.
 - `force=True` skips cache reads for that call while still writing fresh results.

@@ -1,6 +1,7 @@
-__version__ = "0.10.2"
+__version__ = "0.10.3"
 
 """
+Version 0.10.3: Prefer CUDA for Silero VAD with CPU fallback, track loaded audio length on Transcription, and add local VAD smoke-test scripts.
 Version 0.10.2: Rename the published distribution to `civic-ai-recap` while keeping the Python import path as `CAIR`.
 Version 0.10.1: Clean up package dependencies by removing stale entries, declaring direct runtime requirements, and making setup.py the single source of truth.
 Version 0.10.0: Add a YouTube Data API helper to resolve channel IDs from @handle URLs with cache coverage and tests.
