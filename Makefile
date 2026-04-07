@@ -31,3 +31,7 @@ dist_production:
 	rm -rvf dist
 	python -m build
 	twine upload -r pypi dist/* --verbose
+
+push:
+	@git diff-index --quiet HEAD -- ||(echo "Git working not clean"; exit 1)
+	make clean test-all dist_test dist_production
