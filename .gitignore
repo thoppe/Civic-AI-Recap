@@ -6,9 +6,11 @@ cache/
 build/
 dist/
 CAIR.egg-info/
+civic_ai_recap.egg-info/
 output/
 .python-version
 *.mp3
+test.mp4
 __pycache__
 .pytest_cache/
 
@@ -23,3 +25,4 @@ data/transcript/*.srt
 data/transcript/*.tsv
 *.bz2
 demo2.py
+test_download.py

@@ -410,7 +410,7 @@ class Transcription:
             self.cache[f_audio] = result
 
         result = self.cache[f_audio]
-        if self.vad_filter:
+        if self.vad_filter and "VAD" not in result:
             # Resolve VAD independently from transcription cache so older cached
             # transcription payloads without "VAD" can still be processed.
             vad_segments = self.get_vad_segments(
@@ -455,7 +455,7 @@ class Transcription:
             self.cache[s3_location] = result
 
         result = self.cache[s3_location]
-        if self.vad_filter:
+        if self.vad_filter and "VAD" not in result:
             # Mirror transcribe(...): attach VAD independently of STT cache.
             if audio is None and (
                 force_read or s3_location not in self.vad_cache

@@ -69,6 +69,82 @@ def test_transcribe_s3_streams_and_caches(monkeypatch):
     assert state["compute_calls"] == 1
 
 
+def test_transcribe_force_does_not_recompute_vad_when_result_has_vad():
+    state = {"vad_calls": 0}
+    vad_segments = [{"start": 0.0, "end": 1.0}]
+
+    t = Transcription(method="whisper", compute_vad=True)
+    t.cache.clear()
+    t.vad_cache.clear()
+
+    def fake_get_vad_segments(f_audio, force=None, cache_key=None):
+        del f_audio, force, cache_key
+        state["vad_calls"] += 1
+        return vad_segments
+
+    def fake_compute(f_audio, force=None):
+        return {
+            "segments": [
+                {"start": 0.0, "end": 1.0, "text": "hello"},
+            ],
+            "VAD": fake_get_vad_segments(f_audio, force=force),
+        }
+
+    t.get_vad_segments = fake_get_vad_segments
+    t.compute_method_call = fake_compute
+
+    df = t.transcribe("example.wav", text_only=False, force=True)
+
+    assert df["is_vad"].tolist() == [True]
+    assert state["vad_calls"] == 1
+
+
+def test_transcribe_s3_force_does_not_recompute_vad_when_result_has_vad(
+    monkeypatch,
+):
+    audio = np.array([0.1, -0.2, 0.3], dtype=np.float32)
+    state = {"vad_calls": 0, "s3_calls": 0}
+    vad_segments = [{"start": 0.0, "end": 1.0}]
+
+    def fake_s3_loader(s3_location):
+        assert s3_location == "s3://bucket/example.wav"
+        state["s3_calls"] += 1
+        return audio
+
+    monkeypatch.setattr("CAIR.transcribe.s3_location_to_audio_numpy", fake_s3_loader)
+
+    t = Transcription(method="whisper", compute_vad=True)
+    t.cache.clear()
+    t.vad_cache.clear()
+
+    def fake_get_vad_segments(f_audio, force=None, cache_key=None):
+        del f_audio, force, cache_key
+        state["vad_calls"] += 1
+        return vad_segments
+
+    def fake_compute(f_audio, force=None):
+        assert np.array_equal(f_audio, audio)
+        return {
+            "segments": [
+                {"start": 0.0, "end": 1.0, "text": "hello"},
+            ],
+            "VAD": fake_get_vad_segments(f_audio, force=force),
+        }
+
+    t.get_vad_segments = fake_get_vad_segments
+    t.compute_method_call = fake_compute
+
+    df = t.transcribe_s3(
+        "s3://bucket/example.wav",
+        text_only=False,
+        force=True,
+    )
+
+    assert df["is_vad"].tolist() == [True]
+    assert state["vad_calls"] == 1
+    assert state["s3_calls"] == 1
+
+
 def test_compute_vad_overlap_flags_boundary_semantics():
     flags = _compute_vad_overlap_flags(
         segment_starts=np.array([0.0, 1.0, 2.0, 3.0]),
