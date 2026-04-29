@@ -8,6 +8,7 @@ dist/
 CAIR.egg-info/
 civic_ai_recap.egg-info/
 output/
+downloads/
 .python-version
 *.mp3
 test.mp4
