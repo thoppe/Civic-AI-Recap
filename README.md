@@ -1,6 +1,8 @@
 # Civic-AI-Recap (CAIR)
 Tools to digitize, transcribe, and analyze public hearings, committees, and symposiums on youtube.
 
+CAIR also includes a small Granicus downloader for `MediaPlayer.php` clip URLs.
+
 Install from PyPI:
 
 ```bash
@@ -12,6 +14,8 @@ Install with transcription dependencies:
 ```bash
 pip install "civic-ai-recap[transcription]"
 ```
+
+Granicus downloads require `ffmpeg` to be installed and available on `PATH`, or passed via `ffmpeg_path`.
 
 Install from source:
 
@@ -109,6 +113,28 @@ housing affordability, labor enforcement, and immigrant/community trust.
 issues (throughput, CalAIM billing, HMIS integration, county coordination). San Jose’s
 [...]
 '''
+```
+
+Download a Granicus clip:
+
+``` python
+from CAIR import download_granicus_video, resolve_granicus_video_url
+
+url = "https://loudoun.granicus.com/MediaPlayer.php?view_id=92&clip_id=1366"
+resolved = resolve_granicus_video_url(url)
+print(resolved.media_playlist_url)
+
+result = download_granicus_video(url, output_dir="downloads")
+print(result.output_path)
+```
+
+If `ffmpeg` is not installed, `download_granicus_video(...)` raises a `RuntimeError`
+that explicitly tells you to install `ffmpeg` or pass `ffmpeg_path`.
+
+Minimal local demo:
+
+```bash
+python demo_granicus_download.py
 ```
 
 Channel metadata and videos can be accessed:

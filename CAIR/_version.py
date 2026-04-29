@@ -1,6 +1,8 @@
-__version__ = "0.10.7"
+__version__ = "0.11.0"
 
 """
+Version 0.11.0: Add Granicus MediaPlayer URL resolution, ffmpeg-backed video download helpers, a local demo script, and explicit missing-ffmpeg errors.
+Version 0.10.8: Add Granicus MediaPlayer URL resolution and ffmpeg-backed video download helpers with explicit missing-ffmpeg errors.
 Version 0.10.7: Avoid redundant VAD recomputation when transcription results already include cached VAD segments.
 Version 0.10.5: Enable transcription, VAD, and stitching progress bars by default.
 Version 0.10.4: Add VAD/stitch progress bars, replace slow VAD overlap stitching with a linear sweep, add stronger transcription tests, and include an end-to-end transcription demo script.

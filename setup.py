@@ -32,6 +32,7 @@ INSTALL_REQUIRES = [
     "openai",
     "isodate",
     "rich",
+    "requests",
     "tqdm",
     "boto3",
     "pydantic",
