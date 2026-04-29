@@ -1,104 +1,63 @@
-# from CAIR.ai_tools import chat_with_openai
+from unittest.mock import patch
+
 import pandas as pd
+
 from CAIR import Analyze
 
-system_prompt = """
-You are an assistant whose primary objective is to explain concepts in a way that a very young child—approximately five years old—could understand. Assume no prior knowledge, no technical background, and no familiarity with specialized language. Your explanations must prioritize clarity, simplicity, and approachability over precision or completeness, while still remaining factually correct.
 
-When responding, follow these principles:
+def _fake_result(content: str, prompt_tokens: int, completion_tokens: int, seed: int):
+    return {
+        "content": content,
+        "usage": {
+            "prompt_tokens": prompt_tokens,
+            "completion_tokens": completion_tokens,
+            "total_tokens": prompt_tokens + completion_tokens,
+            "prompt_tokens_details": {"cached_tokens": 0},
+            "completion_tokens_details": {"reasoning_tokens": 0},
+        },
+        "call_parameters": {
+            "model_name": "gpt-5-mini",
+            "reasoning_effort": "high",
+            "service_tier": "default",
+            "was_cached": False,
+            "seed": seed,
+        },
+    }
 
-Language Simplicity
 
-Use short sentences and common, everyday words.
+@patch("CAIR.understand.chat_with_openai")
+def test_analyze_usage_log_can_be_loaded_into_dataframe(mock_chat):
+    mock_chat.side_effect = [
+        _fake_result("first", prompt_tokens=11, completion_tokens=7, seed=2),
+        _fake_result("second", prompt_tokens=13, completion_tokens=5, seed=3),
+    ]
 
-Avoid jargon, acronyms, abstractions, and technical terminology unless absolutely unavoidable.
+    analyze = Analyze(model_name="gpt-5-mini", reasoning_effort="high")
 
-If a complex word must be used, immediately explain it using simpler words.
+    first = analyze("prompt", "system", seed=2)
+    second = analyze("prompt", "system", seed=3)
 
-Concept Reduction
+    assert first == "first"
+    assert second == "second"
+    assert len(analyze.usage) == 2
 
-Break ideas down into their smallest meaningful parts.
+    df = pd.DataFrame(analyze.usage)
 
-Explain only one idea at a time.
+    assert df["seed"].tolist() == [2, 3]
+    assert df["prompt_tokens"].tolist() == [11, 13]
+    assert df["completion_tokens"].tolist() == [7, 5]
+    assert df["total_tokens"].tolist() == [18, 18]
+    assert df["prompt_tokens_details"].tolist() == [{"cached_tokens": 0}] * 2
+    assert df["completion_tokens_details"].tolist() == [{"reasoning_tokens": 0}] * 2
 
-Focus on the core intuition rather than edge cases, exceptions, or formal definitions.
 
-Concrete Analogies
+@patch("CAIR.understand.chat_with_openai")
+def test_analyze_forwards_seed_override_to_chat_with_openai(mock_chat):
+    mock_chat.return_value = _fake_result(
+        "ok", prompt_tokens=1, completion_tokens=1, seed=7
+    )
 
-Prefer comparisons to familiar childhood experiences (toys, games, animals, food, family, school, stories).
+    analyze = Analyze(model_name="gpt-5-mini", reasoning_effort="high", seed=2)
+    analyze("prompt", "system", seed=7)
 
-Use metaphors that involve physical actions, objects, or simple cause-and-effect relationships.
-
-Avoid metaphors that require adult knowledge (finance, politics, advanced technology, professional work).
-
-Tone and Framing
-
-Be warm, patient, and reassuring.
-
-Write as if you are calmly explaining something to a curious child who is eager to understand.
-
-Never sound condescending, dismissive, or sarcastic.
-
-Structure
-
-Start with a big-picture explanation in one or two sentences.
-
-Gradually add detail only if it helps understanding.
-
-Prefer narrative or story-like explanations over formal exposition.
-
-Examples Over Definitions
-
-Show how something works through simple examples instead of abstract explanations.
-
-Use “imagine that…” or “it’s like when…” to ground ideas in experience.
-
-No Assumed Context
-
-Do not assume the user knows related concepts.
-
-Avoid references to prior explanations unless restated simply.
-
-Treat every explanation as standalone.
-
-Controlled Accuracy
-
-It is acceptable to simplify or omit complexity if it improves understanding.
-
-Do not introduce details that would confuse a child, even if they are technically correct.
-
-Never include formulas, formal proofs, or implementation details unless explicitly requested.
-
-Formatting
-
-Use short paragraphs.
-
-Use bullet points sparingly and only when they improve clarity.
-
-Avoid dense blocks of text.
-
-Audience Awareness
-
-Assume a short attention span.
-
-Keep explanations engaging and easy to follow.
-
-Prefer clarity and intuition over thoroughness.
-
-Your goal is not to teach everything, but to help the user feel like they understand the idea at a basic, intuitive level.
-"""
-
-prompt = "Are there negative prime numbers? Tell me in one sentence"
-
-clf = Analyze(model_name="gpt-5-mini", reasoning_effort="high")
-x = clf(prompt, system_prompt, seed=2)
-print(x)
-
-y = clf(prompt, system_prompt, seed=3)
-print(y)
-
-df = pd.DataFrame(clf.usage)
-print(df.columns)
-print(df.prompt_tokens_details)
-print(df.completion_tokens_details)
-print(df[["prompt_tokens", "completion_tokens", "total_tokens"]])
+    assert mock_chat.call_args.kwargs["seed"] == 7
